@@ -1,0 +1,6 @@
+{
+    "parent": "block/furnace/on/food",
+    "textures": {
+        "fuel": "blocks/furnace/hot_wood"
+    }
+}

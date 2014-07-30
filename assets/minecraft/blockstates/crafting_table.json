@@ -1,0 +1,16 @@
+{
+    "variants": {
+    	"normal": 
+    	[
+	    	{ "model": "crafting_table/crafting_table", "weight": 2},
+	        { "model": "crafting_table/crafting_table_saw" },
+	        { "model": "crafting_table/crafting_table_saw", "y": 90 },
+	        { "model": "crafting_table/crafting_table_saw", "y": 180 },
+	        { "model": "crafting_table/crafting_table_saw", "y": 270 },
+	        { "model": "crafting_table/crafting_table_hammer" },
+	        { "model": "crafting_table/crafting_table_hammer", "y": 90 },
+	        { "model": "crafting_table/crafting_table_hammer", "y": 180 },
+	        { "model": "crafting_table/crafting_table_hammer", "y": 270 }
+	    ]
+    }
+}

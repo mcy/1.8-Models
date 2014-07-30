@@ -1,0 +1,217 @@
+{
+    
+    "textures": {
+        "particle": "blocks/crafting_table/front",
+        "down": "blocks/crafting_table/bottom",
+        "up": "blocks/crafting_table/top",
+        "north": "blocks/crafting_table/front",
+        "east": "blocks/crafting_table/side",
+        "south": "blocks/crafting_table/side",
+        "west": "blocks/crafting_table/front"
+    },
+    "elements": [
+        
+        {   
+            "comment": "main cube",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#west", "cullface": "west" },
+                "east":  { "texture": "#east", "cullface": "east" }
+            }
+        },
+        
+        {
+            "comment": "grid border",
+            "from": [3, 16, 3],
+            "to": [13, 16.5, 13],
+            "faces": {
+                "east": { "uv": [3, 3, 4, 13], "texture": "#up", "cullface": "up" },
+                "west": { "uv": [12, 3, 13, 13], "texture": "#up", "cullface": "up" }
+            }
+        },
+         
+        {
+            "comment": "grid base",
+            "from": [4, 16, 4],
+            "to": [12, 16.25, 12],
+            "faces": {
+                "up": { "uv": [4, 4, 12, 12], "texture": "#up", "cullface": "up" }
+            }
+        },
+            
+        {
+            "comment": "outer northern long grid bar",
+            "from": [3, 16, 3],
+            "to": [13, 16.5, 4],
+            "faces": {
+                "up":    { "uv": [3, 3, 13, 4], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [3, 3, 13, 4], "texture": "#up", "cullface": "up" },
+                "south": { "uv": [3, 3, 13, 4], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner northern long grid bar",
+            "from": [3, 16, 6],
+            "to": [13, 16.5, 7],
+            "faces": {
+                "up":    { "uv": [3, 6, 13, 7], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [3, 6, 13, 7], "texture": "#up", "cullface": "up" },
+                "south": { "uv": [3, 6, 13, 7], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner southern long grid bar",
+            "from": [3, 16, 9],
+            "to": [13, 16.5, 10],
+            "faces": {
+                "up":    { "uv": [3, 9, 13, 10], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [3, 9, 13, 10], "texture": "#up", "cullface": "up" },
+                "south": { "uv": [3, 9, 13, 10], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer southern long grid bar",
+            "from": [3, 16, 12],
+            "to": [13, 16.5, 13],
+            "faces": {
+                "up":    { "uv": [3, 12, 13, 13], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [3, 12, 13, 13], "texture": "#up", "cullface": "up" },
+                "south": { "uv": [3, 12, 13, 13], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer north-western short grid bar",
+            "from": [3, 16, 4],
+            "to": [4, 16.5, 6],
+            "faces": {
+                "up":    { "uv": [3, 4, 4, 6], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [3, 4, 4, 6], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner north-western short grid bar",
+            "from": [6, 16, 4],
+            "to": [7, 16.5, 6],
+            "faces": {
+                "up":    { "uv": [6, 4, 7, 6], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [6, 4, 7, 6], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [6, 4, 7, 6], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner north-eastern short grid bar",
+            "from": [9, 16, 4],
+            "to": [10, 16.5, 6],
+            "faces": {
+                "up":    { "uv": [9, 4, 10, 6], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [9, 4, 10, 6], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [9, 4, 10, 6], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer north-eastern short grid bar",
+            "from": [12, 16, 4],
+            "to": [13, 16.5, 6],
+            "faces": {
+                "up":    { "uv": [12, 4, 13, 6], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [12, 4, 13, 6], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer western short grid bar",
+            "from": [3, 16, 7],
+            "to": [4, 16.5, 9],
+            "faces": {
+                "up":    { "uv": [3, 7, 4, 9], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [3, 7, 4, 9], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner western short grid bar",
+            "from": [6, 16, 7],
+            "to": [7, 16.5, 9],
+            "faces": {
+                "up":    { "uv": [6, 7, 7, 9], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [6, 7, 7, 9], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [6, 7, 7, 9], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner eastern short grid bar",
+            "from": [9, 16, 7],
+            "to": [10, 16.5, 9],
+            "faces": {
+                "up":    { "uv": [9, 7, 10, 9], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [9, 7, 10, 9], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [9, 7, 10, 9], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer eastern short grid bar",
+            "from": [12, 16, 7],
+            "to": [13, 16.5, 9],
+            "faces": {
+                "up":    { "uv": [12, 7, 13, 9], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [12, 7, 13, 9], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer south-western short grid bar",
+            "from": [3, 16, 10],
+            "to": [4, 16.5, 12],
+            "faces": {
+                "up":    { "uv": [3, 10, 4, 12], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [3, 10, 4, 12], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner south-western short grid bar",
+            "from": [6, 16, 10],
+            "to": [7, 16.5, 12],
+            "faces": {
+                "up":    { "uv": [6, 10, 7, 12], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [6, 10, 7, 12], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [6, 10, 7, 12], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "inner south-eastern short grid bar",
+            "from": [9, 16, 10],
+            "to": [10, 16.5, 12],
+            "faces": {
+                "up":    { "uv": [9, 10, 10, 12], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [9, 10, 10, 12], "texture": "#up", "cullface": "up" },
+                "east":  { "uv": [9, 10, 10, 12], "texture": "#up", "cullface": "up" }
+            }
+        },
+        
+        {
+            "comment": "outer south-eastern short grid bar",
+            "from": [12, 16, 10],
+            "to": [13, 16.5, 12],
+            "faces": {
+                "up":    { "uv": [12, 10, 13, 12], "texture": "#up", "cullface": "up" },
+                "west":  { "uv": [12, 10, 13, 12], "texture": "#up", "cullface": "up" }
+            }
+        }
+    ]
+}
