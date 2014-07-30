@@ -1,5 +1,5 @@
 {
-    "parent": "block/furnace/off/wood/food_wood/food",
+    "parent": "block/furnace/off/wood/food/base",
     "textures": {
         "food": "blocks/furnace/food/beef_raw"
     }
