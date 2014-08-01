@@ -1,0 +1,124 @@
+{
+	"ambientocculusion": false,
+	"textures": {
+		"blade": "blocks/diamond_block",
+		"hilt": "blocks/lapis_block",
+		"gem": "blocks/gold_block",
+		"handle": "blocks/planks_spruce"
+	},
+
+	"elements": [
+
+		{
+			"comment": "blade center",
+			"from": [ 7, 4, 7.5 ],
+			"to": [ 9, 17, 8.5 ],
+			"faces": {
+                "north": { "uv": [1, 7, 15, 9], "texture": "#blade", "rotation": 90 },
+                "south": { "uv": [1, 7, 15, 9], "texture": "#blade", "rotation": 90 },
+                "west":  { "uv": [1, 8, 15, 9], "texture": "#blade", "rotation": 90 },
+                "east":  { "uv": [1, 8, 15, 9], "texture": "#blade", "rotation": 90 }
+			}
+		},
+
+		{
+			"comment": "blade tip",
+			"from": [ 7.292893218813452, 16.292893218813454, 7.501 ],
+			"to": [ 8.707106781186548, 17.707106781186546, 8.499 ],
+			"rotation": { "origin": [ 8, 17, 0 ], "axis": "z", "angle": 45},
+			"faces": {
+                "north": { "uv": [1, 7, 3, 9], "texture": "#blade", "rotation": 90 },
+                "south": { "uv": [1, 7, 3, 9], "texture": "#blade", "rotation": 90 },
+                "up":    { "uv": [1, 7, 2, 9], "texture": "#blade", "rotation": 90 },
+                "east":  { "uv": [1, 7, 2, 9], "texture": "#blade", "rotation": 90 }
+			}
+		},
+
+		{
+			"comment": "hilt center left",
+			"from": [ 4, 4, 7.26 ],
+			"to": [ 8, 5, 8.74 ],
+			"rotation": { "origin": [ 8, 5, 0 ], "axis": "z", "angle": 22.5},
+			"faces": {
+				"down":  { "texture": "#hilt" },
+                "up":    { "texture": "#hilt" },
+                "north": { "texture": "#hilt" },
+                "south": { "texture": "#hilt" },
+                "west":  { "texture": "#hilt" }
+			}
+		},
+
+		{
+			"comment": "hilt center right",
+			"from": [ 8, 4, 7.26 ],
+			"to": [ 12, 5, 8.74 ],
+			"rotation": { "origin": [ 8, 5, 0 ], "axis": "z", "angle": -22.5},
+			"faces": {
+				"down":  { "texture": "#hilt" },
+                "up":    { "texture": "#hilt" },
+                "north": { "texture": "#hilt" },
+                "south": { "texture": "#hilt" },
+                "east":  { "texture": "#hilt" }
+			}
+		},
+
+		{
+			"comment": "hilt far left",
+			"from": [ 1.8785070185024875, 2.0834469717727107, 7.2 ],
+			"to": [ 4.8785070185024875, 3.5834469717727107, 8.8 ],
+			"rotation": { "origin": [ 4.8785070185024875, 2.0834469717727107, 0 ], "axis": "z", "angle": -45},
+			"faces": {
+				"down":  { "texture": "#hilt" },
+                "up":    { "texture": "#hilt" },
+                "north": { "texture": "#hilt" },
+                "south": { "texture": "#hilt" },
+                "west":  { "texture": "#hilt" }
+			}
+		},
+
+		{
+			"comment": "hilt far left",
+			"from": [ 11.121492981497513, 2.0834469717727107, 7.2 ],
+			"to": [ 14.121492981497513, 3.5834469717727107, 8.8 ],
+			"rotation": { "origin": [ 11.121492981497513, 2.0834469717727107, 0 ], "axis": "z", "angle": 45},
+			"faces": {
+				"down":  { "texture": "#hilt" },
+                "up":    { "texture": "#hilt" },
+                "north": { "texture": "#hilt" },
+                "south": { "texture": "#hilt" },
+                "east":  { "texture": "#hilt" }
+			}
+		},
+
+		{
+			"comment": "hilt orament",
+			"from": [ 7.5, 3.5, 7 ],
+			"to": [ 9, 5, 9 ],
+			"rotation": { "origin" : [ 8, 4, 0 ], "axis": "z", "angle": 45},
+			"faces": {
+				"down":  { "texture": "#gem" },
+                "up":    { "texture": "#gem" },
+                "north": { "texture": "#gem" },
+                "south": { "texture": "#gem" },
+                "east":  { "texture": "#gem" },
+                "west":  { "texture": "#gem" }
+			}
+
+		},
+
+		{
+			"comment": "handle",
+			"from": [ 7.4, 0, 7.4 ],
+			"to": [ 8.6, 4, 8.6 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
+			"faces": {
+                "north": { "texture": "#handle" },
+                "south": { "texture": "#handle" },
+                "east":  { "texture": "#handle" },
+                "west":  { "texture": "#handle" },
+                "down":  { "texture": "#handle" }
+            }			
+		}
+
+	]
+}
