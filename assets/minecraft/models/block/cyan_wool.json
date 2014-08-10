@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/furnace/front_off"
+        "all": "blocks/crafting_table/side"
     }
 }

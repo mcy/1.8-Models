@@ -1,6 +1,9 @@
 {
-    "parent": "block/crafting_table/crafting_table_saw",
+    "parent": "block/crafting_table/crafting_table2",
     "display": {
+    	"gui": {
+    		"rotation": [0, -90, 0]
+    	},
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
             "translation": [ 0, 1.5, -2.75 ],
