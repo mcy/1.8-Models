@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/nether_star",
+    "parent": "item/meshes/nether_star/nether_star",
     "display": {
         "thirdperson": {
             "rotation": [ -45, 45, 45 ],

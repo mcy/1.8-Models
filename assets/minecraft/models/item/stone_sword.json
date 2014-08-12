@@ -1,5 +1,5 @@
 {
-  "parent": "item/meshes/sword_simple",
+  "parent": "item/meshes/swords/sword_simple",
   "textures": {
     "particle": "items/swords/stone_blade",
     "handle": "items/swords/handle",
