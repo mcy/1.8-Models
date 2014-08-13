@@ -1,0 +1,19 @@
+{
+	"elements": [
+
+		{
+			"comment": "rod",
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 16, 8.75],
+			"rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+			"faces": {
+				"up":    { "texture": "material"},
+				"down":  { "texture": "material"},
+				"east":  { "texture": "material"},
+				"west":  { "texture": "material"},
+				"north": { "texture": "material"},
+				"south": { "texture": "material"}
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {
+            "comment": "rod",
+            "from": [ 6.450875, -8.524000000000001, 6.450875 ],
+            "to": [ 9.549125, 24.524, 9.549125 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45 },
+            "faces": {
+                "up":    { "uv": [ 7.25, 7.25, 8.75, 8.75 ], "texture": "material" },
+                "down":  { "uv": [ 7.25, 7.25, 8.75, 8.75 ], "texture": "material" },
+                "east":  { "uv": [ 7.25, 0.0, 8.75, 16.0 ], "texture": "material" },
+                "west":  { "uv": [ 7.25, 0.0, 8.75, 16.0 ], "texture": "material" },
+                "north": { "uv": [ 7.25, 0.0, 8.75, 16.0 ], "texture": "material" },
+                "south": { "uv": [ 7.25, 0.0, 8.75, 16.0 ], "texture": "material" }
+            }
+        }
+    ]
+}

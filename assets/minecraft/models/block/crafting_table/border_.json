@@ -1,0 +1,167 @@
+{
+    "elements": [
+        {
+            "comment": "grid border",
+            "from": [ 3.5, 17.0, 3.5 ],
+            "to": [ 12.5, 17.45, 12.5 ],
+            "faces": {
+                "east":  { "uv": [ 3, 3, 4, 13 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 12, 3, 13, 13 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer northern long grid bar",
+            "from": [ 3.5, 17.0, 3.5 ],
+            "to": [ 12.5, 17.45, 4.4 ],
+            "faces": {
+                "up":    { "uv": [ 3, 3, 13, 4 ], "texture": "#grid", "cullface": "up" },
+                "north": { "uv": [ 3, 3, 13, 4 ], "texture": "#grid", "cullface": "up" },
+                "south": { "uv": [ 3, 3, 13, 4 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner northern long grid bar",
+            "from": [ 3.5, 17.0, 6.2 ],
+            "to": [ 12.5, 17.45, 7.1 ],
+            "faces": {
+                "up":    { "uv": [ 3, 6, 13, 7 ], "texture": "#grid", "cullface": "up" },
+                "north": { "uv": [ 3, 6, 13, 7 ], "texture": "#grid", "cullface": "up" },
+                "south": { "uv": [ 3, 6, 13, 7 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner southern long grid bar",
+            "from": [ 3.5, 17.0, 8.9 ],
+            "to": [ 12.5, 17.45, 9.8 ],
+            "faces": {
+                "up":    { "uv": [ 3, 9, 13, 10 ], "texture": "#grid", "cullface": "up" },
+                "north": { "uv": [ 3, 9, 13, 10 ], "texture": "#grid", "cullface": "up" },
+                "south": { "uv": [ 3, 9, 13, 10 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer southern long grid bar",
+            "from": [ 3.5, 17.0, 11.6 ],
+            "to": [ 12.5, 17.45, 12.5 ],
+            "faces": {
+                "up":    { "uv": [ 3, 12, 13, 13 ], "texture": "#grid", "cullface": "up" },
+                "north": { "uv": [ 3, 12, 13, 13 ], "texture": "#grid", "cullface": "up" },
+                "south": { "uv": [ 3, 12, 13, 13 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer north-western short grid bar",
+            "from": [ 3.5, 17.0, 4.4 ],
+            "to": [ 4.4, 17.45, 6.2 ],
+            "faces": {
+                "up":    { "uv": [ 3, 4, 4, 6 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 3, 4, 4, 6 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner north-western short grid bar",
+            "from": [ 6.2, 17.0, 4.4 ],
+            "to": [ 7.1, 17.45, 6.2 ],
+            "faces": {
+                "up":    { "uv": [ 6, 4, 7, 6 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 6, 4, 7, 6 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 6, 4, 7, 6 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner north-eastern short grid bar",
+            "from": [ 8.9, 17.0, 4.4 ],
+            "to": [ 9.8, 17.45, 6.2 ],
+            "faces": {
+                "up":    { "uv": [ 9, 4, 10, 6 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 9, 4, 10, 6 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 9, 4, 10, 6 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer north-eastern short grid bar",
+            "from": [ 11.6, 17.0, 4.4 ],
+            "to": [ 12.5, 17.45, 6.2 ],
+            "faces": {
+                "up":    { "uv": [ 12, 4, 13, 6 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 12, 4, 13, 6 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer western short grid bar",
+            "from": [ 3.5, 17.0, 7.1 ],
+            "to": [ 4.4, 17.45, 8.9 ],
+            "faces": {
+                "up":    { "uv": [ 3, 7, 4, 9 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 3, 7, 4, 9 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner western short grid bar",
+            "from": [ 6.2, 17.0, 7.1 ],
+            "to": [ 7.1, 17.45, 8.9 ],
+            "faces": {
+                "up":    { "uv": [ 6, 7, 7, 9 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 6, 7, 7, 9 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 6, 7, 7, 9 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner eastern short grid bar",
+            "from": [ 8.9, 17.0, 7.1 ],
+            "to": [ 9.8, 17.45, 8.9 ],
+            "faces": {
+                "up":    { "uv": [ 9, 7, 10, 9 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 9, 7, 10, 9 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 9, 7, 10, 9 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer eastern short grid bar",
+            "from": [ 11.6, 17.0, 7.1 ],
+            "to": [ 12.5, 17.45, 8.9 ],
+            "faces": {
+                "up":    { "uv": [ 12, 7, 13, 9 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 12, 7, 13, 9 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer south-western short grid bar",
+            "from": [ 3.5, 17.0, 9.8 ],
+            "to": [ 4.4, 17.45, 11.6 ],
+            "faces": {
+                "up":    { "uv": [ 3, 10, 4, 12 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 3, 10, 4, 12 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner south-western short grid bar",
+            "from": [ 6.2, 17.0, 9.8 ],
+            "to": [ 7.1, 17.45, 11.6 ],
+            "faces": {
+                "up":    { "uv": [ 6, 10, 7, 12 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 6, 10, 7, 12 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 6, 10, 7, 12 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "inner south-eastern short grid bar",
+            "from": [ 8.9, 17.0, 9.8 ],
+            "to": [ 9.8, 17.45, 11.6 ],
+            "faces": {
+                "up":    { "uv": [ 9, 10, 10, 12 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 9, 10, 10, 12 ], "texture": "#grid", "cullface": "up" },
+                "east":  { "uv": [ 9, 10, 10, 12 ], "texture": "#grid", "cullface": "up" }
+            }
+        },
+        {
+            "comment": "outer south-eastern short grid bar",
+            "from": [ 11.6, 17.0, 9.8 ],
+            "to": [ 12.5, 17.45, 11.6 ],
+            "faces": {
+                "up":    { "uv": [ 12, 10, 13, 12 ], "texture": "#grid", "cullface": "up" },
+                "west":  { "uv": [ 12, 10, 13, 12 ], "texture": "#grid", "cullface": "up" }
+            }
+        }
+    ]
+}
