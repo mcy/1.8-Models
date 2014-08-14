@@ -1,8 +1,12 @@
 {
 	"parent": "item/meshes/alchemy/bottle",
-	"textures": {
-		"fluid": "items/potion/empty"
-	},
+    "textures": {
+        "glass": "items/potion/potion_exp",
+        "stopper": "items/potion/stopper_splash",
+        "fluid": "items/potion/experience",
+        "particle": "items/potion/potion_exp"
+
+    },
 	"display": {
         "thirdperson": {
             "rotation": [ 120, -225, 10 ],

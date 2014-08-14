@@ -22,6 +22,24 @@
 		},
 
 		{
+			"comment": "label",
+			"from": [4.5, 4.5, 2.9],
+			"to": [11.5, 7.5, 4],
+			"faces": {
+				"north": { "uv": [5, 7, 8.5, 8.5], "texture": "#glass" }
+			}
+		},
+
+		{
+			"comment": "label",
+			"from": [5.49, 5.49, 2.88],
+			"to": [10.5, 6.5, 4],
+			"faces": {
+				"north": { "uv": [5, 8.5, 7.5, 9], "texture": "#glass", "tintindex": 0 }
+			}
+		},
+
+		{
 			"comment": "bottle base",
 			"from": [5, 0, 5],
 			"to": [11, 1, 11],

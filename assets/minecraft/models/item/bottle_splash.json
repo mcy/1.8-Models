@@ -2,8 +2,8 @@
 	"parent": "item/meshes/alchemy/splash",
 	"display": {
         "thirdperson": {
-            "rotation": [ -120, -45, 10 ],
-            "translation": [ 0, 2, -1 ],
+            "rotation": [ 120, -225, 10 ],
+            "translation": [ 0, 2.25, -1 ],
             "scale": [ 0.25, 0.25, 0.25 ]
         },
         "firstperson": {
