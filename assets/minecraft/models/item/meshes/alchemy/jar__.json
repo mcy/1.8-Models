@@ -1,0 +1,85 @@
+{
+	"textures":{
+		"glass": "items/potion/potion",
+        "lid": "items/potion/stopper_splash",
+        "label": "items/powder/label/blank_label"
+	},
+
+	"elements": [
+
+		{
+			"comment": "jar body",
+			"from": [3, 1, 3],
+			"to": [13, 9, 13],
+			"faces": {
+				"up":    { "uv": [0, 0, 5, 5], "texture": "#glass" },
+				"down":  { "uv": [0, 0, 5, 5], "texture": "#glass" },
+				"east":  { "uv": [0, 5, 5, 9], "texture": "#glass" },
+				"west":  { "uv": [0, 5, 5, 9], "texture": "#glass" },
+				"north": { "uv": [0, 5, 5, 9], "texture": "#glass" },
+				"south": { "uv": [0, 5, 5, 9], "texture": "#glass" }
+			}
+		},
+
+		{
+			"comment": "jar neck",
+			"from": [5, 9, 5],
+			"to": [11, 10, 11],
+			"faces": {
+				"up":    { "uv": [5, 0, 8, 3], "texture": "#glass" },
+				"east":  { "uv": [5, 0, 8, 0.5], "texture": "#glass" },
+				"west":  { "uv": [5, 2.5, 8, 3], "texture": "#glass" },
+				"north": { "uv": [5, 0, 8, 0.5], "texture": "#glass" },
+				"south": { "uv": [5, 2.5, 8, 3], "texture": "#glass" }
+			}
+		},
+
+		{
+			"comment": "contents",
+			"from": [3.5, 1.5, 3.5],
+			"to": [12.5, 8.5, 12.5],
+			"faces": {
+				"up":    { "uv": [4, 4, 12, 12], "texture": "#contents", "tintindex": 0 },
+				"down":  { "uv": [4, 4, 12, 12], "texture": "#contents", "tintindex": 0 },
+				"east":  { "uv": [4, 5, 12, 11], "texture": "#contents", "tintindex": 0 },
+				"west":  { "uv": [4, 5, 12, 11], "texture": "#contents", "tintindex": 0 },
+				"north": { "uv": [4, 5, 12, 11], "texture": "#contents", "tintindex": 0 },
+				"south": { "uv": [4, 5, 12, 11], "texture": "#contents", "tintindex": 0 }
+			}
+		},
+
+		{
+			"comment": "lid",
+			"from": [4, 10, 4],
+			"to": [12, 11.5, 12],
+			"faces": {
+				"up": { "texture": "#lid" },
+				"down": { "texture": "#lid" },
+				"east": { "texture": "#lid" },
+				"west": { "texture": "#lid" },
+				"north": { "texture": "#lid" },
+				"south": { "texture": "#lid" }
+			}
+		},
+
+		{
+			"comment": "label",
+			"from": [5.5, 4, 2.9],
+			"to": [9, 7.5, 2.9],
+			"rotation": { "origin": [7, 5.5, 0], "axis": "z", "angle": -22.5},
+			"faces": {
+				"north": { "uv": [0, 0, 16, 16], "texture": "#label"}
+			}
+		},
+
+		{
+			"comment": "label icon",
+			"from": [5.5, 4, 2.8],
+			"to": [9, 7.5, 2.8],
+			"rotation": { "origin": [7, 5.5, 0], "axis": "z", "angle": -22.5},
+			"faces": {
+				"north": { "uv": [0, 0, 16, 16], "texture": "#icon"}
+			}
+		}
+	]
+}

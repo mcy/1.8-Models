@@ -1,0 +1,25 @@
+{
+	"parent": "item/meshes/alchemy/jar",
+	"textures": {
+		"contents": "items/misc/magma",
+		"icon": "items/misc/magma_cream",
+		"particle": "items/misc/magma_cream"
+	},
+
+	"display": {
+		"thirdperson": {
+            "rotation": [ 120, -225, 10 ],
+            "translation": [ 0, 2.25, -1 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "firstperson": {
+            "rotation": [ 20, -135, 20 ],
+            "translation": [ 0, 4, 3 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "gui": {
+            "scale": [0.6, 0.6, 0.6],
+            "translation": [0, 0, 0]
+        }
+	}
+}
