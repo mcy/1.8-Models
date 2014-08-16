@@ -1,0 +1,10 @@
+{
+	"textures": {
+		"powder_material": "items/powder/redstone",
+		"powder_bag": "items/powder/bag/bag_red",
+		"powder_bag_rim": "items/powder/bag/rim_red",
+		"powder_label": "items/powder/label/redstone_label",
+		"powder_string": "items/powder/string/string_red"
+	},
+	"elements": []
+}

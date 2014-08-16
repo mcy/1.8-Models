@@ -2,46 +2,47 @@
 	"elements": [
 
 		{
-			"comment": "blob",
+			"comment": "shell",
 			"from": [0, 2.3431457505076203, 2.3431457505076203],
 			"to": [16, 13.65685424949238, 13.65685424949238],
 			"rotation": { "origin": [8,8,8], "axis": "x", "angle": 45},
 			"faces": {
-                "up":    { "texture": "#material" },
-                "down":  { "texture": "#material" },
-                "east":  { "texture": "#material" },
-                "west":  { "texture": "#material" },
-                "north": { "texture": "#material" },
-                "south": { "texture": "#material" }
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#shell" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#shell" }
             }
 		},
 		{
-			"comment": "blob",
+			"comment": "shell",
 			"from": [2.3431457505076203, 0, 2.3431457505076203],
 			"to": [13.65685424949238, 16, 13.65685424949238],
 			"rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
 			"faces": {
-                "up":    { "texture": "#material" },
-                "down":  { "texture": "#material" },
-                "east":  { "texture": "#material" },
-                "west":  { "texture": "#material" },
-                "north": { "texture": "#material" },
-                "south": { "texture": "#material" }
+                "north": { "uv": [0, 0, 16, 16], "texture": "#shell" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#shell" }
             }
 		},
 		{
-			"comment": "blob",
+			"comment": "shell",
 			"from": [2.3431457505076203, 2.3431457505076203, 0],
 			"to": [13.65685424949238, 13.65685424949238, 16],
 			"rotation": { "origin": [8,8,8], "axis": "z", "angle": 45},
 			"faces": {
-                "up":    { "texture": "#material" },
-                "down":  { "texture": "#material" },
-                "east":  { "texture": "#material" },
-                "west":  { "texture": "#material" },
-                "north": { "texture": "#material" },
-                "south": { "texture": "#material" }
+                "up":    { "uv": [0, 0, 16, 16], "texture": "#shell" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#shell" }
             }
+		},
+		{
+			"comment": "core",
+			"form": [1.5, 1.5, 1.5],
+			"to": [14.5, 14.5, 14.5],
+			"faces": {
+				"up":    { "uv": [0, 0, 16, 16], "texture": "#core" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#core" },
+                "north": { "uv": [0, 0, 16, 16], "texture": "#core" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#core" },
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#core" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#core" }
+			}
 		}
 	]
 }

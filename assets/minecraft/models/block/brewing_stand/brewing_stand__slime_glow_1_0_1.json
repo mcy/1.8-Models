@@ -1,0 +1,18 @@
+{
+    "parent": "block/brewing_stand/brewing_stand_base",
+    "elements": [],
+    "textures": {
+        "jar_contents": "items/misc/slime",
+        "powder_material": "items/powder/glowstone",
+        "powder_bag": "items/powder/bag/bag_brown",
+        "powder_bag_rim": "items/powder/bag/rim_brown",
+        "powder_label": "items/powder/label/glowstone_label",
+        "powder_string": "items/powder/string/string_white",
+        "glass0": "items/potion/potion",
+        "fluid0": "items/potion/fluid0",
+        "glass1": "null",
+        "fluid1": "null",
+        "glass2": "items/potion/potion",
+        "fluid2": "items/potion/fluid2"
+    }
+}

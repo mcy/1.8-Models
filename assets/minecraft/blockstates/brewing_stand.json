@@ -1,12 +1,340 @@
 {
     "variants": {
-        "has_bottle_0=false,has_bottle_1=false,has_bottle_2=false": { "model": "brewing_stand/brewing_stand_empty" },
-        "has_bottle_0=true,has_bottle_1=false,has_bottle_2=false": { "model": "brewing_stand_bottles_1" },
-        "has_bottle_0=false,has_bottle_1=true,has_bottle_2=false": { "model": "brewing_stand_bottles_2" },
-        "has_bottle_0=false,has_bottle_1=false,has_bottle_2=true": { "model": "brewing_stand_bottles_3" },
-        "has_bottle_0=true,has_bottle_1=true,has_bottle_2=false": { "model": "brewing_stand_bottles_12" },
-        "has_bottle_0=true,has_bottle_1=false,has_bottle_2=true": { "model": "brewing_stand_bottles_13" },
-        "has_bottle_0=false,has_bottle_1=true,has_bottle_2=true": { "model": "brewing_stand_bottles_23" },
-        "has_bottle_0=true,has_bottle_1=true,has_bottle_2=true": { "model": "brewing_stand_bottles_123" }
+        "has_bottle_0=false,has_bottle_1=false,has_bottle_2=false": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_0", "y": 270 }
+        ],
+        "has_bottle_0=true,has_bottle_1=false,has_bottle_2=false": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_0", "y": 270 }
+        ],
+        "has_bottle_0=false,has_bottle_1=true,has_bottle_2=false": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_0", "y": 270 }
+        ],
+        "has_bottle_0=false,has_bottle_1=false,has_bottle_2=true": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_0_1", "y": 270 }
+        ],
+        "has_bottle_0=true,has_bottle_1=true,has_bottle_2=false": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_0", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_0", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_0", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_0", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_0", "y": 270 }
+        ],
+        "has_bottle_0=true,has_bottle_1=false,has_bottle_2=true": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_0_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_0_1", "y": 270 }
+        ],
+        "has_bottle_0=false,has_bottle_1=true,has_bottle_2=true": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_0_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_0_1_1", "y": 270 }
+        ],
+        "has_bottle_0=true,has_bottle_1=true,has_bottle_2=true": [
+
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_glow_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_red_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_gun_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__slime_sugar_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_glow_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_red_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_gun_1_1_1", "y": 270 },
+
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_1", "y": 0 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_1", "y": 90 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_1", "y": 180 },
+            { "model": "brewing_stand/brewing_stand__magma_sugar_1_1_1", "y": 270 }
+        ]
     }
 }
