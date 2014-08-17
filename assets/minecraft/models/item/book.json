@@ -1,0 +1,18 @@
+{
+	"parent": "item/meshes/misc/book",
+	"display": {
+		"gui": {
+			"rotation": [90, -90, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson": {
+			"rotation": [30, 90, 0]
+		},
+
+        "thirdperson": {
+            "rotation": [ 0, 90, -90 ],
+            "translation": [ 1, -1.1, -0.5 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        }
+	}
+}

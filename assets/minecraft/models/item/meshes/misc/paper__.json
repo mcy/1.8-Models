@@ -1,0 +1,38 @@
+{
+	"textures": {
+		"front": "items/misc/paper_bin",
+		"back": "items/misc/paper_blank"
+	},
+	"elements": [
+
+		{
+			"comment": "sheet",
+			"from": [2, 0, 8.5],
+			"to": [14, 16, 8.5],
+			"faces": {
+				"north": { "uv": [0, 0, 12, 16], "texture": "#front"},
+				"south": { "uv": [0, 0, 12, 16], "texture": "#back"}
+			}
+		},
+		{
+			"comment": "sheet",
+			"from": [1, -2, 8],
+			"to": [13, 14, 8],
+			"rotation": { "origin": [8,8,8], "axis": "z", "angle": 22.5},
+			"faces": {
+				"north": { "uv": [0, 0, 12, 16], "texture": "#front"},
+				"south": { "uv": [0, 0, 12, 16], "texture": "#back"}
+			}
+		},
+		{
+			"comment": "sheet",
+			"from": [4, 1, 7.5],
+			"to": [16, 17, 7.5],
+			"rotation": { "origin": [8,8,8], "axis": "z", "angle": -22.5},
+			"faces": {
+				"north": { "uv": [0, 0, 12, 16], "texture": "#front"},
+				"south": { "uv": [0, 0, 12, 16], "texture": "#back"}
+			}
+		}
+	]
+}
