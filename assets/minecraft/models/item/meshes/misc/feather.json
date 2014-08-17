@@ -1,0 +1,50 @@
+{
+    "textures": {
+        "feather": "items/misc/feather"
+    },
+    "elements": [
+        {
+            "comment": "stalk",
+            "from": [ 7.2, -4.800000000000001, 7.2 ],
+            "to": [ 8.8, 16.0, 8.8 ],
+            "faces": {
+                "up":    { "uv": [ 1.01, 3.01, 1.99, 4 ], "texture": "#feather" },
+                "down":  { "uv": [ 1.01, 15, 1.99, 16 ], "texture": "#feather" },
+                "east":  { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather" },
+                "west":  { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather" },
+                "north": { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather" },
+                "south": { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather" }
+            }
+        },
+        {
+            "comment": "fibers",
+            "from": [ -9.600000000000001, -3.200000000000001, 7.840000000000001 ],
+            "to": [ 8.0, 14.4, 8.16 ],
+            "rotation": { "origin": [ 8.0, -2.4000000000000004, -4.800000000000001 ], "axis": "z", "angle": -45 },
+            "faces": {
+                "north": { "uv": [ 15, 1, 4, 12 ], "texture": "#feather" },
+                "south": { "uv": [ 4, 1, 15, 12 ], "texture": "#feather" }
+            }
+        },
+        {
+            "comment": "fibers",
+            "from": [ 8.0, -3.200000000000001, 7.840000000000001 ],
+            "to": [ 25.6, 14.4, 8.16 ],
+            "rotation": { "origin": [ 8.0, -2.4000000000000004, -4.800000000000001 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "north": { "uv": [ 4, 1, 15, 12 ], "texture": "#feather" },
+                "south": { "uv": [ 15, 1, 4, 12 ], "texture": "#feather" }
+            }
+        },
+        {
+            "comment": "tip",
+            "from": [ 6.4, 16.8, 7.68 ],
+            "to": [ 9.6, 20.0, 8.319999999999999 ],
+            "rotation": { "origin": [ 8.0, 18.4, -4.800000000000001 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "north": { "uv": [ 3, 13, 5, 15 ], "texture": "#feather" },
+                "south": { "uv": [ 5, 13, 3, 15 ], "texture": "#feather" }
+            }
+        }
+    ]
+}

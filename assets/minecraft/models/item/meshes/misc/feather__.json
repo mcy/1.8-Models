@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"feather": "items/misc/feather"
+	},
+	"elements": [
+
+		{
+			"comment": "stalk",
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 13, 8.5],
+			"faces": {
+				"up":    { "uv": [1.01, 3.01, 1.99, 4], "texture": "#feather" },
+				"down":  { "uv": [1.01, 15, 1.99, 16], "texture": "#feather" },
+				"east":  { "uv": [1.01, 3.01, 1.99, 16], "texture": "#feather" },
+				"west":  { "uv": [1.01, 3.01, 1.99, 16], "texture": "#feather" },
+				"north": { "uv": [1.01, 3.01, 1.99, 16], "texture": "#feather" },
+				"south": { "uv": [1.01, 3.01, 1.99, 16], "texture": "#feather" }
+			}
+		},
+		{
+			"comment": "fibers",
+			"from": [-3, 1, 7.9],
+			"to": [8, 12, 8.1],
+			"rotation": { "origin": [8, 1.5, 0], "axis": "z", "angle": -45},
+			"faces": {
+				"north": { "uv": [15, 1, 4, 12], "texture": "#feather"},
+				"south": { "uv": [4, 1, 15, 12], "texture": "#feather"}
+			}
+		},
+		{
+			"comment": "fibers",
+			"from": [8, 1, 7.9],
+			"to": [19, 12, 8.1],
+			"rotation": { "origin": [8, 1.5, 0], "axis": "z", "angle": 45},
+			"faces": {
+				"north": { "uv": [4, 1, 15, 12], "texture": "#feather"},
+				"south": { "uv": [15, 1, 4, 12], "texture": "#feather"}
+			}
+		},
+		{
+			"comment": "tip",
+			"from": [7, 13.5, 7.8],
+			"to": [9, 15.5, 8.2],
+			"rotation": { "origin": [8, 14.5, 0], "axis": "z", "angle": 45},
+			"faces": {
+				"north": { "uv": [3, 13, 5, 15], "texture": "#feather"},
+				"south": { "uv": [3, 13, 5, 15], "texture": "#feather"}
+			}
+		}
+	]
+}
