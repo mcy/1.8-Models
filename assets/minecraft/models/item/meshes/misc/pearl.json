@@ -7,7 +7,7 @@
         "core_west": "#core",
         "core_north": "#core",
         "core_south": "#core",
-        "shell_0": "items/misc/ender/pearl_shell",//shell_0",
+        "shell_0": "items/misc/ender/pearl_shell",  //shell_0",
         "shell_1": "items/misc/ender/shell_1",
         "shell_2": "items/misc/ender/shell_2",
         "shell_3": "items/misc/ender/shell_3"
