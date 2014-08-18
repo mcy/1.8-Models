@@ -1,0 +1,54 @@
+{
+    "elements": [
+        {
+            "comment": "main chunk",
+            "from": [ 0.4500000000000002, -4.000000000000001, 1.5999999999999996 ],
+            "to": [ 8.55, 4.1, 6.999999999999999 ],
+            "faces": {
+                "up":    { "uv": [ 6, 10, 10, 16 ], "texture": "#meat", "rotation": 90 },
+                "down":  { "uv": [ 6, 10, 10, 16 ], "texture": "#meat", "rotation": 90 },
+                "east":  { "uv": [ 6, 10, 10, 16 ], "texture": "#meat" },
+                "west":  { "uv": [ 6, 10, 10, 16 ], "texture": "#meat" },
+                "north": { "uv": [ 0, 10, 6, 16 ], "texture": "#meat" },
+                "south": { "uv": [ 6, 10, 0, 16 ], "texture": "#meat" }
+            }
+        },
+        {
+            "comment": "bone holder",
+            "from": [ 0.4500000000000002, -1.2999999999999996, 2.2749999999999995 ],
+            "to": [ 4.5, 5.45, 6.325 ],
+            "rotation": { "origin": [ 0.4500000000000002, -1.2999999999999996, -6.500000000000001 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 3, 7, 6, 10 ], "texture": "#meat" },
+                "east":  { "uv": [ 0, 5, 3, 10 ], "texture": "#meat" },
+                "west":  { "uv": [ 0, 5, 3, 10 ], "texture": "#meat" },
+                "north": { "uv": [ 0, 5, 3, 10 ], "texture": "#meat" },
+                "south": { "uv": [ 0, 5, 3, 10 ], "texture": "#meat" }
+            }
+        },
+        {
+            "comment": "wrapper",
+            "from": [ -1.5750000000000002, 5.179999999999999, 2.95 ],
+            "to": [ 1.125, 10.850000000000001, 5.6499999999999995 ],
+            "faces": {
+                "up":    { "uv": [ 6, 6, 8, 8 ], "texture": "#meat" },
+                "east":  { "uv": [ 6, 6, 8, 10 ], "texture": "#meat" },
+                "west":  { "uv": [ 6, 6, 8, 10 ], "texture": "#meat" },
+                "north": { "uv": [ 6, 6, 8, 10 ], "texture": "#meat" },
+                "south": { "uv": [ 6, 6, 8, 10 ], "texture": "#meat" }
+            }
+        },
+        {
+            "comment": "bone",
+            "from": [ -0.9000000000000004, 6.8, 3.625 ],
+            "to": [ 0.4500000000000002, 18.95, 4.9750000000000005 ],
+            "faces": {
+                "up":    { "uv": [ 11, 12, 15, 16 ], "texture": "#meat" },
+                "east":  { "uv": [ 10, 7, 11, 16 ], "texture": "#meat" },
+                "west":  { "uv": [ 10, 7, 11, 16 ], "texture": "#meat" },
+                "north": { "uv": [ 10, 7, 11, 16 ], "texture": "#meat" },
+                "south": { "uv": [ 10, 7, 11, 16 ], "texture": "#meat" }
+            }
+        }
+    ]
+}
