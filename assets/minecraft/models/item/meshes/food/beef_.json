@@ -1,0 +1,124 @@
+{
+	"textures": {
+		"particle": "#meat"
+	},
+	"elements": [
+		{
+			"comment": "center bone",
+			"from": [7.5, 6, 6.5],
+			"to": [8.5, 16, 9.5],
+			"faces": {
+				"north": { "uv": [0, 5, 0.5, 0], "texture": "#meat" },
+				"south": { "uv": [0, 5, 0.5, 0], "texture": "#meat" },
+				"east":  { "uv": [0, 5, 1.5, 0], "texture": "#meat" },
+				"west":  { "uv": [0, 5, 1.5, 0], "texture": "#meat" },
+				"up":    { "uv": [0, 5, 1.5, 4.5], "texture": "#meat" },
+				"down":  { "uv": [0, 0.5, 1.5, 0], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "minor bone",
+			"from": [2.5, 15, 6.6],
+			"to": [7.5, 16, 9.4],
+			"rotation": { "origin": [7.5, 15, 0], "axis": "z", "angle": -22.5},
+			"faces": {
+				"north": { "uv": [0, 5, 0.5, 2.5], "texture": "#meat", "rotation": 270 },
+				"south": { "uv": [0, 5, 0.5, 2.5], "texture": "#meat", "rotation": 270 },
+				"up":    { "uv": [0, 5, 1.5, 2.5], "texture": "#meat", "rotation": 90 },
+				"down":  { "uv": [0, 5, 1.5, 2.5], "texture": "#meat", "rotation": 90 },
+				"east":  { "uv": [0, 5, 1.5, 4.5], "texture": "#meat" },
+				"west":  { "uv": [0, 0.5, 1.5, 0], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "minor bone",
+			"from": [8.5, 15, 6.6],
+			"to": [11.5, 16, 9.4],
+			"rotation": { "origin": [8.5, 15, 0], "axis": "z", "angle": 22.5},
+			"faces": {
+				"north": { "uv": [0, 5, 0.5, 3.5], "texture": "#meat", "rotation": 270 },
+				"south": { "uv": [0, 5, 0.5, 3.5], "texture": "#meat", "rotation": 270 },
+				"up":    { "uv": [0, 5, 1.5, 3.5], "texture": "#meat", "rotation": 90 },
+				"down":  { "uv": [0, 5, 1.5, 3.5], "texture": "#meat", "rotation": 90 },
+				"east":  { "uv": [0, 5, 1.5, 4.5], "texture": "#meat" },
+				"west":  { "uv": [0, 0.5, 1.5, 0], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "right upper chunk",
+			"from": [7.5, 11.7, 6.99],
+			"to": [11, 14.7, 9.01],
+			"rotation": { "origin": [8, 14.7, 0], "axis": "z", "angle": 22.5},
+			"faces": {
+				"north": { "uv": [1.5, 0, 4, 2], "texture": "#meat"  },
+				"south": { "uv": [4, 0, 1.5, 2], "texture": "#meat" },
+				"west":  { "uv": [1.5, 1, 4, 2], "texture": "#meat", "rotation": 90 },
+				"east":  { "uv": [1.5, 1, 1.9, 2], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "right middle chunk",
+			"from": [8.5, 8.1, 7.01],
+			"to": [11.9, 13.1, 8.99],
+			"faces": {
+				"north": { "uv": [1.5, 2, 4, 5], "texture": "#meat"  },
+				"south": { "uv": [4, 5, 1.5, 2], "texture": "#meat" },
+				"east":  { "uv": [1.5, 1, 1.9, 2], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "right lower chunk",
+			"from": [8, 8.1, 7.02],
+			"to": [11.9, 12.1, 8.98],
+			"rotation": { "origin": [11.9, 8.1, 0], "axis": "z", "angle": 22.5},
+			"faces": {
+				"north": { "uv": [1.5, 5, 4.5, 8], "texture": "#meat" },
+				"south": { "uv": [4.5, 5, 1.5, 8], "texture": "#meat" },
+				"down":  { "uv": [4.5, 5, 1.5, 6], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "left upper chunk",
+			"from": [3, 10.7, 7],
+			"to": [9.1, 14.7, 9],
+			"rotation": { "origin": [8, 14.7, 0], "axis": "z", "angle": -22.5},
+			"faces": {
+				"north": { "uv": [4.5, 0, 8, 3], "texture": "#meat" },
+				"south": { "uv": [4, 0, 1.5, 2], "texture": "#meat" },
+				"west":  { "uv": [7.5, 0, 8, 3], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "left upper bottom",
+			"from": [3, 10.7, 7],
+			"to": [4.5, 14.7, 9],
+			"rotation": { "origin": [8, 14.7, 0], "axis": "z", "angle": -22.5},
+			"faces": {
+				"down":  { "uv": [1.5, 1, 1.9, 2], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "left middle chunk",
+			"from": [3, 6.9, 7.01],
+			"to": [7.5, 12.9, 8.99],
+			"faces": {
+				"north": { "uv": [4.5, 3, 7.5, 6], "texture": "#meat" },
+				"south": { "uv": [7.5, 3, 5.5, 6], "texture": "#meat" },
+				"west":  { "uv": [1.5, 1, 1.9, 2], "texture": "#meat" }
+			}
+		},
+		{
+			"comment": "left bottom chunk",
+			"from": [3, 0.9, 7.03],
+			"to": [7.5, 6.9, 8.97],
+			"rotation": { "origin": [3, 6.9, 0], "axis": "z", "angle": 45},
+			"faces": {
+				"north": { "uv": [4.5, 7, 8, 11], "texture": "#meat" },
+				"south": { "uv": [7.5, 3, 5.5, 6], "texture": "#meat" },
+				"west":  { "uv": [1.5, 1, 1.9, 2], "texture": "#meat" },
+				"east":  { "uv": [4.5, 7, 5.5, 11], "texture": "#meat" },
+				"down":  { "uv": [8, 10, 4.5, 11], "texture": "#meat" }
+			}
+		}
+	]
+}
