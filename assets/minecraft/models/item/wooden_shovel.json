@@ -4,7 +4,8 @@
 		"blade": "items/tools/wood_blade",
 		"hilt": "items/tools/wood_hilt",
 		"gem": "items/tools/wood_gem",
-		"handle": "items/tools/handle"
+		"handle": "items/tools/handle",
+    "particle": "items/tools/wood_blade"
 	},
 	"display": {
     "thirdperson": {

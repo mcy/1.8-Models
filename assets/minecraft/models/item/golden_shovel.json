@@ -4,7 +4,8 @@
 		"blade": "items/tools/gold_blade",
 		"hilt": "items/tools/gold_hilt",
 		"gem": "items/tools/gold_gem",
-		"handle": "items/tools/handle"
+		"handle": "items/tools/handle",
+    "particle": "items/tools/gold_blade"
 	},
 	"display": {
     "thirdperson": {
