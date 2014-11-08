@@ -1,11 +1,11 @@
 {
-  "parent": "item/meshes/swords/sword",
+  "parent": "item/meshes/tools/sword",
   "textures": {
-    "particle": "items/swords/gold_blade",
-    "handle": "items/swords/handle",
-    "blade": "items/swords/gold_blade",
-    "hilt": "items/swords/gold_hilt",
-    "gem": "items/swords/gold_gem"
+    "particle": "items/tools/gold_blade",
+    "handle": "items/tools/handle",
+    "blade": "items/tools/gold_blade",
+    "hilt": "items/tools/gold_hilt",
+    "gem": "items/tools/gold_gem"
   },
   "display": {
     "thirdperson": {

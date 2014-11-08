@@ -1,11 +1,11 @@
 {
-  "parent": "item/meshes/swords/sword",
+  "parent": "item/meshes/tools/sword",
   "textures": {
-    "particle": "items/swords/diamond_blade",
-    "handle": "items/swords/handle",
-    "blade": "items/swords/diamond_blade",
-    "hilt": "items/swords/diamond_hilt",
-    "gem": "items/swords/diamond_gem"
+    "particle": "items/tools/diamond_blade",
+    "handle": "items/tools/handle",
+    "blade": "items/tools/diamond_blade",
+    "hilt": "items/tools/diamond_hilt",
+    "gem": "items/tools/diamond_gem"
   },
   "display": {
     "thirdperson": {

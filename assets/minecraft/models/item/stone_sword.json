@@ -1,11 +1,11 @@
 {
-  "parent": "item/meshes/swords/sword_simple",
+  "parent": "item/meshes/tools/sword_simple",
   "textures": {
-    "particle": "items/swords/stone_blade",
-    "handle": "items/swords/handle",
-    "blade": "items/swords/stone_blade",
-    "hilt": "items/swords/stone_hilt",
-    "gem": "items/swords/stone_gem"
+    "particle": "items/tools/stone_blade",
+    "handle": "items/tools/handle",
+    "blade": "items/tools/stone_blade",
+    "hilt": "items/tools/stone_hilt",
+    "gem": "items/tools/stone_gem"
   },
   "display": {
     "thirdperson": {
