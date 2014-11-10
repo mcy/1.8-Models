@@ -1,0 +1,135 @@
+{
+	"elements": [
+
+		{
+			"comment": "blade head",
+			"from": [5.5, 14, 6.5],
+			"to": [13, 15, 9.5],
+			"faces": {
+				"north": {"texture": "#blade"},
+				"south": {"texture": "#blade"},
+				"west": {"texture": "#blade"},
+				"up": {"texture": "#blade"},
+				"down": {"texture": "#blade"}
+			}
+		},
+		{
+			"comment": "blade edge",
+			"from": [12, 12.5, 6.51],
+			"to": [13, 15, 9.49],
+			"rotation": {"origin": [13, 15, 0], "axis": "z", "angle": 22.5},
+			"faces": {
+				"north": {"texture": "#blade"},
+				"south": {"texture": "#blade"},
+				"east": {"texture": "#blade"},
+				"west": {"texture": "#blade"},
+				"down": {"texture": "#blade"}
+			}
+		},
+		{
+			"comment": "hilt",
+			"from": [6.5, 13.5, 6],
+			"to": [9.5, 15.5, 10],
+			"faces": {
+				"north": {"texture": "#hilt"},
+				"south": {"texture": "#hilt"},
+				"east": {"texture": "#hilt"},
+				"west": {"texture": "#hilt"},
+				"down": {"texture": "#hilt"},
+				"up": {"texture": "#hilt"}
+			}
+		},
+		{
+			"comment": "blade decor",
+			"from": [7.6, 15.1, 6.8],
+			"to": [8.4, 15.9, 9.2],
+			"rotation": {"origin": [8, 15.5, 8], "axis": "z", "angle": 45},
+			"faces": {
+				"north": {"texture": "#blade"},
+				"south": {"texture": "#blade"},
+				"east": {"texture": "#blade"},
+				"up": {"texture": "#blade"}
+			}
+		},
+		{
+			"comment": "gem",
+			"from": [7.5, 14, 5.5],
+			"to": [8.5, 15, 10.5],
+			"rotation": { "origin": [8, 14.5, 0], "axis": "z", "angle": 45},
+			"faces": {
+				"north": {"texture": "#gem"},
+				"south": {"texture": "#gem"},
+				"east": {"texture": "#gem"},
+				"west": {"texture": "#gem"},
+				"down": {"texture": "#gem"},
+				"up": {"texture": "#gem"}
+			}
+		},
+		{
+			"comment": "handle",
+			"from": [7.5, 0.3, 7.5],
+			"to": [8.5, 15, 8.5],
+			"rotation": { "origin": [8, 0, 8], "axis": "y", "angle": 45},
+			"faces": {
+				"north": {"texture": "#handle"},
+				"south": {"texture": "#handle"},
+				"west": {"texture": "#handle"},
+				"east": {"texture": "#handle"},
+				"down": {"texture": "#handle"},
+				"up": {"texture": "#handle"}
+			}
+		},
+		{
+			"comment": "handle",
+			"from": [7.25, 11.5, 7.25],
+			"to": [8.75, 15, 8.75],
+			"rotation": { "origin": [8, 0, 8], "axis": "y", "angle": 45},
+			"faces": {
+				"north": {"texture": "#hilt"},
+				"south": {"texture": "#hilt"},
+				"west": {"texture": "#hilt"},
+				"east": {"texture": "#hilt"},
+				"down": {"texture": "#hilt"},
+				"up": {"texture": "#hilt"}
+			}
+		},
+		{
+			"comment": "handle decor",
+			"from": [7.75, 11.75, 6.5],
+			"to": [8.25, 15, 9.5],
+			"faces": {
+				"north": {"texture": "#blade"},
+				"south": {"texture": "#blade"},
+				"east": {"texture": "#blade"},
+				"west": {"texture": "#blade"},
+				"down": {"texture": "#blade"}
+			}
+		},
+		{
+			"comment": "handle",
+			"from": [4.5, 9, 7.5],
+			"to": [8, 10, 8.5],
+			"rotation": { "origin": [8, 9.5, 8], "axis": "x", "angle": 45},
+			"faces": {
+				"north": {"texture": "#handle", "rotation": 90},
+				"south": {"texture": "#handle", "rotation": 90},
+				"west": {"texture": "#handle", "rotation": 90},
+				"down": {"texture": "#handle", "rotation": 90},
+				"up": {"texture": "#handle", "rotation": 90}
+			}
+		},
+		{
+			"comment": "handle",
+			"from": [8, 5, 7.5],
+			"to": [11.5, 6, 8.5],
+			"rotation": { "origin": [8, 5.5, 8], "axis": "x", "angle": 45},
+			"faces": {
+				"north": {"texture": "#handle", "rotation": 90},
+				"south": {"texture": "#handle", "rotation": 90},
+				"east": {"texture": "#handle", "rotation": 90},
+				"down": {"texture": "#handle", "rotation": 90},
+				"up": {"texture": "#handle", "rotation": 90}
+			}
+		}
+	]
+}
