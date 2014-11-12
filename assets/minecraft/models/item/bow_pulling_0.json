@@ -1,0 +1,26 @@
+{
+	"parent": "item/meshes/tools/bow_0",
+	"textures": {
+		"stick": "items/tools/handle",
+		"string": "items/tools/string",
+		"hilt": "items/tools/iron_hilt",
+		"gem": "items/tools/iron_gem"
+	},
+    "display": {
+        "thirdperson": {
+            "rotation": [ 10, -100, 90 ],
+            "translation": [ 0.75, 0, -0.75 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, 55, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        },
+	    "gui": {
+	      "rotation": [ 0, -35, 45 ],
+	      "translation": [ 1, 1, 0 ],
+	      "scale": [ 0.8, 0.8, 0.8 ]
+	    }
+    }
+}
