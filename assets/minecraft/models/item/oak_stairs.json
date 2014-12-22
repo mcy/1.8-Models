@@ -1,0 +1,29 @@
+{
+	"parent": "item/meshes/misc/plank_stairs",
+	"textures": {
+		"plank": "blocks/plank/oak",
+		"string": "items/powder/string/string_yellow"
+	},
+  "display": {
+    "thirdperson": {
+      "rotation": [ 30, -90, 180 ],
+      "translation": [ -1, 2.1, -0.5 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "firstperson": {
+      "rotation": [ 0, 35, 50 ],
+      "translation": [ 0, 2, 2 ],
+      "scale": [ 0.85, 0.85, 0.85 ]
+    },
+    "head": {
+      "rotation": [ 0, -135, -20 ],
+      "translation": [ 0, 4, 2 ],
+      "scale": [ 0.85, 0.85, 0.85 ]
+    },
+    "gui": {
+      "rotation": [ 0, 90, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.6, 0.6, 0.6 ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+	"elements": [
+
+		{
+			"comment": "plank",
+			"from": [0, 1, 6],
+			"to": [16, 2, 10],
+			"rotation": { "origin": [8,8,8], "axis": "y", "angle": -22.5},
+			"faces": {
+				"north": {"texture": "#plank"},
+				"south": {"texture": "#plank"},
+				"east": {"texture": "#plank"},
+				"west": {"texture": "#plank"},
+				"up": {"texture": "#plank"},
+				"down": {"texture": "#plank"}
+			}
+		},
+		{
+			"comment": "plank",
+			"from": [0, 2, 6],
+			"to": [16, 3, 10],
+			"rotation": { "origin": [8,0,8], "axis": "y", "angle": 22.5},
+			"faces": {
+				"north": {"texture": "#plank"},
+				"south": {"texture": "#plank"},
+				"east": {"texture": "#plank"},
+				"west": {"texture": "#plank"},
+				"up": {"texture": "#plank"},
+				"down": {"texture": "#plank"}
+			}
+		},
+		{
+			"comment": "plank",
+			"from": [0, 3, 6],
+			"to": [16, 4, 10],
+			"faces": {
+				"north": {"texture": "#plank"},
+				"south": {"texture": "#plank"},
+				"east": {"texture": "#plank"},
+				"west": {"texture": "#plank"},
+				"up": {"texture": "#plank"},
+				"down": {"texture": "#plank"}
+			}
+		},
+		{
+			"comment": "plank",
+			"from": [0, 4, 6],
+			"to": [16, 5, 10],
+			"rotation": { "origin": [8,8,8], "axis": "y", "angle": -22.5},
+			"faces": {
+				"north": {"texture": "#plank"},
+				"south": {"texture": "#plank"},
+				"east": {"texture": "#plank"},
+				"west": {"texture": "#plank"},
+				"up": {"texture": "#plank"},
+				"down": {"texture": "#plank"}
+			}
+		},
+		{
+			"comment": "plank",
+			"from": [0, 5, 6],
+			"to": [16, 6, 10],
+			"rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+			"faces": {
+				"north": {"texture": "#plank"},
+				"south": {"texture": "#plank"},
+				"east": {"texture": "#plank"},
+				"west": {"texture": "#plank"},
+				"up": {"texture": "#plank"},
+				"down": {"texture": "#plank"}
+			}
+		},
+		{
+			"comment": "string",
+			"from": [7.5, 0.5, 5],
+			"to": [8.5, 6.5, 11],
+			"faces": {
+				"north": {"texture": "#string"},
+				"south": {"texture": "#string"},
+				"east": {"texture": "#string"},
+				"west": {"texture": "#string"},
+				"up": {"texture": "#string"},
+				"down": {"texture": "#string"}
+			}
+		}
+	]
+}
