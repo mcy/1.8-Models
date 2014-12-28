@@ -1,0 +1,25 @@
+{
+    "parent": "item/meshes/misc/powder_doublelabel",
+    "textures": {
+        "bag": "items/powder/bag/bag_mono",
+        "bag_rim": "items/powder/bag/rim_mono",
+        "label": "items/powder/label/blank_label",
+        "string": "items/powder/string/string_mono"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 120, -225, 10 ],
+            "translation": [ 0, 2.25, -1 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "firstperson": {
+            "rotation": [ 20, -135, -20 ],
+            "translation": [ 0, 4, 3 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "gui": {
+            "scale": [0.7, 0.7, 0.7],
+            "translation": [1, 0, 0]
+        }
+    }
+}

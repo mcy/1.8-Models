@@ -1,10 +1,10 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/door_jungle_lower",
-        "inner": "blocks/door_jungle_inner",
-        "bottom": "blocks/door_jungle_lower",
-        "top": "blocks/door_jungle_upper"
+        "particle": "blocks/door/door_jungle_lower",
+        "inner": "blocks/door/door_jungle_inner",
+        "bottom": "blocks/door/door_jungle_lower",
+        "top": "blocks/door/door_jungle_upper"
     },
     "elements": [
         {

@@ -1,0 +1,10 @@
+{
+	"parent": "item/meshes/misc/dye",
+	"textures": {
+		"material": "items/powder/dye/brown",
+		"string": "items/powder/string/string_brown",
+		"label_icon": "items/powder/dye/i_brown",
+		"bag": "items/powder/bag/bag_brown",
+        "bag_rim": "items/powder/bag/rim_brown"
+	}
+}

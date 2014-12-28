@@ -1,0 +1,8 @@
+{
+	"parent": "item/meshes/misc/dye",
+	"textures": {
+		"material": "items/powder/dye/magenta",
+		"string": "items/powder/string/string_magenta",
+		"label_icon": "items/powder/dye/i_magenta"
+	}
+}

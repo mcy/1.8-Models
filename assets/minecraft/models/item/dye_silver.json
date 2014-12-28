@@ -1,0 +1,8 @@
+{
+	"parent": "item/meshes/misc/dye",
+	"textures": {
+		"material": "items/powder/dye/silver",
+		"string": "items/powder/string/string_white",
+		"label_icon": "items/powder/dye/i_silver"
+	}
+}
