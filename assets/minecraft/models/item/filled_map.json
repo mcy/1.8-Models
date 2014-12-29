@@ -1,0 +1,18 @@
+{
+	"parent": "item/meshes/misc/map",
+	"display": {
+		"gui": {
+			"rotation": [30, -45, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson": {
+			"rotation": [30, 90, 0]
+		},
+
+        "thirdperson": {
+            "rotation": [ -90, 0, 10 ],
+            "translation": [ 0, 1.2, -2.5 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        }
+	}
+}
