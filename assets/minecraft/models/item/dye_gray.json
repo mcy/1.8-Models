@@ -2,7 +2,7 @@
 	"parent": "item/meshes/misc/dye",
 	"textures": {
 		"material": "items/powder/dye/gray",
-		"string": "items/powder/string/string_gray",
+		"string": "items/powder/string/string_grey",
 		"label_icon": "items/powder/dye/i_gray"
 	}
 }

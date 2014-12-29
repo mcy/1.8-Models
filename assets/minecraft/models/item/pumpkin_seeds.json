@@ -1,9 +1,12 @@
 {
     "parent": "item/meshes/misc/powder_doublelabel",
     "textures": {
-        "bag": "items/powder/bag/bag_mono",
-        "bag_rim": "items/powder/bag/rim_mono",
-        "label": "items/powder/label/blank_label"
+        "material": "items/powder/seeds/pumpkin",
+        "bag": "items/powder/bag/bag_white",
+        "bag_rim": "items/powder/bag/rim_white",
+        "string": "items/powder/string/string_orange",
+        "label": "items/powder/label/blank_label",
+        "label_icon": "items/powder/seeds/seeds_pumpkin"
     },
     "display": {
         "thirdperson": {
