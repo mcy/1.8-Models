@@ -1,0 +1,7 @@
+{
+	"parent": "block/jukebox/jukebox",
+	"textures": {
+		"label": "null",
+		"r_": "null"
+	}
+}

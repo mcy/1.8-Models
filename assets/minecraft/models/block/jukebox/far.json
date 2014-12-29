@@ -1,0 +1,6 @@
+{
+	"parent": "block/jukebox/jukebox",
+	"textures": {
+		"label": "blocks/jukebox/labels/far"
+	}
+}
