@@ -1,0 +1,6 @@
+{
+	"parent": "item/meshes/misc/record",
+	"textures": {
+		"label": "blocks/jukebox/labels/mall"
+	}
+}
