@@ -14,7 +14,7 @@
 		"horn_pipe": "blocks/jukebox/horn_pipe",
 		"misc": "blocks/jukebox/misc",
 
-		"r_": "blocks/jukebox/record/record",
+		"r_": "blocks/jukebox/record/record",//_rotate",
 
 		"label": "blocks/jukebox/labels/13",
 
