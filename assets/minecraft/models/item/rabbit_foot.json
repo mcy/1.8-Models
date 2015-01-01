@@ -1,0 +1,17 @@
+{
+	"parent": "item/meshes/misc/rabbit_foot",
+	"display": {
+		"gui": {
+			"rotation": [70, -60, 30]
+		},
+		"firstperson": {
+			"rotation": [0, -40, 180],
+			"translation": [0, 1, 0]
+		},
+		"thirdperson": {
+			"scale": [0.2, 0.2, 0.2],
+			"translation": [0, 2, -1.5],
+			"rotation": [-20, 160, 180]
+		}
+	}
+}
