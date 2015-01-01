@@ -1,0 +1,6 @@
+{
+	"parent": "item/meshes/alchemy/vial",
+	"textures": {
+		"fluid": "items/potion/tears"
+	}
+}
