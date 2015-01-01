@@ -1,0 +1,57 @@
+{
+	"textures": {
+		"tag": "items/misc/nametag"
+	},
+	"elements": [
+
+		{
+			"comment": "tag",
+			"from": [5, -2.5, 8],
+			"to": [11, 18.5, 8.1],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 14], "texture": "#tag"},
+				"south": {"uv": [4, 0, 8, 14], "texture": "#tag"}
+			}
+		},
+
+		{
+			"comment": "ring",
+			"from": [7.6, 16.5, 4],
+			"to": [8.4, 20.5, 8],
+			"rotation": {"origin": [0, 16.5, 8], "axis": "x", "angle": 45},
+			"faces": {
+				"east": {"uv": [8, 1.5, 11, 4.5], "texture": "#tag"},
+				"west": {"uv": [8, 1.5, 11, 4.5], "texture": "#tag", "rotation": 270},
+				"down": {"uv": [8, 1.51, 11, 1.99], "texture": "#tag", "rotation": 90},
+				"north": {"uv": [8, 1.5, 8.5, 4.5], "texture": "#tag"},
+				"up": {"uv": [8, 4, 11, 4.5], "texture": "#tag", "rotation": 270},
+				"south": {"uv": [10.5, 1.5, 11, 4.5], "texture": "#tag", "rotation": 180}
+			}
+		},
+		{
+			"comment": "inner ring",
+			"from": [8.4, 17.16, 4.66],
+			"to": [7.6, 19.96, 7.33],
+			"rotation": {"origin": [0, 16.5, 8], "axis": "x", "angle": 45},
+			"faces": {
+				"up": {"uv": [8.5, 1.51, 10.5, 1.99], "texture": "#tag", "rotation": 270},
+				"north": {"uv": [8, 2, 8.5, 4], "texture": "#tag"},
+				"down": {"uv": [8.5, 4, 10.5, 4.5], "texture": "#tag", "rotation": 90},
+				"south": {"uv": [10.5, 2, 11, 4], "texture": "#tag", "rotation": 180}
+			}
+		},
+		{
+			"comment": "wax",
+			"from": [7.4, 16.5, 7.7],
+			"to": [8.6, 18.1, 8.4],
+			"faces": {
+				"north": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"},
+				"south": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"},
+				"east": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"},
+				"west": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"},
+				"up": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"},
+				"down": {"uv": [8, 0, 9.5, 1.5], "texture": "#tag"}
+			}
+		}
+	]
+}
