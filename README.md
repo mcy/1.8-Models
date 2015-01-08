@@ -10,3 +10,5 @@ This project's goal is to replace as many of the single-cube/builtin-generated m
 Note: the sole branch (master) is bleeding edge, so don't blame me if broken stuff makes it in.
 
 This pack does not and *will not* support Fast GFX mode.
+
+Note: If you use this pack in a video/other creative work, I *implore* you to link back to either this repo or one of my reddit posts. It's all I ask for use of the pack. =)
