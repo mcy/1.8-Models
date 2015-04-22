@@ -75,6 +75,7 @@
             "comment": "leg detail",
             "from": [0, 0.01, 0],
             "to": [2, 7, 2],
+            "shade": false,
             "faces": {
                 "up": {"texture": "#gem"},
                 "down": {"texture": "#gem"},
@@ -89,6 +90,7 @@
             "comment": "leg detail",
             "from": [14, 0.01, 0],
             "to": [16, 7, 2],
+            "shade": false,
             "faces": {
                 "up": {"texture": "#gem"},
                 "down": {"texture": "#gem"},
@@ -103,6 +105,7 @@
             "comment": "leg detail",
             "from": [0, 0.01, 14],
             "to": [2, 7, 16],
+            "shade": false,
             "faces": {
                 "up": {"texture": "#gem"},
                 "down": {"texture": "#gem"},
@@ -117,6 +120,7 @@
             "comment": "leg detail",
             "from": [14, 0.01, 14],
             "to": [16, 7, 16],
+            "shade": false,
             "faces": {
                 "up": {"texture": "#gem"},
                 "down": {"texture": "#gem"},
@@ -298,6 +302,7 @@
             "comment": "gem",
             "from": [1, 10, 1],
             "to": [3, 13, 3],
+            "shade": false,
             "rotation": {"origin": [2, 0, 2], "axis": "y", "angle": 45},
             "faces": {
                 "up": {"texture": "#gem"},
@@ -312,6 +317,7 @@
             "comment": "gem",
             "from": [13, 10, 1],
             "to": [15, 13, 3],
+            "shade": false,
             "rotation": {"origin": [14, 0, 2], "axis": "y", "angle": 45},
             "faces": {
                 "up": {"texture": "#gem"},
@@ -326,6 +332,7 @@
             "comment": "gem",
             "from": [1, 10, 13],
             "to": [3, 13, 15],
+            "shade": false,
             "rotation": {"origin": [2, 0, 14], "axis": "y", "angle": 45},
             "faces": {
                 "up": {"texture": "#gem"},
@@ -340,6 +347,7 @@
             "comment": "gem",
             "from": [13, 10, 13],
             "to": [15, 13, 15],
+            "shade": false,
             "rotation": {"origin": [14, 0, 14], "axis": "y", "angle": 45},
             "faces": {
                 "up": {"texture": "#gem"},

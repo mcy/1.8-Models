@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for f in `find assets -name \*_.json -print`
+do
+  dir=`dirname $f`
+  mkdir -p "cruft/$dir" 2> /dev/null 
+  mv $f "cruft/$dir"
+done
