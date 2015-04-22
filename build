@@ -1,0 +1,17 @@
+#!/bin/bash
+
+ZIPNAME="Xor's 1.8 Models.zip"
+
+# # aux build info to pack into the zip
+BUILDINFO="buildinfo"
+if [[ -e $BUILDINFO ]]; then
+  rm $BUILDINFO
+fi
+
+echo "-- This is a bunch of random information about the build, you probably don't care about it." >> $BUILDINFO
+git show -q >> $BUILDINFO
+echo "" >> $BUILDINFO
+# #
+
+zip -qr "$ZIPNAME" pack.png pack.mcmeta LICENSE.md assets $BUILDINFO
+rm $BUILDINFO 
