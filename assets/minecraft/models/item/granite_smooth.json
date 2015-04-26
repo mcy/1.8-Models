@@ -1,0 +1,8 @@
+{
+    "parent": "item/meshes/block/chiseled",
+    "textures": {
+        "top": "blocks/polished/granite",
+        "side": "blocks/polished/granite",
+        "bottom": "blocks/polished/granite"
+    }
+}

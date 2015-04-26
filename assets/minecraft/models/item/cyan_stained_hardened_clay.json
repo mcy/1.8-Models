@@ -1,0 +1,1 @@
+{ "parent": "item/meshes/block/chiseled", "textures": { "top": "blocks/polished/clay_cyan", "side": "blocks/polished/clay_cyan", "bottom": "blocks/polished/clay_cyan" } }

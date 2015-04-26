@@ -1,0 +1,144 @@
+{
+    "textures": {
+        "handle": "items/misc/chisel/stick",
+        "metal": "items/misc/chisel/metal"
+    },
+    "elements": [
+        {
+            "comment": "cube",
+            "from": [ 9.0, 0.0, -1.0 ], 
+            "to": [ 17.0, 8.0, 7.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#bottom" }
+            }
+        },
+        {
+            "comment": "cube",
+            "from": [ 10.0, 0.0, 4.0 ], 
+            "to": [ 18.0, 8.0, 12.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#bottom" }
+            }
+        },
+        {
+            "comment": "cube",
+            "from": [ -2.0, 0.0, 7.0 ], 
+            "to": [ 6.0, 8.0, 15.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#bottom" }
+            }
+        },
+        {
+            "comment": "Cube",
+            "from": [ 4.0, 8.0, 4.0 ], 
+            "to": [ 12.0, 16.0, 12.0 ], 
+            "faces": {
+                "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "east":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "west":  { "uv": [0, 0, 16, 16], "texture": "#side" },
+                "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+                "down":  { "uv": [0, 0, 16, 16], "texture": "#bottom" }
+            }
+        },
+        {
+            "comment": "chisel handle",
+            "from": [ 4.0, 8.0, 0.0 ], 
+            "to": [ 8.0, 9.0, 1.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#handle" },
+                "east":  { "texture": "#handle" },
+                "south": { "texture": "#handle" },
+                "west":  { "texture": "#handle" },
+                "up":    { "texture": "#handle" },
+                "down":  { "texture": "#handle" }
+            }
+        },
+        {
+            "comment": "chisel shaft",
+            "from": [ 8.0, 8.25, 0.25 ], 
+            "to": [ 13.0, 8.75, 0.75 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "up":    { "texture": "#metal" },
+                "down":  { "texture": "#metal" }
+            }
+        },
+        {
+            "comment": "chisel tip",
+            "from": [ 13.0, 8.25, 0.0 ], 
+            "to": [ 14.0, 8.75, 1.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#metal" },
+                "east":  { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "up":    { "texture": "#metal" },
+                "down":  { "texture": "#metal" }
+            }
+        },
+        {
+            "comment": "hammer head",
+            "from": [ 1.0, 0.0, 16.0 ], 
+            "to": [ 4.0, 2.0, 18.0 ], 
+            "rotation": { "origin": [ 2.5, 1.0, 16.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "east":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "south": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "west":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "up":    { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "down":  { "texture": "#metal", "uv": [0, 0, 3, 2] }
+            }
+        },
+        {
+            "comment": "hammer handle",
+            "from": [ 2.0, -0.5, 16.5 ], 
+            "to": [ 3.0, 10.0, 17.5 ], 
+            "rotation": { "origin": [ 2.5, 1.0, 16.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#handle", "uv": [0, 0, 1, 10.5] },
+                "east":  { "texture": "#handle", "uv": [0, 0, 1, 10.5] },
+                "south": { "texture": "#handle", "uv": [0, 0, 1, 10.5] },
+                "west":  { "texture": "#handle", "uv": [0, 0, 1, 10.5] },
+                "up":    { "texture": "#handle", "uv": [0, 0, 1, 1] },
+                "down":  { "texture": "#handle", "uv": [0, 0, 1, 1] }
+            }
+        }
+    ],
+
+    "display": {
+        "thirdperson": {
+            "rotation": [-15, 180, 180],
+            "scale": [0.3, 0.3, 0.3],
+            "translation": [0, 1, -2.8]
+        },
+        "gui": {
+            "rotation": [0, 159, 0],
+            "translation": [0.4, 0.9, 0],
+            "scale": [1.1, 1.1, 1.1]
+        }
+    }
+}
