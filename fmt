@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# get rid of any cruft first
+collectCruft
+
+pretty='python -m json.tool'
+
+for f in `find assets -name \*.json -print`; do
+    formatted=`pretty < $f`
+    formatted=`echo $formatted | sed s/\[[ \t\n]*(?=[-.0-9e]+?,)/\[ /g`
+    formatted=`echo $formatted | sed s/[ \t\n]*(?=[-.0-9e]+?),[ \t\n]*/, /g`
+    formatted=`echo $formatted | sed s/[ \t\n]*(?=[-.0-9e]+?)[ \t\n]*\]/ \]/g`
+    echo $formatted > $f
+done

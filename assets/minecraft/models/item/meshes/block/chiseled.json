@@ -101,8 +101,36 @@
         },
         {
             "comment": "hammer head",
-            "from": [ 1.0, 0.0, 16.0 ], 
-            "to": [ 4.0, 2.0, 18.0 ], 
+            "from": [ 1.5, 0.0, 16.0 ], 
+            "to": [ 3.5, 2.0, 18.0 ], 
+            "rotation": { "origin": [ 2.5, 1.0, 16.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "east":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "south": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "west":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "up":    { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "down":  { "texture": "#metal", "uv": [0, 0, 3, 2] }
+            }
+        },
+        {
+            "comment": "hammer head side",
+            "from": [ 0.5, -0.25, 15.75 ], 
+            "to": [ 1.5, 2.25, 18.25 ], 
+            "rotation": { "origin": [ 2.5, 1.0, 16.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "east":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "south": { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "west":  { "texture": "#metal", "uv": [0, 0, 2, 2] },
+                "up":    { "texture": "#metal", "uv": [0, 0, 3, 2] },
+                "down":  { "texture": "#metal", "uv": [0, 0, 3, 2] }
+            }
+        },
+        {
+            "comment": "hammer head side",
+            "from": [ 3.5, -0.25, 15.75 ], 
+            "to": [ 4.5, 2.25, 18.25 ], 
             "rotation": { "origin": [ 2.5, 1.0, 16.0 ], "axis": "x", "angle": -22.5 },
             "faces": {
                 "north": { "texture": "#metal", "uv": [0, 0, 3, 2] },
@@ -139,6 +167,10 @@
             "rotation": [0, 159, 0],
             "translation": [0.4, 0.9, 0],
             "scale": [1.1, 1.1, 1.1]
+        },
+        "firstperson": {
+            "rotation": [0, 45, 0],
+            "translation": [0, 1, 0]
         }
     }
 }
