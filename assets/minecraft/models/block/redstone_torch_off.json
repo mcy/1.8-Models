@@ -1,0 +1,8 @@
+{
+    "parent": "block/redstone_torch",
+    "textures": {
+        "redstone": "redstone/redstone_off",
+        "particle": "redstone/redstone_off",
+        "battery": "redstone/battery_off"
+    }
+}

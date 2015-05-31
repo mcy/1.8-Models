@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up":  { "model": "redstone_torch_off" },
+        "facing=east":  { "model": "redstone_torch_off", "x": 90, "y": 90 },
+        "facing=south":  { "model": "redstone_torch_off", "x": 90, "y": 180 },
+        "facing=west":  { "model": "redstone_torch_off", "x": 90, "y": 270 },
+        "facing=north":  { "model": "redstone_torch_off", "x": 90, "y": 0 }
+    }
+}
