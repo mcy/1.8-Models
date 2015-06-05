@@ -1,17 +1,67 @@
 #!/bin/bash
 
+TOP_DIR=`pwd`
 ZIPNAME="Xor's 1.8 Models.zip"
+WORK_DIR='work'
+
+echo 'Preparing workspace...'
+
+mkdir $WORK_DIR
+
+cp -r assets $WORK_DIR
+
+cp pack.png pack.mcmeta LICENSE.md $WORK_DIR
+
+cd $WORK_DIR
+
+echo 'Minifying json...'
+
+for f in `find assets -name \*.json -print`
+do
+  "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+  cp $f'.tmp' $f 2> /dev/null
+  tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
+  cp $f'.tmp' $f 2> /dev/null
+  rm $f'.tmp' 2> /dev/null
+done
+
+for f in `find assets -name \*.mcmeta -print`
+do
+  "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+  cp $f'.tmp' $f 2> /dev/null
+  tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
+  cp $f'.tmp' $f 2> /dev/null
+  rm $f'.tmp' 2> /dev/null
+done
+
+if [[ -n `echo $@ | fgrep -e '-noblockitems'` ]]
+then
+    echo "Removing block items..."
+    BACK_DIR=`pwd`
+    cd assets/minecraft/models/item
+    for f in `cat "$TOP_DIR"/blockfiles.txt`; do rm $f; done
+    cd "$BACK_DIR"
+fi
+
+cd ..
 
 # # aux build info to pack into the zip
-BUILDINFO="buildinfo"
+echo "Writting stuff..."
+BUILDINFO="$WORK_DIR/buildinfo"
 if [[ -e $BUILDINFO ]]; then
   rm $BUILDINFO
 fi
 
-echo "-- This is a bunch of random information about the build, you probably don't care about it." >> $BUILDINFO
+echo "-- This is a bunch of random information about the build, you probably don't care about it." > $BUILDINFO
 git show -q >> $BUILDINFO
 echo "" >> $BUILDINFO
 # #
 
-zip -qr "$ZIPNAME" pack.png pack.mcmeta LICENSE.md assets $BUILDINFO
-rm $BUILDINFO 
+echo 'Buiding...'
+cd $WORK_DIR 
+zip -qr "$ZIPNAME" *
+mv "$ZIPNAME" ..
+cd ..
+
+echo 'Cleaning up...'
+rm -rf "$WORK_DIR"
