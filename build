@@ -22,10 +22,10 @@ while [[ $# > 0 ]]; do
             if [[ "$ZIPNAME" != *.zip ]]; then
                 ZIPNAME="$ZIPNAME".zip
             fi
-            if [[ `dirname $ZIPNAME` != '.' ]]; then
-                ZIPDIR=`dirname $ZIPNAME`
+            if [[ `dirname "$ZIPNAME"` != '.' ]]; then
+                ZIPDIR=`dirname "$ZIPNAME"`
             fi;
-            ZIPNAME=`basename $ZIPNAME`
+            ZIPNAME=`basename "$ZIPNAME"`
         ;;
         -m|--no-minify)
             NOMINIFY='yes'
