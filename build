@@ -73,7 +73,7 @@ if [[ -z "$NOMINIFY" ]]; then
     echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
     do
-        "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        sed -nf "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
@@ -82,7 +82,7 @@ if [[ -z "$NOMINIFY" ]]; then
 
     for f in `find assets -name \*.mcmeta -print`
     do
-        "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        sed -nf "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
