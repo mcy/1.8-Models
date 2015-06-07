@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # Build script for Xor's Models resource pack
 # Yeah, my pack is so cool it has a build script.
@@ -8,6 +8,7 @@ TOP_DIR=`pwd`
 ZIPNAME="Xor's 1.8 Models.zip"
 WORK_DIR='work'
 COPY_DIR="$TOP_DIR"
+ZIPDIR="$TOP_DIR"
 
 while [[ $# > 0 ]]; do
 
@@ -21,6 +22,10 @@ while [[ $# > 0 ]]; do
             if [[ "$ZIPNAME" != *.zip ]]; then
                 ZIPNAME="$ZIPNAME".zip
             fi
+            if [[ `dirname $ZIPNAME` != '.' ]]; then
+                ZIPDIR=`dirname $ZIPNAME`
+            fi;
+            ZIPNAME=`basename $ZIPNAME`
         ;;
         -m|--no-minify)
             NOMINIFY='yes'
@@ -31,9 +36,6 @@ while [[ $# > 0 ]]; do
         -u|--collect-cruft)
             COLLECTCRUFT='yes'
         ;;
-        -c|--copy-dir)
-            COPY_DIR="$2"
-        ;;
         -h|--help|help)
             echo "Buildscript for Xor's 1.8 Models"
             echo "Compile settings:"
@@ -42,7 +44,6 @@ while [[ $# > 0 ]]; do
             echo "  -o --output            : set the output file"
             echo "  -w --preserve-work-dir : don't kill the work dir when  we're done"
             echo "  -u --collect-cruft     : run collectCruft in the workdir" 
-            echo "  -c --copy-dir          : set the output directory"
             echo "  -h --help              : print this message"
             git show -q | echo
             exit 0
@@ -63,12 +64,12 @@ cp pack.png pack.mcmeta LICENSE.md $WORK_DIR
 
 cd $WORK_DIR
 
-if [[ -z COLLECTCRUFT ]]; then
+if [[ -z "$COLLECTCRUFT" ]]; then
     echo 'Collecting cruft...'
     ../collectCruft
 fi
 
-if [[ -z NOMINIFY ]]; then
+if [[ -z "$NOMINIFY" ]]; then
     echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
     do
@@ -89,7 +90,7 @@ if [[ -z NOMINIFY ]]; then
     done
 fi
 
-if [[ -n $NOBLOCKITEMS ]]
+if [[ -n "$NOBLOCKITEMS" ]]
 then
     echo "Removing block items..."
     BACK_DIR=`pwd`
@@ -115,8 +116,12 @@ echo "" >> $BUILDINFO
 echo 'Buiding...'
 cd $WORK_DIR 
 zip -qr "$ZIPNAME" *
-mv "$ZIPNAME" $COPY_DIR
 cd ..
+if [[ ! -d "$ZIPDIR" ]]; then
+    mkdir "$ZIPDIR"
+fi
+mv "$WORK_DIR"/"$ZIPNAME" "$ZIPDIR"
+
 
 echo 'Cleaning up...'
 if [[ -z $PRESERVEWORKDIR ]]; then
