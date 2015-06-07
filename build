@@ -1,11 +1,51 @@
 #!/bin/bash
 
+# Build script for Xor's Models resource pack
+# Yeah, my pack is so cool it has a build script.
+# Now with minifying json!
+
 TOP_DIR=`pwd`
 ZIPNAME="Xor's 1.8 Models.zip"
 WORK_DIR='work'
 
+while [[ $# > 0 ]]; do
+
+    key="$1"
+    case $key in
+        -b|--no-block-items)
+            NOBLOCKITEMS='yes'
+        ;;
+        -o|--output)
+            ZIPNAME="$2"
+            if [[ "$ZIPNAME" != *.zip ]]; then
+                ZIPNAME="$ZIPNAME".zip
+            fi
+        ;;
+        -m|--no-minify)
+            NOMINIFY='yes'
+        ;;
+        -w|--preserve-work-dir)
+            PRESERVEWORKDIR='yes'
+        ;;
+        -h|--help)
+            echo "Buildscript for Xor's 1.8 Models"
+            echo "Compile settings:"
+            echo "  -b | --no-block-items    : removes block item models"
+            echo "  -m | --no-minify         : don't minify json"
+            echo "  -o | --output            : set the output file"
+            echo "  -w | --preserve-work-dir : don't kill the work dir when"
+            echo "                             we're done"
+            echo "  -h | --help              : print this message"
+            exit 0
+        ;;
+        *) ;;
+    esac
+    shift
+done
+
 echo 'Preparing workspace...'
 
+rm -rf $WORK_DIR
 mkdir $WORK_DIR
 
 cp -r assets $WORK_DIR
@@ -16,25 +56,27 @@ cd $WORK_DIR
 
 echo 'Minifying json...'
 
-for f in `find assets -name \*.json -print`
-do
-  "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
-  cp $f'.tmp' $f 2> /dev/null
-  tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
-  cp $f'.tmp' $f 2> /dev/null
-  rm $f'.tmp' 2> /dev/null
-done
+if [[ -z NOMINIFY ]]; then
+    for f in `find assets -name \*.json -print`
+    do
+        "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        cp $f'.tmp' $f 2> /dev/null
+        tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
+        cp $f'.tmp' $f 2> /dev/null
+        rm $f'.tmp' 2> /dev/null
+    done
 
-for f in `find assets -name \*.mcmeta -print`
-do
-  "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
-  cp $f'.tmp' $f 2> /dev/null
-  tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
-  cp $f'.tmp' $f 2> /dev/null
-  rm $f'.tmp' 2> /dev/null
-done
+    for f in `find assets -name \*.mcmeta -print`
+    do
+        "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        cp $f'.tmp' $f 2> /dev/null
+        tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
+        cp $f'.tmp' $f 2> /dev/null
+        rm $f'.tmp' 2> /dev/null
+    done
+fi
 
-if [[ -n `echo $@ | fgrep -e '-noblockitems'` ]]
+if [[ -n $NOBLOCKITEMS ]]
 then
     echo "Removing block items..."
     BACK_DIR=`pwd`
@@ -49,7 +91,7 @@ cd ..
 echo "Writting stuff..."
 BUILDINFO="$WORK_DIR/buildinfo"
 if [[ -e $BUILDINFO ]]; then
-  rm $BUILDINFO
+    rm $BUILDINFO
 fi
 
 echo "-- This is a bunch of random information about the build, you probably don't care about it." > $BUILDINFO
@@ -64,4 +106,6 @@ mv "$ZIPNAME" ..
 cd ..
 
 echo 'Cleaning up...'
-rm -rf "$WORK_DIR"
+if [[ -z $PRESERVEWORKDIR ]]; then
+    rm -rf "$WORK_DIR"
+fi

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for f in `find assets -name \*_.json -print`
+for f in `find assets -name \*_.json -print`' '`find assets -name \*copy\*.json -print`
 do
   dir=`dirname $f`
   mkdir -p "cruft/$dir" 2> /dev/null 
