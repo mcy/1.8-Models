@@ -7,6 +7,7 @@
 TOP_DIR=`pwd`
 ZIPNAME="Xor's 1.8 Models.zip"
 WORK_DIR='work'
+COPY_DIR="$TOP_DIR"
 
 while [[ $# > 0 ]]; do
 
@@ -27,15 +28,23 @@ while [[ $# > 0 ]]; do
         -w|--preserve-work-dir)
             PRESERVEWORKDIR='yes'
         ;;
-        -h|--help)
+        -u|--collect-cruft)
+            COLLECTCRUFT='yes'
+        ;;
+        -c|--copy-dir)
+            COPY_DIR="$2"
+        ;;
+        -h|--help|help)
             echo "Buildscript for Xor's 1.8 Models"
             echo "Compile settings:"
-            echo "  -b | --no-block-items    : removes block item models"
-            echo "  -m | --no-minify         : don't minify json"
-            echo "  -o | --output            : set the output file"
-            echo "  -w | --preserve-work-dir : don't kill the work dir when"
-            echo "                             we're done"
-            echo "  -h | --help              : print this message"
+            echo "  -b --no-block-items    : removes block item models"
+            echo "  -m --no-minify         : don't minify json"
+            echo "  -o --output            : set the output file"
+            echo "  -w --preserve-work-dir : don't kill the work dir when  we're done"
+            echo "  -u --collect-cruft     : run collectCruft in the workdir" 
+            echo "  -c --copy-dir          : set the output directory"
+            echo "  -h --help              : print this message"
+            git show -q | echo
             exit 0
         ;;
         *) ;;
@@ -54,9 +63,13 @@ cp pack.png pack.mcmeta LICENSE.md $WORK_DIR
 
 cd $WORK_DIR
 
-echo 'Minifying json...'
+if [[ -z COLLECTCRUFT ]]; then
+    echo 'Collecting cruft...'
+    ../collectCruft
+fi
 
 if [[ -z NOMINIFY ]]; then
+    echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
     do
         "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
@@ -102,7 +115,7 @@ echo "" >> $BUILDINFO
 echo 'Buiding...'
 cd $WORK_DIR 
 zip -qr "$ZIPNAME" *
-mv "$ZIPNAME" ..
+mv "$ZIPNAME" $COPY_DIR
 cd ..
 
 echo 'Cleaning up...'
