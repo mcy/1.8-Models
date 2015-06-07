@@ -1,5 +1,12 @@
-Xor's 1.8 Models: A Minecraft resource pack 
+Xor's 1.8 Models [![Build Status](http://ci.yawk.at/job/1.8-Models/badge/icon)](http://ci.yawk.at/job/1.8-Models/)
 ==========
+## Downloads
+
+[Download Page](http://models.xor.boole.io)
+
+[Jenkins](http://ci.yawk.at/job/1.8-Models/)
+
+## About
 
 Handcrafted 1.8 block/item models (handcrafted := writting the json by hand).
 This project may potentially begin using https://github.com/MrCrayfish/ModelCreator once it's stable.

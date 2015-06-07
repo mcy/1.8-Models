@@ -58,13 +58,13 @@ echo 'Preparing workspace...'
 rm -rf $WORK_DIR
 mkdir $WORK_DIR
 
-cp -r assets $WORK_DIR
+cp -r src $WORK_DIR/assets
 
 cp pack.png pack.mcmeta LICENSE.md $WORK_DIR
 
 cd $WORK_DIR
 
-if [[ -z "$COLLECTCRUFT" ]]; then
+if [[ -n "$COLLECTCRUFT" ]]; then
     echo 'Collecting cruft...'
     ../collectCruft
 fi
