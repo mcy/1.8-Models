@@ -21,6 +21,14 @@ Note that `build` has some compilation flags, which are as follows:
   
   - `-noblockitems` - Disables custom icons for (most) block items, such as dirt being a sack of dirt in the inventory.
 
+## Contributing
+
+If you wanna contribute, I think that's cool! Just remember you'll be contributing under the terms of the license. PRs welcome.
+
+If you want a 'nice' development environment, I suggest running `git clone` in your `resourcepacks` directory, or symlinking
+the cloned repo to it. Then, run `ln -s src assets` in the repo root to make the directory a valid pack. The `.gitignore` will
+make git ignore this symlink.
+
 ## Notes
 
 "Official" channel: #think @ irc.spi.gt
