@@ -2,15 +2,15 @@
     "variants": {
         "east=none,north=none,south=none,west=none": { "model": "wire/none" },
 
-        "east=none,north=side,south=none,west=none": { "model": "wire/one" },
-        "east=none,north=none,south=side,west=none": { "model": "wire/one", "y": 180 },
-        "east=side,north=none,south=none,west=none": { "model": "wire/one", "y": 90 },
-        "east=none,north=none,south=none,west=side": { "model": "wire/one", "y": 270 },
+        "east=none,north=side,south=none,west=none": { "model": "wire/line" },
+        "east=none,north=none,south=side,west=none": { "model": "wire/line" },
+        "east=side,north=none,south=none,west=none": { "model": "wire/line", "y": 90 },
+        "east=none,north=none,south=none,west=side": { "model": "wire/line", "y": 90 },
 
-        "east=none,north=up,south=none,west=none": { "model": "wire/one_up" },
-        "east=none,north=none,south=up,west=none": { "model": "wire/one_up", "y": 180 },
-        "east=up,north=none,south=none,west=none": { "model": "wire/one_up", "y": 90 },
-        "east=none,north=none,south=none,west=up": { "model": "wire/one_up", "y": 270 },
+        "east=none,north=up,south=none,west=none": { "model": "wire/line_up_one" },
+        "east=none,north=none,south=up,west=none": { "model": "wire/line_up_one", "y": 180 },
+        "east=up,north=none,south=none,west=none": { "model": "wire/line_up_one", "y": 90 },
+        "east=none,north=none,south=none,west=up": { "model": "wire/line_up_one", "y": 270 },
 
         "east=side,north=side,south=none,west=none":   { "model": "wire/ell" },
         "east=side,north=up,south=none,west=none":  { "model": "wire/ell_up_north" },
