@@ -15,7 +15,9 @@
         "wire1": "blocks/circuit/redstone_on",
         "wire2": "blocks/circuit/redstone_off",
         "wire3": "blocks/circuit/redstone_off",
-        "wire4": "blocks/circuit/redstone_off"
+        "wire4": "blocks/circuit/redstone_off",
+
+        "wireblocked": "blocks/circuit/redstone_off"
     },
 
     "elements": [
@@ -59,6 +61,34 @@
                 "east": {"uv": [13, 10.01, 16, 13], "texture": "#cable_side"},
                 "west": {"uv": [0, 10.01, 3, 13], "texture": "#cable_side"},
                 "south": { "uv": [6, 4, 10, 7], "texture": "#cable_side" }
+            }
+        },
+
+        {
+            "comment": "side wire",
+            "from": [0, 0.01, 7],
+            "to": [2, 2, 9],
+            "faces": {
+                "up": {"texture": "#wireblocked"},
+                "down": {"texture": "#wireblocked"},
+                "north": {"texture": "#wireblocked"},
+                "south": {"texture": "#wireblocked"},
+                "east": {"texture": "#wireblocked"},
+                "west": {"texture": "#wireblocked"}
+            }
+        },
+
+        {
+            "comment": "side wire",
+            "from": [14, 0.01, 7],
+            "to": [16, 2, 9],
+            "faces": {
+                "up": {"texture": "#wireblocked"},
+                "down": {"texture": "#wireblocked"},
+                "north": {"texture": "#wireblocked"},
+                "south": {"texture": "#wireblocked"},
+                "east": {"texture": "#wireblocked"},
+                "west": {"texture": "#wireblocked"}
             }
         },
 

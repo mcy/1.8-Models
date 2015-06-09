@@ -59,12 +59,50 @@
         },
 
         {
+            "comment": "side wire",
+            "from": [-0.01, 0.01, 6],
+            "to": [3, 3, 10],
+            "faces": {
+                "west": {"uv": [6, 13.01, 10, 16], "texture": "#cable_side"},
+                "up": { "uv": [6, 4, 10, 6.99], "texture": "#cable_side", "rotation": 90 },
+                "down": { "uv": [6, 14, 10, 16], "texture": "#cable_top" },
+                "south": {"uv": [13, 10.01, 16, 13], "texture": "#cable_side"},
+                "north": {"uv": [0, 10.01, 3, 13], "texture": "#cable_side"},
+                "east": { "uv": [6, 4, 10, 7], "texture": "#cable_side" }
+            }
+        },
+
+        {
+            "comment": "side wire",
+            "from": [13, 0.01, 6],
+            "to": [16.01, 3, 10],
+            "faces": {
+                "east": {"uv": [6, 13.01, 10, 16], "texture": "#cable_side"},
+                "up": { "uv": [6, 4, 10, 6.99], "texture": "#cable_side", "rotation": 270 },
+                "down": { "uv": [6, 14, 10, 16], "texture": "#cable_top" },
+                "south": {"uv": [13, 10.01, 16, 13], "texture": "#cable_side"},
+                "north": {"uv": [0, 10.01, 3, 13], "texture": "#cable_side"},
+                "west": { "uv": [6, 4, 10, 7], "texture": "#cable_side" }
+            }
+        },
+
+        {
             "comment": "wire inside",
             "from": [7, 0, -0.01],
             "to": [9, 2, 16.01],
             "faces": {
                 "north": {"texture": "#wire"},
                 "south": {"texture": "#wire"}
+            }
+        },
+
+        {
+            "comment": "wire inside",
+            "from": [-0.01, 0, 7],
+            "to": [16.01, 2, 9],
+            "faces": {
+                "east": {"texture": "#wire"},
+                "west": {"texture": "#wire"}
             }
         },
 
@@ -77,11 +115,11 @@
                 "south": {"uv": [0, 0, 6, 12], "texture": "#tube"},
                 "east": {"uv": [0, 0, 6, 12], "texture": "#tube"},
                 "west": {"uv": [0, 0, 6, 12], "texture": "#tube"},
-                "up": {"uv": [6, 0, 12, 6], "texture": "#tube"}
+                "up": {"uv": [6, 6, 12, 12], "texture": "#tube"}
             }
         },
 
-        {
+        /*{
             "comment": "tube inside",
             "from": [10.9, 13, 12.4],
             "to": [5.1, 1, 6.6],
@@ -92,7 +130,7 @@
                 "west": {"uv": [0, 0, 6, 12], "texture": "#tube", "rotation": 180},
                 "up": {"uv": [6, 0, 12, 6], "texture": "#tube"}
             }
-        },
+        },*/
 
         {
             "comment": "tube bottom",
@@ -103,7 +141,7 @@
             }
         },
 
-        {
+        /*{
             "comment": "tube cap",
             "from": [6, 13, 7.5],
             "to": [10, 14, 11.5],
@@ -114,7 +152,7 @@
                 "east": {"uv": [0, 0, 4, 1], "texture": "#tube"},
                 "west": {"uv": [0, 0, 4, 1], "texture": "#tube"}
             }
-        },
+        },*/
 
         {
             "comment": "fillament",
