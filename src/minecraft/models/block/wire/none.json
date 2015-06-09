@@ -2,8 +2,8 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "items/powder/redstone",
-        "top": "redstone/redstone_top",
-        "side": "redstone/redstone_side"
+        "top": "blocks/circuit/redstone_top",
+        "side": "blocks/circuit/redstone_side"
     },
     "elements": [
         {

@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/door_jungle_lower",
-        "inner": "blocks/door_jungle_inner",
-        "all": "blocks/door_jungle_lower"
+        "particle": "blocks/door/door_jungle_lower",
+        "inner": "blocks/door/door_jungle_inner",
+        "all": "blocks/door/door_jungle_lower"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

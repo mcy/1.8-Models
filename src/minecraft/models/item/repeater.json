@@ -1,0 +1,18 @@
+{
+    "parent": "block/repeater/repeater",
+    "display": {
+        "gui": {
+            "translation": [0, 1.8, 0],
+            "rotation": [0, 90, 0],
+            "scale": [1.1, 1.1, 1.1]
+        },
+        "thirdperson": {
+            "rotation": [ 10, -45, 170 ],
+            "translation": [ 0, 0.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson": {
+            "translation": [0, 4.5, 0]
+        }
+    }
+}

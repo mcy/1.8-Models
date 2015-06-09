@@ -1,0 +1,10 @@
+{
+    "parent": "block/repeater/repeater",
+    "textures": {
+        "wire": "blocks/circuit/redstone_on",
+        "wire1": "blocks/circuit/redstone_on",
+        "wire2": "blocks/circuit/redstone_off",
+        "wire3": "blocks/circuit/redstone_off",
+        "wire4": "blocks/circuit/redstone_off"
+    }
+}
