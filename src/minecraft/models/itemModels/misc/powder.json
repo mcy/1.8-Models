@@ -1,4 +1,7 @@
 {
+    "textures": {
+        "label_icon": "null"
+    },
     "elements": [
         {
             "comment": "main bag body",
@@ -19,6 +22,14 @@
             "to": [ 13.07, 9.690000000000001, 1.0709999999999997 ],
             "faces": {
                 "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#label" }
+            }
+        },
+        {
+            "comment": "label",
+            "from": [ 2.9299999999999997, -0.45000000000000107, 1.0009999999999997 ],
+            "to": [ 13.07, 9.690000000000001, 1.0009999999999997 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#label_icon" }
             }
         },
         {
@@ -199,5 +210,26 @@
                 "south": { "uv": [ 1, 10, 3, 12 ], "texture": "#material" }
             }
         }
-    ]
+    ],
+    "display": {
+        "thirdperson": {
+            "rotation": [ 120, -225, 10 ],
+            "translation": [ 0, 2.25, -1 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "firstperson": {
+            "rotation": [ 20, -135, -20 ],
+            "translation": [ 0, 4, 3 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "gui": {
+            "scale": [0.7, 0.7, 0.7],
+            "translation": [1, 0, 0]
+        },
+        "fixed": {
+            "rotation": [-15, 30, -15],
+            "scale": [1.2, 1.2, 1.2],
+            "translation": [1, 1, -2]
+        }
+    }
 }

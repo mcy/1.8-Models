@@ -1,18 +1,6 @@
 {
-    "parent": "itemModels/stew/bowl",
-    "display": {
-        "thirdperson": {
-            "rotation": [ -140, 0, 0 ],
-            "translation": [ 0, 2, -3 ],
-            "scale": [ 0.25, 0.25, 0.25 ]
-        },
-        "firstperson": {
-            "rotation": [ 0, -135, -5 ],
-            "translation": [ 0, 4, 2 ],
-            "scale": [ 1.1, 1.1, 1.1 ]
-        },
-        "gui": {
-            "scale": [0.8, 0.8, 0.8]
-        }
+    "parent": "itemModels/food/stew",
+    "textures": {
+        "inside": "items/food/bowl"
     }
 }

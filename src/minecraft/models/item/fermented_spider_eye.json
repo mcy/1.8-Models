@@ -1,0 +1,6 @@
+{
+    "parent": "itemModels/alchemy/vial",
+    "textures": {
+        "fluid": "items/food/fermented_eye"
+    }
+}

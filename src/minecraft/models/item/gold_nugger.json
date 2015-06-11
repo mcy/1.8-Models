@@ -1,6 +1,0 @@
-{
-	"parent": "itemModels/alchemy/vial",
-	"textures": {
-		"fluid": "items/powder/gold"
-	}
-}

@@ -123,5 +123,25 @@
                 "south": { "uv": [ 6.25, 10.0, 9.75, 11.0 ], "texture": "#quartz" }
             }
         }
-    ]
+    ],
+    "display": {
+        "gui": {
+            "rotation": [45, -105, 10],
+            "scale": [0.8, 0.8, 0.8]
+        },
+        "thirdperson": {
+            "rotation": [ 80, -45, 170 ],
+            "translation": [ 0, 1.8, -1.2 ],
+            "scale": [ 0.175, 0.175, 0.175 ]
+        },
+        "firstperson": {
+            "translation": [0, 4.5, 0],
+            "rotation": [0, 45, -20]
+        },
+        "fixed": {
+            "rotation": [20, 20, -30],
+            "scale": [1.2, 1.2, 1.2],
+            "translation": [0, 0, -3]
+        }
+    }
 }

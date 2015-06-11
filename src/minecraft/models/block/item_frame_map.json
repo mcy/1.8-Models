@@ -1,6 +1,6 @@
 {
     "textures": {
-        "particle": "blocks/planks/birch",
+        "particle": "blocks/plank/birch",
         "wood": "blocks/plank/birch",
         "back": "map/map_background"
     },

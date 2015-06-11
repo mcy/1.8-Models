@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/misc/powder_doublelabel",
+    "parent": "itemModels/misc/powder",
     "textures": {
         "material": "items/powder/seeds/melon",
         "bag": "items/powder/bag/bag_white",
@@ -7,21 +7,5 @@
         "string": "items/powder/string/string_red",
         "label": "items/powder/label/blank_label",
         "label_icon": "items/powder/seeds/seeds_melon"
-    },
-    "display": {
-        "thirdperson": {
-            "rotation": [ 120, -225, 10 ],
-            "translation": [ 0, 2.25, -1 ],
-            "scale": [ 0.15, 0.15, 0.15 ]
-        },
-        "firstperson": {
-            "rotation": [ 20, -135, -20 ],
-            "translation": [ 0, 4, 3 ],
-            "scale": [ 0.7, 0.7, 0.7 ]
-        },
-        "gui": {
-            "scale": [0.7, 0.7, 0.7],
-            "translation": [1, 0, 0]
-        }
     }
 }

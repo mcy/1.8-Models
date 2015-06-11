@@ -50,5 +50,12 @@
                 "down":  { "uv": [ 0, 12.5, 7, 16 ], "texture": "#book", "rotation": 0 }
             }
         }
-    ]
+    ],
+    "display": {
+        "fixed": {
+            "rotation": [10, 10, 0],
+            "scale": [1.2, 1.2, 1.2],
+            "translation": [0, 0, -3]
+        }
+    }
 }

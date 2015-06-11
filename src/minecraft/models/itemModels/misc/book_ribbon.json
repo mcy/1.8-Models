@@ -86,5 +86,12 @@
                 "south": { "uv": [ 0, 0, 4, 4 ], "texture": "#lock" }
             }
         }
-    ]
+    ],
+    "display": {
+        "fixed": {
+            "rotation": [10, 10, 0],
+            "scale": [1.2, 1.2, 1.2],
+            "translation": [0, 0, -3]
+        }
+    }
 }

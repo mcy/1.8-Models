@@ -121,5 +121,12 @@
                 "south": { "uv": [ 3, 13, 5, 15 ], "texture": "#feather" }
             }
         }
-    ]
+    ],
+    "display": {
+        "fixed": {
+            "rotation": [10, 10, 0],
+            "scale": [1.2, 1.2, 1.2],
+            "translation": [0, 0, -3]
+        }
+    }
 }
