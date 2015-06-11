@@ -62,7 +62,6 @@ lime_wool.json
 magenta_stained_hardened_clay.json
 magenta_wool.json
 mossy_cobblestone.json
-mycelium
 mycelium.json
 nether_brick.json
 nether_brick_slab.json
