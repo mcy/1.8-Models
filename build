@@ -73,7 +73,7 @@ if [[ -z "$NOMINIFY" ]]; then
     echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
     do
-        sed -nf "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
         cp $f'.tmp' $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
@@ -82,7 +82,7 @@ if [[ -z "$NOMINIFY" ]]; then
 
     for f in `find assets -name \*.mcmeta -print`
     do
-        sed -nf "$TOP_DIR"/comments $f > $f'.tmp' #2> /dev/null
+        sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
         cp $f'.tmp' $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
         cp $f'.tmp' $f 2> /dev/null
@@ -95,7 +95,7 @@ then
     echo "Removing block items..."
     BACK_DIR=`pwd`
     cd assets/minecraft/models/item
-    for f in `cat "$TOP_DIR"/blockfiles.txt`; do rm $f; done
+    for f in `cat "$TOP_DIR"/blockfiles.txt`; do rm $f 2> /dev/null; done
     cd "$BACK_DIR"
 fi
 
@@ -111,6 +111,11 @@ fi
 echo "-- This is a bunch of random information about the build, you probably don't care about it." > $BUILDINFO
 git show -q >> $BUILDINFO
 echo "" >> $BUILDINFO
+echo 'Built on '`date` >> $BUILDINFO
+echo `if [[ -n "$NOBLOCKITEMS" ]]; then echo "Without"; else echo "With"; fi`' block items.' >> $BUILDINFO
+if [[ -n "$NOMINIFY" ]]; then echo "Unminified." >> $BUILDINFO; fi
+echo 'Workspace size: '`du -hs .` >> $BUILDINFO
+echo "--" >> $BUILDINFO
 # #
 
 echo 'Buiding...'
