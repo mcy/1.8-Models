@@ -766,5 +766,29 @@
                 "south": { "uv": [ 7.1, 4.699999999999999, 8.9, 7.5 ], "texture": "#wire" }
             }
         }
-    ]
+    ],
+
+    "display": {
+        "gui": {
+            "translation": [0, 1.8, 0],
+            "rotation": [0, 90, 0],
+            "scale": [1.1, 1.1, 1.1]
+        },
+        "thirdperson": {
+            "rotation": [ 10, -45, 170 ],
+            "translation": [ 0, 0.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson": {
+            "translation": [0, 4.5, 0]
+        },
+        "fixed": {
+            "rotation": [90, 180, 0],
+            "translation": [0, 0, -7],
+            "scale": [2, 2, 2]
+        },
+        "ground": {
+            "scale": [2,2,2]
+        }
+    }
 }
