@@ -1,32 +1,10 @@
 {
-  "parent": "item/meshes/tools/sword_simple",
+  "parent": "itemModels/tools/sword_simple",
   "textures": {
     "particle": "items/tools/wood_blade",
     "handle": "items/tools/handle",
     "blade": "items/tools/wood_blade",
     "hilt": "items/tools/wood_hilt",
     "gem": "items/tools/wood_gem"
-  },
-  "display": {
-    "thirdperson": {
-      "rotation": [ 10, 90, -90 ],
-      "translation": [ 0, 0.9, -4.5 ],
-      "scale": [ 0.5, 0.5, 0.5 ]
-    },
-    "firstperson": {
-      "rotation": [ 0, -135, -20 ],
-      "translation": [ 0, 4, 2 ],
-      "scale": [ 0.85, 0.85, 0.85 ]
-    },
-    "head": {
-      "rotation": [ 0, -135, -20 ],
-      "translation": [ 0, 4, 2 ],
-      "scale": [ 0.85, 0.85, 0.85 ]
-    },
-    "gui": {
-      "rotation": [ 0, -35, 45 ],
-      "translation": [ 0, 0, 0 ],
-      "scale": [ 0.7, 0.7, 0.7 ]
-    }
   }
 }

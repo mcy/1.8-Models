@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/jar_double",
+	"parent": "itemModels/alchemy/jar_double",
 	"textures": {
 		"contents": "items/potion/egg_fluid",
         "contents2": "items/potion/fluid_overlay",

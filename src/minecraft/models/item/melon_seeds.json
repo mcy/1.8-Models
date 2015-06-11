@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/misc/powder_doublelabel",
+    "parent": "itemModels/misc/powder_doublelabel",
     "textures": {
         "material": "items/powder/seeds/melon",
         "bag": "items/powder/bag/bag_white",

@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/vial",
+	"parent": "itemModels/alchemy/vial",
 	"textures": {
 		"fluid": "items/powder/fire_charge"
 	}

@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/record",
+	"parent": "itemModels/misc/record",
 	"textures": {
 		"label": "blocks/jukebox/labels/13"
 	}

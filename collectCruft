@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FILES=`find assets -name \*_.json -print`
-FILES=$FILES' '`find assets -name \*copy\*.json -print`
+FILES=`find src -name \*_.json -print`
+FILES=$FILES' '`find src -name \*copy\*.json -print`
 
 md cruft 2> /dev/null
 

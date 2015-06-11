@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/powder",
+	"parent": "itemModels/misc/powder",
 	"textures": {
 		"material": "items/powder/gunpowder",
 		"bag": "items/powder/bag/bag_black",

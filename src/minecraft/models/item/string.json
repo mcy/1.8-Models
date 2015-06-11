@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/string",
+	"parent": "itemModels/misc/string",
 	"display": {
 		"gui": {
 			"rotation": [10, -35, 10],

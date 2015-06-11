@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/vial",
+	"parent": "itemModels/alchemy/vial",
 	"textures": {
 		"fluid": "items/powder/gunpowder",
 		"stopper": "items/potion/stopper_white"

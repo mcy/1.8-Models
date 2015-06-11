@@ -1,0 +1,176 @@
+{
+    "textures": {
+        "leather": "items/misc/leather/leather",
+        "particle": "items/misc/leather/leather",
+        "handle": "items/misc/leather/stick",
+        "knife": "items/misc/leather/knife",
+        "bucket": "items/misc/bucket",
+        "contents": "blocks/fluids/tannin"
+    },
+    "elements": [
+        {
+            "comment": "bottom sheet",
+            "from": [ -4.800000000000001, 3.1999999999999993, -4.800000000000001 ],
+            "to": [ 20.8, 4.8, 20.8 ],
+            "rotation": { "origin": [ 8.0, 16.0, 8.0 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#leather" },
+                "down":  { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#leather" },
+                "east":  { "uv": [ 0.0, 0.0, 16.0, 1.0 ], "texture": "#leather" },
+                "west":  { "uv": [ 0.0, 0.0, 16.0, 1.0 ], "texture": "#leather" },
+                "north": { "uv": [ 0.0, 0.0, 16.0, 1.0 ], "texture": "#leather" },
+                "south": { "uv": [ 0.0, 0.0, 16.0, 1.0 ], "texture": "#leather" }
+            }
+        },
+        {
+            "comment": "bottom sheet",
+            "from": [ -4.800000000000001, 4.8, -4.800000000000001 ],
+            "to": [ 3.1999999999999993, 6.4, 20.8 ],
+            "faces": {
+                "up":    { "uv": [ 0.0, 0.0, 5.0, 16.0 ], "texture": "#leather" },
+                "down":  { "uv": [ 0.0, 0.0, 5.0, 16.0 ], "texture": "#leather" },
+                "west":  { "uv": [ 0.0, 1.0, 16.0, 2.0 ], "texture": "#leather" },
+                "north": { "uv": [ 0.0, 1.0, 5.0, 2.0 ], "texture": "#leather" },
+                "south": { "uv": [ 0.0, 1.0, 5.0, 2.0 ], "texture": "#leather" }
+            }
+        },
+        {
+            "comment": "bottom sheet",
+            "from": [ 3.1999999999999993, 4.8, -4.784000000000001 ],
+            "to": [ 12.8, 6.4, 20.784 ],
+            "rotation": { "origin": [ 3.1999999999999993, 4.8, -4.800000000000001 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 5.0, 0.01, 11.0, 15.99 ], "texture": "#leather" },
+                "down":  { "uv": [ 5.0, 0.01, 11.0, 15.99 ], "texture": "#leather" },
+                "north": { "uv": [ 5.0, 1.0, 11.0, 2.0 ], "texture": "#leather" },
+                "south": { "uv": [ 5.0, 1.0, 11.0, 2.0 ], "texture": "#leather" }
+            }
+        },
+        {
+            "comment": "bottom sheet",
+            "from": [ 10.469243512108353, 5.12, -4.800000000000001 ],
+            "to": [ 12.069243512108352, 10.07376095070486, 20.8 ],
+            "rotation": { "origin": [ 12.069243512108352, 8.473760950704861, -4.800000000000001 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "east":  { "uv": [ 0.0, 1.2, 16.0, 4.296100594190539 ], "texture": "#leather" },
+                "west":  { "uv": [ 0.0, 1.2, 16.0, 4.296100594190539 ], "texture": "#leather" },
+                "north": { "uv": [ 9.54327719506772, 1.2, 10.54327719506772, 4.296100594190539 ], "texture": "#leather" },
+                "south": { "uv": [ 9.54327719506772, 1.2, 10.54327719506772, 4.296100594190539 ], "texture": "#leather" }
+            }
+        },
+        {
+            "comment": "bottom sheet",
+            "from": [ 11.990965122806983, 4.8, -4.784000000000001 ],
+            "to": [ 20.8, 6.4, 20.784 ],
+            "faces": {
+                "up":    { "uv": [ 10.494353201754365, 0.01, 16.0, 15.99 ], "texture": "#leather" },
+                "down":  { "uv": [ 10.494353201754365, 0.01, 16.0, 15.99 ], "texture": "#leather" },
+                "east":  { "uv": [ 0.01, 1.0, 15.99, 2.0 ], "texture": "#leather" },
+                "north": { "uv": [ 10.494353201754365, 1.0, 16.0, 2.0 ], "texture": "#leather" },
+                "south": { "uv": [ 10.494353201754365, 1.0, 16.0, 2.0 ], "texture": "#leather" }
+            }
+        },
+        {
+            "comment": "knife handle",
+            "from": [ -1.6000000000000014, 6.4, 6.4 ],
+            "to": [ 0.0, 8.0, 12.8 ],
+            "rotation": { "origin": [ -0.8000000000000007, 3.1999999999999993, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up":    { "uv": [ 2.0, 7.0, 3.0, 11.0 ], "texture": "#handle" },
+                "west":  { "uv": [ 7.0, 2.0, 11.0, 3.0 ], "texture": "#handle" },
+                "east":  { "uv": [ 7.0, 2.0, 11.0, 3.0 ], "texture": "#handle" },
+                "north": { "uv": [ 2.0, 2.0, 3.0, 3.0 ], "texture": "#handle" },
+                "south": { "uv": [ 2.0, 2.0, 3.0, 3.0 ], "texture": "#handle" }
+            }
+        },
+        {
+            "comment": "knife blade",
+            "from": [ -1.5200000000000014, 7.040000000000001, -1.6000000000000014 ],
+            "to": [ -0.3200000000000003, 7.359999999999999, 6.4 ],
+            "rotation": { "origin": [ -0.8000000000000007, 3.1999999999999993, 8.0 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up":    { "uv": [ 2.05, 2.0, 2.8, 7.0 ], "texture": "#knife" },
+                "down":  { "uv": [ 2.05, 2.0, 2.8, 7.0 ], "texture": "#knife" },
+                "west":  { "uv": [ 2.0, 2.4, 7.0, 2.6 ], "texture": "#knife" },
+                "east":  { "uv": [ 2.0, 2.4, 7.0, 2.6 ], "texture": "#knife" },
+                "north": { "uv": [ 2.05, 2.4, 2.8, 2.6 ], "texture": "#knife" },
+                "south": { "uv": [ 2.05, 2.4, 2.8, 2.6 ], "texture": "#knife" }
+            }
+        },
+        {
+            "comment": "outside",
+            "from": [ 15.040000000000001, 6.4, -0.9599999999999991 ],
+            "to": [ 20.16, 12.8, 4.159999999999999 ],
+            "faces": {
+                "up":    { "uv": [ 8, 0, 16, 8 ], "texture": "#bucket" },
+                "down":  { "uv": [ 8, 8, 16, 16 ], "texture": "#bucket" },
+                "east":  { "uv": [ 0, 0, 8, 10 ], "texture": "#bucket" },
+                "west":  { "uv": [ 0, 0, 8, 10 ], "texture": "#bucket" },
+                "north": { "uv": [ 0, 0, 8, 10 ], "texture": "#bucket" },
+                "south": { "uv": [ 0, 0, 8, 10 ], "texture": "#bucket" }
+            }
+        },
+        {
+            "comment": "inside",
+            "from": [ 19.52, 12.8, 3.5199999999999987 ],
+            "to": [ 15.680000000000001, 7.040000000000001, -0.3200000000000003 ],
+            "faces": {
+                "up":    { "uv": [ 9, 9, 15, 15 ], "texture": "#bucket" },
+                "east":  { "uv": [ 1, 9, 7, 0 ], "texture": "#bucket" },
+                "west":  { "uv": [ 1, 9, 7, 0 ], "texture": "#bucket" },
+                "north": { "uv": [ 1, 9, 7, 0 ], "texture": "#bucket" },
+                "south": { "uv": [ 1, 9, 7, 0 ], "texture": "#bucket" }
+            }
+        },
+        {
+            "comment": "contents",
+            "from": [ 15.680000000000001, 11.84, -0.3200000000000003 ],
+            "to": [ 19.52, 11.84, 3.5199999999999987 ],
+            "faces": {
+                "up":    { "uv": [ 5.0, 5.0, 11.0, 11.0 ], "texture": "#contents" }
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [ 14.69652752, 11.52, -1.6000000000000014 ],
+            "to": [ 17.92, 12.16, -0.9599999999999991 ],
+            "rotation": { "origin": [ 17.6, 11.84, -3.5200000000000014 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "down":  { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "north": { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "south": { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "east":  { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" },
+                "west":  { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" }
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [ 14.69652752, 11.52, 4.159999999999999 ],
+            "to": [ 17.92, 12.16, 4.8 ],
+            "rotation": { "origin": [ 17.6, 11.84, -3.5200000000000014 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "down":  { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "north": { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "south": { "uv": [ 0, 10, 5, 11 ], "texture": "#bucket" },
+                "east":  { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" },
+                "west":  { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" }
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [ 14.05652752, 11.52, -1.6000000000000014 ],
+            "to": [ 14.69652752, 12.16, 4.8 ],
+            "rotation": { "origin": [ 17.6, 11.84, -3.5200000000000014 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up":    { "uv": [ 0, 10, 6, 11 ], "texture": "#bucket", "rotation": 90 },
+                "down":  { "uv": [ 0, 10, 6, 11 ], "texture": "#bucket", "rotation": 90 },
+                "east":  { "uv": [ 0, 10, 6, 11 ], "texture": "#bucket" },
+                "west":  { "uv": [ 0, 10, 6, 11 ], "texture": "#bucket" },
+                "north": { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" },
+                "south": { "uv": [ 0, 10, 1, 11 ], "texture": "#bucket" }
+            }
+        }
+    ]
+}

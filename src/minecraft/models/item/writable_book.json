@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/book_quill",
+	"parent": "itemModels/misc/book_quill",
 	"display": {
 		"gui": {
 			"rotation": [90, -90, 0],

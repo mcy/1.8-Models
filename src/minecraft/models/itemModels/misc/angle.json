@@ -1,0 +1,48 @@
+{
+    "elements": [
+        {
+            "comment": "stalk",
+            "from": [ 2.879999999999999, 1.2400000000000002, 5.12 ],
+            "to": [ 11.2, 1.88, 5.76 ],
+            "rotation": { "origin": [ 3.84, 1.5599999999999996, 0.3199999999999985 ], "axis": "z", "angle": 0 },
+            "faces": {
+                "north": { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather", "rotation": 270 },
+                "up":    { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather", "rotation": 90 },
+                "west":  { "uv": [ 1.01, 15, 1.99, 16 ], "texture": "#feather" },
+                "down":  { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather", "rotation": 90 },
+                "east":  { "uv": [ 1.01, 3.01, 1.99, 4 ], "texture": "#feather" },
+                "south": { "uv": [ 1.01, 3.01, 1.99, 16 ], "texture": "#feather", "rotation": 270 }
+            }
+        },
+        {
+            "comment": "fibers",
+            "from": [ 3.84, -5.16, 5.376 ],
+            "to": [ 10.879999999999999, 1.88, 5.504 ],
+            "rotation": { "origin": [ 3.84, 1.5599999999999996, 0.3199999999999985 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "north": { "uv": [ 15, 1, 4, 12 ], "texture": "#feather", "rotation": 180 },
+                "south": { "uv": [ 4, 1, 15, 12 ], "texture": "#feather", "rotation": 0 }
+            }
+        },
+        {
+            "comment": "fibers",
+            "from": [ 3.5199999999999996, -5.480000000000002, 5.376 ],
+            "to": [ 10.559999999999999, 1.5599999999999996, 5.504 ],
+            "rotation": { "origin": [ 3.84, 1.5599999999999996, 0.3199999999999985 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "south": { "uv": [ 15, 1, 4, 12 ], "texture": "#feather", "rotation": 270 },
+                "north": { "uv": [ 4, 1, 15, 12 ], "texture": "#feather", "rotation": 270 }
+            }
+        },
+        {
+            "comment": "tip",
+            "from": [ 11.52, 0.9199999999999999, 5.311999999999999 ],
+            "to": [ 12.8, 2.2, 5.568 ],
+            "rotation": { "origin": [ 12.16, 1.5599999999999996, 0.3199999999999985 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "south": { "uv": [ 3, 13, 5, 15 ], "texture": "#feather", "rotation": 270 },
+                "north": { "uv": [ 3, 13, 5, 15 ], "texture": "#feather", "rotation": 270 }
+            }
+        }
+    ]
+}

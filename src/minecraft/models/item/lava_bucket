@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/bucket",
+	"parent": "itemModels/misc/bucket",
     "textures": {
         "contents": "blocks/fluid/lava"
     },

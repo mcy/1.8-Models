@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/mineral/ingot",
+    "parent": "itemModels/mineral/ingot",
     "textures": {
         "metal": "items/mineral/iron_rough"
     },

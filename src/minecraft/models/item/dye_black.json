@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/ink_sac",
+	"parent": "itemModels/misc/ink_sac",
 	 "display": {
         "thirdperson": {
             "rotation": [ -140, -45, 0 ],

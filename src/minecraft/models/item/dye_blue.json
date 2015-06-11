@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/dye",
+	"parent": "itemModels/misc/dye",
 	"textures": {
 		"material": "items/powder/dye/blue",
 		"string": "items/powder/string/string_blue",

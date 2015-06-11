@@ -1,5 +1,5 @@
 {
-    "parent": "block/crafting_table/crafting_table2",
+    "parent": "block/crafting_table/crafting_table",
     "display": {
     	"gui": {
     		"rotation": [0, -90, 0]

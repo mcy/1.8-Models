@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/nametag",
+	"parent": "itemModels/misc/nametag",
 	"display": {
 		"gui": {
 			"rotation": [50, -45, 45],

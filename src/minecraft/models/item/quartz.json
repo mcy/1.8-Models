@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/mineral/quartz_crystal",
+    "parent": "itemModels/mineral/quartz_crystal",
     "display": {
         "gui": {
             "rotation": [45, -105, 10],

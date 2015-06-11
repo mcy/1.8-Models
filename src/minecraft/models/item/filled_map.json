@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/map",
+	"parent": "itemModels/misc/map",
 	"display": {
 		"gui": {
 			"rotation": [30, -45, 0],

@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/rabbit_foot",
+	"parent": "itemModels/misc/rabbit_foot",
 	"display": {
 		"gui": {
 			"rotation": [70, -60, 30]

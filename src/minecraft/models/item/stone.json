@@ -1,25 +1,9 @@
 {
-	"parent": "item/meshes/block/sack",
+	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/stone",
 		"bag": "items/powder/bag/bag_mono",
 		"bag_rim": "items/powder/bag/rim_mono",
 		"string": "items/powder/string/string_black"
-	},
-	"display": {
-		"thirdperson": {
-            "rotation": [ 0, 90, -70 ],
-            "translation": [ 0, 1.25, -2 ],
-            "scale": [ 0.35, 0.35, 0.35 ]
-        },
-        "firstperson": {
-            "rotation": [ 0, 0, 90 ],
-            "translation": [ 0, 4, 3 ],
-            "scale": [ 0.7, 0.7, 0.7 ]
-        },
-        "gui": {
-            "scale": [0.7, 0.7, 0.7],
-            "translation": [ 0.75, 0, 0]
-        }
 	}
 }

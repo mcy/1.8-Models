@@ -1,1 +1,1 @@
-{ "parent": "item/meshes/block/chiseled", "textures": { "top": "blocks/polished/clay_pink", "side": "blocks/polished/clay_pink", "bottom": "blocks/polished/clay_pink" } }
+{ "parent": "itemModels/block/chiseled", "textures": { "top": "blocks/polished/clay_pink", "side": "blocks/polished/clay_pink", "bottom": "blocks/polished/clay_pink" } }

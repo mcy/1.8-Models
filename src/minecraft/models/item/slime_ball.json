@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/jar",
+	"parent": "itemModels/alchemy/jar",
 	"textures": {
 		"contents": "items/misc/slime",
 		"icon": "items/misc/slimeball",

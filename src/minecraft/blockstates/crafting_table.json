@@ -2,7 +2,7 @@
     "variants": {
     	"normal": 
     	[
-	    	{ "model": "crafting_table/crafting_table2", "weight": 2}/*,
+	    	{ "model": "crafting_table/crafting_table", "weight": 2}/*,
 	        { "model": "crafting_table/crafting_table_saw" },
 	        { "model": "crafting_table/crafting_table_saw", "y": 90 },
 	        { "model": "crafting_table/crafting_table_saw", "y": 180 },

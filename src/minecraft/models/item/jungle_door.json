@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/door/jungle_door",
+	"parent": "itemModels/door/jungle_door",
 	"display": {
 		"thirdperson": {
             "rotation": [ 0, 90, -90 ],

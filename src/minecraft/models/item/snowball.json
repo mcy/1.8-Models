@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/sphere",
+	"parent": "itemModels/misc/sphere",
 	"textures": {
 		"material": "blocks/soil/snow",
 		"particle": "blocks/soil/snow"

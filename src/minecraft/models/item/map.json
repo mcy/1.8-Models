@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/map",
+	"parent": "itemModels/misc/map",
 	"textures": {
 		"front": "items/misc/paper_map"
 	},

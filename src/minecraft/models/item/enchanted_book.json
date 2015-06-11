@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/book_ribbon",
+	"parent": "itemModels/misc/book_ribbon",
 	"display": {
 		"gui": {
 			"rotation": [90, -90, 0],

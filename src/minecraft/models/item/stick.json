@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/misc/rod",
+    "parent": "itemModels/misc/rod",
     "textures": {
         "material": "items/misc/stick",
         "particle": "items/misc/stick"

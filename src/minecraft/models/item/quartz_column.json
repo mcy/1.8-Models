@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/block/chiseled",
+    "parent": "itemModels/block/chiseled",
     "textures": {
         "top": "blocks/polished/quartz_pill_top",
         "side": "blocks/polished/quartz_pill_side",

@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/paper",
+	"parent": "itemModels/misc/paper",
 	"display": {
 		"gui": {
 			"rotation": [30, -45, 0],

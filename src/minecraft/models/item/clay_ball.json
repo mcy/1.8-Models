@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/powder",
+	"parent": "itemModels/misc/powder",
 	"textures": {
 		"material": "blocks/soil/clay",
 		"bag": "items/powder/bag/bag_grey",

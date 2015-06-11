@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/tools/bow_2",
+	"parent": "itemModels/tools/bow_2",
 	"textures": {
 		"stick": "items/tools/handle",
 		"string": "items/tools/string",

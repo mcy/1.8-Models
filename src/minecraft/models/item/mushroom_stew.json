@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/stew/mushroom_stew",
+    "parent": "itemModels/stew/mushroom_stew",
     "display": {
         "thirdperson": {
             "rotation": [ -140, 0, 0 ],

@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/stew/bowl",
+    "parent": "itemModels/stew/bowl",
     "display": {
         "thirdperson": {
             "rotation": [ -140, 0, 0 ],

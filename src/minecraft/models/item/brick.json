@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/brick",
+	"parent": "itemModels/misc/brick",
 	"textures": {
 		"brick": "items/misc/brick"
 	},

@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/bottle",
+	"parent": "itemModels/alchemy/bottle",
 	"textures": {
 		"fluid": "items/potion/empty"
 	},

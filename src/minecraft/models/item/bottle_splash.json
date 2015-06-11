@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/alchemy/splash",
+	"parent": "itemModels/alchemy/splash",
 	"display": {
         "thirdperson": {
             "rotation": [ 120, -225, 10 ],

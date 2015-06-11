@@ -1,5 +1,5 @@
 {
-    "parent": "item/meshes/misc/bone",
+    "parent": "itemModels/misc/bone",
     "display": {
         "thirdperson": {
             "rotation": [ 10, 90, -90 ],

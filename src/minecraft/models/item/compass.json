@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/compass",
+	"parent": "itemModels/misc/compass",
 
   "display": {
     "thirdperson": {

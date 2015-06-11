@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/door/acacia_door",
+	"parent": "itemModels/door/acacia_door",
 	"display": {
 		"thirdperson": {
             "rotation": [ 0, 90, -90 ],

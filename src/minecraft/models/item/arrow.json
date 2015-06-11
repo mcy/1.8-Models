@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/tools/arrow",
+	"parent": "itemModels/tools/arrow",
     "display": {
     "thirdperson": {
       "rotation": [ 91, -95, 180 ],

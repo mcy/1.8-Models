@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/rabbit_hide",
+	"parent": "itemModels/misc/rabbit_hide",
 	"display": {
 		"gui": {
 			"rotation": [30, -35, 10],

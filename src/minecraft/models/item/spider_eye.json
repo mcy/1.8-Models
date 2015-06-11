@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/food/spider_eye",
+	"parent": "itemModels/food/spider_eye",
 	"display": {
         "thirdperson": {
             "rotation": [ 80, -225, 10 ],

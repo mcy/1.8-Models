@@ -1,5 +1,5 @@
 {
-	"parent": "item/meshes/misc/feather",
+	"parent": "itemModels/misc/feather",
 	"display": {
 		"gui": {
 			"rotation": [-20, 140, 30],
