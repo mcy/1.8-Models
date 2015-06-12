@@ -1,0 +1,202 @@
+{
+    "elements": [
+        {
+            "comment": "silk",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 0.5, 16 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
+            "faces": {
+                "up": {"texture": "#silk"},
+                "down": {"texture": "#silk"},
+                "east": {"texture": "#silk"},
+                "west": {"texture": "#silk"},
+                "north": {"texture": "#silk"},
+                "south": {"texture": "#silk"}
+            }
+        },
+        {
+            "comment": "silk",
+            "from": [ 0, 0.5, 0 ], 
+            "to": [ 16, 1, 16 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up": {"texture": "#silk"},
+                "down": {"texture": "#silk"},
+                "east": {"texture": "#silk"},
+                "west": {"texture": "#silk"},
+                "north": {"texture": "#silk"},
+                "south": {"texture": "#silk"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 4, 1, 4 ], 
+            "to": [ 7, 4, 7 ], 
+            "rotation": { "origin": [ 5.5, 8, 5.5 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 9, 1, 3 ], 
+            "to": [ 12, 4, 6 ], 
+            "rotation": { "origin": [ 12.5, 8, 4.5 ], "axis": "y", "angle": 45 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 7, 1, 9 ], 
+            "to": [ 10, 4, 12 ], 
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 6, 4, 4 ], 
+            "to": [ 9, 7, 7 ], 
+            "rotation": { "origin": [ 12.5, 8, 4.5 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 3, 1, 5 ], 
+            "to": [ 5, 3, 7 ], 
+            "rotation": { "origin": [ 12.5, 8, 4.5 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 8, 1, 2 ], 
+            "to": [ 10, 3, 4 ], 
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 13, 1, 8 ], 
+            "to": [ 15, 3, 10 ], 
+            "rotation": { "origin": [ 12.5, 8, 4.5 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 8, 1, 11 ], 
+            "to": [ 9, 2, 12 ], 
+            "rotation": { "origin": [ 13.5, 8, 4.5 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 5, 1, 13 ], 
+            "to": [ 6, 2, 14 ], 
+            "rotation": { "origin": [ 13.5, 8, 4.5 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 9, 7, 7 ], 
+            "to": [ 10, 8, 8 ], 
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [ 8, 4, 10 ], 
+            "to": [ 9, 5, 11 ], 
+            "rotation": { "origin": [ 13.5, 8, 4.5 ], "axis": "y", "angle": -45 },
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "north": {"texture": "#gem"},
+                "south": {"texture": "#gem"}
+            }
+        }
+    ],
+    "display": {
+        "gui": {
+            "rotation": [-15, 0, -15],
+            "translation": [0, 2, 0]
+        },
+        "thirdperson": {
+            "rotation": [ 10, -45, 160 ],
+            "translation": [ 0, 0.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson": {
+            "translation": [0, 4, 0]
+        },
+        "fixed": {
+            "rotation": [ -50, -60, 40 ],
+            "scale": [1.6, 1.6, 1.6],
+            "translation": [1, 3, -8]
+        }
+    }
+}
