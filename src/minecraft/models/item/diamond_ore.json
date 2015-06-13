@@ -2,7 +2,7 @@
 	"parent": "itemModels/block/ore",
 	"textures": {
 		"material": "blocks/ore/diamond_ore",
-		"purified": "blocks/ore/diamond",
+		"purified": "items/mineral/diamond",
 		"label_icon": "blocks/ore/diamond_icon",
 		"bag": "items/powder/bag/bag_sea",
 		"bag_rim": "items/powder/bag/rim_sea",

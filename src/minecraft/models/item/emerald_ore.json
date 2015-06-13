@@ -2,7 +2,7 @@
 	"parent": "itemModels/block/ore",
 	"textures": {
 		"material": "blocks/ore/emerald_ore",
-		"purified": "blocks/ore/emerald",
+		"purified": "items/mineral/emerald",
 		"label_icon": "blocks/ore/emerald_icon",
 		"bag": "items/powder/bag/bag_purple",
 		"bag_rim": "items/powder/bag/rim_purple",
