@@ -69,6 +69,16 @@ if [[ -n "$COLLECTCRUFT" ]]; then
     ../collectCruft
 fi
 
+if [[ -n "$NOBLOCKITEMS" ]]
+then
+    echo "Removing block items..."
+    cd assets/minecraft/models/item
+    for f in `cat "$TOP_DIR"/blockfiles.txt`; do 
+        rm -f $f # 2> /dev/null
+    done
+    cd $TOP_DIR/$WORK_DIR
+fi
+
 if [[ -z "$NOMINIFY" ]]; then
     echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
@@ -88,15 +98,6 @@ if [[ -z "$NOMINIFY" ]]; then
         cp $f'.tmp' $f 2> /dev/null
         rm $f'.tmp' 2> /dev/null
     done
-fi
-
-if [[ -n "$NOBLOCKITEMS" ]]
-then
-    echo "Removing block items..."
-    BACK_DIR=`pwd`
-    cd assets/minecraft/models/item
-    for f in `cat "$TOP_DIR"/blockfiles.txt`; do rm $f 2> /dev/null; done
-    cd "$BACK_DIR"
 fi
 
 cd ..
