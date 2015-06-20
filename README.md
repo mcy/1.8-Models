@@ -17,9 +17,18 @@ This project's goal is to replace as many of the single-cube/builtin-generated m
 
 You can clone this repo directly into your resource pack directory, or you can build a distributable zip with `./build`.
 
-Note that `build` has some compilation flags, which are as follows:
-  
-  - `-noblockitems` - Disables custom icons for (most) block items, such as dirt being a sack of dirt in the inventory.
+Note that `build` has some compilation flags, which can be seen in the output of `./build --help`:
+
+```
+Buildscript for Xor's 1.8 Models
+Compile settings:
+  -b --no-block-items    : removes block item models
+  -m --no-minify         : don't minify json
+  -o --output            : set the output file
+  -w --preserve-work-dir : don't kill the work dir when  we're done
+  -u --collect-cruft     : run collectCruft in the workdir
+  -h --help              : print this message
+```
 
 ## Contributing
 
