@@ -1,0 +1,6 @@
+{
+    "parent": "block/reeds/reeds",
+    "textures": {
+        "reeds": "blocks/reeds/reeds1"
+    }
+}
