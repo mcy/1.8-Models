@@ -9,6 +9,7 @@ ZIPNAME="Xor's 1.8 Models.zip"
 WORK_DIR='work'
 COPY_DIR="$TOP_DIR"
 ZIPDIR="$TOP_DIR"
+BUILD_ARGS="$@"
 
 while [[ $# > 0 ]]; do
 
@@ -80,7 +81,7 @@ then
     for f in `cat "$TOP_DIR"/blockfiles.txt`; do 
         if [[ -n "$VERBOSITY" ]]; then
             echo Removing: $f
-        done 
+        fi 
         rm -f $f # 2> /dev/null
     done
     cd $TOP_DIR/$WORK_DIR
@@ -92,7 +93,7 @@ if [[ -z "$NOMINIFY" ]]; then
     do
         if [[ -n "$VERBOSITY" ]]; then
             echo Minifying: $f
-        done    
+        fi    
         sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
         cat $f'.tmp' > $f 2> /dev/null
         sed -i '' /\"comment\":/d $f
@@ -105,7 +106,7 @@ if [[ -z "$NOMINIFY" ]]; then
     do
         if [[ -n "$VERBOSITY" ]]; then
             echo Minifying: $f
-        done 
+        fi 
         sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
         cat $f'.tmp' > $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
@@ -124,12 +125,31 @@ if [[ -e $BUILDINFO ]]; then
 fi
 
 echo "-- This is a bunch of random information about the build, you probably don't care about it." > $BUILDINFO
+
+# git info
 git show -q >> $BUILDINFO
 echo "" >> $BUILDINFO
+
+# when
 echo 'Built on '`date` >> $BUILDINFO
+
+# build options
 echo `if [[ -n "$NOBLOCKITEMS" ]]; then echo "Without"; else echo "With"; fi`' block items.' >> $BUILDINFO
 if [[ -n "$NOMINIFY" ]]; then echo "Unminified." >> $BUILDINFO; fi
+echo "Build command: $0 $BUILD_ARGS" >> $BUILDINFO
+
+# jenkins
+if [[ -n "$BUILD_TAG" ]]; then
+    echo "$BUILD_TAG" >> $BUILDINFO
+    echo "Triggered by commit $GIT_COMMIT" >> $BUILDINFO
+fi
+
+# final size of workspace    
 echo 'Workspace size: '`du -hs .` >> $BUILDINFO
+
+# build os
+echo 'Built on '`uname -rs` >> $BUILDINFO
+
 echo "--" >> $BUILDINFO
 # #
 
@@ -147,3 +167,4 @@ echo 'Cleaning up...'
 if [[ -z $PRESERVEWORKDIR ]]; then
     rm -rf "$WORK_DIR"
 fi
+
