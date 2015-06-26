@@ -36,16 +36,20 @@ while [[ $# > 0 ]]; do
         -u|--collect-cruft)
             COLLECTCRUFT='yes'
         ;;
+        -v|--verbose)
+            VERBOSITY='yes'
+        ;;
         -h|--help|help)
-            echo "Buildscript for Xor's 1.8 Models"
+            echo "Buildscript for Xor's 1.8 Models "
+            echo "  at commit "`git --no-pager show -q --oneline`
             echo "Compile settings:"
             echo "  -b --no-block-items    : removes block item models"
             echo "  -m --no-minify         : don't minify json"
             echo "  -o --output            : set the output file"
             echo "  -w --preserve-work-dir : don't kill the work dir when  we're done"
             echo "  -u --collect-cruft     : run collectCruft in the workdir" 
+            echo "  -v --verbose           : verbose out" 
             echo "  -h --help              : print this message"
-            git show -q | echo
             exit 0
         ;;
         *) ;;
@@ -74,6 +78,9 @@ then
     echo "Removing block items..."
     cd assets/minecraft/models/item
     for f in `cat "$TOP_DIR"/blockfiles.txt`; do 
+        if [[ -n "$VERBOSITY" ]]; then
+            echo Removing: $f
+        done 
         rm -f $f # 2> /dev/null
     done
     cd $TOP_DIR/$WORK_DIR
@@ -83,19 +90,26 @@ if [[ -z "$NOMINIFY" ]]; then
     echo 'Minifying json...'
     for f in `find assets -name \*.json -print`
     do
+        if [[ -n "$VERBOSITY" ]]; then
+            echo Minifying: $f
+        done    
         sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
-        cp $f'.tmp' $f 2> /dev/null
+        cat $f'.tmp' > $f 2> /dev/null
+        sed -i '' /\"comment\":/d $f
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
-        cp $f'.tmp' $f 2> /dev/null
+        cat $f'.tmp' > $f 2> /dev/null
         rm $f'.tmp' 2> /dev/null
     done
 
     for f in `find assets -name \*.mcmeta -print`
     do
+        if [[ -n "$VERBOSITY" ]]; then
+            echo Minifying: $f
+        done 
         sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
-        cp $f'.tmp' $f 2> /dev/null
+        cat $f'.tmp' > $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
-        cp $f'.tmp' $f 2> /dev/null
+        cat $f'.tmp' > $f 2> /dev/null
         rm $f'.tmp' 2> /dev/null
     done
 fi
