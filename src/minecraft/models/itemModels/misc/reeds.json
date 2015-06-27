@@ -200,7 +200,7 @@
         },
         "gui": {
             "scale": [1.5, 1.5, 1.5],
-            "rotation": [40, 20, 0]
+            "rotation": [0, -30, -45]
         },
         "firstperson": {
             "rotation": [0, 40, -30],
