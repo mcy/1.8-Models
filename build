@@ -96,7 +96,8 @@ if [[ -z "$NOMINIFY" ]]; then
         fi    
         sed -nf "$TOP_DIR"/comments $f > $f'.tmp'
         cat $f'.tmp' > $f 2> /dev/null
-        sed -i '' /\"comment\":/d $f
+        sed /\"comment\":/d $f > $f'.tmp'
+        cat $f'.tmp' > $f 2> /dev/null
         tr -d ' \n\t\r' < $f > $f'.tmp' 2> /dev/null
         cat $f'.tmp' > $f 2> /dev/null
         rm $f'.tmp' 2> /dev/null
