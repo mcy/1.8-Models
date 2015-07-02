@@ -1,6 +1,0 @@
-{
-    "parent": "block/furnace/off/fuel",
-    "textures": {
-        "fuel": "blocks/furnace/charcoal"
-    }
-}

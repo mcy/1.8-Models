@@ -1,8 +1,0 @@
-{
-    "parent": "block/furnace/on/ingots",
-    "textures": {
-        "ore": "blocks/furnace/gold_ore",
-        "ingot": "blocks/furnace/gold",
-        "fuel": "blocks/furnace/hot_wood"
-    }
-}
