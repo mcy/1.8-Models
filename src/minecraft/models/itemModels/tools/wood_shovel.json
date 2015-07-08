@@ -1,0 +1,121 @@
+{
+    "textures": {
+        "blade": "items/tools/wood_blade",
+        "center": "items/tools/wood_gem",
+        "handle": "items/tools/handle",
+        "wrap": "items/tools/string"
+    },
+    "elements": [
+        {
+            "comment": "handle",
+            "from": [7.5, 0.5, 7.5],
+            "to": [8.5, 11, 8.5],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#handle"},
+                "south": {"texture": "#handle"},
+                "east": {"texture": "#handle"},
+                "west": {"texture": "#handle"},
+                "up": {"texture": "#handle"},
+                "down": {"texture": "#handle"}
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [6, 0, 7.5],
+            "to": [10, 1, 8.5],
+            "rotation": {"origin": [8, 0.5, 8], "axis": "x", "angle": 45},
+            "faces": {
+                "north": {"texture": "#handle"},
+                "south": {"texture": "#handle"},
+                "east": {"texture": "#handle"},
+                "west": {"texture": "#handle"},
+                "up": {"texture": "#handle"},
+                "down": {"texture": "#handle"}
+            }
+        },
+
+        {
+            "comment": "blade",
+            "from": [6, 10.5, 7.75],
+            "to": [10, 17, 8.25],
+            "faces": {
+                "north": {"texture": "#blade", "uv": [6, 0, 10, 7]},
+                "south": {"texture": "#blade", "uv": [6, 0, 10, 7]},
+                "east": {"texture": "#blade", "uv": [6, 0, 7, 7]},
+                "west": {"texture": "#blade", "uv": [6, 0, 7, 7]},
+                "up": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+
+        {
+            "comment": "handle",
+            "from": [7.25, 9.5, 7.25],
+            "to": [8.75, 10.5, 8.75],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#center"},
+                "south": {"texture": "#center"},
+                "east": {"texture": "#center"},
+                "west": {"texture": "#center"},
+                "up": {"texture": "#center"},
+                "down": {"texture": "#center"}
+            }
+        },
+
+        {
+            "comment": "string",
+            "from": [6, 10.25, 7.5],
+            "to": [10.75, 10.75, 8.5],
+            "rotation": {"origin": [5.75, 10.25, 8], "axis": "z", "angle": 22.5},
+            "faces": {
+                "north": {"texture": "#wrap"},
+                "south": {"texture": "#wrap"},
+                "east": {"texture": "#wrap"},
+                "west": {"texture": "#wrap"},
+                "up": {"texture": "#wrap"},
+                "down": {"texture": "#wrap"}
+            }
+        },
+        {
+            "comment": "string",
+            "from": [5.25, 10.25, 7.5],
+            "to": [10, 10.75, 8.5],
+            "rotation": {"origin": [10.25, 10.25, 8], "axis": "z", "angle": -22.5},
+            "faces": {
+                "north": {"texture": "#wrap"},
+                "south": {"texture": "#wrap"},
+                "east": {"texture": "#wrap"},
+                "west": {"texture": "#wrap"},
+                "up": {"texture": "#wrap"},
+                "down": {"texture": "#wrap"}
+            }
+        }
+    ],
+    "display": {
+        "thirdperson": {
+            "rotation": [ 80, 90, -90 ],
+            "translation": [ 0, 0.9, -4 ],
+            "scale": [0.99, 0.99, 0.99]
+        },
+        "firstperson": {
+            "rotation": [ -10, -45, 10 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.4, 1.4, 1.4 ]
+        },
+        "gui": {
+            "rotation": [ 0, -35, 45 ],
+            "translation": [ 0.5, -0, 0 ],
+            "scale": [1.45, 1.45, 1.45]
+        },
+        "ground": {
+            "scale": [2,2,2]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 45 ],
+            "scale": [2.1, 2.1, 2.1],
+            "translation": [ 0.5, -0.5, 0 ]
+        }
+    }
+}

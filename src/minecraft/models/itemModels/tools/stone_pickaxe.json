@@ -1,0 +1,7 @@
+{
+    "parent": "itemModels/tools/wood_pickaxe",
+    "textures": {
+        "blade": "items/tools/stone_blade",
+        "center": "items/tools/stone_gem"
+    }
+}
