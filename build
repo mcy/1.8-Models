@@ -84,7 +84,7 @@ then
         fi 
         rm -f $f # 2> /dev/null
     done
-    cd $TOP_DIR/$WORK_DIR
+    cd "$TOP_DIR"/"$WORK_DIR"
 fi
 
 if [[ -z "$NOMINIFY" ]]; then

@@ -14,7 +14,8 @@
         "shell3": "items/nether_star/shell_3"
     },
     "elements": [
-        {   "comment": "Glass shell",
+        {   
+            "comment": "Glass shell",
             "from": [ 0, 0, 0 ],
             "to": [ 16, 16, 16 ],
             "faces": {
@@ -26,7 +27,8 @@
                 "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#glass" }
             }
         },
-        {   "comment": "Obsidian base",
+        {   
+            "comment": "Obsidian base",
             "from": [ 2, 0.1, 2 ],
             "to": [ 14, 2, 14 ],
             "faces": {
@@ -38,7 +40,8 @@
                 "east":  { "uv": [ 2, 13, 14, 16 ], "texture": "#coal" }
             }
         },
-        {   "comment": "Obsidian base",
+        {   
+            "comment": "Obsidian base",
             "from": [ 4, 0.1, 4 ],
             "to": [ 12, 2.49, 12 ],
             "faces": {
@@ -49,7 +52,8 @@
                 "east":  { "uv": [ 2, 13, 14, 16 ], "texture": "#obsidian" }
             }
         },
-        {   "comment": "Obsidian base",
+        {   
+            "comment": "Obsidian base",
             "from": [ 4, 0.1, 4 ],
             "to": [ 12, 2.5, 12 ],
             "rotation": { "origin": [8, 8, 8], "axis": "y", "angle": 45},
@@ -61,7 +65,8 @@
                 "east":  { "uv": [ 2, 13, 14, 16 ], "texture": "#obsidian" }
             }
         },
-        {   "comment": "Obsidian base",
+        {   
+            "comment": "Obsidian base",
             "from": [ 4, 0.1, 4 ],
             "to": [ 12, 2.48, 12 ],
             "rotation": { "origin": [8, 8, 8], "axis": "y", "angle": 22.5},
@@ -73,7 +78,8 @@
                 "east":  { "uv": [ 2, 13, 14, 16 ], "texture": "#obsidian" }
             }
         },
-        {   "comment": "Obsidian base",
+        {   
+            "comment": "Obsidian base",
             "from": [ 4, 0.1, 4 ],
             "to": [ 12, 2.48, 12 ],
             "rotation": { "origin": [8, 8, 8], "axis": "y", "angle": -22.5},
