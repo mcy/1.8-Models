@@ -1,10 +1,7 @@
 {
-  "parent": "itemModels/tools/axe_simple",
-  "textures": {
-    "particle": "items/tools/stone_blade",
-    "handle": "items/tools/handle",
-    "blade": "items/tools/stone_blade",
-    "hilt": "items/tools/stone_hilt",
-    "gem": "items/tools/stone_gem"
-  }
+    "parent": "itemModels/tools/wood_axe",
+    "textures": {
+        "blade": "items/tools/stone_blade",
+        "center": "items/tools/stone_gem"
+    }
 }
