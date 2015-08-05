@@ -1,10 +1,12 @@
 {
-  "parent": "itemModels/tools/pickaxe",
-  "textures": {
-    "particle": "items/tools/gold_blade",
-    "handle": "items/tools/handle",
-    "blade": "items/tools/gold_blade",
-    "hilt": "items/tools/gold_hilt",
-    "gem": "items/tools/gold_gem"
-  }
+    "parent": "itemModels/tools/diamond_pickaxe",
+    "textures": {
+        "blade": "items/tools/gold_blade",
+        "blade_extra": "null",
+        "center": "items/tools/gold_gem",
+        "hilt": "items/tools/gold_hilt",
+        "handle": "items/tools/iron_handle",
+        "handle_ends": "items/tools/gold_hilt",
+        "wrap": "items/tools/gold_hilt_accent"
+    }
 }

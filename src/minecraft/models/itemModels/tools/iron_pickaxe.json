@@ -1,12 +1,10 @@
 {
-    "parent": "itemModels/tools/diamond_pickaxe",
+    "parent": 
     "textures": {
         "blade": "items/tools/iron_blade",
-        "blade_extra": "null",
         "center": "items/tools/iron_gem",
         "hilt": "items/tools/iron_hilt",
         "handle": "items/tools/iron_handle",
-        "handle_ends": "items/tools/iron_hilt",
         "wrap": "items/tools/iron_hilt_accent"
     }
 }
