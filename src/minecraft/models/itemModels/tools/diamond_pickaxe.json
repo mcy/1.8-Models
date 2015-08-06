@@ -179,17 +179,17 @@
     ],
     "display": {
         "thirdperson": {
-            "rotation": [ 10, -90, 90 ],
+            "rotation": [ 10, 90, -90 ],
             "translation": [ 0, 0.9, -3 ]
         },
         "firstperson": {
-            "rotation": [ 0, 45, 20 ],
+            "rotation": [ 0, -135, -20 ],
             "translation": [ 0, 4, 2 ],
             "scale": [ 1.4, 1.4, 1.4 ]
         },
         "gui": {
             "rotation": [ 0, -35, 45 ],
-            "translation": [ 0.9, -0.1, 0 ],
+            "translation": [ 0.9, 0, 0 ],
             "scale": [1.45, 1.45, 1.45]
         },
         "ground": {
