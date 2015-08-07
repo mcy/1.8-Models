@@ -200,7 +200,7 @@
         },
         "firstperson": {
             "rotation": [ 0, -135, -20 ],
-            "translation": [ 0, 4.5, 2 ],
+            "translation": [ -2, 5.5, 2 ],
             "scale": [ 2, 2, 2 ]
         },
         "gui": {
