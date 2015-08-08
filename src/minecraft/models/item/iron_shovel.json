@@ -1,10 +1,3 @@
 {
-  "parent": "itemModels/tools/shovel",
-  "textures": {
-    "blade": "items/tools/iron_blade",
-    "hilt": "items/tools/iron_hilt",
-    "gem": "items/tools/iron_gem",
-    "handle": "items/tools/handle",
-    "particle": "items/tools/iron_blade"
-  }
+    "parent": "itemModels/tools/iron_shovel"
 }
