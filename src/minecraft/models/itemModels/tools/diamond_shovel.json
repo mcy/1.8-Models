@@ -11,7 +11,7 @@
         {
             "comment": "handle",
             "from": [7.5, 2.5, 7.5],
-            "to": [8.5, 13, 8.5],
+            "to": [8.5, 12.52, 8.5],
             "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
             "faces": {
                 "north": {"texture": "#handle"},
@@ -38,8 +38,8 @@
         },
         {
             "comment": "hilt",
-            "from": [7.3, 11, 7.3],
-            "to": [8.7, 12, 8.7],
+            "from": [7.3, 10.85, 7.3],
+            "to": [8.7, 11.85, 8.7],
             "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
             "faces": {
                 "north": {"texture": "#hilt"},
@@ -53,7 +53,7 @@
         {
             "comment": "gem",
             "from": [7.7, 10, 7.65],
-            "to": [8.3, 15, 8.35],
+            "to": [8.3, 14.5, 8.35],
             "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
             "faces": {
                 "north": {"texture": "#center"},
@@ -150,9 +150,9 @@
 
         {
             "comment": "blade",
-            "from": [5.37, 12.5, 7.74],
-            "to": [8, 13, 8.26],
-            "rotation": {"origin": [8, 12.5, 0], "axis": "z", "angle": 45},
+            "from": [5.815, 11.4, 7.74],
+            "to": [8, 11.9, 8.26],
+            "rotation": {"origin": [8, 11.4, 0], "axis": "z", "angle": 22.5},
             "faces": {
                 "north": {"texture": "#blade_dark"},
                 "south": {"texture": "#blade_dark"},
@@ -163,8 +163,8 @@
         },
         {
             "comment": "blade",
-            "from": [5.8, 11.5, 7.75],
-            "to": [7, 12, 8.25],
+            "from": [5.8, 11.2, 7.75],
+            "to": [8, 12, 8.25],
             "faces": {
                 "north": {"texture": "#blade"},
                 "south": {"texture": "#blade"},
@@ -186,9 +186,9 @@
 
         {
             "comment": "blade",
-            "from": [8, 12.5, 7.74],
-            "to": [10.63, 13, 8.26],
-            "rotation": {"origin": [8, 12.5, 0], "axis": "z", "angle": -45},
+            "from": [8, 11.4, 7.74],
+            "to": [10.185, 11.9, 8.26],
+            "rotation": {"origin": [8, 11.4, 0], "axis": "z", "angle": -22.5},
             "faces": {
                 "north": {"texture": "#blade_dark"},
                 "south": {"texture": "#blade_dark"},
@@ -199,7 +199,7 @@
         },
         {
             "comment": "blade",
-            "from": [9, 11.5, 7.75],
+            "from": [8, 11.2, 7.75],
             "to": [10.2, 12, 8.25],
             "faces": {
                 "north": {"texture": "#blade"},
