@@ -1,10 +1,7 @@
 {
-	"parent": "itemModels/misc/powder",
-	"textures": {
-		"material": "blocks/soil/clay",
-		"bag": "items/powder/bag/bag_grey",
-        "bag_rim": "items/powder/bag/rim_grey",
-        "label": "items/powder/label/clay_label",
-        "string": "items/powder/string/string_brown"		
-	}
+	"parent": "itemModels/mineral/gems",
+    "textures": {
+        "silk": "items/misc/silks/brown",
+        "gem": "blocks/soil/clay"
+    }
 }

@@ -1,10 +1,7 @@
 {
-	"parent": "itemModels/misc/dye",
-	"textures": {
-		"material": "items/powder/dye/white",
-		"string": "items/powder/string/string_bright",
-		"label_icon": "items/powder/dye/i_white",
-		"bag": "items/powder/bag/bag_grey",
-        "bag_rim": "items/powder/bag/rim_grey"
-	}
+    "parent": "itemModels/mineral/gems",
+    "textures": {
+        "silk": "items/misc/silks/dark",
+        "gem": "items/powder/dye/white"
+    }
 }

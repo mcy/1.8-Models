@@ -1,6 +1,7 @@
 {
-	"parent": "itemModels/alchemy/vial",
+	"parent": "itemModels/mineral/gems",
 	"textures": {
-		"fluid": "items/powder/gold"
+		"gem": "items/powder/gold",
+        "silk": "items/misc/silks/bright"
 	}
 }
