@@ -1,7 +1,7 @@
 {
-    "parent": "itemModels/misc/bundle",
+    "parent": "itemModels/mineral/gems",
     "textures": {
-        "string": "items/powder/string/string_brown",
-        "stalks": "items/mineral/charcoal"
+        "silk": "items/misc/silks/charcoal",
+        "gem": "items/mineral/charcoal"
     }
 }
