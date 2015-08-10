@@ -1,11 +1,7 @@
 {
-    "parent": "itemModels/misc/powder",
+    "parent": "itemModels/misc/bundle",
     "textures": {
-        "material": "items/powder/seeds/wart",
-        "bag": "items/powder/bag/bag_black",
-        "bag_rim": "items/powder/bag/rim_black",
-        "string": "items/powder/string/string_red",
-        "label": "items/powder/label/blank_label",
-        "label_icon": "items/powder/seeds/nether_wart"
+        "stalks": "items/powder/seeds/wart",
+        "string": "items/powder/string/string_black"
     }
 }

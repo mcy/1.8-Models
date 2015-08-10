@@ -1,3 +1,7 @@
 {
-    "parent": "itemModels/misc/reeds"
+    "parent": "itemModels/misc/bundle",
+    "textures": {
+        "stalks": "blocks/reeds/reeds0",
+        "string": "items/powder/string/string_brown"
+    }
 }

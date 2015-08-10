@@ -1,8 +1,7 @@
 {
-	"parent": "itemModels/misc/dye",
-	"textures": {
-		"material": "items/powder/dye/green",
-		"string": "items/powder/string/string_green",
-		"label_icon": "items/powder/dye/i_green"
-	}
+    "parent": "itemModels/misc/bundle",
+    "textures": {
+        "stalks": "items/powder/dye/green",
+        "string": "items/powder/string/string_green"
+    }
 }
