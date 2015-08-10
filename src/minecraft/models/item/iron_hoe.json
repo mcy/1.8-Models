@@ -1,10 +1,11 @@
 {
-  "parent": "itemModels/tools/hoe",
-  "textures": {
-    "particle": "items/tools/iron_blade",
-    "handle": "items/tools/handle",
-    "blade": "items/tools/iron_blade",
-    "hilt": "items/tools/iron_hilt",
-    "gem": "items/tools/iron_gem"
-  }
+    "parent": "itemModels/tools/diamond_hoe",
+    "textures": {
+        "blade": "items/tools/iron_blade",
+        "blade_extra": "null",
+        "center": "items/tools/iron_gem",
+        "handle": "items/tools/iron_handle",
+        "hilt": "items/tools/iron_hilt",
+        "wrap": "items/tools/iron_hilt_accent"
+    }
 }
