@@ -7,6 +7,56 @@
     },
     "elements": [
         {
+            "comment": "blade",
+            "from": [8, 13.5, 7.7],
+            "to": [13, 15.05, 8.3],
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "up": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade",
+            "from": [9, 11, 7.71],
+            "to": [13, 13.5, 8.29],
+            "rotation": {"origin": [13, 13.5, 0], "axis": "z", "angle": -22.5},
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade",
+            "from": [5.9, 11, 7.71],
+            "to": [9, 12, 8.29],
+            "rotation": {"origin": [13, 13.5, 0], "axis": "z", "angle": -22.5},
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade",
+            "from": [5.5, 13.87, 7.7],
+            "to": [8, 15.05, 8.3],
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "up": {"texture": "#blade"}
+            }
+        },
+        {
             "comment": "handle",
             "from": [7.5, 0, 7.5],
             "to": [8.5, 15.5, 8.5],
@@ -18,32 +68,6 @@
                 "west": {"texture": "#handle"},
                 "up": {"texture": "#handle"},
                 "down": {"texture": "#handle"}
-            }
-        },
-        {
-            "comment": "blade",
-            "from": [6, 13.25, 7.25],
-            "to": [10, 14.75, 8.75],
-            "faces": {
-                "north": {"texture": "#blade"},
-                "south": {"texture": "#blade"},
-                "east": {"texture": "#blade"},
-                "west": {"texture": "#blade"},
-                "up": {"texture": "#blade"},
-                "down": {"texture": "#blade"}
-            }
-        },
-        {
-            "comment": "blade",
-            "from": [2, 13.5, 7.5],
-            "to": [14, 14.5, 8.5],
-            "faces": {
-                "north": {"texture": "#blade"},
-                "south": {"texture": "#blade"},
-                "east": {"texture": "#blade"},
-                "west": {"texture": "#blade"},
-                "up": {"texture": "#blade"},
-                "down": {"texture": "#blade"}
             }
         },
         {
@@ -75,7 +99,7 @@
             }
         },
         {
-            "comment": "blade",
+            "comment": "center",
             "from": [7, 12.9, 7.1],
             "to": [9, 15.1, 8.9],
             "faces": {
@@ -90,17 +114,17 @@
     ],
     "display": {
         "thirdperson": {
-            "rotation": [ 10, 90, -90 ],
+            "rotation": [ 10, -90, 90 ],
             "translation": [ 0, 0.9, -3 ]
         },
         "firstperson": {
-            "rotation": [ 0, -135, -20 ],
+            "rotation": [ 0, 45, 20 ],
             "translation": [ 0, 4, 2 ],
             "scale": [ 1.4, 1.4, 1.4 ]
         },
         "gui": {
             "rotation": [ 0, -35, 45 ],
-            "translation": [ 1.2, -0.2, 0 ],
+            "translation": [ 0, -0.65, 0 ],
             "scale": [1.45, 1.45, 1.45]
         },
         "ground": {
@@ -109,7 +133,7 @@
         "fixed": {
             "rotation": [ 0, 0, 45 ],
             "scale": [2.1, 2.1, 2.1],
-            "translation": [ 1, -1, 0 ]
+            "translation": [ 0.5, -0.5, 0 ]
         }
     }
 }

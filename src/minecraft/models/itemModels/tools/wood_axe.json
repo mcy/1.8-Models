@@ -8,33 +8,34 @@
     "elements": [
         {
             "comment": "blade",
-            "from": [8, 13.5, 7.7],
+            "from": [8, 13, 7.7],
             "to": [13, 15.05, 8.3],
             "faces": {
                 "north": {"texture": "#blade"},
                 "south": {"texture": "#blade"},
                 "east": {"texture": "#blade"},
                 "west": {"texture": "#blade"},
-                "up": {"texture": "#blade"}
-            }
-        },
-        {
-            "comment": "blade",
-            "from": [9, 11, 7.71],
-            "to": [13, 13.5, 8.29],
-            "rotation": {"origin": [13, 13.5, 0], "axis": "z", "angle": -22.5},
-            "faces": {
-                "north": {"texture": "#blade"},
-                "south": {"texture": "#blade"},
-                "east": {"texture": "#blade"},
-                "west": {"texture": "#blade"},
+                "up": {"texture": "#blade"},
                 "down": {"texture": "#blade"}
             }
         },
         {
             "comment": "blade",
-            "from": [5.5, 13.25, 7.7],
-            "to": [8, 14.75, 8.3],
+            "from": [10, 11.95, 7.7],
+            "to": [13, 13, 8.3],
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "up": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade",
+            "from": [5.5, 12.95, 7.7],
+            "to": [8, 15.05, 8.3],
             "faces": {
                 "north": {"texture": "#blade"},
                 "south": {"texture": "#blade"},
