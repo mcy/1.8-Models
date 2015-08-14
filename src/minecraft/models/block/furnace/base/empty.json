@@ -4,6 +4,7 @@
         "top": "blocks/furnace/top",
         "front": "blocks/furnace/front",
         "side": "blocks/furnace/side",
+        "back": "blocks/furnace/back",
         "inside": "blocks/furnace/dark",
         "detail": "blocks/furnace/detail",
         "grill": "blocks/furnace/grill",
@@ -14,52 +15,28 @@
     "elements": [
         
         {
-            "comment": "top shell",
-            "from": [0, 15, 0],
+            "comment": "outside",
+            "from": [0, 0, 0],
             "to": [16, 16, 16],
             "faces": {
-                "down":  { "texture": "#inside", "cullface": "north" },
-                "up":    { "texture": "#top", "cullface": "up" }
-            }
-        },
-        
-        {
-            "comment": "bottom shell",
-            "from": [0, 0, 0],
-            "to": [16, 1, 16],
-            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
                 "down":  { "texture": "#top", "cullface": "down" },
-                "up":    { "texture": "#floor", "cullface": "north" }
+                "east":  { "texture": "#side", "cullface": "east" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "south": { "texture": "#back", "cullface": "south" }
             }
         },
-        
+
         {
-            "comment": "back shell",
-            "from": [0, 0, 15],
-            "to": [16, 16, 16],
+            "comment": "top shell",
+            "from": [15, 15, 15],
+            "to": [1, 1, 0],
             "faces": {
-                "south": { "texture": "#side", "cullface": "south" },
-                "north":  { "texture": "#inside", "cullface": "north" }
-            }
-        },
-        
-        {
-            "comment": "west shell",
-            "from": [0, 0, 0],
-            "to": [1, 16, 16],
-            "faces": {
-                "west": { "texture": "#side", "cullface": "west" },
-                "east":  { "texture": "#inside", "cullface": "north" }
-            }
-        },
-        
-        {
-            "comment": "east shell",
-            "from": [15, 0, 0],
-            "to": [16, 16, 16],
-            "faces": {
-                "east": { "texture": "#side", "cullface": "east" },
-                "west":  { "texture": "#inside", "cullface": "north" }
+                "up":    { "texture": "#inside", "cullface": "north" },
+                "down":  { "texture": "#inside", "cullface": "north", "rotation": 180 },
+                "east":  { "texture": "#inside", "cullface": "north", "rotation": 180 },
+                "west":  { "texture": "#inside", "cullface": "north" },
+                "north": { "texture": "#inside", "cullface": "north" }
             }
         },
         

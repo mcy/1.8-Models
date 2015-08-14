@@ -1,164 +1,16 @@
 {
     "variants": {
         "facing=north": [
-            { "model": "furnace/empty_coal_on", "y": 0, "weight": 3 },
-            { "model": "furnace/gold_coal_on", "y": 0, "weight": 1 }/*,
-            
-            { "model": "furnace/on/coal/iron", "y": 0, "weight": 3 },
-            { "model": "furnace/on/coal/gold", "y": 0, "weight": 3 },
-            
-            { "model": "furnace/on/coal/food/beef_raw", "y": 0 },
-            { "model": "furnace/on/coal/food/pork_raw", "y": 0 },
-            { "model": "furnace/on/coal/food/beef_cooked", "y": 0 },
-            { "model": "furnace/on/coal/food/chicken_cooked", "y": 0 },
-            { "model": "furnace/on/coal/food/pork_cooked", "y": 0 },
-            { "model": "furnace/on/coal/food/potato", "y": 0 },
-            
-            
-            { "model": "furnace/on/charcoal/none", "y": 0, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/iron", "y": 0, "weight": 3 },
-            { "model": "furnace/on/charcoal/gold", "y": 0, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/food/beef_raw", "y": 0 },
-            { "model": "furnace/on/charcoal/food/pork_raw", "y": 0 },
-            { "model": "furnace/on/charcoal/food/beef_cooked", "y": 0 },
-            { "model": "furnace/on/charcoal/food/chicken_cooked", "y": 0 },
-            { "model": "furnace/on/charcoal/food/pork_cooked", "y": 0 },
-            { "model": "furnace/on/charcoal/food/potato", "y": 0 },
-            
-            
-            { "model": "furnace/on/wood/none", "y": 0, "weight": 3 },
-            
-            { "model": "furnace/on/wood/iron", "y": 0, "weight": 3 },
-            { "model": "furnace/on/wood/gold", "y": 0, "weight": 3 },
-            
-            { "model": "furnace/on/wood/food/beef_raw", "y": 0 },
-            { "model": "furnace/on/wood/food/pork_raw", "y": 0 },
-            { "model": "furnace/on/wood/food/beef_cooked", "y": 0 },
-            { "model": "furnace/on/wood/food/chicken_cooked", "y": 0 },
-            { "model": "furnace/on/wood/food/pork_cooked", "y": 0 },
-            { "model": "furnace/on/wood/food/potato", "y": 0 }*/
+            { "model": "furnace/empty_coal_on", "y": 0, "weight": 3 }
         ],
         "facing=south": [
-            { "model": "furnace/empty_coal_on", "y": 180, "weight": 3 },
-            { "model": "furnace/gold_coal_on", "y": 180, "weight": 1 }/*,
-            
-            { "model": "furnace/on/coal/iron", "y": 180, "weight": 3 },
-            { "model": "furnace/on/coal/gold", "y": 180, "weight": 3 },
-            
-            { "model": "furnace/on/coal/food/beef_raw", "y": 180 },
-            { "model": "furnace/on/coal/food/pork_raw", "y": 180 },
-            { "model": "furnace/on/coal/food/beef_cooked", "y": 180 },
-            { "model": "furnace/on/coal/food/chicken_cooked", "y": 180 },
-            { "model": "furnace/on/coal/food/pork_cooked", "y": 180 },
-            { "model": "furnace/on/coal/food/potato", "y": 180 },
-            
-            
-            { "model": "furnace/on/charcoal/none", "y": 180, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/iron", "y": 180, "weight": 3 },
-            { "model": "furnace/on/charcoal/gold", "y": 180, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/food/beef_raw", "y": 180 },
-            { "model": "furnace/on/charcoal/food/pork_raw", "y": 180 },
-            { "model": "furnace/on/charcoal/food/beef_cooked", "y": 180 },
-            { "model": "furnace/on/charcoal/food/chicken_cooked", "y": 180 },
-            { "model": "furnace/on/charcoal/food/pork_cooked", "y": 180 },
-            { "model": "furnace/on/charcoal/food/potato", "y": 180 },
-            
-            
-            { "model": "furnace/on/wood/none", "y": 180, "weight": 3 },
-            
-            { "model": "furnace/on/wood/iron", "y": 180, "weight": 3 },
-            { "model": "furnace/on/wood/gold", "y": 180, "weight": 3 },
-            
-            { "model": "furnace/on/wood/food/beef_raw", "y": 180 },
-            { "model": "furnace/on/wood/food/pork_raw", "y": 180 },
-            { "model": "furnace/on/wood/food/beef_cooked", "y": 180 },
-            { "model": "furnace/on/wood/food/chicken_cooked", "y": 180 },
-            { "model": "furnace/on/wood/food/pork_cooked", "y": 180 },
-            { "model": "furnace/on/wood/food/potato", "y": 180 }*/
+            { "model": "furnace/empty_coal_on", "y": 180, "weight": 3 }
         ],
         "facing=west":  [
-            { "model": "furnace/empty_coal_on", "y": 270, "weight": 3 },
-            { "model": "furnace/gold_coal_on", "y": 270, "weight": 1 }/*,
-            
-            { "model": "furnace/on/coal/iron", "y": 270, "weight": 3 },
-            { "model": "furnace/on/coal/gold", "y": 270, "weight": 3 },
-            
-            { "model": "furnace/on/coal/food/beef_raw", "y": 270 },
-            { "model": "furnace/on/coal/food/pork_raw", "y": 270 },
-            { "model": "furnace/on/coal/food/beef_cooked", "y": 270 },
-            { "model": "furnace/on/coal/food/chicken_cooked", "y": 270 },
-            { "model": "furnace/on/coal/food/pork_cooked", "y": 270 },
-            { "model": "furnace/on/coal/food/potato", "y": 270 },
-            
-            
-            { "model": "furnace/on/charcoal/none", "y": 270, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/iron", "y": 270, "weight": 3 },
-            { "model": "furnace/on/charcoal/gold", "y": 270, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/food/beef_raw", "y": 270 },
-            { "model": "furnace/on/charcoal/food/pork_raw", "y": 270 },
-            { "model": "furnace/on/charcoal/food/beef_cooked", "y": 270 },
-            { "model": "furnace/on/charcoal/food/chicken_cooked", "y": 270 },
-            { "model": "furnace/on/charcoal/food/pork_cooked", "y": 270 },
-            { "model": "furnace/on/charcoal/food/potato", "y": 270 },
-            
-            
-            { "model": "furnace/on/wood/none", "y": 270, "weight": 3 },
-            
-            { "model": "furnace/on/wood/iron", "y": 270, "weight": 3 },
-            { "model": "furnace/on/wood/gold", "y": 270, "weight": 3 },
-            
-            { "model": "furnace/on/wood/food/beef_raw", "y": 270 },
-            { "model": "furnace/on/wood/food/pork_raw", "y": 270 },
-            { "model": "furnace/on/wood/food/beef_cooked", "y": 270 },
-            { "model": "furnace/on/wood/food/chicken_cooked", "y": 270 },
-            { "model": "furnace/on/wood/food/pork_cooked", "y": 270 },
-            { "model": "furnace/on/wood/food/potato", "y": 270 }*/
+            { "model": "furnace/empty_coal_on", "y": 270, "weight": 3 }
         ],
         "facing=east":  [
-            { "model": "furnace/empty_coal_on", "y": 90, "weight": 3 },
-            { "model": "furnace/gold_coal_on", "y": 90, "weight": 1 }/*,
-            
-            { "model": "furnace/on/coal/iron", "y": 90, "weight": 3 },
-            { "model": "furnace/on/coal/gold", "y": 90, "weight": 3 },
-            
-            { "model": "furnace/on/coal/food/beef_raw", "y": 90 },
-            { "model": "furnace/on/coal/food/pork_raw", "y": 90 },
-            { "model": "furnace/on/coal/food/beef_cooked", "y": 90 },
-            { "model": "furnace/on/coal/food/chicken_cooked", "y": 90 },
-            { "model": "furnace/on/charcoal/food/pork_cooked", "y": 90 },
-            { "model": "furnace/on/coal/food/potato", "y": 90 },
-            
-            
-            { "model": "furnace/on/charcoal/none", "y": 90, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/iron", "y": 90, "weight": 3 },
-            { "model": "furnace/on/charcoal/gold", "y": 90, "weight": 3 },
-            
-            { "model": "furnace/on/charcoal/food/beef_raw", "y": 90 },
-            { "model": "furnace/on/charcoal/food/pork_raw", "y": 90 },
-            { "model": "furnace/on/charcoal/food/beef_cooked", "y": 90 },
-            { "model": "furnace/on/charcoal/food/chicken_cooked", "y": 90 },
-            { "model": "furnace/on/charcoal/food/pork_cooked", "y": 90 },
-            { "model": "furnace/on/charcoal/food/potato", "y": 90 },
-            
-            
-            { "model": "furnace/on/wood/none", "y": 90, "weight": 3 },
-            
-            { "model": "furnace/on/wood/iron", "y": 90, "weight": 3 },
-            { "model": "furnace/on/wood/gold", "y": 90, "weight": 3 },
-            
-            { "model": "furnace/on/wood/food/beef_raw", "y": 90 },
-            { "model": "furnace/on/wood/food/pork_raw", "y": 90 },
-            { "model": "furnace/on/wood/food/beef_cooked", "y": 90 },
-            { "model": "furnace/on/wood/food/chicken_cooked", "y": 90 },
-            { "model": "furnace/on/wood/food/pork_cooked", "y": 90 },
-            { "model": "furnace/on/wood/food/potato", "y": 90 }*/
+            { "model": "furnace/empty_coal_on", "y": 90, "weight": 3 }
         ]
     }
 }
