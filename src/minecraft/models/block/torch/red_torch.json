@@ -32,19 +32,7 @@
                 "south":   { "texture": "#metal" }
             }
         },
-        /*{
-            "comment": "ring",
-            "from": [6.8, 3.7, 6.8],
-            "to": [9.2, 4.3, 9.2],
-            "faces": {
-                "down": { "texture": "#notred" },
-                "up":   { "texture": "#notred" },
-                "east":   { "texture": "#notred" },
-                "west":   { "texture": "#notred" },
-                "north":   { "texture": "#notred" },
-                "south":   { "texture": "#notred" }
-            }
-        },*/
+        
         {
             "comment": "ring",
             "from": [6.8, 5.5, 6.8],

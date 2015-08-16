@@ -285,18 +285,7 @@
             }
         },
 
-        /*{
-            "comment": "fluid",
-            "from": [1, 1, 1],
-            "to": [15, 5.5, 15],
-            "faces": {
-                "up": {"texture": "#ess"},
-                "east": {"texture": "#ess"},
-                "west": {"texture": "#ess"},
-                "south": {"texture": "#ess"},
-                "north": {"texture": "#ess"}
-            }
-        },*/
+        
 
         {
             "comment": "gem",
@@ -358,57 +347,7 @@
             }
         },
 
-        /*{
-            "comment": "gem cap",
-            "from": [1.5, 13, 1.5],
-            "to": [2.5, 13.5, 2.5],
-            "faces": {
-                "up": {"texture": "#obby"},
-                "east": {"texture": "#obby"},
-                "west": {"texture": "#obby"},
-                "south": {"texture": "#obby"},
-                "north": {"texture": "#obby"}
-            }
-        },
-
-        {
-            "comment": "gem cap",
-            "from": [1.5, 13, 13.5],
-            "to": [2.5, 13.5, 14.5],
-            "faces": {
-                "up": {"texture": "#obby"},
-                "east": {"texture": "#obby"},
-                "west": {"texture": "#obby"},
-                "south": {"texture": "#obby"},
-                "north": {"texture": "#obby"}
-            }
-        },
-
-        {
-            "comment": "gem cap",
-            "from": [13.5, 13, 1.5],
-            "to": [14.5, 13.5, 2.5],
-            "faces": {
-                "up": {"texture": "#obby"},
-                "east": {"texture": "#obby"},
-                "west": {"texture": "#obby"},
-                "south": {"texture": "#obby"},
-                "north": {"texture": "#obby"}
-            }
-        },
-
-        {
-            "comment": "gem cap",
-            "from": [13.5, 13, 13.5],
-            "to": [14.5, 13.5, 14.5],
-            "faces": {
-                "up": {"texture": "#obby"},
-                "east": {"texture": "#obby"},
-                "west": {"texture": "#obby"},
-                "south": {"texture": "#obby"},
-                "north": {"texture": "#obby"}
-            }
-        },*/
+        
 
         {
             "comment": "tabletop",

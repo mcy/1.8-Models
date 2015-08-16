@@ -14,7 +14,7 @@
 		"horn_pipe": "blocks/jukebox/horn_pipe",
 		"misc": "blocks/jukebox/misc",
 
-		"r_": "blocks/jukebox/record/record",//_rotate",
+		"r_": "blocks/jukebox/record/record",
 
 		"label": "blocks/jukebox/labels/13",
 
@@ -49,7 +49,7 @@
 				"south": {"texture": "#side", "cullface": "south"},
 				"east": {"texture": "#side", "cullface": "east"},
 				"west": {"texture": "#side", "cullface": "west"},
-				//"up": {"texture": "#top"},
+				
 				"down": {"texture": "#bottom", "cullface": "bottom"}
 			}
 		},
@@ -137,7 +137,7 @@
 			}
 		},
 
-		// TODO: if mojang makes jukeboxes non-solid, add rotating disk.
+		
 		{
 			"comment": "record",
 			"from": [3.380602337443566, 14.5, 6.086582838174551],

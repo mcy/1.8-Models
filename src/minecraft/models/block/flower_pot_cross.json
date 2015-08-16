@@ -1,5 +1,5 @@
 {
-    // this will change; it is only here to add `shade:false` to some elements
+    
     "ambientocclusion": false,
     "textures": {
         "particle": "blocks/flower_pot",

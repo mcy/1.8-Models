@@ -129,18 +129,7 @@
                 "up":    { "uv": [ 4, 13, 8, 15 ], "texture": "#foot" }
             }
         },
-        /*{
-            "commment": "bone",
-            "from": [ 7.5, 13.750000000000002, 3.0 ],
-            "to": [ 8.499999999999998, 14.749999999999998, 4.25 ],
-            "faces": {
-                "north": { "uv": [ 7, 7, 11, 11 ], "texture": "#foot" },
-                "east":  { "uv": [ 5, 7, 7, 9 ], "texture": "#foot" },
-                "west":  { "uv": [ 5, 7, 7, 9 ], "texture": "#foot" },
-                "up":    { "uv": [ 5, 7, 7, 9 ], "texture": "#foot" },
-                "down":  { "uv": [ 5, 7, 7, 9 ], "texture": "#foot" }
-            }
-        },*/
+        
         {
             "comment": "slope",
             "from": [ 5.5, 6.75, 8.0 ],
