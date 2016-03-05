@@ -1,18 +1,31 @@
 {
 	"parent": "itemModels/misc/string",
-	"display": {
-		"gui": {
-			"rotation": [10, -35, 10],
-			"scale": [0.7, 0.7, 0.7]
-		},
-		"firstperson": {
-			"scale": [0.6, 0.6, 0.6],
-			"rotation": [20, -10, 0]
-		},
-		"thirdperson": {
-			"scale": [0.1, 0.1, 0.1],
-			"translation": [0, 2, -1.5],
-			"rotation": [40, 40, 80]
-		}
-	}
+	"display":{
+        "firstperson_lefthand": {
+            "rotation": [ 20.0, 35.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ -0.24, 0.24, 0.24 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 10.0, -50.0, -130.0 ],
+            "translation": [ -0.0, 0.4743416490252569, 0.6324555320336759 ],
+            "scale": [ 0.1, 0.1, 0.1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 10.0, -50.0, -130.0 ],
+            "translation": [ 0.0, 0.4743416490252569, 0.6324555320336759 ],
+            "scale": [ -0.1, 0.1, 0.1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 20.0, 35.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ 0.24, 0.24, 0.24 ]
+        },
+        "gui": {
+            "rotation": [ 40.0, 190.0, 10.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.4375, 0.4375, 0.4375 ]
+        }
+
+    }
 }

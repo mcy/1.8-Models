@@ -23,18 +23,23 @@ object convertpack {
     val str = Iterator.continually(in.readLine()).takeWhile(_ ne null).mkString("\n")
     in.close()
     val cnv = convert(str)
+    if(cnv.isEmpty) {
+      println("No display to convert!")
+      return
+    }
     val out = new PrintWriter(new BufferedWriter(new FileWriter(src)))
-    out.write(cnv)
+    out.write(cnv.get)
     out.flush()
     out.close()
   }
 
-  def convert(src: String): String = {
-    extractDisplay(src).converted.insert(src)
+  def convert(src: String): Option[String] = {
+    extractDisplay(src).map(_.converted.insert(src))
   }
 
-  def extractDisplay(src: String): Display = {
+  def extractDisplay(src: String): Option[Display] = {
     val start = src.indexOf(tag)
+    if(start == -1) return None
     var end = start + tag.length
     var counter = 0
     breakable {
@@ -76,7 +81,7 @@ object convertpack {
     map(DisplayType.ThirdLeft) = map.get(DisplayType.ThirdRight).map { o =>
       o.copy(scale = o.scale * (-1,1,1))
     }.orNull
-    Display(map.toMap, (start, end), 4)
+    Some(Display(map.filter{_._2 ne null}.toMap, (start, end), 4))
   }
 
 
@@ -92,7 +97,7 @@ object convertpack {
     def converted: Offset = {
       if(isConverted || tpe == null) return this
       if(tpe == DisplayType.ThirdRight) {
-        val newRotation = ((-rotation._2, -rotation._1, rotation._3) + (-90, 90, -90)) % 360
+        val newRotation = ((-rotation._3, rotation._1, -rotation._2) + (90, -90, -90)) % 360
         val newTranslation = (-translation._1, -translation._3, translation._2) * scale.sqrt
         val newScale = scale
         this.copy(rotation = newRotation, translation = newTranslation, scale = newScale, isConverted = true)

@@ -1,17 +1,31 @@
 {
 	"parent": "itemModels/misc/rabbit_foot",
-	"display": {
-		"gui": {
-			"rotation": [70, -60, 30]
-		},
-		"firstperson": {
-			"rotation": [0, -40, 180],
-			"translation": [0, 1, 0]
-		},
-		"thirdperson": {
-			"scale": [0.2, 0.2, 0.2],
-			"translation": [0, 2, -1.5],
-			"rotation": [-20, 160, 180]
-		}
-	}
+	"display":{
+        "firstperson_lefthand": {
+            "rotation": [ 0.0, 5.0, 180.0 ],
+            "translation": [ 0.0, 0.0, 1.0 ],
+            "scale": [ -0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ -90.0, -110.0, -250.0 ],
+            "translation": [ -0.0, 0.6708203932499369, 0.8944271909999159 ],
+            "scale": [ 0.2, 0.2, 0.2 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90.0, -110.0, -250.0 ],
+            "translation": [ 0.0, 0.6708203932499369, 0.8944271909999159 ],
+            "scale": [ -0.2, 0.2, 0.2 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0.0, 5.0, 180.0 ],
+            "translation": [ 0.0, 0.0, 1.0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 100.0, 165.0, 30.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        }
+
+    }
 }

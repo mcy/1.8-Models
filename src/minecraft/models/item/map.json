@@ -3,19 +3,32 @@
 	"textures": {
 		"front": "items/misc/paper_map"
 	},
-	"display": {
-		"gui": {
-			"rotation": [30, -45, 0],
-			"scale": [0.7, 0.7, 0.7]
-		},
-		"firstperson": {
-			"rotation": [30, 90, 0]
-		},
-
-        "thirdperson": {
-            "rotation": [ -90, 0, 10 ],
-            "translation": [ 0, 1.2, -2.5 ],
+	"display":{
+        "firstperson_lefthand": {
+            "rotation": [ 30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ -0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 80.0, -180.0, -90.0 ],
+            "translation": [ -0.0, 1.25, 0.6 ],
             "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 80.0, -180.0, -90.0 ],
+            "translation": [ 0.0, 1.25, 0.6 ],
+            "scale": [ -0.25, 0.25, 0.25 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 60.0, 180.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.4375, 0.4375, 0.4375 ]
         }
-	}
+
+    }
 }

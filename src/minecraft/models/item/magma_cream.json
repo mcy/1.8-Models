@@ -6,20 +6,32 @@
 		"particle": "items/misc/magma_cream"
 	},
 
-	"display": {
-		"thirdperson": {
-            "rotation": [ 120, -225, 10 ],
-            "translation": [ 0, 2.25, -1 ],
+	"display":{
+        "firstperson_lefthand": {
+            "rotation": [ 20.0, -90.0, 20.0 ],
+            "translation": [ 0.0, 3.0, 4.0 ],
+            "scale": [ -0.27999999999999997, 0.27999999999999997, 0.27999999999999997 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 80.0, 30.0, 135.0 ],
+            "translation": [ -0.0, 0.3872983346207417, 0.8714212528966688 ],
             "scale": [ 0.15, 0.15, 0.15 ]
         },
-        "firstperson": {
-            "rotation": [ 20, -135, 20 ],
-            "translation": [ 0, 4, 3 ],
-            "scale": [ 0.7, 0.7, 0.7 ]
+        "thirdperson_lefthand": {
+            "rotation": [ 80.0, 30.0, 135.0 ],
+            "translation": [ 0.0, 0.3872983346207417, 0.8714212528966688 ],
+            "scale": [ -0.15, 0.15, 0.15 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 20.0, -90.0, 20.0 ],
+            "translation": [ 0.0, 3.0, 4.0 ],
+            "scale": [ 0.27999999999999997, 0.27999999999999997, 0.27999999999999997 ]
         },
         "gui": {
-            "scale": [0.6, 0.6, 0.6],
-            "translation": [0, 0, 0]
+            "rotation": [ 30.0, 225.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
         }
-	}
+
+    }
 }

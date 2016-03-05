@@ -1,26 +1,37 @@
 {
 	"parent": "itemModels/misc/clock",
 
-  "display": {
-    "thirdperson": {
-      "rotation": [ -80, -90, 90 ],
-      "translation": [ 0, 1.1, -2.3 ],
-      "scale": [ 0.15, 0.15, 0.15 ]
-    },
-    "firstperson": {
-      "rotation": [ 30, 90, -20 ],
-      "translation": [ 0, 4, 2 ],
-      "scale": [ 0.85, 0.85, 0.85 ]
-    },
-    "head": {
-      "rotation": [ 0, -135, -20 ],
-      "translation": [ 0, 4, 2 ],
-      "scale": [ 0.85, 0.85, 0.85 ]
-    },
-    "gui": {
-      "rotation": [ 30, -45, 0 ],
-      "translation": [ 0, 0, 0 ],
-      "scale": [ 0.8, 0.8, 0.8 ]
+  "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 30.0, 135.0, -20.0 ],
+            "translation": [ 0.0, 3.0, 3.0 ],
+            "scale": [ -0.34, 0.34, 0.34 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0.0, -170.0, 0.0 ],
+            "translation": [ -0.0, 0.8907861696277058, 0.4260281680828159 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0.0, -170.0, 0.0 ],
+            "translation": [ 0.0, 0.8907861696277058, 0.4260281680828159 ],
+            "scale": [ -0.15, 0.15, 0.15 ]
+        },
+        "head": {
+            "rotation": [ 0.0, -135.0, -20.0 ],
+            "translation": [ 0.0, 4.0, 2.0 ],
+            "scale": [ 0.85, 0.85, 0.85 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 30.0, 135.0, -20.0 ],
+            "translation": [ 0.0, 3.0, 3.0 ],
+            "scale": [ 0.34, 0.34, 0.34 ]
+        },
+        "gui": {
+            "rotation": [ 60.0, 180.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        }
+
     }
-  }
 }

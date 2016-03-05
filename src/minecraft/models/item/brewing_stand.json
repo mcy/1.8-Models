@@ -1,23 +1,36 @@
 {
     "parent": "block/brewing_stand/brewing_stand__magma_gun_1_1_1",
-    "display": {
-        "thirdperson": {
-            "rotation": [ 10, -45, 170 ],
-            "translation": [ 0, 1.5, -2.75 ],
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 0.0, 45.0, 0.0 ],
+            "translation": [ 0.0, 1.5, 1.0 ],
+            "scale": [ -0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ -80.0, -80.0, -45.0 ],
+            "translation": [ -0.0, 1.6840241981634347, 0.9185586535436917 ],
             "scale": [ 0.375, 0.375, 0.375 ]
         },
-        "firstperson": {
-            "translation": [ 0, 2.5, 0 ]
+        "fixed": {
+            "rotation": [ -30.0, 30.0, 0.0 ],
+            "translation": [ 0.0, 0.0, -3.0 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -80.0, -80.0, -45.0 ],
+            "translation": [ 0.0, 1.6840241981634347, 0.9185586535436917 ],
+            "scale": [ -0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0.0, 45.0, 0.0 ],
+            "translation": [ 0.0, 1.5, 1.0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
         },
         "gui": {
-        	"rotation": [0, 110, 0],
-        	"translation": [0, 0.5, 0],
-        	"scale": [1.1, 1.1, 1.1]
-        },
-        "fixed": {
-            "rotation": [-30, 30, 0],
-            "scale": [1.6, 1.6, 1.6],
-            "translation": [0, 0, -3]
+            "rotation": [ 30.0, 335.0, 0.0 ],
+            "translation": [ 0.0, 0.5, 0.0 ],
+            "scale": [ 0.6875, 0.6875, 0.6875 ]
         }
+
     }
 }
