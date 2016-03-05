@@ -347,51 +347,22 @@
                 "up":    { "texture": "#inside", "cullface": "west" },
                 "down":  { "texture": "#inside", "cullface": "west" },
                 "north": { "texture": "#side", "cullface": "west" },
-                "south": { "texture": "#side", "cullface": "west" }
+                "south": { "texture": "#side", "cullface": "west" },
+                "west": { "texture": "#side", "cullface": "west" }
             }
 
-        },
-
-        {
-            "comment": "west cubby interior",
-            "from": [14, 15, 14],
-            "to": [2, 11, 2],
-            "faces": {
-                "up":    { "texture": "#inside", "cullface": "west" },
-                "down":  { "texture": "#inside", "cullface": "west" },
-                "west":  { "texture": "#inside", "cullface": "west" },
-                "north": { "uv": [2, 11, 14, 15], "texture": "#inside", "cullface": "west" },
-                "south": { "texture": "#inside", "cullface": "west" }
-            }
-
-        },
-
-        {
-            "comment": "west cubby door",
-            "from": [-2, 14.5, 2.01],
-            "to": [2, 15, 13.99],
-            "rotation": { "origin": [2, 15, 0], "axis": "z", "angle": 22.5},
-            "faces": {
-                "east":   { "uv": [2, 1, 14, 2], "texture": "#side", "cullface": "west", "rotation": 0 },
-                "west":   { "uv": [2, 4, 14, 5], "texture": "#side", "cullface": "west", "rotation": 0 },
-                "up":     { "uv": [2, 1, 14, 5], "texture": "#side", "cullface": "west", "rotation": 90 },
-                "down":   { "uv": [2, 1, 14, 5], "texture": "#side", "cullface": "west","rotation": 90 },
-                "north":  { "uv": [2, 1, 3, 5], "texture": "#side", "cullface": "west", "rotation": 90 },
-                "south":  { "uv": [13, 1, 14, 5], "texture": "#side", "cullface": "west", "rotation": 90 }
-            }
         },
 
         {
             "comment": "west cubby handle",
-            "from": [-1.5, 15, 7.5],
-            "to": [-0.5, 15.5, 8.5],
-            "rotation": { "origin": [2, 15, 0], "axis": "z", "angle": 22.5},
+            "from": [1.5, 11.5, 7.5],
+            "to": [2, 12.5, 8.5],
             "faces": {
-                "up":    { "uv": [0.5, 0.5, 1.5, 1.5], "texture": "#handle", "cullface": "west" },
-                "west":  { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "west" },
-                "north": { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "west" },
-                "east":  { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "west" },
-                "south": { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "west" }
+                "up":    { "texture": "#handle", "cullface": "east" },
+                "down":  { "texture": "#handle", "cullface": "east" },
+                "north": { "texture": "#handle", "cullface": "east" },
+                "west":  { "texture": "#handle", "cullface": "east" },
+                "south": { "texture": "#handle", "cullface": "east" }
             }
         },
 
@@ -423,23 +394,9 @@
         },
 
         {
-            "comment": "north drawer inside",
-            "from": [13, 8, 5],
-            "to": [8, 3, 0],
-            "faces": {
-                "up":    { "texture": "#inside", "cullface": "north" },
-                "down":  { "texture": "#inside", "cullface": "north", "rotation": 180 },
-                "north": { "texture": "#inside", "cullface": "north" },
-                "west":  { "texture": "#inside", "cullface": "north" },
-                "east":  { "texture": "#inside", "cullface": "north", "rotation": 180 }
-            }
-        },
-
-        {
             "comment": "north drawer door",
             "from": [8, 3, -0.25],
             "to": [13, 8, 0.25],
-            "rotation": { "origin": [0, 3, 0], "axis": "x", "angle": -22.5},
             "faces": {
                 "east":   { "uv": [3, 8, 4, 13], "texture": "#side", "cullface": "north" },
                 "west":   { "uv": [7, 8, 8, 13], "texture": "#side", "cullface": "north" },
@@ -454,7 +411,6 @@
             "comment": "north drawer handle",
             "from": [10, 6, -0.75],
             "to": [11, 7, -0.25],
-            "rotation": { "origin": [0, 3, 0], "axis": "x", "angle": -22.5},
             "faces": {
                 "east":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "west":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
@@ -571,14 +527,14 @@
 
         {
             "comment": "west bookcase interior",
-            "from": [6, 8, 13],
+            "from": [1, 8, 13],
             "to": [0, 3, 3],
             "faces": {
-                "up":    { "texture": "#inside", "cullface": "west" },
-                "down":  { "texture": "#inside", "cullface": "west" },
-                "north": { "texture": "#inside", "cullface": "west", "rotation": 180 },
-                "south": { "texture": "#inside", "cullface": "west" },
-                "west":  { "texture": "#inside", "cullface": "west", "rotation": 180 }
+                "west":   { "texture": "#detail", "cullface": "west" },
+                "north":  { "texture": "#side", "cullface": "west" },
+                "up":     { "texture": "#side", "cullface": "west" },
+                "down":   { "texture": "#side", "cullface": "west" },
+                "south":  { "texture": "#side", "cullface": "west" }
             }
         },
 
@@ -654,239 +610,83 @@
         },
 
         {
-            "comment": "south top drawer inside",
-            "from": [13, 8, 16],
-            "to": [9, 7, 11],
-            "faces": {
-                "east":   { "texture": "#inside", "cullface": "south", "rotation": 180 },
-                "west":   { "texture": "#inside", "cullface": "south" },
-                "up":     { "texture": "#inside", "cullface": "south" },
-                "down":   { "texture": "#inside", "cullface": "south", "rotation": 180 }
-            }
-
-        },
-
-        {
-            "comment": "south middle drawer inside",
-            "from": [13, 6, 16],
-            "to": [9, 5, 11],
-            "faces": {
-                "east":   { "texture": "#inside", "cullface": "south", "rotation": 180 },
-                "west":   { "texture": "#inside", "cullface": "south" },
-                "up":     { "texture": "#inside", "cullface": "south" },
-                "down":   { "texture": "#inside", "cullface": "south", "rotation": 180 }
-            }
-
-        },
-
-        {
-            "comment": "south bottom drawer inside",
-            "from": [13, 4, 16],
-            "to": [9, 3, 11],
-            "faces": {
-                "east":   { "texture": "#inside", "cullface": "south", "rotation": 180 },
-                "west":   { "texture": "#inside", "cullface": "south" },
-                "up":     { "texture": "#inside", "cullface": "south" },
-                "down":   { "texture": "#inside", "cullface": "south", "rotation": 180 }
-            }
-
-        },
-
-        {
             "comment": "south top drawer front",
-            "from": [9, 7, 17],
-            "to": [13, 8, 17.25],
+            "from": [9, 7, 16],
+            "to": [13, 8, 16.25],
             "faces": {
                 "up":     { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "down":   { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "north":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" },
-                "south":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
+                "south":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" },
+                "east":   { "uv": [6, 8, 7, 9], "texture": "#side", "cullface": "south" },
+                "west":   { "uv": [3, 8, 4, 9], "texture": "#side", "cullface": "south" }
             }
         },
 
         {
-            "comment": "south top drawer back",
-            "from": [9, 7, 11],
-            "to": [13, 8, 12],
-            "faces": {
-                "south":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-        {
-            "comment": "south top drawer left",
-            "from": [9, 7, 11.75],
-            "to": [9.25, 7.99, 17.25],
-            "faces": {
-                "up":   { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-        {
-            "comment": "south top drawer right",
-            "from": [12.75, 7, 11.75],
-            "to": [13, 7.99, 17.25],
-            "faces": {
-                "up":   { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-            {
             "comment": "south upper drawer handle",
-            "from": [10.75, 7.25, 17.25],
-            "to": [11.25, 7.75, 17.5],
+            "from": [10.75, 7.25, 16.25],
+            "to": [11.25, 7.75, 16.5],
             "faces": {
                 "east":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "west":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "up":     { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "down":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "south":  { "uv": [0.5, 0.5, 1.5, 1.5], "texture": "#handle", "cullface": "north" }
-            }
-        },
-
-        {
-            "comment": "south top drawer bottom",
-            "from": [9, 7, 11],
-            "to": [13, 7.15, 17],
-            "faces": {
-                "down":  { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" },
-                "up":    { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" }
             }
         },
 
         {
             "comment": "south middle drawer front",
-            "from": [9, 5, 19],
-            "to": [13, 6, 19.25],
+            "from": [9, 5, 16],
+            "to": [13, 6, 16.25],
             "faces": {
                 "up":     { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "down":   { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "north":  { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" },
-                "south":  { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" }
+                "south":  { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" },
+                "east":   { "uv": [6, 8, 7, 9], "texture": "#side", "cullface": "south" },
+                "west":   { "uv": [3, 8, 4, 9], "texture": "#side", "cullface": "south" }
             }
         },
 
         {
-            "comment": "south middle drawer back",
-            "from": [9, 5, 13],
-            "to": [13, 6, 14],
-            "faces": {
-                "south":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-        {
-            "comment": "south middle drawer left",
-            "from": [9, 5, 13.75],
-            "to": [9.25, 5.99, 19.25],
-            "faces": {
-                "up":   { "uv": [3, 10, 7, 11], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-        {
-            "comment": "south middle drawer right",
-            "from": [12.75, 5, 13.75],
-            "to": [13, 5.99, 19.25],
-            "faces": {
-                "up":   { "uv": [3, 10, 7, 11], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 10, 13, 11], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-            {
             "comment": "south middle drawer handle",
-            "from": [10.75, 5.25, 19.25],
-            "to": [11.25, 5.75, 19.5],
+            "from": [10.75, 5.25, 16.25],
+            "to": [11.25, 5.75, 16.5],
             "faces": {
                 "east":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "west":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "up":     { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "down":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "south":  { "uv": [0.5, 0.5, 1.5, 1.5], "texture": "#handle", "cullface": "north" }
-            }
-        },
-
-        {
-            "comment": "south middle drawer bottom",
-            "from": [9, 5, 14],
-            "to": [13, 5.15, 19],
-            "faces": {
-                "down":  { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" },
-                "up":    { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" }
             }
         },
 
         {
             "comment": "south bottom drawer front",
-            "from": [9, 3, 18],
-            "to": [13, 4, 18.25],
+            "from": [9, 3, 16],
+            "to": [13, 4, 16.25],
             "faces": {
                 "up":     { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "down":   { "uv": [3, 8, 7, 9], "texture": "#side", "cullface": "south" },
                 "north":  { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" },
-                "south":  { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-    {
-            "comment": "south bottom drawer back",
-            "from": [9, 3, 12],
-            "to": [13, 4, 13],
-            "faces": {
-                "south":  { "uv": [9, 8, 13, 9], "texture": "#side", "cullface": "south" }
+                "south":  { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" },
+                "east":   { "uv": [6, 8, 7, 9], "texture": "#side", "cullface": "south" },
+                "west":   { "uv": [3, 8, 4, 9], "texture": "#side", "cullface": "south" }
             }
         },
 
         {
-            "comment": "south bottom drawer left",
-            "from": [9, 3, 12.75],
-            "to": [9.25, 3.99, 18.25],
-            "faces": {
-                "up":   { "uv": [3, 12, 7, 13], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-        {
-            "comment": "south bottom drawer right",
-            "from": [12.75, 3, 12.75],
-            "to": [13, 3.99, 18.25],
-            "faces": {
-                "up":   { "uv": [3, 12, 7, 13], "texture": "#side", "cullface": "south", "rotation": 90 },
-                "east": { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" },
-                "west": { "uv": [9, 12, 13, 13], "texture": "#side", "cullface": "south" }
-            }
-        },
-
-            {
             "comment": "south bottom drawer handle",
-            "from": [10.75, 3.25, 18.25],
-            "to": [11.25, 3.75, 18.5],
+            "from": [10.75, 3.25, 16.25],
+            "to": [11.25, 3.75, 16.5],
             "faces": {
                 "east":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "west":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "up":     { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "down":   { "uv": [0.5, 0.5, 1, 1], "texture": "#handle", "cullface": "north" },
                 "south":  { "uv": [0.5, 0.5, 1.5, 1.5], "texture": "#handle", "cullface": "north" }
-            }
-        },
-
-        {
-            "comment": "south bottom drawer bottom",
-            "from": [9, 3, 13],
-            "to": [13, 3.15, 18],
-            "faces": {
-                "down":  { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" },
-                "up":    { "uv": [3, 8, 7, 13], "texture": "#side", "cullface": "south" }
             }
         },
 
@@ -948,7 +748,7 @@
                 "west":  { "uv": [ 12, 3, 13, 13 ], "texture": "#grid", "cullface": "up" }
             }
         },
-        {
+{
             "comment": "grid border",
             "from": [ 3.5, 17.0, 3.5 ],
             "to": [ 12.5, 17.45, 12.5 ],
@@ -1111,6 +911,7 @@
                 "west":  { "uv": [ 12, 10, 13, 12 ], "texture": "#grid", "cullface": "up" }
             }
         },
+
         {
             "comment": "leg",
             "from": [ 1.5, 17.0, 3.0 ],
