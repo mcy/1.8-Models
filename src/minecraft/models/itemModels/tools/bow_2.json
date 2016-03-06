@@ -1,10 +1,5 @@
 {
-    "textures": {
-        "stick": "items/tools/arrow_shaft",
-        "tip": "items/tools/arrow_tip",
-        "feather": "items/tools/arrow_feather",
-        "accent": "items/tools/arrow_accent"
-    },
+    "parent": "itemModels/tools/bow_0",
     "elements": [
         {
             "comment": "middle",

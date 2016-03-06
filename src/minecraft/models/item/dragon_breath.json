@@ -1,0 +1,10 @@
+{
+    "parent": "itemModels/alchemy/bottle",
+    "textures": {
+        "glass": "items/potion/potion_breath",
+        "stopper": "items/potion/stopper_splash",
+        "fluid": "items/potion/breath",
+        "fluid2": "items/potion/breath",
+        "particle": "items/potion/potion_breath"
+    }
+}

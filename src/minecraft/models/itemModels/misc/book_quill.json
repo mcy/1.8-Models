@@ -1,4 +1,5 @@
 {
+    "parent": "itemModels/misc/book",
     "textures": {
         "book": "items/misc/book_written",
         "feather": "items/misc/quill"
@@ -121,13 +122,5 @@
                 "south": { "uv": [ 3, 13, 5, 15 ], "texture": "#feather" }
             }
         }
-    ],
-    "display":{
-        "fixed": {
-            "rotation": [ 10.0, 10.0, 0.0 ],
-            "translation": [ 0.0, 0.0, -3.0 ],
-            "scale": [ 0.6, 0.6, 0.6 ]
-        }
-
-    }
+    ]
 }

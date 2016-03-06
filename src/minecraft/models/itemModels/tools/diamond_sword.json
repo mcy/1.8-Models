@@ -191,17 +191,6 @@
                 "east": {"texture": "#blade"}
             }
         },
-        /*{
-            "comment": "edge",
-            "from": [9, 9, 7.745],
-            "to": [10, 16, 8.255],
-            "rotation": {"origin": [10, 9, 0], "axis": "z", "angle": 22.5},
-            "faces": {
-                "north": {"texture": "#blade"},
-                "south": {"texture": "#blade"},
-                "east": {"texture": "#blade"}
-            }
-        },*/
         {
             "comment": "edge",
             "from": [6.2, 15, 7.745],
@@ -237,7 +226,7 @@
             "scale": [ -0.5599999999999999, 1.6800000000000002, 0.5599999999999999 ]
         },
         "thirdperson_righthand": {
-            "rotation": [ 0.0, -100.0, 0.0 ],
+            "rotation": [ 0.0, 100.0, 0.0 ],
             "translation": [ -0.0, 13.856406460551018, 0.9 ],
             "scale": [ 1.0, 3.0, 1.0 ]
         },
@@ -247,7 +236,7 @@
             "scale": [ 0.5, 1.5, 0.5 ]
         },
         "thirdperson_lefthand": {
-            "rotation": [ 0.0, -100.0, 0.0 ],
+            "rotation": [ 0.0, 100.0, 0.0 ],
             "translation": [ 0.0, 13.856406460551018, 0.9 ],
             "scale": [ -1.0, 3.0, 1.0 ]
         },

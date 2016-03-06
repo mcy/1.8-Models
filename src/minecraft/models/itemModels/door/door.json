@@ -26,5 +26,37 @@
                 "east":  { "uv": [ 3, 0, 0, 16 ], "texture": "#top" }
             }
         }
-    ]
+    ],
+    "display" :{
+        "firstperson_lefthand": {
+            "rotation": [ -30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, 1.0, 1.0 ],
+            "scale": [ -0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 180.0, -90.0, -180.0 ],
+            "translation": [ -1.8, 0.4, -0.3 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 180.0, -90.0, -180.0 ],
+            "translation": [ -1.8, 0.4, -0.3 ],
+            "scale": [ -0.7, 0.7, 0.7 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, 1.0, 1.0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.4375, 0.4375, 0.4375 ]
+        },
+        "fixed": {
+            "rotation": [ -30.0, 30.0, 0.0 ],
+            "translation": [ 0.0, 1.5, -4.0 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        }
+    }
 }

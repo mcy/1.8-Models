@@ -1,4 +1,5 @@
 {
+    "parent": "itemModels/alchemy/bottle",
     "textures": {
         "glass": "items/potion/splash",
         "stopper": "items/potion/stopper_splash",

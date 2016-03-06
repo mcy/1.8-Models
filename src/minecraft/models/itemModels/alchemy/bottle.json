@@ -3,6 +3,7 @@
         "glass": "items/potion/potion",
         "stopper": "items/potion/stopper",
         "fluid": "items/potion/fluid",
+        "fluid2": "null",
         "particle": "items/potion/potion"
     },
     "elements": [
@@ -108,6 +109,49 @@
                 "north": { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid", "tintindex": 0 },
                 "south": { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid", "tintindex": 0 }
             }
+        },
+        {
+            "comment": "neck contents",
+            "from": [ 5.75, 9.0, 5.75 ],
+            "to": [ 10.25, 22.0, 10.25 ],
+            "faces": {
+                "east":  { "uv": [ 5, 3, 7, 6 ], "texture": "#fluid2" },
+                "west":  { "uv": [ 5, 3, 7, 6 ], "texture": "#fluid2" },
+                "north": { "uv": [ 5, 3, 7, 6 ], "texture": "#fluid2" },
+                "south": { "uv": [ 5, 3, 7, 6 ], "texture": "#fluid2" }
+            }
         }
-    ]
+    ],
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 20.0, -90.0, 40.0 ],
+            "translation": [ 0.0, 3.0, 4.0 ],
+            "scale": [ -0.28, 0.28, 0.28 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ -90.0, -150.0, -125.0 ],
+            "translation": [ -0.0, 0.5, -1.125 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90.0, -150.0, -125.0 ],
+            "translation": [ -0.0, 0.5, -1.125 ],
+            "scale": [ -0.25, 0.25, 0.25 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 20.0, -90.0, 40.0 ],
+            "translation": [ 0.0, 3.0, 4.0 ],
+            "scale": [ 0.28, 0.28, 0.28 ]
+        },
+        "gui": {
+            "rotation": [ 30.0, 225.0, 0.0 ],
+            "translation": [ 0.0, -0.5, 0.0 ],
+            "scale": [ 0.4375, 0.4375, 0.4375 ]
+        },
+        "fixed": {
+            "rotation": [ -30, 30.0, 0.0 ],
+            "translation": [ 0.0, -1.0, -3.0 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        }
+    }
 }

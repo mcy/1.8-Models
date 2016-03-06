@@ -1,38 +1,39 @@
 {
     "textures": {
         "clock": "items/misc/clock/clock",
-        "h0": "items/misc/clock/h0",
-        "h1": "items/misc/clock/h1",
-        "h2": "items/misc/clock/h2",
-        "h3": "items/misc/clock/h3",
-        "h4": "items/misc/clock/h4",
-        "h5": "items/misc/clock/h5",
-        "h6": "items/misc/clock/h6",
-        "h7": "items/misc/clock/h7",
-        "h8": "items/misc/clock/h8",
-        "h9": "items/misc/clock/h9",
-        "h10": "items/misc/clock/h10",
-        "h11": "items/misc/clock/h11",
-        "h12": "items/misc/clock/h12",
-        "h13": "items/misc/clock/h13",
-        "h14": "items/misc/clock/h14",
-        "h15": "items/misc/clock/h15",
-        "m0": "items/misc/clock/m0",
-        "m1": "items/misc/clock/m1",
-        "m2": "items/misc/clock/m2",
-        "m3": "items/misc/clock/m3",
-        "m4": "items/misc/clock/m4",
-        "m5": "items/misc/clock/m5",
-        "m6": "items/misc/clock/m6",
-        "m7": "items/misc/clock/m7",
-        "m8": "items/misc/clock/m8",
-        "m9": "items/misc/clock/m9",
-        "m10": "items/misc/clock/m10",
-        "m11": "items/misc/clock/m11",
-        "m12": "items/misc/clock/m12",
-        "m13": "items/misc/clock/m13",
-        "m14": "items/misc/clock/m14",
-        "m15": "items/misc/clock/m15"
+        "day": "items/misc/clock/night",
+        "h0": "null",
+        "h1": "null",
+        "h2": "null",
+        "h3": "null",
+        "h4": "null",
+        "h5": "null",
+        "h6": "null",
+        "h7": "null",
+        "h8": "null",
+        "h9": "null",
+        "h10": "null",
+        "h11": "null",
+        "h12": "null",
+        "h13": "null",
+        "h14": "null",
+        "h15": "null",
+        "m0": "null",
+        "m1": "null",
+        "m2": "null",
+        "m3": "null",
+        "m4": "null",
+        "m5": "null",
+        "m6": "null",
+        "m7": "null",
+        "m8": "null",
+        "m9": "null",
+        "m10": "null",
+        "m11": "null",
+        "m12": "null",
+        "m13": "null",
+        "m14": "null",
+        "m15": "null"
     },
     "elements": [
         {
@@ -358,6 +359,17 @@
                 "down":  { "uv": [ 0, 4, 1, 5 ], "texture": "#clock" }
             }
         },
+
+        {
+            "comment": "hands stick",
+            "from": [ 6.5, 2.5, 7.99 ],
+            "to": [ 9.5, 5.5, 7.99 ],
+            "rotation": { "origin": [ 8.0, 4, 8.0 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "north": { "uv": [ 0,0,16,16 ], "texture": "#day" }
+            }
+        },
+
         {
             "comment": "minute hand",
             "from": [ 7.45, 6.9, 6.35 ],
@@ -798,5 +810,41 @@
                 "up":    { "uv": [ 0, 0, 1, 4 ], "texture": "#h14", "rotation": 270 }
             }
         }
-    ]
+    ],
+
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ -30.0, 135.0, -20.0 ],
+            "translation": [ -1.4, 4.4, 3.0 ],
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0.0, 170.0, 0.0 ],
+            "translation": [ -0.0, 1.5, 0.5 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0.0, 170.0, 0.0 ],
+            "translation": [ 0.0, 1.5, 0.5 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        "head": {
+            "rotation": [ 0.0, -135.0, -20.0 ],
+            "translation": [ 0.0, 4.0, 2.0 ],
+            "scale": [ 0.85, 0.85, 0.85 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -30.0, 135.0, -20.0 ],
+            "translation": [ -1.4, 4.4, 3.0 ],
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "gui": {
+            "rotation": [ 0.0, 180.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "scale": [ 0.7, 0.7, 0.7 ]
+        }
+    }
 }

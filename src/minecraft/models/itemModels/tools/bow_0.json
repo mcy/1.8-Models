@@ -1,10 +1,5 @@
 {
-    "textures": {
-        "stick": "items/tools/arrow_shaft",
-        "tip": "items/tools/arrow_tip",
-        "feather": "items/tools/arrow_feather",
-        "accent": "items/tools/arrow_accent"
-    },
+    "parent": "itemModels/tools/bow",
     "elements": [
         {
             "comment": "middle",
@@ -328,5 +323,18 @@
                 "up":    { "uv": [ 9, 0, 0, 6 ], "texture": "#feather", "rotation": 270 }
             }
         }
-    ]
+    ],
+
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 0.0, 100.0, 25.0 ],
+            "translation": [ -2.5, 3.0, 3.0 ],
+            "scale": [ -0.68, 0.68, 0.68 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0.0, 100.0, 25.0 ],
+            "translation": [ -2.5, 3.0, 3.0 ],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    }
 }

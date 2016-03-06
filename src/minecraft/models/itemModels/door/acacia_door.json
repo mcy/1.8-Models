@@ -1,4 +1,5 @@
 {
+    "parent": "itemModels/door/door",
     "ambientocclusion": false,
     "textures": {
         "particle": "blocks/door/door_acacia_lower",

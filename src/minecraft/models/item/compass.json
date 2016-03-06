@@ -1,37 +1,21 @@
 {
-	"parent": "itemModels/misc/compass",
-
-  "display":{
-        "firstperson_lefthand": {
-            "rotation": [ 30.0, 135.0, -20.0 ],
-            "translation": [ 0.0, 3.0, 3.0 ],
-            "scale": [ -0.34, 0.34, 0.34 ]
-        },
-        "thirdperson_righthand": {
-            "rotation": [ 0.0, -170.0, 0.0 ],
-            "translation": [ -0.0, 0.8907861696277058, 0.4260281680828159 ],
-            "scale": [ 0.15, 0.15, 0.15 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 0.0, -170.0, 0.0 ],
-            "translation": [ 0.0, 0.8907861696277058, 0.4260281680828159 ],
-            "scale": [ -0.15, 0.15, 0.15 ]
-        },
-        "head": {
-            "rotation": [ 0.0, -135.0, -20.0 ],
-            "translation": [ 0.0, 4.0, 2.0 ],
-            "scale": [ 0.85, 0.85, 0.85 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 30.0, 135.0, -20.0 ],
-            "translation": [ 0.0, 3.0, 3.0 ],
-            "scale": [ 0.34, 0.34, 0.34 ]
-        },
-        "gui": {
-            "rotation": [ 60.0, 180.0, 0.0 ],
-            "translation": [ 0.0, 0.0, 0.0 ],
-            "scale": [ 0.5, 0.5, 0.5 ]
-        }
-
-    }
+	"parent": "itemModels/misc/compass/compass",
+    "overrides": [
+        {"predicate":{"angle":0.0},"model":"itemModels/misc/compass/d15"},
+        {"predicate":{"angle":0.0625},"model":"itemModels/misc/compass/d14"},
+        {"predicate":{"angle":0.125},"model":"itemModels/misc/compass/d13"},
+        {"predicate":{"angle":0.1875},"model":"itemModels/misc/compass/d12"},
+        {"predicate":{"angle":0.25},"model":"itemModels/misc/compass/d11"},
+        {"predicate":{"angle":0.3125},"model":"itemModels/misc/compass/d10"},
+        {"predicate":{"angle":0.375},"model":"itemModels/misc/compass/d9"},
+        {"predicate":{"angle":0.4375},"model":"itemModels/misc/compass/d8"},
+        {"predicate":{"angle":0.5},"model":"itemModels/misc/compass/d7"},
+        {"predicate":{"angle":0.5625},"model":"itemModels/misc/compass/d6"},
+        {"predicate":{"angle":0.625},"model":"itemModels/misc/compass/d5"},
+        {"predicate":{"angle":0.6875},"model":"itemModels/misc/compass/d4"},
+        {"predicate":{"angle":0.75},"model":"itemModels/misc/compass/d3"},
+        {"predicate":{"angle":0.8125},"model":"itemModels/misc/compass/d2"},
+        {"predicate":{"angle":0.875},"model":"itemModels/misc/compass/d1"},
+        {"predicate":{"angle":0.9375},"model":"itemModels/misc/compass/d0"}
+    ]
 }

@@ -1,4 +1,5 @@
 {
+    "parent": "itemModels/misc/paper",
     "textures": {
         "front": "items/misc/paper_map_drawn",
         "back": "items/misc/paper_map",
