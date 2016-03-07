@@ -1,38 +1,40 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "clock": "items/misc/clock/clock",
-        "h0": "items/misc/clock/h0",
-        "h1": "items/misc/clock/h1",
-        "h2": "items/misc/clock/h2",
-        "h3": "items/misc/clock/h3",
-        "h4": "items/misc/clock/h4",
-        "h5": "items/misc/clock/h5",
-        "h6": "items/misc/clock/h6",
-        "h7": "items/misc/clock/h7",
-        "h8": "items/misc/clock/h8",
-        "h9": "items/misc/clock/h9",
-        "h10": "items/misc/clock/h10",
-        "h11": "items/misc/clock/h11",
-        "h12": "items/misc/clock/h12",
-        "h13": "items/misc/clock/h13",
-        "h14": "items/misc/clock/h14",
-        "h15": "items/misc/clock/h15",
-        "m0": "items/misc/clock/m0",
-        "m1": "items/misc/clock/m1",
-        "m2": "items/misc/clock/m2",
-        "m3": "items/misc/clock/m3",
-        "m4": "items/misc/clock/m4",
-        "m5": "items/misc/clock/m5",
-        "m6": "items/misc/clock/m6",
-        "m7": "items/misc/clock/m7",
-        "m8": "items/misc/clock/m8",
-        "m9": "items/misc/clock/m9",
-        "m10": "items/misc/clock/m10",
-        "m11": "items/misc/clock/m11",
-        "m12": "items/misc/clock/m12",
-        "m13": "items/misc/clock/m13",
-        "m14": "items/misc/clock/m14",
-        "m15": "items/misc/clock/m15"
+        "day": "null",
+        "h0": "null",
+        "h1": "null",
+        "h2": "null",
+        "h3": "null",
+        "h4": "null",
+        "h5": "null",
+        "h6": "null",
+        "h7": "null",
+        "h8": "null",
+        "h9": "null",
+        "h10": "null",
+        "h11": "null",
+        "h12": "null",
+        "h13": "null",
+        "h14": "null",
+        "h15": "null",
+        "m0": "null",
+        "m1": "null",
+        "m2": "null",
+        "m3": "null",
+        "m4": "null",
+        "m5": "null",
+        "m6": "null",
+        "m7": "null",
+        "m8": "null",
+        "m9": "null",
+        "m10": "null",
+        "m11": "null",
+        "m12": "null",
+        "m13": "null",
+        "m14": "null",
+        "m15": "null"
     },
     "elements": [
         {
@@ -52,6 +54,17 @@
                 "north": { "uv": [ 0, 5, 7, 12 ], "texture": "#clock" }
             }
         },
+
+        {
+            "comment": "day thing",
+            "from": [ 6.5, 2.5, 7.99 ],
+            "to": [ 9.5, 5.5, 7.99 ],
+            "rotation": { "origin": [ 8.0, 4, 8.0 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "north": { "uv": [ 0,0,16,16 ], "texture": "#day" }
+            }
+        },
+
         {
             "comment": "inside",
             "from": [ 5.8, 5.8, 8.110000000000001 ],
@@ -830,6 +843,10 @@
             "rotation": [ 0.0, 180.0, 0.0 ],
             "translation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "rotation": [0,0,0],
+            "scale": [0.6,0.6,0.6]
         }
     }
 }

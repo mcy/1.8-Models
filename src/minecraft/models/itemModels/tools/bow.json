@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "stick": "items/tools/handle",
         "string": "items/tools/string",

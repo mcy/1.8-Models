@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "hide": "items/misc/leather/rabbit"
     },
@@ -199,7 +200,7 @@
             "scale": [ 0.4, 0.4, 0.4 ]
         },
         "gui": {
-            "rotation": [ 60.0, 190.0, 10.0 ],
+            "rotation": [ 10.0, 0.0, 10.0 ],
             "translation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.4375, 0.4375, 0.4375 ]
         }

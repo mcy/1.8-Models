@@ -7,7 +7,7 @@ for j in {0..15}; do
     if [[ $d == 1 ]]; then
         DAY="items/misc/clock/night"
     fi
-    echo "{\"parent\":\"itemModels/misc/clock\",\"textures\":{\"h${i}\":\"items/misc/clock/hand\",\"m${j}\":\"items/misc/clock/hand\",\"day\":\"$DAY\"}}" > "d${d}h${i}m${j}.json"
+    echo "{\"parent\":\"itemModels/misc/clock/clock\",\"textures\":{\"h${i}\":\"items/misc/clock/hand\",\"m${j}\":\"items/misc/clock/hand\",\"day\":\"$DAY\"}}" > "d${d}h${i}m${j}.json"
 done
 done
 done

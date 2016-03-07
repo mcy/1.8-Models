@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "blade": "items/tools/iron_blade",
         "siding": "items/tools/iron_blade_siding",

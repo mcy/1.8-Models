@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "glass": "items/potion/potion",
         "stopper": "items/potion/stopper",

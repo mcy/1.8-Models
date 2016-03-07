@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "string": "items/powder/string/string_bright",
         "wood": "items/misc/stick",
@@ -73,5 +74,37 @@
                 "down":  { "uv": [ 7.5, 3.5, 8.5, 4.5 ], "texture": "#needle" }
             }
         }
-    ]
+    ],
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 20.0, 35.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ -0.24, 0.24, 0.24 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 10.0, -50.0, -130.0 ],
+            "translation": [ -0.0, -0.5, -0.6 ],
+            "scale": [ 0.1, 0.1, 0.1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 10.0, -50.0, -130.0 ],
+            "translation": [ -0.0, -0.5, -0.6 ],
+            "scale": [ -0.1, 0.1, 0.1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 20.0, 35.0, 0.0 ],
+            "translation": [ 0.0, -1.0, 1.0 ],
+            "scale": [ 0.24, 0.24, 0.24 ]
+        },
+        "gui": {
+            "rotation": [ 20.0, -180.0, 10.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.4375, 0.4375, 0.4375 ]
+        },
+        "fixed": {
+            "rotation": [ -30, 30.0, 0.0 ],
+            "translation": [ 0.0, 0.0, -3.0 ],
+            "scale": [ 0.45, 0.45, 0.45 ]
+        }
+    }
 }

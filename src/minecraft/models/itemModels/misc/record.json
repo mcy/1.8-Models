@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "r_": "blocks/jukebox/record/record"
     },

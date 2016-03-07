@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
 	"textures": {
 		"eye": "items/food/spider_eye",
 		"particle": "items/food/spider_eye"

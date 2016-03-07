@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "label_icon": "null"
     },

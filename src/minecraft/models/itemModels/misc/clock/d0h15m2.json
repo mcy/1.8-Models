@@ -1,1 +1,1 @@
-{"parent":"itemModels/misc/clock","textures":{"h15":"items/misc/clock/hand","m2":"items/misc/clock/hand","day":"items/misc/clock/day"}}
+{"parent":"itemModels/misc/clock/clock","textures":{"h15":"items/misc/clock/hand","m2":"items/misc/clock/hand","day":"items/misc/clock/day"}}

@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "front": "items/misc/paper_bin",
         "back": "items/misc/paper_blank"

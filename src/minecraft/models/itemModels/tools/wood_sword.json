@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "rod": "items/tools/wood_blade",
         "particle": "items/tools/wood_blade",

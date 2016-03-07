@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "label": "items/powder/label/blank_label"
     },

@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "material": "items/misc/bone",
         "particle": "items/misc/bone"

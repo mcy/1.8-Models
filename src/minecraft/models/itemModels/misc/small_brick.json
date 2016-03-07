@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "texture": {
         "particle": "#brick"
     },

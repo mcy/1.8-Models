@@ -3,33 +3,5 @@
 	"textures": {
 		"rabbit": "items/food/rabbit",
 		"particle": "items/food/rabbit"
-	},
-	"display":{
-        "firstperson_lefthand": {
-            "rotation": [ 180.0, 135.0, -20.0 ],
-            "translation": [ -1.0, 2.0, 3.0 ],
-            "scale": [ -0.4, 0.4, 0.4 ]
-        },
-        "thirdperson_righthand": {
-            "rotation": [ 10.0, -20.0, -180.0 ],
-            "translation": [ -0.0, 1.5, 0.525 ],
-            "scale": [ 0.25, 0.25, 0.25 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 10.0, -20.0, -180.0 ],
-            "translation": [ 0.0, 1.5, 0.525 ],
-            "scale": [ -0.25, 0.25, 0.25 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 180.0, 135.0, -20.0 ],
-            "translation": [ -1.0, 2.0, 3.0 ],
-            "scale": [ 0.4, 0.4, 0.4 ]
-        },
-        "gui": {
-            "rotation": [ 45.0, 160.0, -10.0 ],
-            "translation": [ 0.0, -1.0, 0.0 ],
-            "scale": [ 0.4375, 0.4375, 0.4375 ]
-        }
-
-    }
+	}
 }

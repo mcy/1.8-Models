@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "sac": "items/dye/ink_sac",
         "particle": "items/dye/ink_sac"

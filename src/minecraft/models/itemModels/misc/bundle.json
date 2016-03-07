@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "texture": {
         "particle": "#stalks"
     },
@@ -218,7 +219,7 @@
             "scale": [ 0.48, 0.48, 0.48 ]
         },
         "gui": {
-            "rotation": [ -40.0, 45.0, 0.0 ],
+            "rotation": [ -40.0, 45.0, 90.0 ],
             "translation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.9375, 0.9375, 0.9375 ]
         }

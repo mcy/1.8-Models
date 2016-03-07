@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "display":{
         "firstperson_lefthand": {
             "rotation": [ 0.0, 90.0, 20.0 ],

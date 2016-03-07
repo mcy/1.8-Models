@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "handle": "items/misc/chisel/stick",
         "metal": "items/misc/chisel/metal"

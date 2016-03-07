@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "bucket": "items/misc/bucket",
         "particle": "items/misc/bucket",
@@ -88,7 +89,7 @@
             "scale": [ -0.44000000000000006, 0.44000000000000006, 0.44000000000000006 ]
         },
         "thirdperson_righthand": {
-            "rotation": [ -50.0, -80.0, 0.0 ],
+            "rotation": [ -140.0, -80.0, 180.0 ],
             "translation": [ -0.0, 0.85, 1.4 ],
             "scale": [ 0.25, 0.25, 0.25 ]
         },

@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "cookie": "items/food/cookie",
         "particle": "items/food/cookie"
@@ -91,7 +92,7 @@
         },
         "thirdperson_righthand": {
             "rotation": [ 80.0, 40.0, -100.0 ],
-            "translation": [ -0.0, 0.41569219381653055, 0.6581793068761733 ],
+            "translation": [ -0.0, 0.4, -0.7 ],
             "scale": [ 0.12, 0.12, 0.12 ]
         },
         "fixed": {
@@ -101,7 +102,7 @@
         },
         "thirdperson_lefthand": {
             "rotation": [ 80.0, 40.0, -100.0 ],
-            "translation": [ 0.0, 0.41569219381653055, 0.6581793068761733 ],
+            "translation": [ 0.0, 0.4, -0.7 ],
             "scale": [ -0.12, 0.12, 0.12 ]
         },
         "ground": {
@@ -115,7 +116,7 @@
             "scale": [ 0.2, 0.2, 0.2 ]
         },
         "gui": {
-            "rotation": [ 110.0, 180.0, 0.0 ],
+            "rotation": [ -20.0, 180.0, 0.0 ],
             "translation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.40625, 0.40625, 0.40625 ]
         }

@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "particle": "#carrot"
     },
@@ -81,5 +82,32 @@
                 "south": { "uv": [ 12, 0, 7, 8 ], "texture": "#carrot" }
             }
         }
-    ]
+    ],
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ 180.0, 45.0, 0.0 ],
+            "translation": [ -2.0, 0.0, 1.0 ],
+            "scale": [ -0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 40.0, -20.0, -180.0 ],
+            "translation": [ -0.0, 0.6708203932499369, 1.0062305898749053 ],
+            "scale": [ 0.45, 0.45, 0.45 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 90.0, -20.0, -90.0 ],
+            "translation": [ 0.0, 0.6708203932499369, 1.0062305898749053 ],
+            "scale": [ -0.45, 0.45, 0.45 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 180.0, 45.0, 0.0 ],
+            "translation": [ -2.0, 0.0, 1.0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 0, 45, -55 ],
+            "translation": [ -1.0, -1, 0.0 ],
+            "scale": [ 0.53125, 0.63125, 0.53125 ]
+        }
+    }
 }

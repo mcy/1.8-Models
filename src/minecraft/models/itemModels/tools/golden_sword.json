@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "blade": "items/tools/gold_blade",
         "gem": "items/tools/gold_gem",

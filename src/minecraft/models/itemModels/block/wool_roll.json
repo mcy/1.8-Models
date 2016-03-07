@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "wood": "blocks/plank/oak"
     },

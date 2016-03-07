@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "pupil": "null",
         "core_up": "#core",

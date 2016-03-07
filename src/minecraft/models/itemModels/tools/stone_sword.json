@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "blade": "items/tools/stone_blade",
         "hilt": "items/tools/stone_hilt",

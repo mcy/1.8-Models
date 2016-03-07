@@ -1,4 +1,5 @@
 {
+    "parent":"itemModels/base",
     "textures": {
         "stick": "items/tools/arrow_shaft",
         "tip": "items/tools/arrow_tip",
