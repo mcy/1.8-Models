@@ -1,6 +1,6 @@
 {
     "variants": {
-        "east=false,north=false,south=false,west=false": { "model": "iron_bars/nswe" },
+        "east=false,north=false,south=false,west=false": { "model": "iron_bars/c" },
         "east=false,north=true,south=false,west=false": { "model": "iron_bars/n" },
         "east=true,north=false,south=false,west=false": { "model": "iron_bars/n", "y": 90 },
         "east=false,north=false,south=true,west=false": { "model": "iron_bars/n", "y": 180 },
