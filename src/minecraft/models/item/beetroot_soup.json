@@ -1,0 +1,6 @@
+{
+    "parent": "itemModels/food/stew",
+    "textures": {
+        "inside": "items/food/beet_stew"
+    }
+}

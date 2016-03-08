@@ -1,0 +1,11 @@
+{
+    "parent": "itemModels/misc/powder",
+    "textures": {
+        "material": "items/powder/seeds/beet",
+        "bag": "items/powder/bag/bag_white",
+        "bag_rim": "items/powder/bag/rim_white",
+        "string": "items/powder/string/string_purple",
+        "label": "items/powder/label/blank_label",
+        "label_icon": "items/powder/seeds/seeds_beet"
+    }
+}

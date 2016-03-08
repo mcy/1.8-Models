@@ -1,0 +1,8 @@
+{
+    "parent": "itemModels/block/chiseled",
+    "textures": {
+        "top": "blocks/polished/purpur_pillar_top",
+        "side": "blocks/polished/purpur_pillar",
+        "bottom": "blocks/polished/purpur_pillar_top"
+    }
+}

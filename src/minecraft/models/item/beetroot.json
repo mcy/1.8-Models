@@ -1,0 +1,6 @@
+{
+    "parent": "itemModels/food/beet",
+    "textures": {
+        "beet": "items/food/beet"
+    }
+}
