@@ -1,5 +1,7 @@
 Xor's 1.8 Models [![Build Status](http://ci.yawk.at/job/1.8-Models/badge/icon)](http://ci.yawk.at/job/1.8-Models/)
 ==========
+Wonderfully outdated name, innit?
+
 ## Downloads
 
 [Download Page](http://models.xor.boole.io)
@@ -8,10 +10,13 @@ Xor's 1.8 Models [![Build Status](http://ci.yawk.at/job/1.8-Models/badge/icon)](
 
 ## About
 
-Handcrafted 1.8 block/item models (handcrafted := writting the json by hand).
-This project may potentially begin using https://github.com/MrCrayfish/ModelCreator once it's stable.
+Handcrafted 1.8 block/item models (handcrafted := writting the json by hand). It's not *strictly* written by hand,
+since I write tools from time to time to do batch editing. Many of them can be found in the root directory. 
+They are unsupported.
 
-This project's goal is to replace as many of the single-cube/builtin-generated models in Minecraft as possible.
+This project's goal is to replace as many of the single-cube/builtin-generated models in Minecraft as possible, while
+using what I think is a pretty unique style. I like to avoid pixely stuff when I can, so a lot of my models make extensive
+use of rotation and other clever tricks to look "smooth".
 
 ## Installation
 
@@ -36,20 +41,39 @@ If you wanna contribute, I think that's cool! Just remember you'll be contributi
 
 If you want a 'nice' development environment, I suggest running `git clone` in your `resourcepacks` directory, or symlinking
 the cloned repo to it. Then, run `ln -s src assets` in the repo root to make the directory a valid pack. The `.gitignore` will
-make git ignore this symlink.
+make git ignore this symlink. You'll be able to select this as a resourece pack in Minecraft.
+
+```
+cd $MINECRAFT/resourcepacks
+git clone https://github.com/drXor/1.8-Models.git
+cd 1.8-Models
+ln -s src assets
+```
+
+## Project structure
+
+The root directory has a collection of files used for building and batch editing. Most are single-use and are there for
+history documentation purposes. 
+
+`src` contains the fun stuff. `src/minecraft/textures` has textures, and `src/minecraft/models` contains the models. 
+There are a few other components that are less important, like `src/minecraft/blockstates`.
+
+`cruft` is a dumping ground for old files that I don't want to delete quite yet. `./collectCruft` will dump leftover unused
+files in this folder.
 
 ## Notes
 
 "Official" channel: #think @ irc.spi.gt
 
-The sole branch (master) is bleeding edge, so don't blame me if broken stuff makes it in.
+There is a branch for every major minecraft release which meaningfully changes the model format.
+Since it's pretty stable, I expect it will remain at `1.9` for a while.
 
-This pack does not and *will not* support Fast GFX mode.
+This pack does not and *will not* support Fast GFX mode. 
 
 ## Legal
 
-If you wanna use my pack in a non-personal context (e.g. a creative work such as a video), read the license. A line creding me
-and a link back to this repo is good enough to keep me happy.
+If you wanna use my pack in a non-personal context (e.g. a creative work such as a video), read [the license](https://github.com/drXor/1.8-Models/blob/1.9/LICENSE.md). 
+A line creding me and a link back to this repo/the website is good enough to keep me happy.
 
 I don't like it when people say "you can't use this without my permission!", especially about publicly distributed mods or texture packs.
 Hence, I try to give the user a lot of freedom, but keeping just enough control that people won't steal my work. Pretty much the only
