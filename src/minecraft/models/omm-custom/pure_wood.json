@@ -1,0 +1,14 @@
+{
+    "parent": "itemModels/misc/rod",
+    "textures": {
+        "material": "items/misc/pure_stick",
+        "particle": "items/misc/pure_stick"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 0.0, 0.0, -45.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ -0.55, 0.55, -0.55 ]
+        }
+    }
+}
