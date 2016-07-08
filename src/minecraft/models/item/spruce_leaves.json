@@ -1,0 +1,10 @@
+{
+    "parent": "itemModels/block/leafbox",
+    "textures": {
+        "wood": "blocks/plank/spruce",
+        "leaves": "blocks/leaves/spruce",
+        "leaves_inner": "blocks/leaves/spruce_solid",
+        "icon": "blocks/leaves/icon/spruce",
+        "particle": "blocks/leaves/spruce"
+    }
+}

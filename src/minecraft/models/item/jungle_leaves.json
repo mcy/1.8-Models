@@ -1,0 +1,10 @@
+{
+    "parent": "itemModels/block/leafbox",
+    "textures": {
+        "wood": "blocks/plank/jungle",
+        "leaves": "blocks/leaves/jungle",
+        "leaves_inner": "blocks/leaves/jungle_solid",
+        "icon": "blocks/leaves/icon/jungle",
+        "particle": "blocks/leaves/jungle"
+    }
+}
