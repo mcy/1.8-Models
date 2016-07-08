@@ -226,11 +226,11 @@
             "from": [1, 2, 1],
             "to": [15, 15, 15],
             "faces": {
-                "up": { "texture": "#leaves", "tintindex": 0 },
-                "north": { "texture": "#leaves", "tintindex": 0 },
-                "south": { "texture": "#leaves", "tintindex": 0 },
-                "east": { "texture": "#leaves", "tintindex": 0 },
-                "west": { "texture": "#leaves", "tintindex": 0 }
+                "up": { "texture": "#leaves", "tintindex": 0, "rotation": 180 },
+                "north": { "texture": "#leaves", "tintindex": 0, "rotation": 180 },
+                "south": { "texture": "#leaves", "tintindex": 0, "rotation": 180 },
+                "east": { "texture": "#leaves", "tintindex": 0, "rotation": 180 },
+                "west": { "texture": "#leaves", "tintindex": 0, "rotation": 180 }
             }
         }
     ]

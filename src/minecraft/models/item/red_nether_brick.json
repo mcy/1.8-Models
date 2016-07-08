@@ -1,0 +1,8 @@
+{
+    "parent": "itemModels/block/chiseled",
+    "textures": {
+        "top": "blocks/polished/red_nether_brick",
+        "side": "blocks/polished/red_nether_brick",
+        "bottom": "blocks/polished/red_nether_brick"
+    }
+}
