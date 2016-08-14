@@ -1,0 +1,6 @@
+{
+    "parent": "block/day_sensor/base",
+    "textures": {
+        "lights": "blocks/day_sensor/darks3"
+    }
+}

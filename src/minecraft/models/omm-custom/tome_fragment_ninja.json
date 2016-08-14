@@ -1,0 +1,13 @@
+{
+	"parent": "itemModels/misc/paper",
+    "textures": {
+        "front": "items/misc/fragments/tome_ninja",
+        "back": "items/misc/fragments/tome_page"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [0, 180, 0],
+            "scale": [0.55, 0.55, 0.55]
+        }
+    }
+}
