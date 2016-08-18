@@ -1,0 +1,114 @@
+{
+    "textures": {
+        "metal": "blocks/piston/iron",
+        "redstone": "blocks/piston/inactive",
+
+        "particle": "blocks/piston/oldside"
+    },
+
+    "elements": [
+
+        {
+            "comment": "dynamo wire",
+            "from": [5.25, 4.5, 5.25],
+            "to": [10.75, 7.5, 10.75],
+            "faces": {
+                "up":    { "texture": "#redstone" },
+                "down":  { "texture": "#redstone" },
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+        {
+            "comment": "dynamo wire",
+            "from": [5, 5, 5],
+            "to": [11, 7, 11],
+            "faces": {
+                "up":    { "texture": "#redstone" },
+                "down":  { "texture": "#redstone" },
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+
+        {
+            "comment": "wire 1",
+            "from": [3.5, 3, 3.5],
+            "to": [4.5, 9, 4.5],
+            "faces": {
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+        {
+            "comment": "wire 2",
+            "from": [11.5, 3, 3.5],
+            "to": [12.5, 9, 4.5],
+            "faces": {
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+        {
+            "comment": "wire 3",
+            "from": [3.5, 3, 11.5],
+            "to": [4.5, 9, 12.5],
+            "faces": {
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+        {
+            "comment": "wire 4",
+            "from": [11.5, 3, 11.5],
+            "to": [12.5, 9, 12.5],
+            "faces": {
+                "north": { "texture": "#redstone" },
+                "east":  { "texture": "#redstone" },
+                "west":  { "texture": "#redstone" },
+                "south": { "texture": "#redstone" }
+            }
+        },
+
+        {
+            "comment": "plate",
+            "from": [5, 3, 5],
+            "to": [11, 3.3, 11],
+            "faces": {
+                "up": { "texture": "#metal" },
+                "north": { "texture": "#metal" },
+                "east":  { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "south": { "texture": "#metal" }
+            }
+        },
+
+        {
+            "comment": "plate",
+            "from": [5, 8.7, 5],
+            "to": [11, 9, 11],
+            "faces": {
+                "down": { "texture": "#metal" },
+                "north": { "texture": "#metal" },
+                "east":  { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "south": { "texture": "#metal" }
+            }
+        }
+    ]
+}

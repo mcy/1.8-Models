@@ -1,0 +1,103 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "side": "blocks/piston/side",
+        "top": "blocks/piston/hole",
+        "bottom": "blocks/piston/bottom",
+        "inside": "blocks/piston/inside",
+        "metal": "blocks/piston/iron",
+        "redstone": "blocks/piston/active",
+
+        "particle": "blocks/piston/oldside"
+    },
+    "elements": [
+        {
+            "comment": "bottom face",
+            "from": [0, 0, 0],
+            "to": [16, 3, 16],
+            "faces": {
+                "up":    { "texture": "#inside" },
+                "down":  { "texture": "#bottom" },
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+
+        {
+            "comment": "top face",
+            "from": [0, 9, 0],
+            "to": [16, 12, 16],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "down":  { "texture": "#inside" },
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+
+        {
+            "comment": "bevel",
+            "from": [4, 12, 4],
+            "to": [12, 13, 12],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#bottom" },
+                "east":  { "texture": "#bottom" },
+                "west":  { "texture": "#bottom" },
+                "south": { "texture": "#bottom" }
+            }
+        },
+
+        {
+            "comment": "column",
+            "from": [0, 3, 0],
+            "to": [3, 9, 3],
+            "faces": {
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+
+        {
+            "comment": "column",
+            "from": [0, 3, 13],
+            "to": [3, 9, 16],
+            "faces": {
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+
+        {
+            "comment": "column",
+            "from": [13, 3, 0],
+            "to": [16, 9, 3],
+            "faces": {
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+
+        {
+            "comment": "column",
+            "from": [13, 3, 13],
+            "to": [16, 9, 16],
+            "faces": {
+                "north": { "texture": "#side" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        }
+    ]
+}

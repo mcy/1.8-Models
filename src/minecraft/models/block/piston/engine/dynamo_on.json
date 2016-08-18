@@ -1,0 +1,7 @@
+{
+    "parent": "block/piston/engine/dynamo_off",
+
+    "textures": {
+        "redstone": "blocks/piston/active"
+    }
+}

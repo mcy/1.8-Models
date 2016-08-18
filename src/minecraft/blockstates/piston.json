@@ -1,16 +1,153 @@
 {
-    "variants": {
-        "extended=false,facing=down":  { "model": "piston/retracted", "x": 180 },
-        "extended=false,facing=up":    { "model": "piston/retracted" },
-        "extended=false,facing=north": { "model": "piston/retracted", "x": 90},
-        "extended=false,facing=south": { "model": "piston/retracted", "x": 270 },
-        "extended=false,facing=west":  { "model": "piston/retracted", "x": 90, "y": 270 },
-        "extended=false,facing=east":  { "model": "piston/retracted", "x": 90, "y": 90 },
-        "extended=true,facing=down":   { "model": "piston/extended", "x": 180 },
-        "extended=true,facing=up":     { "model": "piston/extended" },
-        "extended=true,facing=north":  { "model": "piston/extended", "x": 90},
-        "extended=true,facing=south":  { "model": "piston/extended", "x": 270 },
-        "extended=true,facing=west":   { "model": "piston/extended", "x": 90, "y": 270 },
-        "extended=true,facing=east":   { "model": "piston/extended", "x": 90, "y": 90 }
-    }
+    "multipart": [
+        {
+            "when": { "facing": "up" },
+            "apply": { "model": "piston/engine/base" }
+        },
+        {
+            "when": { "facing": "down" },
+            "apply": { "model": "piston/engine/base", "x": 180 }
+        },
+        {
+            "when": { "facing": "north" },
+            "apply": { "model": "piston/engine/base", "x": 90 }
+        },
+        {
+            "when": { "facing": "south" },
+            "apply": { "model": "piston/engine/base", "x": 270 }
+        },
+        {
+            "when": { "facing": "west" },
+            "apply": { "model": "piston/engine/base", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east" },
+            "apply": { "model": "piston/engine/base", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up" },
+            "apply": { "model": "piston/engine/dynamo_core" }
+        },
+        {
+            "when": { "facing": "down" },
+            "apply": { "model": "piston/engine/dynamo_core", "x": 180 }
+        },
+        {
+            "when": { "facing": "north" },
+            "apply": { "model": "piston/engine/dynamo_core", "x": 90 }
+        },
+        {
+            "when": { "facing": "south" },
+            "apply": { "model": "piston/engine/dynamo_core", "x": 270 }
+        },
+        {
+            "when": { "facing": "west" },
+            "apply": { "model": "piston/engine/dynamo_core", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east" },
+            "apply": { "model": "piston/engine/dynamo_core", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off" }
+        },
+        {
+            "when": { "facing": "down", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "extended": false },
+            "apply": { "model": "piston/engine/dynamo_off", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on" }
+        },
+        {
+            "when": { "facing": "down", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "extended": true },
+            "apply": { "model": "piston/engine/dynamo_on", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "extended": false },
+            "apply": { "model": "piston/head/base" }
+        },
+        {
+            "when": { "facing": "down", "extended": false },
+            "apply": { "model": "piston/head/base", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "extended": false },
+            "apply": { "model": "piston/head/base", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "extended": false },
+            "apply": { "model": "piston/head/base", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "extended": false },
+            "apply": { "model": "piston/head/base", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "extended": false },
+            "apply": { "model": "piston/head/base", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "extended": false },
+            "apply": { "model": "piston/head/unsticky" }
+        },
+        {
+            "when": { "facing": "down", "extended": false },
+            "apply": { "model": "piston/head/unsticky", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "extended": false },
+            "apply": { "model": "piston/head/unsticky", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "extended": false },
+            "apply": { "model": "piston/head/unsticky", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "extended": false },
+            "apply": { "model": "piston/head/unsticky", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "extended": false },
+            "apply": { "model": "piston/head/unsticky", "x": 90,  "y": 90 }
+        }
+    ]
 }
