@@ -1,0 +1,32 @@
+{
+    "textures": {
+        "platform": "blocks/piston/unsticky",
+        "backing": "blocks/piston/unsticky",
+        "rod": "blocks/piston/rod",
+
+        "particle": "blocks/piston/unsticky"
+    },
+    "elements": [
+        {   "from": [ 0, 12, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#backing" },
+                "up":    { "texture": "#platform" },
+                "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#rod", "rotation": 270 },
+                "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#rod", "rotation": 270 },
+                "west":  { "uv": [ 6, 0, 10, 16 ], "texture": "#rod", "rotation": 270 },
+                "east":  { "uv": [ 6, 0, 10, 16 ], "texture": "#rod", "rotation": 270 }
+            }
+        },
+
+        {   "from": [ 6, 2, 6 ],
+            "to": [ 10, 12, 10 ],
+            "faces": {
+                "south": { "uv": [ 6, 0, 10, 10 ], "texture": "#rod" },
+                "north": { "uv": [ 6, 0, 10, 10 ], "texture": "#rod" },
+                "west":  { "uv": [ 6, 0, 10, 10 ], "texture": "#rod" },
+                "east":  { "uv": [ 6, 0, 10, 10 ], "texture": "#rod" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/piston/long",
+    "textures": {
+        "platform": "blocks/piston/sticky"
+    }
+}

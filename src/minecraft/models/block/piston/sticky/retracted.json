@@ -1,0 +1,6 @@
+{
+    "parent": "block/piston/retracted",
+    "textures": {
+        "platform": "blocks/piston/sticky"
+    }
+}

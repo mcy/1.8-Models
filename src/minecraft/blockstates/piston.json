@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "extended=false,facing=down":  { "model": "piston/retracted", "x": 180 },
+        "extended=false,facing=up":    { "model": "piston/retracted" },
+        "extended=false,facing=north": { "model": "piston/retracted", "x": 90},
+        "extended=false,facing=south": { "model": "piston/retracted", "x": 270 },
+        "extended=false,facing=west":  { "model": "piston/retracted", "x": 90, "y": 270 },
+        "extended=false,facing=east":  { "model": "piston/retracted", "x": 90, "y": 90 },
+        "extended=true,facing=down":   { "model": "piston/extended", "x": 180 },
+        "extended=true,facing=up":     { "model": "piston/extended" },
+        "extended=true,facing=north":  { "model": "piston/extended", "x": 90},
+        "extended=true,facing=south":  { "model": "piston/extended", "x": 270 },
+        "extended=true,facing=west":   { "model": "piston/extended", "x": 90, "y": 270 },
+        "extended=true,facing=east":   { "model": "piston/extended", "x": 90, "y": 90 }
+    }
+}
