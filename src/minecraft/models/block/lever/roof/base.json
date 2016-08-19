@@ -1,0 +1,26 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "base": "blocks/lever/roof_base",
+        "wood": "blocks/lever/wood",
+        "stone": "blocks/lever/stone",
+        "metal": "blocks/lever/iron",
+        "string": "blocks/lever/string",
+
+        "particle": "blocks/lever/floor_base"
+    },
+    "elements": [
+        {
+            "comment": "base",
+            "from": [4, 15, 4],
+            "to": [12, 16, 12],
+            "faces": {
+                "down":  { "uv": [4, 4, 12, 12],"texture": "#base" },
+                "south": { "uv": [4, 4, 12, 5], "texture": "#base" },
+                "north": { "uv": [4, 11, 12, 12], "texture": "#base" },
+                "west":  { "uv": [4, 4, 5, 12], "texture": "#base", "rotation": 270 },
+                "east":  { "uv": [11, 4, 12, 12], "texture": "#base", "rotation": 270 }
+            }
+        }
+    ]
+}
