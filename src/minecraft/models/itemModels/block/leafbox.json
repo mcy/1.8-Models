@@ -1,12 +1,12 @@
 {
     "parent": "block/block",
     "textures": {
-        "wood": "blocks/plank/oak",
-        "leaves": "blocks/leaves/oak",
+        "wood":         "blocks/plank/oak",
+        "leaves":       "blocks/leaves/oak",
         "leaves_inner": "blocks/leaves/oak_solid",
-        "label": "items/powder/label/blank_label",
-        "icon": "blocks/leaves/icon/oak",
-        "particle": "blocks/leaves/oak"
+        "label":        "items/label/blank",
+        "icon":         "blocks/leaves/icon/oak",
+        "particle":     "blocks/leaves/oak"
     },
     "elements": [
         {

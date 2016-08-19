@@ -1,36 +1,136 @@
 {
-    "variants": {
-        "delay=1,facing=south,locked=false": { "model": "repeater/repeater_on_0" },
-        "delay=1,facing=west,locked=false": { "model": "repeater/repeater_on_0", "y": 90 },
-        "delay=1,facing=north,locked=false": { "model": "repeater/repeater_on_0", "y": 180 },
-        "delay=1,facing=east,locked=false": { "model": "repeater/repeater_on_0", "y": 270 },
-        "delay=2,facing=south,locked=false": { "model": "repeater/repeater_on_1" },
-        "delay=2,facing=west,locked=false": { "model": "repeater/repeater_on_1", "y": 90 },
-        "delay=2,facing=north,locked=false": { "model": "repeater/repeater_on_1", "y": 180 },
-        "delay=2,facing=east,locked=false": { "model": "repeater/repeater_on_1", "y": 270 },
-        "delay=3,facing=south,locked=false": { "model": "repeater/repeater_on_2" },
-        "delay=3,facing=west,locked=false": { "model": "repeater/repeater_on_2", "y": 90 },
-        "delay=3,facing=north,locked=false": { "model": "repeater/repeater_on_2", "y": 180 },
-        "delay=3,facing=east,locked=false": { "model": "repeater/repeater_on_2", "y": 270 },
-        "delay=4,facing=south,locked=false": { "model": "repeater/repeater_on_3" },
-        "delay=4,facing=west,locked=false": { "model": "repeater/repeater_on_3", "y": 90 },
-        "delay=4,facing=north,locked=false": { "model": "repeater/repeater_on_3", "y": 180 },
-        "delay=4,facing=east,locked=false": { "model": "repeater/repeater_on_3", "y": 270 },
-        "delay=1,facing=south,locked=true": { "model": "repeater/repeater_on_0b" },
-        "delay=1,facing=west,locked=true": { "model": "repeater/repeater_on_0b", "y": 90 },
-        "delay=1,facing=north,locked=true": { "model": "repeater/repeater_on_0b", "y": 180 },
-        "delay=1,facing=east,locked=true": { "model": "repeater/repeater_on_0b", "y": 270 },
-        "delay=2,facing=south,locked=true": { "model": "repeater/repeater_on_1b" },
-        "delay=2,facing=west,locked=true": { "model": "repeater/repeater_on_1b", "y": 90 },
-        "delay=2,facing=north,locked=true": { "model": "repeater/repeater_on_1b", "y": 180 },
-        "delay=2,facing=east,locked=true": { "model": "repeater/repeater_on_1b", "y": 270 },
-        "delay=3,facing=south,locked=true": { "model": "repeater/repeater_on_2b" },
-        "delay=3,facing=west,locked=true": { "model": "repeater/repeater_on_2b", "y": 90 },
-        "delay=3,facing=north,locked=true": { "model": "repeater/repeater_on_2b", "y": 180 },
-        "delay=3,facing=east,locked=true": { "model": "repeater/repeater_on_2b", "y": 270 },
-        "delay=4,facing=south,locked=true": { "model": "repeater/repeater_on_3b" },
-        "delay=4,facing=west,locked=true": { "model": "repeater/repeater_on_3b", "y": 90 },
-        "delay=4,facing=north,locked=true": { "model": "repeater/repeater_on_3b", "y": 180 },
-        "delay=4,facing=east,locked=true": { "model": "repeater/repeater_on_3b", "y": 270 }
-    }
+     "multipart": [
+        { 
+            "when": { "facing": "south" },
+            "apply": { "model" : "redstone/repeater/base" }
+        },
+        { 
+            "when": { "facing": "west" },
+            "apply": { "model" : "redstone/repeater/base", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north" },
+            "apply": { "model" : "redstone/repeater/base", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east" },
+            "apply": { "model" : "redstone/repeater/base", "y": 270 }
+        },
+
+        { 
+            "when": { "facing": "south" },
+            "apply": { "model" : "redstone/repeater/powered/on" }
+        },
+        { 
+            "when": { "facing": "west" },
+            "apply": { "model" : "redstone/repeater/powered/on", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north" },
+            "apply": { "model" : "redstone/repeater/powered/on", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east" },
+            "apply": { "model" : "redstone/repeater/powered/on", "y": 270 }
+        },
+
+        { 
+            "when": { "facing": "south", "delay": "1" },
+            "apply": { "model" : "redstone/repeater/delay/1" }
+        },
+        { 
+            "when": { "facing": "west", "delay": "1" },
+            "apply": { "model" : "redstone/repeater/delay/1", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "delay": "1" },
+            "apply": { "model" : "redstone/repeater/delay/1", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "delay": "1"},
+            "apply": { "model" : "redstone/repeater/delay/1", "y": 270 }
+        },
+        { 
+            "when": { "facing": "south", "delay": "2" },
+            "apply": { "model" : "redstone/repeater/delay/2" }
+        },
+        { 
+            "when": { "facing": "west", "delay": "2" },
+            "apply": { "model" : "redstone/repeater/delay/2", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "delay": "2" },
+            "apply": { "model" : "redstone/repeater/delay/2", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "delay": "2"},
+            "apply": { "model" : "redstone/repeater/delay/2", "y": 270 }
+        },
+        { 
+            "when": { "facing": "south", "delay": "3" },
+            "apply": { "model" : "redstone/repeater/delay/3" }
+        },
+        { 
+            "when": { "facing": "west", "delay": "3" },
+            "apply": { "model" : "redstone/repeater/delay/3", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "delay": "3" },
+            "apply": { "model" : "redstone/repeater/delay/3", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "delay": "3"},
+            "apply": { "model" : "redstone/repeater/delay/3", "y": 270 }
+        },
+        { 
+            "when": { "facing": "south", "delay": "4" },
+            "apply": { "model" : "redstone/repeater/delay/4" }
+        },
+        { 
+            "when": { "facing": "west", "delay": "4" },
+            "apply": { "model" : "redstone/repeater/delay/4", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "delay": "4" },
+            "apply": { "model" : "redstone/repeater/delay/4", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "delay": "4"},
+            "apply": { "model" : "redstone/repeater/delay/4", "y": 270 }
+        },
+
+
+        { 
+            "when": { "facing": "south", "locked": false },
+            "apply": { "model" : "redstone/repeater/lock/off" }
+        },
+        { 
+            "when": { "facing": "west", "locked": false },
+            "apply": { "model" : "redstone/repeater/lock/off", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "locked": false },
+            "apply": { "model" : "redstone/repeater/lock/off", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "locked": false },
+            "apply": { "model" : "redstone/repeater/lock/off", "y": 270 }
+        },
+        { 
+            "when": { "facing": "south", "locked": true },
+            "apply": { "model" : "redstone/repeater/lock/on" }
+        },
+        { 
+            "when": { "facing": "west", "locked": true },
+            "apply": { "model" : "redstone/repeater/lock/on", "y": 90 }
+        },
+        { 
+            "when": { "facing": "north", "locked": true },
+            "apply": { "model" : "redstone/repeater/lock/on", "y": 180 }
+        },
+        { 
+            "when": { "facing": "east", "locked": true },
+            "apply": { "model" : "redstone/repeater/lock/on", "y": 270 }
+        }
+    ]
 }

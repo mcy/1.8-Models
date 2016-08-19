@@ -1,0 +1,36 @@
+{
+    "parent": "block/redstone/wire/dot",
+    "elements": [
+        {
+            "comment": "ground wire",
+            "from": [6, 0, 10],
+            "to": [10, 3, 13],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "east":  { "texture": "#side" },
+                "west":  { "texture": "#side" }
+            }
+        },
+        {
+            "comment": "wall wire",
+            "from": [6, 0, 13],
+            "to": [10, 16, 16],
+            "faces": {
+                "north": { "texture": "#up"},
+                "west":  { "texture": "#up_side" },
+                "east":  { "texture": "#up_side" }
+            }
+        },
+        {
+            "comment": "top corner wire",
+            "from": [6, 16, 13],
+            "to": [10, 19, 16],
+            "faces": {
+                "east":  {"uv": [3, 13, 6, 16],   "texture": "#up_side"},
+                "west":  {"uv": [10, 13, 13, 16], "texture": "#up_side"},
+                "north": {"uv": [6, 13, 10, 16], "texture": "#up_side"},
+                "up":    {"uv": [6, 13, 10, 10], "texture": "#up_side"}
+            }
+        }
+    ]
+}

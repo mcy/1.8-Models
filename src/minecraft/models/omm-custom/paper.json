@@ -1,7 +1,7 @@
 {
 	"parent": "itemModels/misc/paper",
     "texture": {
-        "front": "items/misc/fragments/tome_ninja",
-        "back": "items/misc/fragments/tome_page"
+        "front": "items/book/fragments/tome_ninja",
+        "back":  "items/book/fragments/tome_page"
     }
 }

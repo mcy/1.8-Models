@@ -1,7 +1,7 @@
 {
 	"parent": "itemModels/misc/book_ribbon",
     "textures": {
-        "book": "items/misc/book_tome"
+        "book": "items/book/book_tome"
     },
     "display": {
         "fixed": {

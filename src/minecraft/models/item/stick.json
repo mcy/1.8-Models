@@ -1,7 +1,7 @@
 {
-    "parent": "itemModels/misc/rod",
+    "parent": "itemModels/tool/misc/rod",
     "textures": {
-        "material": "items/misc/stick",
-        "particle": "items/misc/stick"
+        "material": "items/material/stick",
+        "particle": "items/material/stick"
     }
 }

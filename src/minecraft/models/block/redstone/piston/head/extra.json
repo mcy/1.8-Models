@@ -1,0 +1,47 @@
+{
+    "textures": {
+        "rod":      "blocks/redstone/piston/rod",
+        "band":     "blocks/redstone/piston/band",
+
+        "particle": "blocks/redstone/piston/unsticky"
+    },
+
+    "elements": [
+
+        {   
+            "from": [ 6, -4, 6 ],
+            "to": [ 10, 2, 10 ],
+            "faces": {
+                "south": { "uv": [ 6, 10, 10, 16 ], "texture": "#rod" },
+                "north": { "uv": [ 6, 10, 10, 16 ], "texture": "#rod" },
+                "west":  { "uv": [ 6, 10, 10, 16 ], "texture": "#rod" },
+                "east":  { "uv": [ 6, 10, 10, 16 ], "texture": "#rod" }
+            }
+        },
+
+        {   
+            "comment": "band",
+            "from": [ 5.5, -4, 5.5 ],
+            "to": [ 10.5, -2, 10.5 ],
+            "faces": {
+                "up":  { "uv": [ 0, 0, 5, 5 ], "texture": "#band" },
+                "down":  { "uv": [ 0, 0, 5, 5 ], "texture": "#band" },
+                "north": { "uv": [ 0, 5, 5, 7 ], "texture": "#band" },
+                "south": { "uv": [ 0, 5, 5, 7 ], "texture": "#band" },
+                "west":  { "uv": [ 0, 5, 5, 7 ], "texture": "#band" },
+                "east":  { "uv": [ 0, 5, 5, 7 ], "texture": "#band" }
+            }
+        },
+
+        {   
+            "from": [ 6, -8.25, 6 ],
+            "to": [ 10, -4, 10 ],
+            "faces": {
+                "south": { "uv": [ 6, 2, 10, 5 ], "texture": "#rod" },
+                "north": { "uv": [ 6, 2, 10, 5 ], "texture": "#rod" },
+                "west":  { "uv": [ 6, 2, 10, 5 ], "texture": "#rod" },
+                "east":  { "uv": [ 6, 2, 10, 5 ], "texture": "#rod" }
+            }
+        }
+    ]
+}

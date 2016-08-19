@@ -1,0 +1,49 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "base":     "blocks/redstone/lever/floor_base",
+
+        "particle": "blocks/redstone/lever/floor_base"
+    },
+
+    "elements": [
+        {
+            "comment": "base",
+            "from": [5, 0, 3],
+            "to": [11, 1.5, 13],
+            "faces": {
+                "up":    { "uv": [5, 3, 11, 13], "texture": "#base" },
+                "north": { "uv": [5, 3, 11, 4], "texture": "#base" },
+                "south": { "uv": [5, 12, 11, 13], "texture": "#base" },
+                "east":  { "uv": [5, 3, 6, 13], "texture": "#base", "rotation": 90 },
+                "west":  { "uv": [10, 3, 11, 13], "texture": "#base", "rotation": 90 }
+            }
+        },
+
+        {
+            "comment": "fin thingy",
+            "from": [6.5, 1.5, 5],
+            "to": [7.5, 4, 11],
+            "faces": {
+                "up":    { "uv": [5, 3, 11, 4], "texture": "#base", "rotation": 90 },
+                "north": { "uv": [5, 3, 6, 6], "texture": "#base" },
+                "south": { "uv": [10, 3, 11, 6], "texture": "#base" },
+                "east":  { "uv": [5, 3, 11, 6], "texture": "#base" },
+                "west":  { "uv": [5, 3, 11, 6], "texture": "#base" }
+            }
+        },
+
+        {
+            "comment": "fin thingy",
+            "from": [8.5, 1.5, 5],
+            "to": [9.5, 4, 11],
+            "faces": {
+                "up":    { "uv": [5, 3, 11, 4], "texture": "#base", "rotation": 90 },
+                "north": { "uv": [5, 3, 6, 6], "texture": "#base" },
+                "south": { "uv": [10, 3, 11, 6], "texture": "#base" },
+                "east":  { "uv": [5, 3, 11, 6], "texture": "#base" },
+                "west":  { "uv": [5, 3, 11, 6], "texture": "#base" }
+            }
+        }
+    ]
+}

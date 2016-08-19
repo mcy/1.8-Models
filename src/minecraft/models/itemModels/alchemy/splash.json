@@ -1,10 +1,10 @@
 {
     "parent": "itemModels/alchemy/bottle",
     "textures": {
-        "glass": "items/potion/splash",
-        "stopper": "items/potion/stopper_splash",
-        "fluid": "items/potion/fluid",
-        "particle": "items/potion/splash"
+        "glass":    "items/alchemy/bottle/splash",
+        "stopper":  "items/alchemy/stopper/splash",
+        "fluid":    "items/alchemy/fluid/potion",
+        "particle": "items/alchemy/bottle/splash"
     },
     "elements": [
         {

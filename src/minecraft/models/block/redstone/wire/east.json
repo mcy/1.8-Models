@@ -1,0 +1,24 @@
+{
+    "parent": "block/redstone/wire/dot",
+    "elements": [
+        {
+            "comment": "core",
+            "from": [10, 0, 6],
+            "to": [16, 3, 10],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "north":  { "texture": "#side" },
+                "south":  { "texture": "#side" },
+                "east": { "texture": "#side" }
+            }
+        },
+        {
+            "comment": "core sides",
+            "from": [16, 0, 6],
+            "to": [16, 3, 10],
+            "faces": {
+                "east": {"uv": [6, 7.01, 10, 10], "texture": "#side", "tintindex": 0}
+            }
+        }
+    ]
+}

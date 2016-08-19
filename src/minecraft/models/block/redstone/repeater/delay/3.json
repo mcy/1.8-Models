@@ -1,0 +1,9 @@
+{
+    "parent": "block/redstone/repeater/delay/base",
+    "textures": {
+        "1": "blocks/redstone/active",
+        "2": "blocks/redstone/active",
+        "3": "blocks/redstone/active",
+        "4": "blocks/redstone/inactive"
+    }
+}

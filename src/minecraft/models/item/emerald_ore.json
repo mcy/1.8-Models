@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/block/ore",
 	"textures": {
-		"material": "blocks/ore/emerald_ore",
-		"purified": "items/mineral/emerald",
-		"label_icon": "blocks/ore/emerald_icon",
-		"bag": "items/powder/bag/bag_purple",
-		"bag_rim": "items/powder/bag/rim_purple",
-		"string": "items/powder/string/string_green"
+		"material":   "blocks/ore/ore/emerald",
+		"purified":   "blocks/ore/fine/emerald",
+		"label_icon": "items/icon/mineral/emerald",
+		"bag":        "items/bag/cloth/purple",
+		"bag_rim":    "items/bag/cloth/rim/purple",
+		"string":     "items/bag/string/green"
 	}
 }

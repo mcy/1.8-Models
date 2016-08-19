@@ -11,7 +11,7 @@
         "handle": "blocks/crafting_table/handle",
         "detail": "blocks/crafting_table/detail",
         "leather": "blocks/crafting_table/leather",
-        "doll": "items/misc/xor"
+        "doll": "items/xor"
     },
     "elements": [
         

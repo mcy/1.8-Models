@@ -1,10 +1,10 @@
 {
     "parent": "itemModels/misc/powder",
     "textures": {
-        "material": "items/powder/blaze",
-        "bag": "items/powder/bag/bag_red",
-        "bag_rim": "items/powder/bag/rim_red",
-        "label": "items/powder/label/blaze_label",
-        "string": "items/powder/string/string_orange"
+        "material": "items/material/blaze/powder",
+        "bag":      "items/bag/cloth/red",
+        "bag_rim":  "items/bag/cloth/rim/red",
+        "label":    "items/label/blaze",
+        "string":   "items/bag/string/orange"
     }
 }

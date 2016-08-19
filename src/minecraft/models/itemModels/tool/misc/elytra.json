@@ -1,0 +1,37 @@
+{
+    "parent": "itemModels/misc/feather",
+    "textures": {
+        "feather": "items/tool/elytra"
+    },
+    "display":{
+        "firstperson_lefthand": {
+            "rotation": [ -30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, 2.0, 1.0 ],
+            "scale": [ 0.4, 0.7, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 60.0, -180.0, 0.0 ],
+            "translation": [ -0.5, 3.15, 5.3 ],
+            "scale": [ 0.35, 0.7, 0.35 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 60.0, -180.0, 0.0 ],
+            "translation": [ -0.5, 3.15, 5.3 ],
+            "scale": [ -0.35, 0.7, 0.35 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -30.0, 135.0, 0.0 ],
+            "translation": [ 0.0, 2.0, 1.0 ],
+            "scale": [ 0.4, 0.7, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 10.0, -5.0, 30.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.45, 0.55, 0.45 ]
+        },
+        "fixed": {
+            "rotation": [0,0,45],
+            "scale": [0.5, 0.8, 0.5]
+        }
+    }
+}

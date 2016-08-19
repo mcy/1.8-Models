@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/bedrock",
-		"bag": "items/powder/bag/bag_purple",
-		"bag_rim": "items/powder/bag/rim_purple",
-		"string": "items/powder/string/string_black"
+		"bag":      "items/bag/cloth/purple",
+		"bag_rim":  "items/bag/cloth/rim/purple",
+		"string":   "items/bag/string/black"
 	}
 }

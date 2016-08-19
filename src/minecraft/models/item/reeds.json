@@ -2,6 +2,6 @@
     "parent": "itemModels/misc/bundle",
     "textures": {
         "stalks": "blocks/reeds/reeds0",
-        "string": "items/powder/string/string_brown"
+        "string": "items/bag/string/blue"
     }
 }

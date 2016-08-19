@@ -1,8 +1,0 @@
-{
-    "parent": "block/piston/item/unsticky",
-    "textures": {
-        "platform": "blocks/piston/sticky",
-
-        "slime": "blocks/piston/slime"
-    }
-}

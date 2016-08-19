@@ -1,6 +1,6 @@
 {
 	"parent": "itemModels/alchemy/vial",
 	"textures": {
-		"fluid": "items/potion/tears"
+		"fluid": "items/alchemy/fluid/tears"
 	}
 }

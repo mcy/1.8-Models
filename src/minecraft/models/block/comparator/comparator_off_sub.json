@@ -1,8 +1,0 @@
-{
-    "parent": "block/comparator/comparator",
-    "textures": {
-        "quartz": "blocks/circuit/quartz_off",
-        "wire": "blocks/circuit/redstone_off",
-        "subwire": "blocks/circuit/redstone_on"
-    }
-}

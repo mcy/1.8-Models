@@ -1,10 +1,10 @@
 {
     "parent": "itemModels/block/leafbox",
     "textures": {
-        "wood": "blocks/plank/acacia",
-        "leaves": "blocks/leaves/acacia",
+        "wood":         "blocks/plank/acacia",
+        "leaves":       "blocks/leaves/acacia",
         "leaves_inner": "blocks/leaves/acacia_solid",
-        "icon": "blocks/leaves/icon/acacia",
-        "particle": "blocks/leaves/acacia"
+        "icon":         "blocks/leaves/icon/acacia",
+        "particle":     "blocks/leaves/acacia"
     }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "itemModels/book/quill",
+    "textures": {
+        "feather": "null"
+    }
+}

@@ -1,9 +1,9 @@
 {
 	"parent": "itemModels/block/grass_roll",
 	"textures": {
-		"top": "blocks/soil/grass_top",
-		"side": "blocks/soil/grass_side",
+		"top":    "blocks/soil/grass_top",
+		"side":   "blocks/soil/grass_side",
 		"bottom": "blocks/soil/dirt",
-		"stick": "blocks/plank/birch"
+		"stick":  "blocks/plank/birch"
 	}
 }

@@ -1,7 +1,6 @@
 {
     "parent": "itemModels/alchemy/jar_double",
     "textures": {
-        "lid": "items/potion/stopper_splash",
         "icon2": "null"
     }
 }

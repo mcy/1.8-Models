@@ -1,7 +1,8 @@
 {
-    "parent": "itemModels/tools/arrow","textures": {
-        "stick": "items/tools/arrow_shaft_dark",
-        "tip": "items/powder/glowstone",
-        "accent": "items/tools/arrow_accent_spectral"
+    "parent": "itemModels/tool/bow/arrow",
+    "textures": {
+        "stick":  "items/tool/arrow/shaft_dark",
+        "tip":    "items/mineral/glowstone",
+        "accent": "items/tool/arrow/accent_spectral"
     }
 }

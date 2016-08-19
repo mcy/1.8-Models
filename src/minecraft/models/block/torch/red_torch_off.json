@@ -1,7 +1,7 @@
 {
     "parent": "block/torch/red_torch",
     "textures": {
-        "red": "blocks/torch/redstone_off",
-        "notred": "blocks/torch/redstone_on"
+        "red":    "blocks/redstone/inactive",
+        "notred": "blocks/redstone/active"
     }
 }

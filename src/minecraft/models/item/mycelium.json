@@ -1,9 +1,9 @@
 {
 	"parent": "itemModels/block/grass_roll",
 	"textures": {
-		"top": "blocks/soil/mycelium_top",
-		"side": "blocks/soil/mycelium_side",
+		"top":    "blocks/soil/mycelium_top",
+		"side":   "blocks/soil/mycelium_side",
 		"bottom": "blocks/soil/dirt",
-		"stick": "blocks/plank/spruce"
+		"stick":  "blocks/plank/spruce"
 	}
 }

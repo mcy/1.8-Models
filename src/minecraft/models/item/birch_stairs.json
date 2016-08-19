@@ -2,6 +2,6 @@
 	"parent": "itemModels/block/plank_stairs",
 	"textures": {
 		"plank": "blocks/plank/birch",
-		"string": "items/powder/string/string_white"
+        "string": "items/bag/string/white"
 	}
 }

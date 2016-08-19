@@ -1,7 +1,7 @@
 {
     "parent": "itemModels/misc/bundle",
     "textures": {
-        "stalks": "items/powder/seeds/wart",
-        "string": "items/powder/string/string_black"
+        "stalks": "items/food/seeds/wart",
+        "string": "items/bag/string/black"
     }
 }

@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/stone_granite",
-		"bag": "items/powder/bag/bag_mono",
-		"bag_rim": "items/powder/bag/rim_mono",
-		"string": "items/powder/string/string_red"
+		"bag":      "items/bag/cloth/mono",
+		"bag_rim":  "items/bag/cloth/rim/mono",
+		"string":   "items/bag/string/red"
 	}
 }

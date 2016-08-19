@@ -1,7 +1,7 @@
 {
 	"parent": "itemModels/alchemy/vial",
 	"textures": {
-		"fluid": "items/potion/umami"
+		"fluid": "items/alchemy/fluid/umami"
 	},
     "display": {
         "fixed": {

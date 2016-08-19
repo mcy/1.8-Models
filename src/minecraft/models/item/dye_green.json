@@ -1,7 +1,7 @@
 {
     "parent": "itemModels/misc/bundle",
     "textures": {
-        "stalks": "items/powder/dye/green",
-        "string": "items/powder/string/string_green"
+        "stalks": "items/dye/green",
+        "string": "items/bag/string/green"
     }
 }

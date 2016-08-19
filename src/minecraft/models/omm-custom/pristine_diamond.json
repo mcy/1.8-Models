@@ -1,8 +1,8 @@
 {
     "parent": "itemModels/mineral/gems",
     "textures": {
-        "silk": "items/misc/silks/black_white",
-        "gem": "items/mineral/pristine_diamond"
+        "silk": "items/bag/silks/black_white",
+        "gem":  "items/mineral/pure/diamond"
     },
     "display": {
         "fixed": {

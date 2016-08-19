@@ -1,9 +1,9 @@
 {
 	"parent": "itemModels/alchemy/jar",
 	"textures": {
-		"contents": "items/misc/essence",
-		"icon": "items/misc/monster_essence",
-		"particle": "items/misc/monster_essence"
+		"contents": "items/alchemy/fluid/essence",
+		"icon":     "items/icon/monster_essence",
+		"particle": "items/alchemy/fluid/essence"
 	},
     "display": {
         "fixed": {

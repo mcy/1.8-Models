@@ -1,7 +1,7 @@
 {
     "parent": "itemModels/mineral/ingot",
     "textures": {
-        "metal": "items/mineral/pure_iron"
+        "metal": "items/mineral/pure/iron"
     },
     "display": {
         "fixed": {

@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/soil/podzol",
-		"bag": "items/powder/bag/bag_dark",
-		"bag_rim": "items/powder/bag/rim_dark",
-		"string": "items/powder/string/string_brown"
+		"bag":      "items/bag/cloth/dark",
+		"bag_rim":  "items/bag/cloth/rim/dark",
+		"string":   "items/bag/string/brown"
 	}
 }

@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/misc/leather",
     "textures": {
-        "leather": "items/misc/leather/pristine_leather",
-        "particle": "items/misc/leather/pristine_leather",
-        "handle": "items/misc/pure_stick",
-        "knife": "items/mineral/pure_iron",
-        "bucket": "null",
+        "leather":  "items/material/leather/pristine_leather",
+        "particle": "items/material/leather/pristine_leather",
+        "handle":   "items/mineral/pure/wood",
+        "knife":    "items/mineral/pure/iron",
+        "bucket":   "null",
         "contents": "null"
     },
     "display": {

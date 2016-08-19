@@ -1,34 +1,6 @@
 {
 	"parent": "itemModels/alchemy/bottle",
 	"textures": {
-		"fluid": "items/potion/empty"
-	},
-	"display":{
-        "firstperson_lefthand": {
-            "rotation": [ 20.0, -90.0, 20.0 ],
-            "translation": [ 0.0, 3.0, 4.0 ],
-            "scale": [ -0.27999999999999997, 0.27999999999999997, 0.27999999999999997 ]
-        },
-        "thirdperson_righthand": {
-            "rotation": [ 80.0, 30.0, 135.0 ],
-            "translation": [ -0.0, 0.5, 1.125 ],
-            "scale": [ 0.25, 0.25, 0.25 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 80.0, 30.0, 135.0 ],
-            "translation": [ 0.0, 0.5, 1.125 ],
-            "scale": [ -0.25, 0.25, 0.25 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 20.0, -90.0, 20.0 ],
-            "translation": [ 0.0, 3.0, 4.0 ],
-            "scale": [ 0.27999999999999997, 0.27999999999999997, 0.27999999999999997 ]
-        },
-        "gui": {
-            "rotation": [ 30.0, 225.0, 0.0 ],
-            "translation": [ 0.0, -0.5, 0.0 ],
-            "scale": [ 0.4375, 0.4375, 0.4375 ]
-        }
-
-    }
+		"fluid": "null"
+	}
 }

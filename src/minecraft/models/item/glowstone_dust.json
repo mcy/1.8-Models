@@ -1,10 +1,10 @@
 {
 	"parent": "itemModels/misc/powder",
 	"textures": {
-		"material": "items/powder/glowstone",
-		"bag": "items/powder/bag/bag_brown",
-		"bag_rim": "items/powder/bag/rim_brown",
-		"label": "items/powder/label/glowstone_label",
-		"string": "items/powder/string/string_white"
+		"material": "items/mineral/glowstone",
+		"bag":      "items/bag/cloth/brown",
+		"bag_rim":  "items/bag/cloth/rim/brown",
+		"label":    "items/label/glowstone",
+		"string":   "items/bag/string/white"
 	}
 }

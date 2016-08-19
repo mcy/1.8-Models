@@ -1,8 +1,8 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "bucket": "items/misc/bucket",
-        "particle": "items/misc/bucket",
+        "bucket":   "items/tool/bucket",
+        "particle": "items/tool/bucket",
         "contents": "null"
     },
     "elements": [

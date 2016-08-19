@@ -1,7 +1,7 @@
 {
 	"parent": "itemModels/block/plank",
 	"textures": {
-		"plank": "blocks/plank/dark_oak",
-		"string": "items/powder/string/string_black"
+		"plank":  "blocks/plank/dark_oak",
+		"string": "items/bag/string/black"
 	}
 }

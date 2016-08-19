@@ -1,7 +1,7 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "label": "items/powder/label/blank_label"
+        "label": "items/label/blank"
     },
     "elements": [
         {

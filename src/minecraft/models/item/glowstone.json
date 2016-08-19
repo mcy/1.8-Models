@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/glowstone",
-		"bag": "items/powder/bag/bag_brown",
-		"bag_rim": "items/powder/bag/rim_brown",
-		"string": "items/powder/string/string_yellow"
+		"bag":      "items/bag/cloth/brown",
+		"bag_rim":  "items/bag/cloth/rim/brown",
+		"string":   "items/bag/string/yellow"
 	}
 }

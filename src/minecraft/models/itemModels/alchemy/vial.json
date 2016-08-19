@@ -1,8 +1,8 @@
 {
     "parent": "itemModels/alchemy/bottle",
     "textures": {
-        "vial": "items/potion/vial",
-        "stopper": "items/potion/stopper_splash"
+        "vial":    "items/alchemy/bottle/vial",
+        "stopper": "items/alchemy/stopper/splash"
     },
     "elements": [
         {

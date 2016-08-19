@@ -1,7 +1,7 @@
 {
     "parent": "itemModels/mineral/gems",
     "textures": {
-        "silk": "items/misc/silks/brownish",
-        "gem": "items/mineral/emerald"
+        "silk": "items/bag/silks/brownish",
+        "gem":  "items/mineral/emerald"
     }
 }

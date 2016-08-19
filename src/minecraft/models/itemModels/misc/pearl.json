@@ -2,16 +2,16 @@
     "parent":"itemModels/base",
     "textures": {
         "pupil": "null",
-        "core_up": "#core",
-        "core_down": "#core",
-        "core_east": "#core",
-        "core_west": "#core",
+        "core_up":    "#core",
+        "core_down":  "#core",
+        "core_east":  "#core",
+        "core_west":  "#core",
         "core_north": "#core",
         "core_south": "#core",
-        "shell_0": "items/misc/ender/pearl_shell",  
-        "shell_1": "items/misc/ender/shell_1",
-        "shell_2": "items/misc/ender/shell_2",
-        "shell_3": "items/misc/ender/shell_3"
+        "shell_0":    "items/ender/pearl_shell",  
+        "shell_1":    "items/ender/shell_1",
+        "shell_2":    "items/ender/shell_2",
+        "shell_3":    "items/ender/shell_3"
     },
     "elements": [
         {

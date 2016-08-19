@@ -1,8 +1,8 @@
 {
     "parent": "itemModels/mineral/gems",
     "textures": {
-        "silk": "items/misc/silks/blood",
-        "gem": "items/misc/wither_shard"
+        "silk": "items/bag/silks/blood",
+        "gem":  "items/material/wither_shard"
     },
     "display": {
         "fixed": {

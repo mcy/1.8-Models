@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/block/chiseled",
+    "parent": "itemModels/block/end_chiseled",
     "textures": {
         "top": "blocks/polished/purpur_block",
         "side": "blocks/polished/purpur_block",

@@ -1,8 +1,8 @@
 {
 	"parent": "itemModels/misc/dye",
 	"textures": {
-		"material": "items/powder/dye/gray",
-		"string": "items/powder/string/string_grey",
-		"label_icon": "items/powder/dye/i_gray"
+		"material":   "items/dye/gray",
+        "string":     "items/bag/string/gray",
+        "label_icon": "items/icon/dye/gray"
 	}
 }

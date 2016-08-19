@@ -1,126 +1,108 @@
 {
-    "variants-": {
-        "facing=down_z,powered=false": { "model": "lever_off", "x": 180, "y": 180 },
-        "facing=down_x,powered=false": { "model": "lever_off", "x": 180, "y": 90 },
-        "facing=up_z,powered=false": { "model": "lever/floor_off" },
-        "facing=up_x,powered=false": { "model": "lever_off", "y": 270 },
-        "facing=east,powered=false": { "model": "lever_off", "x": 90, "y": 90 },
-        "facing=west,powered=false": { "model": "lever_off", "x": 90, "y": 270 },
-        "facing=south,powered=false" : { "model": "lever_off", "x": 90, "y": 180 },
-        "facing=north,powered=false" : { "model": "lever_off", "x": 90 },
-        "facing=down_z,powered=true" : { "model": "lever", "x": 180, "y": 180 },
-        "facing=down_x,powered=true" : { "model": "lever", "x": 180, "y": 90 },
-        "facing=up_z,powered=true": { "model": "lever" },
-        "facing=up_x,powered=true": { "model": "lever", "y": 270 },
-        "facing=east,powered=true": { "model": "lever", "x": 90, "y": 90 },
-        "facing=west,powered=true": { "model": "lever", "x": 90, "y": 270 },
-        "facing=south,powered=true": { "model": "lever", "x": 90, "y": 180 },
-        "facing=north,powered=true": { "model": "lever", "x": 90 }
-    },
 
     "multipart": [
         {
             "when": { "facing": "up_x" },
-            "apply": { "model": "lever/floor/base" }
+            "apply": { "model": "redstone/lever/floor/base" }
         },
         {
             "when": { "facing": "up_x", "powered": false },
-            "apply": { "model": "lever/floor/off" }
+            "apply": { "model": "redstone/lever/floor/off" }
         },
         {
             "when": { "facing": "up_x", "powered": true },
-            "apply": { "model": "lever/floor/on" }
+            "apply": { "model": "redstone/lever/floor/on" }
         },
 
         {
             "when": { "facing": "up_z" },
-            "apply": { "model": "lever/floor/base", "y": 270 }
+            "apply": { "model": "redstone/lever/floor/base", "y": 270 }
         },
         {
             "when": { "facing": "up_z", "powered": false },
-            "apply": { "model": "lever/floor/off", "y": 270 }
+            "apply": { "model": "redstone/lever/floor/off", "y": 270 }
         },
         {
             "when": { "facing": "up_z", "powered": true },
-            "apply": { "model": "lever/floor/on", "y": 270 }
+            "apply": { "model": "redstone/lever/floor/on", "y": 270 }
         },
 
         {
             "when": { "facing": "south" },
-            "apply": { "model": "lever/wall/base" }
+            "apply": { "model": "redstone/lever/wall/base" }
         },
         {
             "when": { "facing": "south", "powered": false },
-            "apply": { "model": "lever/wall/off" }
+            "apply": { "model": "redstone/lever/wall/off" }
         },
         {
             "when": { "facing": "south", "powered": true },
-            "apply": { "model": "lever/wall/on" }
+            "apply": { "model": "redstone/lever/wall/on" }
         },
 
         {
             "when": { "facing": "north" },
-            "apply": { "model": "lever/wall/base", "y": 180 }
+            "apply": { "model": "redstone/lever/wall/base", "y": 180 }
         },
         {
             "when": { "facing": "north", "powered": false },
-            "apply": { "model": "lever/wall/off", "y": 180 }
+            "apply": { "model": "redstone/lever/wall/off", "y": 180 }
         },
         {
             "when": { "facing": "north", "powered": true },
-            "apply": { "model": "lever/wall/on", "y": 180 }
+            "apply": { "model": "redstone/lever/wall/on", "y": 180 }
         },
 
         {
             "when": { "facing": "east" },
-            "apply": { "model": "lever/wall/base", "y": 270 }
+            "apply": { "model": "redstone/lever/wall/base", "y": 270 }
         },
         {
             "when": { "facing": "east", "powered": false },
-            "apply": { "model": "lever/wall/off", "y": 270 }
+            "apply": { "model": "redstone/lever/wall/off", "y": 270 }
         },
         {
             "when": { "facing": "east", "powered": true },
-            "apply": { "model": "lever/wall/on", "y": 270 }
+            "apply": { "model": "redstone/lever/wall/on", "y": 270 }
         },
 
         {
             "when": { "facing": "west" },
-            "apply": { "model": "lever/wall/base", "y": 90 }
+            "apply": { "model": "redstone/lever/wall/base", "y": 90 }
         },
         {
             "when": { "facing": "west", "powered": false },
-            "apply": { "model": "lever/wall/off", "y": 90 }
+            "apply": { "model": "redstone/lever/wall/off", "y": 90 }
         },
         {
             "when": { "facing": "west", "powered": true },
-            "apply": { "model": "lever/wall/on", "y": 90 }
+            "apply": { "model": "redstone/lever/wall/on", "y": 90 }
         },
 
         {
             "when": { "facing": "down_x" },
-            "apply": { "model": "lever/floor/base", "x": 180 }
+            "apply": { "model": "redstone/lever/floor/base", "x": 180 }
         },
         {
             "when": { "facing": "down_x", "powered": false },
-            "apply": { "model": "lever/floor/off", "x": 180 }
+            "apply": { "model": "redstone/lever/floor/off", "x": 180 }
         },
         {
             "when": { "facing": "down_x", "powered": true },
-            "apply": { "model": "lever/floor/on", "x": 180 }
+            "apply": { "model": "redstone/lever/floor/on", "x": 180 }
         },
 
         {
             "when": { "facing": "down_z" },
-            "apply": { "model": "lever/floor/base", "x": 180, "y": 270 }
+            "apply": { "model": "redstone/lever/floor/base", "x": 180, "y": 270 }
         },
         {
             "when": { "facing": "down_z", "powered": false },
-            "apply": { "model": "lever/floor/off", "x": 180, "y": 270 }
+            "apply": { "model": "redstone/lever/floor/off", "x": 180, "y": 270 }
         },
         {
             "when": { "facing": "down_z", "powered": true },
-            "apply": { "model": "lever/floor/on", "x": 180, "y": 270 }
+            "apply": { "model": "redstone/lever/floor/on", "x": 180, "y": 270 }
         }
     ]
 }

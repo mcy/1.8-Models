@@ -1,7 +1,3 @@
 {
-    "parent": "itemModels/tools/wood_hoe",
-    "textures": {
-        "blade": "items/tools/stone_blade",
-        "center": "items/tools/stone_gem"
-    }
+    "parent": "itemModels/tool/stone/hoe"
 }

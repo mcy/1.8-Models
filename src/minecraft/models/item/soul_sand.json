@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/soil/soul_sand",
-		"bag": "items/powder/bag/bag_black",
-		"bag_rim": "items/powder/bag/rim_black",
-		"string": "items/powder/string/string_red"
+		"bag":      "items/bag/cloth/black",
+		"bag_rim":  "items/bag/cloth/rim/black",
+		"string":   "items/bag/string/red"
 	}
 }

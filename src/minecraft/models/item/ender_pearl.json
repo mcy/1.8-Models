@@ -1,8 +1,8 @@
 {
 	"parent": "itemModels/misc/pearl",
 	"textures": {
-		"core": "items/misc/ender/pearl_core",
-		"particle": "items/misc/ender/pearl_core"
+		"core":     "items/ender/pearl_core",
+		"particle": "items/ender/pearl_core"
 	},
 	"display":{
         "firstperson_lefthand": {

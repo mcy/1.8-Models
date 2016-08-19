@@ -1,34 +1,6 @@
 {
 	"parent": "itemModels/misc/brick",
 	"textures": {
-		"brick": "items/misc/brick_nether"
-	},
-    "display":{
-        "firstperson_lefthand": {
-            "rotation": [ 20.0, -90.0, 20.0 ],
-            "translation": [ 0.0, 3.0, 3.0 ],
-            "scale": [ -0.44000000000000006, 0.44000000000000006, 0.44000000000000006 ]
-        },
-        "thirdperson_righthand": {
-            "rotation": [ 90.0, -230.0, -45.0 ],
-            "translation": [ -0.0, 0.5, 1.0 ],
-            "scale": [ 0.25, 0.25, 0.25 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 90.0, -230.0, -45.0 ],
-            "translation": [ 0.0, 0.5, 1.0 ],
-            "scale": [ -0.25, 0.25, 0.25 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 20.0, -90.0, 20.0 ],
-            "translation": [ 0.0, 3.0, 3.0 ],
-            "scale": [ 0.44000000000000006, 0.44000000000000006, 0.44000000000000006 ]
-        },
-        "gui": {
-            "rotation": [ 30.0, 225.0, 0.0 ],
-            "translation": [ 0.0, 0.0, 0.0 ],
-            "scale": [ 0.5, 0.5, 0.5 ]
-        }
-
-    }
+		"brick": "items/material/brick_nether"
+	}
 }

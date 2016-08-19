@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/block/ore",
 	"textures": {
-		"material": "blocks/ore/diamond_ore",
-		"purified": "items/mineral/diamond",
-		"label_icon": "blocks/ore/diamond_icon",
-		"bag": "items/powder/bag/bag_sea",
-		"bag_rim": "items/powder/bag/rim_sea",
-		"string": "items/powder/string/string_white"
+		"material":   "blocks/ore/ore/diamond",
+		"purified":   "blocks/ore/fine/diamond",
+		"label_icon": "items/icon/mineral/diamond",
+		"bag":        "items/bag/cloth/sea",
+		"bag_rim":    "items/bag/cloth/rim/sea",
+		"string":     "items/bag/string/white"
 	}
 }

@@ -1,10 +1,11 @@
 {
 	"parent": "itemModels/alchemy/jar_double",
 	"textures": {
-		"contents": "items/potion/egg_fluid",
-        "contents2": "items/potion/fluid_overlay",
-		"icon": "items/misc/spawn_egg",
-        "icon2": "items/misc/spawn_egg_overlay",
-		"particle": "items/misc/slimeball"
+		"contents":  "items/alchemy/fluid/egg",
+		"icon":      "items/icon/misc/spawn_egg",
+        "icon2":     "items/icon/misc/spawn_egg_overlay",
+        "lid":       "items/alchemy/stopper/egg",
+        
+		"particle":  "items/icon/misc/slimeball"
 	}
 }

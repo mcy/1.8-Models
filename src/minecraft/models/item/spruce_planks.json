@@ -1,7 +1,7 @@
 {
 	"parent": "itemModels/block/plank",
 	"textures": {
-		"plank": "blocks/plank/spruce",
-		"string": "items/powder/string/string_blue"
+		"plank":  "blocks/plank/spruce",
+		"string": "items/bag/string/blue"
 	}
 }

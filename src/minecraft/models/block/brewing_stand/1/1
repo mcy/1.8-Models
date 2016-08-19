@@ -1,6 +1,0 @@
-{
-	"textures": {
-		"glass1": "items/potion/potion",
-        "fluid1": "items/potion/fluid1"
-	}
-}

@@ -1,7 +1,7 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "feather": "items/misc/feather"
+        "feather": "items/material/feather"
     },
     "elements": [
         {

@@ -2,152 +2,152 @@
     "multipart": [
         {
             "when": { "facing": "up" },
-            "apply": { "model": "piston/engine/base" }
+            "apply": { "model": "redstone/piston/engine/base" }
         },
         {
             "when": { "facing": "down" },
-            "apply": { "model": "piston/engine/base", "x": 180 }
+            "apply": { "model": "redstone/piston/engine/base", "x": 180 }
         },
         {
             "when": { "facing": "north" },
-            "apply": { "model": "piston/engine/base", "x": 90 }
+            "apply": { "model": "redstone/piston/engine/base", "x": 90 }
         },
         {
             "when": { "facing": "south" },
-            "apply": { "model": "piston/engine/base", "x": 270 }
+            "apply": { "model": "redstone/piston/engine/base", "x": 270 }
         },
         {
             "when": { "facing": "west" },
-            "apply": { "model": "piston/engine/base", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/engine/base", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east" },
-            "apply": { "model": "piston/engine/base", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/engine/base", "x": 90,  "y": 90 }
         },
 
         {
             "when": { "facing": "up" },
-            "apply": { "model": "piston/engine/dynamo_core" }
+            "apply": { "model": "redstone/piston/engine/dynamo_core" }
         },
         {
             "when": { "facing": "down" },
-            "apply": { "model": "piston/engine/dynamo_core", "x": 180 }
+            "apply": { "model": "redstone/piston/engine/dynamo_core", "x": 180 }
         },
         {
             "when": { "facing": "north" },
-            "apply": { "model": "piston/engine/dynamo_core", "x": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_core", "x": 90 }
         },
         {
             "when": { "facing": "south" },
-            "apply": { "model": "piston/engine/dynamo_core", "x": 270 }
+            "apply": { "model": "redstone/piston/engine/dynamo_core", "x": 270 }
         },
         {
             "when": { "facing": "west" },
-            "apply": { "model": "piston/engine/dynamo_core", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_core", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east" },
-            "apply": { "model": "piston/engine/dynamo_core", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_core", "x": 90,  "y": 90 }
         },
 
         {
             "when": { "facing": "up", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off" }
+            "apply": { "model": "redstone/piston/engine/dynamo_off" }
         },
         {
             "when": { "facing": "down", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off", "x": 180 }
+            "apply": { "model": "redstone/piston/engine/dynamo_off", "x": 180 }
         },
         {
             "when": { "facing": "north", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off", "x": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_off", "x": 90 }
         },
         {
             "when": { "facing": "south", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off", "x": 270 }
+            "apply": { "model": "redstone/piston/engine/dynamo_off", "x": 270 }
         },
         {
             "when": { "facing": "west", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_off", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east", "extended": false },
-            "apply": { "model": "piston/engine/dynamo_off", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_off", "x": 90,  "y": 90 }
         },
 
         {
             "when": { "facing": "up", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on" }
+            "apply": { "model": "redstone/piston/engine/dynamo_on" }
         },
         {
             "when": { "facing": "down", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on", "x": 180 }
+            "apply": { "model": "redstone/piston/engine/dynamo_on", "x": 180 }
         },
         {
             "when": { "facing": "north", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on", "x": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_on", "x": 90 }
         },
         {
             "when": { "facing": "south", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on", "x": 270 }
+            "apply": { "model": "redstone/piston/engine/dynamo_on", "x": 270 }
         },
         {
             "when": { "facing": "west", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_on", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east", "extended": true },
-            "apply": { "model": "piston/engine/dynamo_on", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/engine/dynamo_on", "x": 90,  "y": 90 }
         },
 
         {
             "when": { "facing": "up", "extended": false },
-            "apply": { "model": "piston/head/base" }
+            "apply": { "model": "redstone/piston/head/base" }
         },
         {
             "when": { "facing": "down", "extended": false },
-            "apply": { "model": "piston/head/base", "x": 180 }
+            "apply": { "model": "redstone/piston/head/base", "x": 180 }
         },
         {
             "when": { "facing": "north", "extended": false },
-            "apply": { "model": "piston/head/base", "x": 90 }
+            "apply": { "model": "redstone/piston/head/base", "x": 90 }
         },
         {
             "when": { "facing": "south", "extended": false },
-            "apply": { "model": "piston/head/base", "x": 270 }
+            "apply": { "model": "redstone/piston/head/base", "x": 270 }
         },
         {
             "when": { "facing": "west", "extended": false },
-            "apply": { "model": "piston/head/base", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/head/base", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east", "extended": false },
-            "apply": { "model": "piston/head/base", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/head/base", "x": 90,  "y": 90 }
         },
 
         {
             "when": { "facing": "up", "extended": false },
-            "apply": { "model": "piston/head/sticky" }
+            "apply": { "model": "redstone/piston/head/sticky" }
         },
         {
             "when": { "facing": "down", "extended": false },
-            "apply": { "model": "piston/head/sticky", "x": 180 }
+            "apply": { "model": "redstone/piston/head/sticky", "x": 180 }
         },
         {
             "when": { "facing": "north", "extended": false },
-            "apply": { "model": "piston/head/sticky", "x": 90 }
+            "apply": { "model": "redstone/piston/head/sticky", "x": 90 }
         },
         {
             "when": { "facing": "south", "extended": false },
-            "apply": { "model": "piston/head/sticky", "x": 270 }
+            "apply": { "model": "redstone/piston/head/sticky", "x": 270 }
         },
         {
             "when": { "facing": "west", "extended": false },
-            "apply": { "model": "piston/head/sticky", "x": 270, "y": 90 }
+            "apply": { "model": "redstone/piston/head/sticky", "x": 270, "y": 90 }
         },
         {
             "when": { "facing": "east", "extended": false },
-            "apply": { "model": "piston/head/sticky", "x": 90,  "y": 90 }
+            "apply": { "model": "redstone/piston/head/sticky", "x": 90,  "y": 90 }
         }
     ]
 }

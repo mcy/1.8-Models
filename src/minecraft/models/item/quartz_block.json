@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/block/chiseled",
+    "parent": "itemModels/block/nether_chiseled",
     "textures": {
         "top": "blocks/polished/quartz",
         "side": "blocks/polished/quartz",

@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/misc/powder",
 	"textures": {
-		"material": "items/powder/pure_redstone",
-		"bag": "items/powder/bag/bag_indigo",
-		"bag_rim": "items/powder/bag/rim_indigo",
-		"label": "items/powder/label/pure_redstone_label",
-		"string": "items/powder/string/string_red"
+		"material": "items/mineral/pure/redstone",
+		"bag":      "items/bag/cloth/indigo",
+		"bag_rim":  "items/bag/cloth/rim/indigo",
+		"label":    "items/label/pure_redstone",
+		"string":   "items/bag/string/red"
 	},
     "display": {
         "fixed": {

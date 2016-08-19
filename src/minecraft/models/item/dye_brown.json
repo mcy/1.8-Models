@@ -1,10 +1,10 @@
 {
 	"parent": "itemModels/misc/dye",
 	"textures": {
-		"material": "items/powder/dye/brown",
-		"string": "items/powder/string/string_brown",
-		"label_icon": "items/powder/dye/i_brown",
-		"bag": "items/powder/bag/bag_brown",
-        "bag_rim": "items/powder/bag/rim_brown"
+		"material":   "items/dye/brown",
+		"string":     "items/bag/string/brown",
+		"label_icon": "items/icon/dye/brown",
+		"bag":        "items/bag/cloth/brown",
+        "bag_rim":    "items/bag/cloth/rim/brown"
 	}
 }

@@ -1,13 +1,13 @@
 {
 	"parent": "itemModels/misc/pearl",
 	"textures": {
-		"core_up": "items/misc/ender/eye_up",
-		"core_down": "items/misc/ender/eye_down",
-		"core_east": "items/misc/ender/eye_east",
-		"core_west": "items/misc/ender/eye_west",
-		"core_north": "items/misc/ender/eye_north",
-		"core_south": "items/misc/ender/eye_south",
-		"particle": "items/misc/ender/eye_up"
+		"core_up":    "items/ender/eye_up",
+		"core_down":  "items/ender/eye_down",
+		"core_east":  "items/ender/eye_east",
+		"core_west":  "items/ender/eye_west",
+		"core_north": "items/ender/eye_north",
+		"core_south": "items/ender/eye_south",
+		"particle":   "items/ender/eye_up"
 	},
 	"display":{
         "firstperson_lefthand": {

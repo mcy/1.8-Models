@@ -2,8 +2,8 @@
     "parent": "block/torch/torch",
     "textures": {
         "particle": "blocks/torch/wood",
-        "wood": "blocks/torch/wood",
-        "metal": "blocks/torch/metal_dark"
+        "wood":     "blocks/torch/wood",
+        "metal":    "blocks/torch/metal_dark"
     },
 
     "elements": [

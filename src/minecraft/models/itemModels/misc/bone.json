@@ -1,8 +1,8 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "material": "items/misc/bone",
-        "particle": "items/misc/bone"
+        "material": "items/material/bone",
+        "particle": "items/material/bone"
     },
     "elements": [
         {

@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/prismarine_rough",
-		"bag": "items/powder/bag/bag_sea",
-		"bag_rim": "items/powder/bag/rim_sea",
-		"string": "items/powder/string/string_green"
+		"bag":      "items/bag/cloth/sea",
+		"bag_rim":  "items/bag/cloth/rim/sea",
+		"string":   "items/bag/string/green"
 	}
 }

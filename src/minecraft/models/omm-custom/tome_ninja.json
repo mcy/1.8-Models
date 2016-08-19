@@ -1,6 +1,6 @@
 {
 	"parent": "omm-custom/tome",
     "textures": {
-        "lock": "items/misc/tome_lock/ninja"
+        "lock": "items/book/tome_lock/ninja"
     }
 }

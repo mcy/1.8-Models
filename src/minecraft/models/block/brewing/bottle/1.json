@@ -1,0 +1,88 @@
+{
+    "textures": {
+        "glass1": "items/alchemy/bottle/normal",
+        "fluid1": "items/alchemy/fluid/blue"
+    },
+    "elements": [
+        {
+            "comment": "bottle body",
+            "from": [ 0.5199999999999996, 1.988, 6.02 ],
+            "to": [ 4.48, 5.156, 9.98 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "up":    { "uv": [ 0, 0, 5, 5 ], "texture": "#glass1" },
+                "down":  { "uv": [ 0, 0, 5, 5 ], "texture": "#glass1" },
+                "east":  { "uv": [ 0, 5, 5, 9 ], "texture": "#glass1" },
+                "west":  { "uv": [ 0, 5, 5, 9 ], "texture": "#glass1" },
+                "north": { "uv": [ 0, 5, 5, 9 ], "texture": "#glass1" },
+                "south": { "uv": [ 0, 5, 5, 9 ], "texture": "#glass1" }
+            }
+        },
+        {
+            "comment": "bottle base",
+            "from": [ 1.3119999999999994, 1.5919999999999999, 6.811999999999999 ],
+            "to": [ 3.6880000000000006, 1.988, 9.188 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "down":  { "uv": [ 5, 0, 8, 3 ], "texture": "#glass1" },
+                "east":  { "uv": [ 5, 0, 8, 0.5 ], "texture": "#glass1" },
+                "west":  { "uv": [ 5, 2.5, 8, 3 ], "texture": "#glass1" },
+                "north": { "uv": [ 5, 0, 8, 0.5 ], "texture": "#glass1" },
+                "south": { "uv": [ 5, 2.5, 8, 3 ], "texture": "#glass1" }
+            }
+        },
+        {
+            "comment": "bottle neck base",
+            "from": [ 1.3119999999999994, 5.156, 6.811999999999999 ],
+            "to": [ 3.6880000000000006, 5.552, 9.188 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "up":    { "uv": [ 5, 0, 8, 3 ], "texture": "#glass1" },
+                "east":  { "uv": [ 5, 0, 8, 0.5 ], "texture": "#glass1" },
+                "west":  { "uv": [ 5, 2.5, 8, 3 ], "texture": "#glass1" },
+                "north": { "uv": [ 5, 0, 8, 0.5 ], "texture": "#glass1" },
+                "south": { "uv": [ 5, 2.5, 8, 3 ], "texture": "#glass1" }
+            }
+        },
+        {
+            "comment": "neck",
+            "from": [ 1.7080000000000002, 5.552, 7.208 ],
+            "to": [ 3.292, 7.928, 8.792 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "east":  { "uv": [ 5, 3, 7, 6 ], "texture": "#glass1" },
+                "west":  { "uv": [ 5, 3, 7, 6 ], "texture": "#glass1" },
+                "north": { "uv": [ 5, 3, 7, 6 ], "texture": "#glass1" },
+                "south": { "uv": [ 5, 3, 7, 6 ], "texture": "#glass1" }
+            }
+        },
+        {
+            "comment": "lip",
+            "from": [ 1.3119999999999994, 7.928, 6.811999999999999 ],
+            "to": [ 3.6880000000000006, 8.72, 9.188 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "up":    { "uv": [ 5, 0, 8, 3 ], "texture": "#glass1" },
+                "down":  { "uv": [ 5, 0, 8, 3 ], "texture": "#glass1" },
+                "east":  { "uv": [ 5, 6, 8, 7 ], "texture": "#glass1" },
+                "west":  { "uv": [ 5, 6, 8, 7 ], "texture": "#glass1" },
+                "north": { "uv": [ 5, 6, 8, 7 ], "texture": "#glass1" },
+                "south": { "uv": [ 5, 6, 8, 7 ], "texture": "#glass1" }
+            }
+        },
+        {
+            "comment": "contents",
+            "from": [ 0.718, 2.186, 6.218 ],
+            "to": [ 4.282, 4.958, 9.782 ],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 45},
+            "faces": {
+                "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#fluid1", "tintindex": 0 },
+                "down":  { "uv": [ 4, 4, 12, 12 ], "texture": "#fluid1", "tintindex": 0 },
+                "east":  { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid1", "tintindex": 0 },
+                "west":  { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid1", "tintindex": 0 },
+                "north": { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid1", "tintindex": 0 },
+                "south": { "uv": [ 4, 5, 12, 11 ], "texture": "#fluid1", "tintindex": 0 }
+            }
+        }
+    ]
+}

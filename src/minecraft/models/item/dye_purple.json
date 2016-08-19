@@ -1,8 +1,8 @@
 {
 	"parent": "itemModels/misc/dye",
 	"textures": {
-		"material": "items/powder/dye/purple",
-		"string": "items/powder/string/string_purple",
-		"label_icon": "items/powder/dye/i_purple"
+		"material":   "items/dye/purple",
+        "string":     "items/bag/string/purple",
+        "label_icon": "items/icon/dye/purple"
 	}
 }

@@ -1,12 +1,12 @@
 {
 	"parent": "itemModels/block/ore",
 	"textures": {
-		"material": "blocks/ore/redstone_ore",
-		"purified": "blocks/ore/redstone",
-        "label": "items/powder/label/redstone_label",
+		"material":   "blocks/ore/ore/redstone",
+		"purified":   "blocks/redstone/inactive",
+        "label":      "items/label/redstone",
 		"label_icon": "null",
-		"bag": "items/powder/bag/bag_red",
-		"bag_rim": "items/powder/bag/rim_red",
-		"string": "items/powder/string/string_red"
+		"bag":        "items/bag/cloth/red",
+		"bag_rim":    "items/bag/cloth/rim/red",
+		"string":     "items/bag/string/red"
 	}
 }

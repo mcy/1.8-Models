@@ -2,8 +2,8 @@
 	"parent": "itemModels/block/sack",
 	"textures": {
 		"material": "blocks/rocks/end_stone",
-		"bag": "items/powder/bag/bag_white",
-		"bag_rim": "items/powder/bag/rim_white",
-		"string": "items/powder/string/string_green"
+		"bag":      "items/bag/cloth/white",
+		"bag_rim":  "items/bag/cloth/rim/white",
+		"string":   "items/bag/string/green"
 	}
 }

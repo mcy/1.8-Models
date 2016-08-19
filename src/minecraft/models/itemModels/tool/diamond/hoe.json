@@ -1,0 +1,149 @@
+{
+    "parent": "itemModels/tool/base/hoe",
+    "textures": {
+        "blade":       "items/tool/diamond/blade",
+        "blade_extra": "items/tool/diamond/blade",
+        "center":      "items/tool/diamond/detail",
+        "hilt":        "items/tool/diamond/hilt",
+        "handle":      "items/tool/iron/handle",
+        "handle_ends": "items/tool/diamond/hilt",
+        "wrap":        "items/tool/diamond/cloth"
+    },
+    "elements": [
+        {
+            "comment": "blade",
+            "from": [6.5, 13.5, 6.5],
+            "to": [13, 14.5, 9.5],
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "up": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade",
+            "from": [12, 12.5, 6.495],
+            "to": [13, 14.5, 9.505],
+            "rotation": {"origin": [13, 14.5, 0], "axis": "z", "angle": 22.5},
+            "faces": {
+                "north": {"texture": "#blade"},
+                "south": {"texture": "#blade"},
+                "east": {"texture": "#blade"},
+                "west": {"texture": "#blade"},
+                "down": {"texture": "#blade"}
+            }
+        },
+        {
+            "comment": "blade extra",
+            "from": [10, 12.75, 6.505],
+            "to": [11, 14.5, 9.495],
+            "rotation": {"origin": [11, 14.5, 0], "axis": "z", "angle": 22.5},
+            "faces": {
+                "north": {"texture": "#blade_extra"},
+                "south": {"texture": "#blade_extra"},
+                "east": {"texture": "#blade_extra"},
+                "west": {"texture": "#blade_extra"},
+                "down": {"texture": "#blade_extra"}
+            }
+        },
+        {
+            "comment": "center",
+            "from": [7, 13, 7],
+            "to": [9, 15, 9],
+            "faces": {
+                "north": {"texture": "#hilt"},
+                "south": {"texture": "#hilt"},
+                "east": {"texture": "#hilt"},
+                "west": {"texture": "#hilt"},
+                "up": {"texture": "#hilt"},
+                "down": {"texture": "#hilt"}
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [7.5, 1, 7.5],
+            "to": [8.5, 11, 8.5],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#handle"},
+                "south": {"texture": "#handle"},
+                "east": {"texture": "#handle"},
+                "west": {"texture": "#handle"},
+                "up": {"texture": "#handle"},
+                "down": {"texture": "#handle"}
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [7.5, 14, 7.5],
+            "to": [8.5, 15.5, 8.5],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#handle"},
+                "south": {"texture": "#handle"},
+                "east": {"texture": "#handle"},
+                "west": {"texture": "#handle"},
+                "up": {"texture": "#handle"},
+                "down": {"texture": "#handle"}
+            }
+        },
+        {
+            "comment": "handle",
+            "from": [7.5, 12, 7.5],
+            "to": [8.5, 14, 8.5],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#wrap"},
+                "south": {"texture": "#wrap"},
+                "east": {"texture": "#wrap"},
+                "west": {"texture": "#wrap"},
+                "up": {"texture": "#wrap"},
+                "down": {"texture": "#wrap"}
+            }
+        },
+        {
+            "comment": "hilt",
+            "from": [7.25, 0, 7.25],
+            "to": [8.75, 1, 8.75],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#hilt"},
+                "south": {"texture": "#hilt"},
+                "east": {"texture": "#hilt"},
+                "west": {"texture": "#hilt"},
+                "up": {"texture": "#hilt"},
+                "down": {"texture": "#hilt"}
+            }
+        },
+        {
+            "comment": "hilt",
+            "from": [7.25, 11, 7.25],
+            "to": [8.75, 12, 8.75],
+            "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": -45},
+            "faces": {
+                "north": {"texture": "#hilt"},
+                "south": {"texture": "#hilt"},
+                "east": {"texture": "#hilt"},
+                "west": {"texture": "#hilt"},
+                "up": {"texture": "#hilt"},
+                "down": {"texture": "#hilt"}
+            }
+        },
+        {
+            "comment": "gem",
+            "from": [8, 13.5, 7.5],
+            "to": [10.5, 14.5, 8.5],
+            "rotation": {"origin": [8, 14, 8], "axis": "x", "angle": 45},
+            "faces": {
+                "north": {"texture": "#center"},
+                "south": {"texture": "#center"},
+                "east": {"texture": "#center"},
+                "west": {"texture": "#center"},
+                "up": {"texture": "#center"},
+                "down": {"texture": "#center"}
+            }
+        }
+    ]
+}

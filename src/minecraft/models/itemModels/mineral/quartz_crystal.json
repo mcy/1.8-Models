@@ -2,7 +2,7 @@
     "parent":"itemModels/base",
     "textures": {
         "particle": "items/mineral/quartz",
-        "quartz": "items/mineral/quartz"
+        "quartz":   "items/mineral/quartz"
     },
     "elements": [
         {

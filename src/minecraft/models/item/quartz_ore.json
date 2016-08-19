@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/block/ore",
 	"textures": {
-		"material": "blocks/ore/quartz_ore",
-		"purified": "blocks/ore/quartz",
-		"label_icon": "blocks/ore/quartz_icon",
-		"bag": "items/powder/bag/bag_white",
-		"bag_rim": "items/powder/bag/rim_white",
-		"string": "items/powder/string/string_red"
+		"material":   "blocks/ore/ore/quartz",
+		"purified":   "blocks/ore/fine/quartz",
+		"label_icon": "items/icon/mineral/quartz",
+		"bag":        "items/bag/cloth/white",
+		"bag_rim":    "items/bag/cloth/rim/white",
+		"string":     "items/bag/string/red"
 	}
 }

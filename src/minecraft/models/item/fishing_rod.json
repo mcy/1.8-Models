@@ -1,3 +1,9 @@
 {
-    "parent": "itemModels/tools/fishing_rod"
+    "parent": "itemModels/tool/misc/fishing_rod",
+    "overrides": [
+        {
+            "predicate": { "cast": 1 },
+            "model": "itemModels/tool/misc/cast_rod"
+        }
+    ]
 }

@@ -1,11 +1,11 @@
 {
 	"parent": "itemModels/block/ore",
 	"textures": {
-		"material": "blocks/ore/coal_ore",
-		"purified": "blocks/ore/coal",
-		"label_icon": "blocks/ore/coal_icon",
-		"bag": "items/powder/bag/bag_black",
-		"bag_rim": "items/powder/bag/rim_black",
-		"string": "items/powder/string/string_brown"
+		"material":   "blocks/ore/ore/coal",
+		"purified":   "blocks/ore/fine/coal",
+		"label_icon": "items/icon/mineral/coal",
+		"bag":        "items/bag/cloth/black",
+		"bag_rim":    "items/bag/cloth/rim/black",
+		"string":     "items/bag/string/brown"
 	}
 }

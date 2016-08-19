@@ -1,11 +1,11 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "leather": "items/misc/leather/leather",
-        "particle": "items/misc/leather/leather",
-        "handle": "items/misc/leather/stick",
-        "knife": "items/misc/leather/knife",
-        "bucket": "items/misc/bucket",
+        "leather":  "items/material/leather/leather",
+        "particle": "items/material/leather/leather",
+        "handle":   "items/material/leather/stick",
+        "knife":    "items/material/leather/knife",
+        "bucket":   "items/tool/bucket",
         "contents": "blocks/fluids/tannin"
     },
     "elements": [

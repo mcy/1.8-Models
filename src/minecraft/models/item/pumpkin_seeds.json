@@ -1,11 +1,11 @@
 {
     "parent": "itemModels/misc/powder",
     "textures": {
-        "material": "items/powder/seeds/pumpkin",
-        "bag": "items/powder/bag/bag_white",
-        "bag_rim": "items/powder/bag/rim_white",
-        "string": "items/powder/string/string_orange",
-        "label": "items/powder/label/blank_label",
-        "label_icon": "items/powder/seeds/seeds_pumpkin"
+        "material":   "items/food/seeds/pumpkin",
+        "bag":        "items/bag/cloth/white",
+        "bag_rim":    "items/bag/cloth/rim/white",
+        "string":     "items/bag/string/orange",
+        "label":      "items/label/blank",
+        "label_icon": "items/icon/seeds/pumpkin"
     }
 }

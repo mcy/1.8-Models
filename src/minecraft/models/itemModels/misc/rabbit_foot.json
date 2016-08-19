@@ -1,7 +1,7 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "foot": "items/misc/rabbit_foot"
+        "foot": "items/food/rabbit_foot"
     },
     "elements": [
         {

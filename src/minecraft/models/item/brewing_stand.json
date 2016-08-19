@@ -1,5 +1,5 @@
 {
-    "parent": "block/brewing_stand/brewing_stand__magma_gun_1_1_1",
+    "parent": "block/brewing/item",
     "display":{
         "firstperson_lefthand": {
             "rotation": [ 0.0, 45.0, 0.0 ],

@@ -1,0 +1,6 @@
+{
+    "parent": "block/redstone/day_sensor/base",
+    "textures": {
+        "lights": "blocks/redstone/day_sensor/lights11"
+    }
+}

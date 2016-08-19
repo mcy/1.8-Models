@@ -1,11 +1,11 @@
 {
-    "parent":"itemModels/base",
+    "parent": "itemModels/base",
     "textures": {
-        "glass": "items/potion/potion",
-        "stopper": "items/potion/stopper",
-        "fluid": "items/potion/fluid",
-        "fluid2": "null",
-        "particle": "items/potion/potion"
+        "glass":    "items/alchemy/bottle/normal",
+        "stopper":  "items/alchemy/stopper/normal",
+        "fluid":    "items/alchemy/fluid/potion",
+        "fluid2":   "null",
+        "particle": "items/alchemy/bottle/normal"
     },
     "elements": [
         {

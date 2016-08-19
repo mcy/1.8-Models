@@ -1,0 +1,40 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "base":     "blocks/redstone/lever/roof_base",
+        "wood":     "blocks/redstone/lever/wood",
+        "stone":    "blocks/redstone/lever/stone",
+        "metal":    "blocks/redstone/lever/iron",
+        "string":   "blocks/redstone/lever/string",
+
+        "particle": "blocks/redstone/lever/floor_base"
+    },
+    "elements": [
+        {
+            "comment": "base",
+            "from": [7.5, 7, 7.5],
+            "to": [8.5, 15, 8.5],
+            "faces": {
+                "down":  { "texture": "#string" },
+                "south": { "texture": "#string" },
+                "north": { "texture": "#string" },
+                "west":  { "texture": "#string" },
+                "east":  { "texture": "#string" }
+            }
+        },
+
+        {
+            "comment": "base",
+            "from": [7, 5, 7],
+            "to": [9, 7, 9],
+            "faces": {
+                "up":  { "texture": "#wood" },
+                "down":  { "texture": "#wood" },
+                "south": { "texture": "#wood" },
+                "north": { "texture": "#wood" },
+                "west":  { "texture": "#wood" },
+                "east":  { "texture": "#wood" }
+            }
+        }
+    ]
+}

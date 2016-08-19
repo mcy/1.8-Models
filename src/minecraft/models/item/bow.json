@@ -1,26 +1,26 @@
 {
-	"parent": "itemModels/tools/bow",
+	"parent": "itemModels/tool/bow/base",
 
     "overrides": [
         {
             "predicate": {
                 "pulling": 1
             },
-            "model": "item/bow_pulling_0"
+            "model": "itemModels/tool/bow/0"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.65
             },
-            "model": "item/bow_pulling_1"
+            "model": "itemModels/tool/bow/1"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.9
             },
-            "model": "item/bow_pulling_2"
+            "model": "itemModels/tool/bow/2"
         }
     ]
 }

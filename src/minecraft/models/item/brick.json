@@ -1,6 +1,6 @@
 {
 	"parent": "itemModels/misc/brick",
 	"textures": {
-		"brick": "items/misc/brick"
+		"brick": "items/material/brick"
 	}
 }

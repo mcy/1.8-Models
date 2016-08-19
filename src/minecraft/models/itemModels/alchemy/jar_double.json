@@ -1,9 +1,9 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "glass": "items/potion/potion",
-        "lid": "items/potion/stopper_egg",
-        "label": "items/powder/label/blank_label"
+        "glass": "items/alchemy/bottle/normal",
+        "lid":   "items/alchemy/stopper/splash",
+        "label": "items/label/blank"
     },
     "elements": [
         {

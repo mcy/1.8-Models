@@ -1,6 +1,6 @@
 {
-	"parent": "itemModels/misc/map",
+	"parent": "itemModels/book/map",
 	"textures": {
-		"front": "items/misc/paper_map"
+		"front": "items/book/paper_map"
 	}
 }
