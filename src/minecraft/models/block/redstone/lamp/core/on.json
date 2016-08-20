@@ -1,0 +1,7 @@
+{
+    "parent": "block/redstone/lamp/core/off",
+    "textures": {
+        "frame": "blocks/redstone/lamp/frame_on",
+        "lamp": "blocks/redstone/lamp/lamp_on"
+    }
+}
