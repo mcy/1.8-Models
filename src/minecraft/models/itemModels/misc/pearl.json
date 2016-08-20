@@ -1,7 +1,7 @@
 {
     "parent":"itemModels/base",
     "textures": {
-        "pupil": "null",
+        "pupil":      "null",
         "core_up":    "#core",
         "core_down":  "#core",
         "core_east":  "#core",

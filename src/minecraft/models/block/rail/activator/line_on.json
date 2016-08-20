@@ -1,0 +1,6 @@
+{
+    "parent": "block/rail/activator/line",
+    "textures": {
+        "redstone": "blocks/redstone/active"
+    }
+}

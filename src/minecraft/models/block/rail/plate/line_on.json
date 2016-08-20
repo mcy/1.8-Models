@@ -1,0 +1,8 @@
+{
+    "parent": "block/rail/plate/line",
+    "textures": {
+        "stone":    "null",
+        "stone2":    "blocks/rail/stone",
+        "redstone": "blocks/redstone/active"
+    }
+}

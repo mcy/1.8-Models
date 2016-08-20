@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "powered=false,shape=north_south":  { "model": "rail/booster/line" },
+        "powered=false,shape=east_west":    { "model": "rail/booster/line", "y": 90 },
+
+        "powered=false,shape=ascending_east":  { "model": "rail/booster/slope", "y": 90 },
+        "powered=false,shape=ascending_west":  { "model": "rail/booster/slope", "y": 270 },
+        "powered=false,shape=ascending_north": { "model": "rail/booster/slope" },
+        "powered=false,shape=ascending_south": { "model": "rail/booster/slope", "y": 180 },
+
+
+        "powered=true,shape=north_south":   { "model": "rail/booster/line_on" },
+        "powered=true,shape=east_west":     { "model": "rail/booster/line_on", "y": 90 },
+
+        "powered=true,shape=ascending_east":  { "model": "rail/booster/slope_on", "y": 90 },
+        "powered=true,shape=ascending_west":  { "model": "rail/booster/slope_on", "y": 270 },
+        "powered=true,shape=ascending_north": { "model": "rail/booster/slope_on" },
+        "powered=true,shape=ascending_south": { "model": "rail/booster/slope_on", "y": 180 }
+    }
+}
