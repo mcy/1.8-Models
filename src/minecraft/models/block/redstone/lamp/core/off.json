@@ -1,7 +1,8 @@
 {
     "textures": {
         "frame": "blocks/redstone/lamp/frame_off",
-        "lamp": "blocks/redstone/lamp/lamp_off"
+        "lamp": "blocks/redstone/lamp/lamp_off",
+        "particle": "blocks/redstone/lamp/lamp_off"
     },
     "elements": [
         {
