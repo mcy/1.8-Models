@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/powder",
+	"parent": "item_models/misc/powder",
 	"textures": {
 		"material": "items/powder/pure_glowstone",
 		"bag": "items/powder/bag/bag_sea",

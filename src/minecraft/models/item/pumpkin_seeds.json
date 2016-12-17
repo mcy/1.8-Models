@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/misc/powder",
+    "parent": "item_models/misc/powder",
     "textures": {
         "material":   "items/food/seeds/pumpkin",
         "bag":        "items/bag/cloth/white",

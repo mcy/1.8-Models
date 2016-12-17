@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/plank_slab",
+	"parent": "item_models/block/plank_slab",
 	"textures": {
 		"plank": "blocks/plank/oak",
 		"string": "items/powder/string/string_yellow"

@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/food/rabbit",
+	"parent": "item_models/food/rabbit",
 	"textures": {
 		"rabbit": "items/food/rabbit_cooked"
 	}

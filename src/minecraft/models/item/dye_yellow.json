@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/dye",
+	"parent": "item_models/misc/dye",
 	"textures": {
 		"material":   "items/dye/yellow",
         "string":     "items/bag/string/yellow",

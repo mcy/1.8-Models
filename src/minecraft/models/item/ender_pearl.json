@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/pearl",
+	"parent": "item_models/misc/pearl",
 	"textures": {
 		"core":     "items/ender/pearl_core",
 		"particle": "items/ender/pearl_core"

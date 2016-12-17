@@ -1,21 +1,21 @@
 {
-	"parent": "itemModels/tool/compass/base",
+	"parent": "item_models/tool/compass/base",
     "overrides": [
-        {"predicate":{"angle":0.0},"model":"itemModels/tool/compass/d15"},
-        {"predicate":{"angle":0.0625},"model":"itemModels/tool/compass/d14"},
-        {"predicate":{"angle":0.125},"model":"itemModels/tool/compass/d13"},
-        {"predicate":{"angle":0.1875},"model":"itemModels/tool/compass/d12"},
-        {"predicate":{"angle":0.25},"model":"itemModels/tool/compass/d11"},
-        {"predicate":{"angle":0.3125},"model":"itemModels/tool/compass/d10"},
-        {"predicate":{"angle":0.375},"model":"itemModels/tool/compass/d9"},
-        {"predicate":{"angle":0.4375},"model":"itemModels/tool/compass/d8"},
-        {"predicate":{"angle":0.5},"model":"itemModels/tool/compass/d7"},
-        {"predicate":{"angle":0.5625},"model":"itemModels/tool/compass/d6"},
-        {"predicate":{"angle":0.625},"model":"itemModels/tool/compass/d5"},
-        {"predicate":{"angle":0.6875},"model":"itemModels/tool/compass/d4"},
-        {"predicate":{"angle":0.75},"model":"itemModels/tool/compass/d3"},
-        {"predicate":{"angle":0.8125},"model":"itemModels/tool/compass/d2"},
-        {"predicate":{"angle":0.875},"model":"itemModels/tool/compass/d1"},
-        {"predicate":{"angle":0.9375},"model":"itemModels/tool/compass/d0"}
+        {"predicate":{"angle":0.0},"model":"item_models/tool/compass/d15"},
+        {"predicate":{"angle":0.0625},"model":"item_models/tool/compass/d14"},
+        {"predicate":{"angle":0.125},"model":"item_models/tool/compass/d13"},
+        {"predicate":{"angle":0.1875},"model":"item_models/tool/compass/d12"},
+        {"predicate":{"angle":0.25},"model":"item_models/tool/compass/d11"},
+        {"predicate":{"angle":0.3125},"model":"item_models/tool/compass/d10"},
+        {"predicate":{"angle":0.375},"model":"item_models/tool/compass/d9"},
+        {"predicate":{"angle":0.4375},"model":"item_models/tool/compass/d8"},
+        {"predicate":{"angle":0.5},"model":"item_models/tool/compass/d7"},
+        {"predicate":{"angle":0.5625},"model":"item_models/tool/compass/d6"},
+        {"predicate":{"angle":0.625},"model":"item_models/tool/compass/d5"},
+        {"predicate":{"angle":0.6875},"model":"item_models/tool/compass/d4"},
+        {"predicate":{"angle":0.75},"model":"item_models/tool/compass/d3"},
+        {"predicate":{"angle":0.8125},"model":"item_models/tool/compass/d2"},
+        {"predicate":{"angle":0.875},"model":"item_models/tool/compass/d1"},
+        {"predicate":{"angle":0.9375},"model":"item_models/tool/compass/d0"}
     ]
 }

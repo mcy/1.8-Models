@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/pearl",
+	"parent": "item_models/misc/pearl",
 	"textures": {
 		"core_up":    "items/ender/eye_up",
 		"core_down":  "items/ender/eye_down",

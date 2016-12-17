@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/block/leafbox",
+    "parent": "item_models/block/leafbox",
     "textures": {
         "wood": "blocks/plank/oak",
         "leaves": "blocks/leaves/oak",

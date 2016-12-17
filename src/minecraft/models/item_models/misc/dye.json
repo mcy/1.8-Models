@@ -1,0 +1,8 @@
+{
+    "parent": "item_models/misc/powder",
+    "textures": {
+        "bag":     "items/bag/cloth/mono",
+        "bag_rim": "items/bag/cloth/rim/mono",
+        "label":   "items/label/blank"
+    }
+}

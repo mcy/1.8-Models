@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/powder",
+	"parent": "item_models/misc/powder",
 	"textures": {
 		"material": "blocks/redstone/inactive",
 		"bag":      "items/bag/cloth/red",

@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/misc/book_ribbon",
+	"parent": "item_models/misc/book_ribbon",
     "textures": {
         "book": "items/book/book_tome"
     },

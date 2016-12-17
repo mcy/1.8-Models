@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/log",
+	"parent": "item_models/block/log",
 	"textures": {
 		"log": "blocks/log/spruce"
 	}

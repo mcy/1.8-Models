@@ -1,7 +1,0 @@
-{
-    "parent": "itemModels/block/chiseled",
-    "textures": {
-        "handle": "items/tool/chisel/nether/stick",
-        "metal":  "items/tool/chisel/nether/metal"
-    }
-}

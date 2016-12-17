@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/ore",
+	"parent": "item_models/block/ore",
 	"textures": {
 		"material":   "blocks/ore/ore/emerald",
 		"purified":   "blocks/ore/fine/emerald",

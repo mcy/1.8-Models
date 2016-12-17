@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/misc/rod",
+    "parent": "item_models/misc/rod",
     "textures": {
         "material": "items/mineral/pure/wood",
         "particle": "items/mineral/pure/wood"

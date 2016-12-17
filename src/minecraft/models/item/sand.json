@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/sack",
+	"parent": "item_models/block/sack",
 	"textures": {
 		"material": "blocks/soil/sand",
 		"bag":      "items/bag/cloth/white",

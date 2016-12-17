@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/wool_roll",
+	"parent": "item_models/block/wool_roll",
 	"textures": {
 		"wool": "blocks/wool/silver"
 	}

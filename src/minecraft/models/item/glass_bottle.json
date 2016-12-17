@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/alchemy/bottle",
+	"parent": "item_models/alchemy/bottle",
 	"textures": {
 		"fluid": "null"
 	}

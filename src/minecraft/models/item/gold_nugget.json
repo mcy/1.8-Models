@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/mineral/gems",
+	"parent": "item_models/mineral/gems",
 	"textures": {
 		"gem":  "items/mineral/gold_dust",
         "silk": "items/bag/silks/bright"

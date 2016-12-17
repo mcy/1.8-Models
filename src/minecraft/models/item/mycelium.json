@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/block/grass_roll",
+	"parent": "item_models/block/grass_roll",
 	"textures": {
 		"top":    "blocks/soil/mycelium_top",
 		"side":   "blocks/soil/mycelium_side",

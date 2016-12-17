@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/mineral/ingot",
+    "parent": "item_models/mineral/ingot",
     "textures": {
         "metal": "items/mineral/iron_rough"
     }

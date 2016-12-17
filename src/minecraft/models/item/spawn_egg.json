@@ -1,5 +1,5 @@
 {
-	"parent": "itemModels/alchemy/jar_double",
+	"parent": "item_models/alchemy/jar_double",
 	"textures": {
 		"contents":  "items/alchemy/fluid/egg",
 		"icon":      "items/icon/misc/spawn_egg",

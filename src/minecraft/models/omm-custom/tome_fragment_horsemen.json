@@ -1,5 +1,5 @@
 {
-    "parent": "itemModels/misc/paper",
+    "parent": "item_models/misc/paper",
     "textures": {
         "front": "items/book/fragments/tome_horsemen",
         "back": "items/book/fragments/tome_page"
