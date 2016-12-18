@@ -1,8 +1,0 @@
-{
-    "parent": "item_models/tool/wood/hoe",
-    "textures": {
-        "blade":  "items/tool/stone/blade",
-        "center": "items/tool/stone/detail",
-        "wrap":   "items/tool/stone/string"
-    }
-}

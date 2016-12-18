@@ -1,8 +1,0 @@
-{
-	"parent": "item_models/alchemy/jar",
-	"textures": {
-		"contents": "items/alchemy/fluid/magma",
-		"icon":     "items/icon/misc/magma_cream",
-		"particle": "items/alchemy/fluid/magma"
-	}
-}

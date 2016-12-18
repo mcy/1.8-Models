@@ -1,8 +1,0 @@
-{
-    "parent": "item_models/block/chiseled",
-    "textures": {
-        "top": "blocks/polished/brick",
-        "side": "blocks/polished/brick",
-        "bottom": "blocks/polished/brick"
-    }
-}

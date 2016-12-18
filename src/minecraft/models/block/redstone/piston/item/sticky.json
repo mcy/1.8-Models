@@ -1,8 +1,0 @@
-{
-    "parent": "block/redstone/piston/item/unsticky",
-    "textures": {
-        "platform": "blocks/redstone/piston/sticky",
-
-        "slime":    "blocks/redstone/piston/slime"
-    }
-}

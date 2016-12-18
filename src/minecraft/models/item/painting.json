@@ -1,6 +1,0 @@
-{
-    "parent": "block/item_frame",
-    "textures": {
-        "back": "blocks/misc/pictureframe"
-    }
-}

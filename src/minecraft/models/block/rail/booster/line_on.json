@@ -1,7 +1,0 @@
-{
-    "parent": "block/rail/booster/line",
-    "textures": {
-        "gold": "blocks/rail/gold_active",
-        "redstone": "blocks/redstone/active"
-    }
-}

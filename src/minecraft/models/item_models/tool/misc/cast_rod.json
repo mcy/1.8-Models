@@ -1,8 +1,0 @@
-{
-    "parent": "item_models/tool/misc/fishing_rod",
-    "textures": {
-        "string_extra": "null",
-        "accent":       "null",
-        "hook":         "null"
-    }
-}

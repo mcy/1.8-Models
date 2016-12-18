@@ -1,7 +1,0 @@
-{
-	"parent": "item_models/alchemy/vial",
-	"textures": {
-		"fluid":   "items/material/gunpowder",
-		"stopper": "items/alchemy/stopper/white"
-	}
-}

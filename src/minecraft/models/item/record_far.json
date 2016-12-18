@@ -1,6 +1,0 @@
-{
-	"parent": "item_models/misc/record",
-	"textures": {
-		"label": "blocks/jukebox/labels/far"
-	}
-}

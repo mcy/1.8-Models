@@ -39,6 +39,8 @@ Compile settings:
 
 If you wanna contribute, I think that's cool! Just remember you'll be contributing under the terms of the license. PRs welcome.
 
+*Note:* What follows is no longer meaningful, because Minecraft will not follow symlinks as of 1.11.
+
 If you want a 'nice' development environment, I suggest running `git clone` in your `resourcepacks` directory, or symlinking
 the cloned repo to it. Then, run `ln -s src assets` in the repo root to make the directory a valid pack. The `.gitignore` will
 make git ignore this symlink. You'll be able to select this as a resourece pack in Minecraft.
@@ -55,8 +57,8 @@ ln -s src assets
 The root directory has a collection of files used for building and batch editing. Most are single-use and are there for
 history documentation purposes. 
 
-`src` contains the fun stuff. `src/minecraft/textures` has textures, and `src/minecraft/models` contains the models. 
-There are a few other components that are less important, like `src/minecraft/blockstates`.
+`assets` contains the fun stuff. `assets/minecraft/textures` has textures, and `assets/minecraft/models` contains the models. 
+There are a few other components that are less important, like `assets/minecraft/blockstates`.
 
 `cruft` is a dumping ground for old files that I don't want to delete quite yet. `./collectCruft` will dump leftover unused
 files in this folder.

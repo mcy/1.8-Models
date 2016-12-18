@@ -1,7 +1,0 @@
-{
-	"parent": "item_models/misc/sphere",
-	"textures": {
-		"material": "blocks/soil/snow",
-		"particle": "blocks/soil/snow"
-	}
-}

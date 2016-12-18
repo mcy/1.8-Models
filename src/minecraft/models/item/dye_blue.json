@@ -1,7 +1,0 @@
-{
-	"parent": "item_models/mineral/gems",
-	"textures": {
-		"gem":  "items/dye/blue",
-		"silk": "items/bag/silks/white"
-	}
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "block/furnace/base/empty",
-    "textures": {
-        "fuel": "blocks/furnace/coal"
-    }
-}

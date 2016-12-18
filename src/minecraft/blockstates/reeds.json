@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "normal": [
-            { "model": "reeds/reeds_0" },
-            { "model": "reeds/reeds_1" }
-        ]
-    }
-}

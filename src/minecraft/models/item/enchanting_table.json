@@ -1,6 +1,0 @@
-{
-    "parent": "block/enchanting_table_book",
-    "textures": {
-        "book": "blocks/enchanting_table/book"
-    }
-}

@@ -1,7 +1,0 @@
-{
-	"parent": "item_models/food/rabbit",
-	"textures": {
-		"rabbit": "items/food/rabbit",
-		"particle": "items/food/rabbit"
-	}
-}

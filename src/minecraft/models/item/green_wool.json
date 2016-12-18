@@ -1,6 +1,0 @@
-{
-	"parent": "item_models/block/wool_roll",
-	"textures": {
-		"wool": "blocks/wool/green"
-	}
-}

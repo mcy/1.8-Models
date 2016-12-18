@@ -1,6 +1,0 @@
-{
-	"parent": "item_models/food/pork",
-	"textures": {
-		"meat": "items/food/pork"
-	}
-}

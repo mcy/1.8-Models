@@ -1,9 +1,0 @@
-{
-    "parent": "item_models/block/sack",
-    "textures": {
-        "material": "blocks/rocks/magma",
-        "bag":      "items/bag/cloth/red",
-        "bag_rim":  "items/bag/cloth/rim/red",
-        "string":   "items/bag/string/orange"
-    }
-}

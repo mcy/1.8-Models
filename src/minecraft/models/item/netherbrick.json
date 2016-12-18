@@ -1,6 +1,0 @@
-{
-	"parent": "item_models/misc/brick",
-	"textures": {
-		"brick": "items/material/brick_nether"
-	}
-}

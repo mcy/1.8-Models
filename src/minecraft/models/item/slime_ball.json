@@ -1,8 +1,0 @@
-{
-	"parent": "item_models/alchemy/jar",
-	"textures": {
-		"contents": "items/alchemy/fluid/slime",
-		"icon":     "items/icon/misc/slimeball",
-		"particle": "items/alchemy/fluid/slime"
-	}
-}

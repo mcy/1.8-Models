@@ -1,8 +1,0 @@
-{
-	"parent": "item_models/misc/dye",
-	"textures": {
-		"material":   "items/dye/red",
-        "string":     "items/bag/string/red",
-        "label_icon": "items/icon/dye/red"
-	}
-}

@@ -1,9 +1,0 @@
-{
-  "animation": {
-    "frametime": 60,
-    "frames": [
-      0,4,4,4,
-      4,4,4,4
-    ]
-  }
-}

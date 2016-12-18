@@ -1,6 +1,0 @@
-{
-	"parent": "item_models/alchemy/vial",
-    "textures": {
-        "fluid": "items/dye/ink"
-    }
-}

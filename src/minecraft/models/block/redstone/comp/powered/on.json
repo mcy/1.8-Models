@@ -1,7 +1,0 @@
-{
-    "parent": "block/redstone/comp/powered/off",
-    "textures": {
-        "quartz":     "blocks/redstone/circuit/quartz_on",
-        "wire":       "blocks/redstone/active"
-    }
-}

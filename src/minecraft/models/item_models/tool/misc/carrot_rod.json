@@ -1,8 +1,0 @@
-{
-    "parent": "item_models/tool/misc/fishing_rod",
-    "textures": {
-        "carrot": "items/food/carrot",
-        "accent": "null",
-        "hook":   "null"
-    }
-}

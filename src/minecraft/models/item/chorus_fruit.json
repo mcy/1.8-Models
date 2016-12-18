@@ -1,6 +1,0 @@
-{
-    "parent": "item_models/food/chorus",
-    "textures": {
-        "beet": "items/food/chorus"
-    }
-}

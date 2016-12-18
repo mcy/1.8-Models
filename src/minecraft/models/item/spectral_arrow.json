@@ -1,8 +1,0 @@
-{
-    "parent": "item_models/tool/bow/arrow",
-    "textures": {
-        "stick":  "items/tool/arrow/shaft_dark",
-        "tip":    "items/mineral/glowstone",
-        "accent": "items/tool/arrow/accent_spectral"
-    }
-}

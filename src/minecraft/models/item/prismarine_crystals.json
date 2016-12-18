@@ -1,7 +1,0 @@
-{
-    "parent": "item_models/mineral/gems",
-    "textures": {
-        "silk": "items/bag/silks/blue",
-        "gem":  "items/mineral/prismarine_crystal"
-    }
-}
