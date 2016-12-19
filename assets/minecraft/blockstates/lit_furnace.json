@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=north": [
+            { "model": "furnace/empty_coal_on", "y": 0, "weight": 3 }
+        ],
+        "facing=south": [
+            { "model": "furnace/empty_coal_on", "y": 180, "weight": 3 }
+        ],
+        "facing=west":  [
+            { "model": "furnace/empty_coal_on", "y": 270, "weight": 3 }
+        ],
+        "facing=east":  [
+            { "model": "furnace/empty_coal_on", "y": 90, "weight": 3 }
+        ]
+    }
+}

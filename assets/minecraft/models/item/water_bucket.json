@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/misc/bucket",
+    "textures": {
+        "contents": "blocks/fluids/water"
+    }
+}

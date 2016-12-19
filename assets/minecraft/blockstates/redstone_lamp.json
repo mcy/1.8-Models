@@ -1,0 +1,26 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "redstone/lamp/core/off" }
+        },
+        {
+            "apply": { "model": "redstone/lamp/wroght/off" }
+        },
+        {
+            "apply": { "model": "redstone/lamp/wroght/off", "x": 180 }
+        },
+
+        {
+            "apply": { "model": "redstone/lamp/wroght/off", "x": 90, "y": 0 }
+        },
+        {
+            "apply": { "model": "redstone/lamp/wroght/off", "x": 90, "y": 90 }
+        },
+        {
+            "apply": { "model": "redstone/lamp/wroght/off", "x": 90, "y": 180 }
+        },
+        {
+            "apply": { "model": "redstone/lamp/wroght/off", "x": 90, "y": 270 }
+        }
+    ]
+}

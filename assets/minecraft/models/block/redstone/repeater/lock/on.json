@@ -1,0 +1,7 @@
+{
+    "parent": "block/redstone/repeater/lock/off",
+    "textures": {
+        "blocked": "blocks/redstone/circuit/blocked",
+        "wire":    "blocks/redstone/active"
+    }
+}

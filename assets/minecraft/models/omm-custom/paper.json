@@ -1,0 +1,7 @@
+{
+	"parent": "item_models/misc/paper",
+    "texture": {
+        "front": "items/book/fragments/tome_ninja",
+        "back":  "items/book/fragments/tome_page"
+    }
+}

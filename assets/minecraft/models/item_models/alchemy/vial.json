@@ -1,0 +1,61 @@
+{
+    "parent": "item_models/alchemy/bottle",
+    "textures": {
+        "vial":    "items/alchemy/bottle/vial",
+        "stopper": "items/alchemy/stopper/splash"
+    },
+    "elements": [
+        {
+            "comment": "body",
+            "from": [ 5.0, -4.0, 5.0 ],
+            "to": [ 11.0, 20.0, 11.0 ],
+            "faces": {
+                "east":  { "uv": [ 0, 0, 2, 8 ], "texture": "#vial" },
+                "west":  { "uv": [ 0, 0, 2, 8 ], "texture": "#vial" },
+                "north": { "uv": [ 0, 0, 2, 8 ], "texture": "#vial" },
+                "south": { "uv": [ 0, 0, 2, 8 ], "texture": "#vial" },
+                "down":  { "uv": [ 2, 0, 4, 2 ], "texture": "#vial" }
+            }
+        },
+        {
+            "comment": "lip",
+            "from": [ 3.5, 20.0, 3.5 ],
+            "to": [ 12.5, 23.0, 12.5 ],
+            "faces": {
+                "up":    { "uv": [ 5, 0, 8, 3 ], "texture": "#vial" },
+                "down":  { "uv": [ 5, 0, 8, 3 ], "texture": "#vial" },
+                "east":  { "uv": [ 5, 6, 8, 7 ], "texture": "#vial" },
+                "west":  { "uv": [ 5, 6, 8, 7 ], "texture": "#vial" },
+                "north": { "uv": [ 5, 6, 8, 7 ], "texture": "#vial" },
+                "south": { "uv": [ 5, 6, 8, 7 ], "texture": "#vial" }
+            }
+        },
+        {
+            "comment": "stopper",
+            "from": [ 5.0, 21.5, 5.0 ],
+            "to": [ 11.0, 26.0, 11.0 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 4, 4 ], "texture": "#stopper", "tintindex": 1 },
+                "down":  { "uv": [ 0, 0, 4, 4 ], "texture": "#stopper", "tintindex": 1 },
+                "east":  { "uv": [ 0, 0, 4, 2 ], "texture": "#stopper", "tintindex": 1 },
+                "west":  { "uv": [ 0, 0, 4, 2 ], "texture": "#stopper", "tintindex": 1 },
+                "north": { "uv": [ 0, 0, 4, 2 ], "texture": "#stopper", "tintindex": 1 },
+                "south": { "uv": [ 0, 0, 4, 2 ], "texture": "#stopper", "tintindex": 1 }
+            }
+        },
+        {
+            "comment": "contents",
+            "from": [ 5.75, -3.25, 5.75 ],
+            "to": [ 10.25, 14.75, 10.25 ],
+            "faces": {
+                "up":    { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#fluid" },
+                "down":  { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#fluid" },
+                "east":  { "uv": [ 6.5, 3.5, 9.5, 15.5 ], "texture": "#fluid" },
+                "west":  { "uv": [ 6.5, 3.5, 9.5, 15.5 ], "texture": "#fluid" },
+                "north": { "uv": [ 6.5, 3.5, 9.5, 15.5 ], "texture": "#fluid" },
+                "south": { "uv": [ 6.5, 3.5, 9.5, 15.5 ], "texture": "#fluid" }
+            }
+        }
+
+    ]
+}

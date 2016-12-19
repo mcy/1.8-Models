@@ -1,0 +1,6 @@
+{
+    "parent": "item_models/food/stew",
+    "textures": {
+        "inside": "items/food/bowl"
+    }
+}

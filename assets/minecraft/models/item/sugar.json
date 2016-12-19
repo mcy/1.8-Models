@@ -1,0 +1,10 @@
+{
+	"parent": "item_models/misc/powder",
+	"textures": {
+		"material": "items/material/sugar",
+		"bag":      "items/bag/cloth/white",
+		"bag_rim":  "items/bag/cloth/rim/white",
+		"label":    "items/label/sugar",
+		"string":   "items/bag/string/yellow"
+	}
+}

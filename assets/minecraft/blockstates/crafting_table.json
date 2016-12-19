@@ -1,0 +1,15 @@
+{
+    "variants": {
+    	"normal": 
+    	[
+            { "model": "crafting_table/crafting_table", "weight": 10},
+            { "model": "crafting_table/crafting_table", "weight": 10, "y": 90},
+            { "model": "crafting_table/crafting_table", "weight": 10, "y": 180},
+            { "model": "crafting_table/crafting_table", "weight": 10, "y": 270},
+	    	{ "model": "crafting_table/crafting_table_xor", "weight": 1},
+            { "model": "crafting_table/crafting_table_xor", "weight": 1, "y": 90},
+            { "model": "crafting_table/crafting_table_xor", "weight": 1, "y": 180},
+            { "model": "crafting_table/crafting_table_xor", "weight": 1, "y": 270}
+	    ]
+    }
+}

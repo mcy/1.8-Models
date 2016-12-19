@@ -1,0 +1,128 @@
+{
+    "multipart": [
+        {
+            "when": { "facing": "up" },
+            "apply": { "model": "redstone/piston/head/base" }
+        },
+        {
+            "when": { "facing": "down" },
+            "apply": { "model": "redstone/piston/head/base", "x": 180 }
+        },
+        {
+            "when": { "facing": "north" },
+            "apply": { "model": "redstone/piston/head/base", "x": 90 }
+        },
+        {
+            "when": { "facing": "south" },
+            "apply": { "model": "redstone/piston/head/base", "x": 270 }
+        },
+        {
+            "when": { "facing": "west" },
+            "apply": { "model": "redstone/piston/head/base", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east" },
+            "apply": { "model": "redstone/piston/head/base", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up" },
+            "apply": { "model": "redstone/piston/head/band" }
+        },
+        {
+            "when": { "facing": "down" },
+            "apply": { "model": "redstone/piston/head/band", "x": 180 }
+        },
+        {
+            "when": { "facing": "north" },
+            "apply": { "model": "redstone/piston/head/band", "x": 90 }
+        },
+        {
+            "when": { "facing": "south" },
+            "apply": { "model": "redstone/piston/head/band", "x": 270 }
+        },
+        {
+            "when": { "facing": "west" },
+            "apply": { "model": "redstone/piston/head/band", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east" },
+            "apply": { "model": "redstone/piston/head/band", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "short": false },
+            "apply": { "model": "redstone/piston/head/extra" }
+        },
+        {
+            "when": { "facing": "down", "short": false },
+            "apply": { "model": "redstone/piston/head/extra", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "short": false },
+            "apply": { "model": "redstone/piston/head/extra", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "short": false },
+            "apply": { "model": "redstone/piston/head/extra", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "short": false },
+            "apply": { "model": "redstone/piston/head/extra", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "short": false },
+            "apply": { "model": "redstone/piston/head/extra", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky" }
+        },
+        {
+            "when": { "facing": "down", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "type": "normal" },
+            "apply": { "model": "redstone/piston/head/unsticky", "x": 90,  "y": 90 }
+        },
+
+        {
+            "when": { "facing": "up", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky" }
+        },
+        {
+            "when": { "facing": "down", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky", "x": 180 }
+        },
+        {
+            "when": { "facing": "north", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky", "x": 90 }
+        },
+        {
+            "when": { "facing": "south", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky", "x": 270 }
+        },
+        {
+            "when": { "facing": "west", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky", "x": 270, "y": 90 }
+        },
+        {
+            "when": { "facing": "east", "type": "sticky" },
+            "apply": { "model": "redstone/piston/head/sticky", "x": 90,  "y": 90 }
+        }
+    ]
+}

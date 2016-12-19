@@ -1,0 +1,11 @@
+{
+	"parent": "item_models/block/ore",
+	"textures": {
+		"material":   "blocks/ore/ore/emerald",
+		"purified":   "blocks/ore/fine/emerald",
+		"label_icon": "items/icon/mineral/emerald",
+		"bag":        "items/bag/cloth/purple",
+		"bag_rim":    "items/bag/cloth/rim/purple",
+		"string":     "items/bag/string/green"
+	}
+}

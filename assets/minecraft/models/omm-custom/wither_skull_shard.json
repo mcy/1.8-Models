@@ -1,0 +1,14 @@
+{
+    "parent": "item_models/mineral/gems",
+    "textures": {
+        "silk": "items/bag/silks/blood",
+        "gem":  "items/material/wither_shard"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 70.0, -60.0, 0.0 ],
+            "translation": [ -0.5, 3.0, 8.0 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        }
+    }
+}

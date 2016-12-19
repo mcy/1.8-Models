@@ -1,0 +1,7 @@
+{
+    "parent": "item_models/tool/misc/rod",
+    "textures": {
+        "material": "items/material/blaze/rod",
+        "particle": "items/material/blaze/rod"
+    }
+}

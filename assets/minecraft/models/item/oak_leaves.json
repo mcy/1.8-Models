@@ -1,0 +1,10 @@
+{
+    "parent": "item_models/block/leafbox",
+    "textures": {
+        "wood": "blocks/plank/oak",
+        "leaves": "blocks/leaves/oak",
+        "leaves_inner": "blocks/leaves/oak_solid",
+        "icon": "blocks/leaves/icon/oak",
+        "particle": "blocks/leaves/oak"
+    }
+}

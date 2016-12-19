@@ -1,0 +1,7 @@
+{
+    "parent": "item_models/tool/bow/arrow",
+    "textures": {
+        "stick":  "items/tool/arrow/shaft_dark",
+        "accent": "items/alchemy/fluid/white"
+    }
+}

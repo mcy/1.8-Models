@@ -1,0 +1,17 @@
+{
+	"parent": "item_models/misc/powder",
+	"textures": {
+		"material": "items/mineral/pure/redstone",
+		"bag":      "items/bag/cloth/indigo",
+		"bag_rim":  "items/bag/cloth/rim/indigo",
+		"label":    "items/label/pure_redstone",
+		"string":   "items/bag/string/red"
+	},
+    "display": {
+        "fixed": {
+            "rotation": [ 15.0, 30.0, 15.0 ],
+            "translation": [ -1.0, 1.0, 2.0 ],
+            "scale": [ -0.6, 0.6, -0.6 ]
+        }
+    }
+}

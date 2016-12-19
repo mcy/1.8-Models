@@ -1,0 +1,10 @@
+{
+	"parent": "item_models/misc/powder",
+	"textures": {
+		"material": "items/material/gunpowder",
+		"bag":      "items/bag/cloth/black",
+		"bag_rim":  "items/bag/cloth/rim/black",
+		"label":    "items/label/gunpowder",
+		"string":   "items/bag/string/black"
+	}
+}

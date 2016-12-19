@@ -1,0 +1,519 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "obby": "blocks/enchanting_table/obsidian",
+        "gem": "blocks/enchanting_table/gem",
+        "gold": "blocks/enchanting_table/gold",
+        "cloth": "blocks/enchanting_table/cloth",
+        "cloth_dark": "blocks/enchanting_table/cloth_dark",
+        "ess": "blocks/enchanting_table/essence",
+        "particle": "blocks/enchanting_table/obsidian"
+    },
+    "elements": [
+
+        {
+            "comment": "leg",
+            "from": [0, 0, 0],
+            "to": [4, 10, 4],
+            "rotation": {"origin": [2, 0, 2], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg",
+            "from": [12, 0, 0],
+            "to": [16, 10, 4],
+            "rotation": {"origin": [14, 0, 2], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg",
+            "from": [0, 0, 12],
+            "to": [4, 10, 16],
+            "rotation": {"origin": [2, 0, 14], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg",
+            "from": [12, 0, 12],
+            "to": [16, 10, 16],
+            "rotation": {"origin": [14, 0, 14], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg detail",
+            "from": [0, 0.01, 0],
+            "to": [2, 7, 2],
+            "shade": false,
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "leg detail",
+            "from": [14, 0.01, 0],
+            "to": [16, 7, 2],
+            "shade": false,
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "leg detail",
+            "from": [0, 0.01, 14],
+            "to": [2, 7, 16],
+            "shade": false,
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "leg detail",
+            "from": [14, 0.01, 14],
+            "to": [16, 7, 16],
+            "shade": false,
+            "faces": {
+                "up": {"texture": "#gem"},
+                "down": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [0, 0, 2],
+            "to": [1, 1, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [15, 0, 2],
+            "to": [16, 1, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 0, 0],
+            "to": [14, 1, 1],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 0, 15],
+            "to": [14, 1, 16],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [0, 3, 2],
+            "to": [1, 4, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [15, 3, 2],
+            "to": [16, 4, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 3, 0],
+            "to": [14, 4, 1],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 3, 15],
+            "to": [14, 4, 16],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [0, 6, 2],
+            "to": [1, 7, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [15, 6, 2],
+            "to": [16, 7, 14],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 6, 0],
+            "to": [14, 7, 1],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "leg connector",
+            "from": [2, 6, 15],
+            "to": [14, 7, 16],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "base",
+            "from": [1, 0.25, 1],
+            "to": [15, 0.75, 15],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"}
+            }
+        },
+
+        
+
+        {
+            "comment": "gem",
+            "from": [1, 10, 1],
+            "to": [3, 13, 3],
+            "shade": false,
+            "rotation": {"origin": [2, 0, 2], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "gem",
+            "from": [13, 10, 1],
+            "to": [15, 13, 3],
+            "shade": false,
+            "rotation": {"origin": [14, 0, 2], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "gem",
+            "from": [1, 10, 13],
+            "to": [3, 13, 15],
+            "shade": false,
+            "rotation": {"origin": [2, 0, 14], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        {
+            "comment": "gem",
+            "from": [13, 10, 13],
+            "to": [15, 13, 15],
+            "shade": false,
+            "rotation": {"origin": [14, 0, 14], "axis": "y", "angle": 45},
+            "faces": {
+                "up": {"texture": "#gem"},
+                "east": {"texture": "#gem"},
+                "west": {"texture": "#gem"},
+                "south": {"texture": "#gem"},
+                "north": {"texture": "#gem"}
+            }
+        },
+
+        
+
+        {
+            "comment": "tabletop",
+            "from": [0, 10.5, 0],
+            "to": [16, 11.5, 16],
+            "faces": {
+                "up": {"texture": "#obby"},
+                "down": {"texture": "#obby"},
+                "east": {"texture": "#obby"},
+                "west": {"texture": "#obby"},
+                "south": {"texture": "#obby"},
+                "north": {"texture": "#obby"}
+            }
+        },
+
+        {
+            "comment": "cloth center",
+            "from": [4, 11.5, 4],
+            "to": [12, 12, 12],
+            "faces": {
+                "up": {"texture": "cloth"}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [-0.5, 11.5, 4],
+            "to": [4, 12, 12],
+            "faces": {
+                "up": {"uv": [0, 4, 4.5, 12], "texture": "cloth"},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"},
+                "north": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [-0.5, 7.5, 4],
+            "to": [-0.01, 12, 12],
+            "faces": {
+                "west": {"texture": "cloth"},
+                "east": {"texture": "cloth"},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "north": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [-0.49, 4.67157287525381, 5.17157287525381],
+            "to": [-0.02, 10.32842712474619, 10.82842712474619],
+            "rotation": {"origin": [0, 7.5, 8], "axis": "x", "angle": 45},
+            "faces": {
+                "west": {"texture": "cloth"},
+                "east": {"texture": "cloth"},
+                "down": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [12, 11.5, 4],
+            "to": [16.5, 12, 12],
+            "faces": {
+                "up": {"uv": [0, 4, 4.5, 12], "texture": "cloth"},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"},
+                "north": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [16.01, 7.5, 4],
+            "to": [16.5, 12, 12],
+            "faces": {
+                "west": {"texture": "cloth"},
+                "east": {"texture": "cloth"},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "north": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [16.02, 4.67157287525381, 5.17157287525381],
+            "to": [16.49, 10.32842712474619, 10.82842712474619],
+            "rotation": {"origin": [0, 7.5, 8], "axis": "x", "angle": 45},
+            "faces": {
+                "west": {"texture": "cloth"},
+                "east": {"texture": "cloth"},
+                "down": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "south": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [4, 11.5, -0.5],
+            "to": [12, 12, 4],
+            "faces": {
+                "up": {"uv": [4, 0, 12, 4.5], "texture": "cloth"},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"},
+                "east": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [4, 7.5,-0.5],
+            "to": [12, 12, -0.01],
+            "faces": {
+                "north": {"texture": "cloth"},
+                "south": {"texture": "cloth"},
+                "east": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [5.17157287525381, 4.67157287525381, -0.49],
+            "to": [10.82842712474619, 10.32842712474619, -0.02],
+            "rotation": {"origin": [8, 7.5, 0], "axis": "z", "angle": 45},
+            "faces": {
+                "north": {"texture": "cloth"},
+                "south": {"texture": "cloth"},
+                "down": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [4, 11.5, 12],
+            "to": [12, 12, 16.5],
+            "faces": {
+                "up": {"uv": [4, 0, 12, 4.5], "texture": "cloth"},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"},
+                "east": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth"}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [4, 7.5, 16.01],
+            "to": [12, 12, 16.5],
+            "faces": {
+                "north": {"texture": "cloth"},
+                "south": {"texture": "cloth"},
+                "east": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        },
+
+        {
+            "comment": "cloth",
+            "from": [5.17157287525381, 4.67157287525381, 16.02],
+            "to": [10.82842712474619, 10.32842712474619, 16.49],
+            "rotation": {"origin": [8, 7.5, 0], "axis": "z", "angle": 45},
+            "faces": {
+                "north": {"texture": "cloth"},
+                "south": {"texture": "cloth"},
+                "down": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90},
+                "west": {"uv": [0, 0, 4.5, 0.5], "texture": "cloth", "rotation": 90}
+            }
+        }
+    ]
+}

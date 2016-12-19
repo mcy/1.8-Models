@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/book/map",
+	"textures": {
+		"front": "items/book/paper_map"
+	}
+}

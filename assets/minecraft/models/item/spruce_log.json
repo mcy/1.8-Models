@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/block/log",
+	"textures": {
+		"log": "blocks/log/spruce"
+	}
+}

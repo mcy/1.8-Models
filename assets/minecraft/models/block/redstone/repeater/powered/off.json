@@ -1,0 +1,101 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "wire": "blocks/redstone/inactive"
+    },
+
+    "elements": [
+        {
+            "comment": "wire inside",
+            "from": [7, 0, -0.01],
+            "to": [9, 2, 16.01],
+            "faces": {
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" }
+            }
+        },
+
+        {
+            "comment": "diodeinside",
+            "from": [11, 1.3, 8.3],
+            "to": [12, 4.7, 11.7],
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "down":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" }
+            }
+        },
+
+        {
+            "comment": "diodewire",
+            "from": [1.5, 1, 9.5],
+            "to": [2.5, 3.5, 10.5],
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "down":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" }
+            }
+        },
+
+        {
+            "comment": "diodewire",
+            "from": [13.5, 1, 9.5],
+            "to": [14.5, 3.5, 10.5],
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "down":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" }
+            }
+        },
+        {
+            "comment": "diodewire",
+            "from": [2.5, 2.5, 9.5],
+            "to": [13.5, 3.5, 10.5],
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "down":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" }
+            }
+        },
+
+        {
+            "comment": "fire",
+            "from": [ 3.1, 3.5, 3.1 ],
+            "to": [ 4.9, 6.3, 4.9 ],
+            "shade": false,
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" }
+            }
+        },
+
+        {
+            "comment": "fire",
+            "from": [ 11.1, 3.5, 3.1 ],
+            "to": [ 12.9, 6.3, 4.9 ],
+            "shade": false,
+            "faces": {
+                "up":    { "texture": "#wire" },
+                "east":  { "texture": "#wire" },
+                "west":  { "texture": "#wire" },
+                "north": { "texture": "#wire" },
+                "south": { "texture": "#wire" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "base":     "blocks/redstone/lever/wall_base",
+        "wood":     "blocks/redstone/lever/wood",
+        "stone":    "blocks/redstone/lever/stone",
+        "metal":    "blocks/redstone/lever/iron",
+
+        "particle": "blocks/redstone/lever/floor_base"
+    },
+
+    "elements": [
+
+        {
+            "comment": "strut",
+            "from": [5.5, 7.5, 0.5],
+            "to": [6, 12, 1.5],
+            "rotation": { "origin": [8, 8, 1], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wood" },
+                "south": { "texture": "#wood" },
+                "up":    { "texture": "#wood" },
+                "down":  { "texture": "#wood" },
+                "east":  { "texture": "#wood" },
+                "west":  { "texture": "#wood" }
+            }
+        },
+
+        {
+            "comment": "strut",
+            "from": [10, 7.5, 0.5],
+            "to": [10.5, 12, 1.5],
+            "rotation": { "origin": [8, 8, 1], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wood" },
+                "south": { "texture": "#wood" },
+                "up":    { "texture": "#wood" },
+                "down":  { "texture": "#wood" },
+                "east":  { "texture": "#wood" },
+                "west":  { "texture": "#wood" }
+            }
+        },
+
+        {
+            "comment": "strut middle",
+            "from": [5, 12, 0],
+            "to": [11, 12.5, 2],
+            "rotation": { "origin": [8, 8, 1], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#stone" },
+                "south": { "texture": "#stone" },
+                "up":    { "texture": "#stone" },
+                "down":  { "texture": "#stone" },
+                "east":  { "texture": "#stone" },
+                "west":  { "texture": "#stone" }
+            }
+        },
+
+        {
+            "comment": "handle",
+            "from": [7.5, 12.5, 0.5],
+            "to": [8.5, 15, 1.5],
+            "rotation": { "origin": [8, 8, 1], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#wood" },
+                "south": { "texture": "#wood" },
+                "east":  { "texture": "#wood" },
+                "west":  { "texture": "#wood" }
+            }
+        },
+
+        {
+            "comment": "handle",
+            "from": [7.5, 15, 0.5],
+            "to": [8.5, 16, 1.5],
+            "rotation": { "origin": [8, 8, 1], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "up":    { "texture": "#metal" },
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "east":  { "texture": "#metal" },
+                "west":  { "texture": "#metal" }
+            }
+        }
+    ]
+}

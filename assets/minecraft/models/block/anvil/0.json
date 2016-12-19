@@ -1,0 +1,6 @@
+{
+    "parent": "block/anvil/anvil",
+    "textures": {
+        "top": "blocks/anvil/top_0"
+    }
+}

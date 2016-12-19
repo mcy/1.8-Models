@@ -1,0 +1,6 @@
+{
+    "parent": "item_models/alchemy/jar_double",
+    "textures": {
+        "icon2": "null"
+    }
+}

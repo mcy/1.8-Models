@@ -1,0 +1,7 @@
+{
+	"parent": "item_models/block/plank_slab",
+	"textures": {
+		"plank":  "blocks/plank/acacia",
+		"string": "items/bag/string/red"
+	}
+}

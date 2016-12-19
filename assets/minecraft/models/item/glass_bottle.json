@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/alchemy/bottle",
+	"textures": {
+		"fluid": "null"
+	}
+}

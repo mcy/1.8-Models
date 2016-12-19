@@ -1,0 +1,10 @@
+{
+    "parent": "item_models/block/leafbox",
+    "textures": {
+        "wood":         "blocks/plank/nether",
+        "leaves":       "blocks/leaves/wart",
+        "leaves_inner": "blocks/leaves/wart",
+        "icon":         "blocks/leaves/icon/wart",
+        "particle":     "blocks/leaves/wart"
+    }
+}

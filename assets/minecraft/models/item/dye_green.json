@@ -1,0 +1,7 @@
+{
+    "parent": "item_models/misc/bundle",
+    "textures": {
+        "stalks": "items/dye/green",
+        "string": "items/bag/string/green"
+    }
+}

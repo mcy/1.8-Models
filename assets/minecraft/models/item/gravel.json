@@ -1,0 +1,9 @@
+{
+	"parent": "item_models/block/sack",
+	"textures": {
+		"material": "blocks/soil/gravel",
+		"bag":      "items/bag/cloth/grey",
+		"bag_rim":  "items/bag/cloth/rim/grey",
+		"string":   "items/bag/string/black"
+	}
+}

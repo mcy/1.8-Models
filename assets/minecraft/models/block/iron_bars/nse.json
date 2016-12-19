@@ -1,0 +1,6 @@
+{
+    "parent": "block/iron_bars/bars",
+    "textures": {
+        "w": "null"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item_models/mineral/gems",
+    "textures": {
+        "silk": "items/bag/silks/coal",
+        "gem":  "items/mineral/coal"
+    }
+}

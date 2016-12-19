@@ -1,0 +1,52 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "blocked": "null",
+        "wire":    "blocks/redstone/inactive"
+    },
+
+    "elements": [
+
+        {
+            "comment": "side wire",
+            "from": [0, 0.01, 7],
+            "to": [2, 2, 9],
+            "faces": {
+                "up":    {"texture": "#wire"},
+                "down":  {"texture": "#wire"},
+                "north": {"texture": "#wire"},
+                "south": {"texture": "#wire"},
+                "east":  {"texture": "#wire"},
+                "west":  {"texture": "#wire"}
+            }
+        },
+
+        {
+            "comment": "side wire",
+            "from": [14, 0.01, 7],
+            "to": [16, 2, 9],
+            "faces": {
+                "up":    {"texture": "#wire"},
+                "down":  {"texture": "#wire"},
+                "north": {"texture": "#wire"},
+                "south": {"texture": "#wire"},
+                "east":  {"texture": "#wire"},
+                "west":  {"texture": "#wire"}
+            }
+        },
+
+        {
+            "comment": "blocker",
+            "from": [10.5, 1, 7.8],
+            "to": [12.5, 5.2, 12.2],
+            "faces": {
+                "up":    {"texture": "#blocked"},
+                "down":  {"texture": "#blocked"},
+                "north": {"texture": "#blocked"},
+                "south": {"texture": "#blocked"},
+                "east":  {"texture": "#blocked"},
+                "west":  {"texture": "#blocked"}
+            }
+        }
+    ]
+}

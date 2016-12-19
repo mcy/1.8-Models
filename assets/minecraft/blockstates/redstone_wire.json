@@ -1,0 +1,143 @@
+{
+    "multipart": [
+        { 
+            "apply": { "model": "redstone/wire/dot" }
+        },
+
+        {
+            "when": { "north": "side" },
+            "apply": { "model": "redstone/wire/north" }
+        },
+        {
+            "when": { "south": "side" },
+            "apply": { "model": "redstone/wire/south" }
+        },
+        {
+            "when": { "west": "side" },
+            "apply": { "model": "redstone/wire/west" }
+        },
+        {
+            "when": { "east": "side" },
+            "apply": { "model": "redstone/wire/east" }
+        },
+
+        {
+            "when": { "north": "up" },
+            "apply": { "model": "redstone/wire/up/north" }
+        },
+        {
+            "when": { "south": "up" },
+            "apply": { "model": "redstone/wire/up/south" }
+        },
+        {
+            "when": { "west": "up" },
+            "apply": { "model": "redstone/wire/up/west" }
+        },
+        {
+            "when": { "east": "up" },
+            "apply": { "model": "redstone/wire/up/east" }
+        }
+    ],
+
+    "variants-": {
+        "east=none,north=none,south=none,west=none": { "model": "redstone/wire/none" },
+
+        "east=none,north=side,south=none,west=none": { "model": "redstone/wire/line" },
+        "east=none,north=none,south=side,west=none": { "model": "redstone/wire/line" },
+        "east=side,north=none,south=none,west=none": { "model": "redstone/wire/line", "y": 90 },
+        "east=none,north=none,south=none,west=side": { "model": "redstone/wire/line", "y": 90 },
+
+        "east=none,north=up,south=none,west=none": { "model": "redstone/wire/line_up_one" },
+        "east=none,north=none,south=up,west=none": { "model": "redstone/wire/line_up_one", "y": 180 },
+        "east=up,north=none,south=none,west=none": { "model": "redstone/wire/line_up_one", "y": 90 },
+        "east=none,north=none,south=none,west=up": { "model": "redstone/wire/line_up_one", "y": 270 },
+
+        "east=side,north=side,south=none,west=none":   { "model": "redstone/wire/ell" },
+        "east=side,north=up,south=none,west=none":  { "model": "redstone/wire/ell_up_north" },
+        "east=up,north=side,south=none,west=none":  { "model": "redstone/wire/ell_up_east" },
+        "east=up,north=up,south=none,west=none": { "model": "redstone/wire/ell_up_both" },
+
+        "east=side,north=none,south=side,west=none":   { "model": "redstone/wire/ell", "y": 90 },
+        "east=up,north=none,south=side,west=none":  { "model": "redstone/wire/ell_up_north", "y": 90 },
+        "east=side,north=none,south=up,west=none":  { "model": "redstone/wire/ell_up_east", "y": 90 },
+        "east=up,north=none,south=up,west=none": { "model": "redstone/wire/ell_up_both", "y": 90 },
+
+        "east=none,north=none,south=side,west=side":   { "model": "redstone/wire/ell", "y": 180 },
+        "east=none,north=none,south=up,west=side":  { "model": "redstone/wire/ell_up_north", "y": 180 },
+        "east=none,north=none,south=side,west=up":  { "model": "redstone/wire/ell_up_east", "y": 180 },
+        "east=none,north=none,south=up,west=up": { "model": "redstone/wire/ell_up_both", "y": 180  },
+
+        "east=none,north=side,south=none,west=side":   { "model": "redstone/wire/ell", "y": 270 },
+        "east=none,north=side,south=none,west=up":  { "model": "redstone/wire/ell_up_north", "y": 270  },
+        "east=none,north=up,south=none,west=side":  { "model": "redstone/wire/ell_up_east", "y": 270 },
+        "east=none,north=up,south=none,west=up": { "model": "redstone/wire/ell_up_both", "y": 270 },
+
+        "east=none,north=side,south=side,west=none":  { "model": "redstone/wire/line" },
+        "east=none,north=up,south=side,west=none": { "model": "redstone/wire/line_up_one" },
+        "east=none,north=side,south=up,west=none": { "model": "redstone/wire/line_up_one", "y": 180 },
+        "east=none,north=up,south=up,west=none": { "model": "redstone/wire/line_up_both" },
+
+        "east=side,north=none,south=none,west=side":  { "model": "redstone/wire/line", "y": 90 },
+        "east=up,north=none,south=none,west=side": { "model": "redstone/wire/line_up_one", "y": 90 },
+        "east=side,north=none,south=none,west=up": { "model": "redstone/wire/line_up_one", "y": 270 },
+        "east=up,north=none,south=none,west=up": { "model": "redstone/wire/line_up_both", "y": 90 },
+
+        "east=side,north=side,south=side,west=none":    { "model": "redstone/wire/tee" },
+        "east=side,north=up,south=side,west=none":   { "model": "redstone/wire/tee_up_north" },
+        "east=side,north=side,south=up,west=none":   { "model": "redstone/wire/tee_up_south" },
+        "east=up,north=side,south=side,west=none":   { "model": "redstone/wire/tee_up_east" },
+        "east=up,north=side,south=up,west=none":  { "model": "redstone/wire/tee_up_east_south" },
+        "east=side,north=up,south=up,west=none":  { "model": "redstone/wire/tee_up_north_south" },
+        "east=up,north=up,south=side,west=none":  { "model": "redstone/wire/tee_up_north_east" },
+        "east=up,north=up,south=up,west=none": { "model": "redstone/wire/tee_up_all" },
+
+        "east=side,north=none,south=side,west=side":    { "model": "redstone/wire/tee", "y": 90 },
+        "east=up,north=none,south=side,west=side":   { "model": "redstone/wire/tee_up_north", "y": 90 },
+        "east=side,north=none,south=side,west=up":   { "model": "redstone/wire/tee_up_south", "y": 90 },
+        "east=side,north=none,south=up,west=side":   { "model": "redstone/wire/tee_up_east", "y": 90 },
+        "east=side,north=none,south=up,west=up":  { "model": "redstone/wire/tee_up_east_south", "y": 90 },
+        "east=up,north=none,south=side,west=up":  { "model": "redstone/wire/tee_up_north_south", "y": 90 },
+        "east=up,north=none,south=up,west=side":  { "model": "redstone/wire/tee_up_north_east", "y": 90 },
+        "east=up,north=none,south=up,west=up": { "model": "redstone/wire/tee_up_all", "y": 90 },
+
+        "east=none,north=side,south=side,west=side":    { "model": "redstone/wire/tee", "y": 180 },
+        "east=none,north=side,south=up,west=side":   { "model": "redstone/wire/tee_up_north", "y": 180 },
+        "east=none,north=up,south=side,west=side":   { "model": "redstone/wire/tee_up_south", "y": 180 },
+        "east=none,north=side,south=side,west=up":   { "model": "redstone/wire/tee_up_east", "y": 180 },
+        "east=none,north=up,south=side,west=up":  { "model": "redstone/wire/tee_up_east_south", "y": 180 },
+        "east=none,north=up,south=up,west=side":  { "model": "redstone/wire/tee_up_north_south", "y": 180 },
+        "east=none,north=side,south=up,west=up":  { "model": "redstone/wire/tee_up_north_east", "y": 180 },
+        "east=none,north=up,south=up,west=up": { "model": "redstone/wire/tee_up_all", "y": 180 },
+
+        "east=side,north=side,south=none,west=side":    { "model": "redstone/wire/tee", "y": 270 },
+        "east=side,north=side,south=none,west=up":   { "model": "redstone/wire/tee_up_north", "y": 270 },
+        "east=up,north=side,south=none,west=side":   { "model": "redstone/wire/tee_up_south", "y": 270 },
+        "east=side,north=up,south=none,west=side":   { "model": "redstone/wire/tee_up_east", "y": 270 },
+        "east=up,north=up,south=none,west=side":  { "model": "redstone/wire/tee_up_east_south", "y": 270 },
+        "east=up,north=side,south=none,west=up":  { "model": "redstone/wire/tee_up_north_south", "y": 270 },
+        "east=side,north=up,south=none,west=up":  { "model": "redstone/wire/tee_up_north_east", "y": 270 },
+        "east=up,north=up,south=none,west=up": { "model": "redstone/wire/tee_up_all", "y": 270 },
+
+        "east=side,north=side,south=side,west=side": { "model": "redstone/wire/cross" },
+
+        "east=side,north=up,south=side,west=side": { "model": "redstone/wire/cross_up_north" },
+        "east=side,north=side,south=up,west=side": { "model": "redstone/wire/cross_up_north", "y": 180 },
+        "east=up,north=side,south=side,west=side": { "model": "redstone/wire/cross_up_north", "y": 90 },
+        "east=side,north=side,south=side,west=up": { "model": "redstone/wire/cross_up_north", "y": 270 },
+
+        "east=side,north=up,south=up,west=side": { "model": "redstone/wire/cross_up_north_south" },
+        "east=up,north=side,south=side,west=up": { "model": "redstone/wire/cross_up_north_south", "y": 90 },
+
+        "east=up,north=up,south=side,west=side": { "model": "redstone/wire/cross_up_north_east" },
+        "east=up,north=side,south=up,west=side": { "model": "redstone/wire/cross_up_north_east", "y": 90 },
+        "east=side,north=side,south=up,west=up": { "model": "redstone/wire/cross_up_north_east", "y": 180 },
+        "east=side,north=up,south=side,west=up": { "model": "redstone/wire/cross_up_north_east", "y": 270 },
+
+        "east=up,north=up,south=up,west=side": { "model": "redstone/wire/cross_up_north_east_south" },
+        "east=up,north=side,south=up,west=up": { "model": "redstone/wire/cross_up_north_east_south", "y": 90 },
+        "east=side,north=up,south=up,west=up": { "model": "redstone/wire/cross_up_north_east_south", "y": 180 },
+        "east=up,north=up,south=side,west=up": { "model": "redstone/wire/cross_up_north_east_south", "y": 270 },
+
+        "east=up,north=up,south=up,west=up": { "model": "redstone/wire/cross_up_all" }
+    }
+}

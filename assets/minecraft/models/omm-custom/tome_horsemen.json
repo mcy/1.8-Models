@@ -1,0 +1,6 @@
+{
+    "parent": "omm-custom/tome",
+    "textures": {
+        "lock": "items/book/tome_lock/horsemen"
+    }
+}

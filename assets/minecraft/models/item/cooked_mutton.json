@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/food/mutton",
+	"textures": {
+		"meat": "items/food/mutton_cooked"
+	}
+}

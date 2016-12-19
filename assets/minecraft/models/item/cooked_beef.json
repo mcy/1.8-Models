@@ -1,0 +1,6 @@
+{
+	"parent": "item_models/food/beef",
+	"textures": {
+		"meat": "items/food/beef_cooked"
+	}
+}

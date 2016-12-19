@@ -1,0 +1,8 @@
+{
+    "parent": "item_models/block/end_chiseled",
+    "textures": {
+        "top": "blocks/polished/end_bricks",
+        "side": "blocks/polished/end_bricks",
+        "bottom": "blocks/polished/end_bricks"
+    }
+}

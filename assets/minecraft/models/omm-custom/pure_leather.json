@@ -1,0 +1,18 @@
+{
+	"parent": "item_models/misc/leather",
+    "textures": {
+        "leather":  "items/material/leather/pristine_leather",
+        "particle": "items/material/leather/pristine_leather",
+        "handle":   "items/mineral/pure/wood",
+        "knife":    "items/mineral/pure/iron",
+        "bucket":   "null",
+        "contents": "null"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 70.0, -60.0, -0.0 ],
+            "translation": [ -0.0, 1.5, 3.0 ],
+            "scale": [ -0.45, 0.45, -0.45 ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "item_models/misc/paper",
+    "textures": {
+        "front": "items/book/fragments/tome_seven",
+        "back": "items/book/fragments/tome_page"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [0, 180, 0],
+            "scale": [0.55, 0.55, 0.55]
+        }
+    }
+}

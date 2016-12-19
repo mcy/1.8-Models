@@ -1,0 +1,15 @@
+{
+	"parent": "item_models/alchemy/jar",
+	"textures": {
+		"contents": "items/alchemy/fluid/essence",
+		"icon":     "items/icon/monster_essence",
+		"particle": "items/alchemy/fluid/essence"
+	},
+    "display": {
+        "fixed": {
+            "rotation": [ 30, 30.0, -0.0 ],
+            "translation": [ 0.0, -1.0, 3.0 ],
+            "scale": [ -0.35, 0.35, -0.35 ]
+        }
+    }
+}

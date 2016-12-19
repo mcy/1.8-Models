@@ -1,0 +1,10 @@
+{
+	"parent": "item_models/misc/powder",
+	"textures": {
+		"material": "blocks/redstone/inactive",
+		"bag":      "items/bag/cloth/red",
+		"bag_rim":  "items/bag/cloth/rim/red",
+		"label":    "items/label/redstone",
+		"string":   "items/bag/string/red"
+	}
+}

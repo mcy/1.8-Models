@@ -1,0 +1,53 @@
+{
+    "elements": [
+        {
+            "comment": "body",
+            "from": [ 6.5, 0.0, 6.5 ],
+            "to": [ 9.5, 13.950000000000001, 9.5 ],
+            "faces": {
+                "north": { "uv": [ 0, 2, 5, 16 ], "texture": "#battery" },
+                "south": { "uv": [ 0, 2, 5, 16 ], "texture": "#battery" },
+                "east":  { "uv": [ 5, 2, 10, 16 ], "texture": "#battery" },
+                "west":  { "uv": [ 5, 2, 10, 16 ], "texture": "#battery" },
+                "down":  { "uv": [ 10, 7, 15, 12 ], "texture": "#battery" },
+                "up":    { "uv": [ 10, 2, 15, 7 ], "texture": "#battery" }
+            }
+        },
+        {
+            "comment": "redstone",
+            "from": [ 6.6499999999999995, 7.5, 6.6499999999999995 ],
+            "to": [ 9.350000000000001, 13.649999999999999, 9.350000000000001 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 7, 16 ], "texture": "#redstone" },
+                "south": { "uv": [ 0, 0, 7, 16 ], "texture": "#redstone" },
+                "east":  { "uv": [ 0, 0, 7, 16 ], "texture": "#redstone" },
+                "west":  { "uv": [ 0, 0, 7, 16 ], "texture": "#redstone" }
+            }
+        },
+        {
+            "comment": "terminal",
+            "from": [ 7.1000000000000005, 13.950000000000001, 7.1000000000000005 ],
+            "to": [ 8.899999999999999, 14.399999999999999, 8.899999999999999 ],
+            "faces": {
+                "west":  { "uv": [ 10, 12, 14, 13 ], "texture": "#battery" },
+                "east":  { "uv": [ 10, 12, 14, 13 ], "texture": "#battery" },
+                "north": { "uv": [ 10, 12, 14, 13 ], "texture": "#battery" },
+                "south": { "uv": [ 10, 12, 14, 13 ], "texture": "#battery" },
+                "up":    { "uv": [ 10, 12, 14, 16 ], "texture": "#battery" }
+            }
+        },
+        {
+            "comment": "terminal",
+            "from": [ 7.699999999999999, 14.399999999999999, 7.699999999999999 ],
+            "to": [ 8.299999999999999, 14.700000000000001, 8.299999999999999 ],
+            "faces": {
+                "west":  { "uv": [ 10, 12, 11, 13 ], "texture": "#battery" },
+                "east":  { "uv": [ 10, 12, 11, 13 ], "texture": "#battery" },
+                "north": { "uv": [ 10, 12, 11, 13 ], "texture": "#battery" },
+                "south": { "uv": [ 10, 12, 11, 13 ], "texture": "#battery" },
+                "up":    { "uv": [ 10, 12, 11, 13 ], "texture": "#battery" }
+            }
+        }
+    ]
+}
