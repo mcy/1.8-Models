@@ -414,6 +414,7 @@
             "comment": "inside",
             "from": [15, 15, 15],
             "to": [1, 1, 1],
+            "shade": false,
             "faces": {
                 "up":    { "texture": "#inside", "cullface": "north" },
                 "down":  { "texture": "#inside", "cullface": "north", "rotation": 180 },

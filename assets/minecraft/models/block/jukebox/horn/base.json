@@ -14,27 +14,6 @@
 		"horn_pipe": "blocks/jukebox/horn_pipe",
 		"misc": "blocks/jukebox/misc",
 
-		"r_": "blocks/jukebox/record/record",
-
-		"label": "blocks/jukebox/labels/13",
-
-		"r0": "blocks/jukebox/record/r0",
-        "r1": "blocks/jukebox/record/r1",
-        "r2": "blocks/jukebox/record/r2",
-        "r3": "blocks/jukebox/record/r3",
-        "r4": "blocks/jukebox/record/r4",
-        "r5": "blocks/jukebox/record/r5",
-        "r6": "blocks/jukebox/record/r6",
-        "r7": "blocks/jukebox/record/r7",
-        "r8": "blocks/jukebox/record/r8",
-        "r9": "blocks/jukebox/record/r9",
-        "r10": "blocks/jukebox/record/r10",
-        "r11": "blocks/jukebox/record/r11",
-        "r12": "blocks/jukebox/record/r12",
-        "r13": "blocks/jukebox/record/r13",
-        "r14": "blocks/jukebox/record/r14",
-        "r15": "blocks/jukebox/record/r15",
-
         "particle": "blocks/jukebox/side"
 	},
 
@@ -115,7 +94,7 @@
 		{
 			"comment": "turntable",
 			"from": [2, 16, 2],
-			"to": [14, 14, 14],
+			"to": [14, 15, 14],
 			"faces": {
 				"up": {"texture": "#turntable", "cullface": "up"},
 				"north": {"texture": "#bottom", "cullface": "up"},
@@ -126,8 +105,8 @@
 		},
 		{
 			"comment": "axel",
-			"from": [7.5, 14, 7.5],
-			"to": [8.5, 17, 8.5],
+			"from": [7.6, 14, 7.6],
+			"to": [8.4, 16, 8.4],
 			"faces": {
 				"up": {"uv": [0, 0, 1, 1], "texture": "#misc", "cullface": "up"},
 				"north": {"uv": [0, 0, 1, 3], "texture": "#misc", "cullface": "up"},
@@ -152,7 +131,7 @@
 		},
 		{
 			"comment": "stylus",
-			"from": [1.25, 15, 7.25],
+			"from": [1.25, 15.5, 7.25],
 			"to": [1.75, 16, 7.75],
 			"rotation": {"origin": [1.5, 0, 14.5], "axis": "y", "angle": -22.5},
 			"faces": {

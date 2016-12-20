@@ -1,0 +1,7 @@
+{
+    "parent": "block/jukebox/record/base",
+    "textures": {
+        "vinyl": "blocks/jukebox/record/broken",
+        "label": "blocks/jukebox/labels/11"
+    }
+}

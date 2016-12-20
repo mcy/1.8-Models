@@ -1,0 +1,6 @@
+{
+    "parent": "block/jukebox/record/base",
+    "textures": {
+        "label": "blocks/jukebox/labels/blocks"
+    }
+}

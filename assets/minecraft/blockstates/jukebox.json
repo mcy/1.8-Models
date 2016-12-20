@@ -1,58 +1,29 @@
 {
-    "variants": {
-        "normal": [
-        	{ "model": "jukebox/empty", "y": 0 },
-            { "model": "jukebox/empty", "y": 90 },
-            { "model": "jukebox/empty", "y": 180 },
-            { "model": "jukebox/empty", "y": 270 },
-        	{ "model": "jukebox/13", "y": 0 },
-            { "model": "jukebox/13", "y": 90 },
-            { "model": "jukebox/13", "y": 180 },
-            { "model": "jukebox/13", "y": 270 },
-            { "model": "jukebox/cat", "y": 0 },
-            { "model": "jukebox/cat", "y": 90 },
-            { "model": "jukebox/cat", "y": 180 },
-            { "model": "jukebox/cat", "y": 270 },
-            { "model": "jukebox/blocks", "y": 0 },
-            { "model": "jukebox/blocks", "y": 90 },
-            { "model": "jukebox/blocks", "y": 180 },
-            { "model": "jukebox/blocks", "y": 270 },
-            { "model": "jukebox/chirp", "y": 0 },
-            { "model": "jukebox/chirp", "y": 90 },
-            { "model": "jukebox/chirp", "y": 180 },
-            { "model": "jukebox/chirp", "y": 270 },
-            { "model": "jukebox/far", "y": 0 },
-            { "model": "jukebox/far", "y": 90 },
-            { "model": "jukebox/far", "y": 180 },
-            { "model": "jukebox/far", "y": 270 },
-            { "model": "jukebox/mall", "y": 0 },
-            { "model": "jukebox/mall", "y": 90 },
-            { "model": "jukebox/mall", "y": 180 },
-            { "model": "jukebox/mall", "y": 270 },
-            { "model": "jukebox/mellohi", "y": 0 },
-            { "model": "jukebox/mellohi", "y": 90 },
-            { "model": "jukebox/mellohi", "y": 180 },
-            { "model": "jukebox/mellohi", "y": 270 },
-            { "model": "jukebox/stal", "y": 0 },
-            { "model": "jukebox/stal", "y": 90 },
-            { "model": "jukebox/stal", "y": 180 },
-            { "model": "jukebox/stal", "y": 270 },
-            { "model": "jukebox/strad", "y": 0 },
-            { "model": "jukebox/strad", "y": 90 },
-            { "model": "jukebox/strad", "y": 180 },
-            { "model": "jukebox/strad", "y": 270 },
-            { "model": "jukebox/ward", "y": 0 },
-            { "model": "jukebox/ward", "y": 90 },
-            { "model": "jukebox/ward", "y": 180 },
-            { "model": "jukebox/ward", "y": 270 },
-            { "model": "jukebox/11", "y": 0 },
-            { "model": "jukebox/11", "y": 90 },
-            { "model": "jukebox/11", "y": 180 },
-            { "model": "jukebox/11", "y": 270 },
-            { "model": "jukebox/wait", "y": 0 },
-            { "model": "jukebox/wait", "y": 90 },
-            { "model": "jukebox/wait", "y": 180 },
-            { "model": "jukebox/wait", "y": 270 }
-        ]
-    }
+    "multipart": [
+        {
+            "apply": [
+                { "model": "jukebox/base", "y": 0 },
+                { "model": "jukebox/base", "y": 90 },
+                { "model": "jukebox/base", "y": 180 },
+                { "model": "jukebox/base", "y": 270 }
+            ]
+        },
+        {
+            "when": { "has_record": true },
+            "apply": [
+                { "model": "jukebox/record/13" },
+                { "model": "jukebox/record/cat" },
+                { "model": "jukebox/record/blocks" },
+                { "model": "jukebox/record/chirp" },
+                { "model": "jukebox/record/far" },
+                { "model": "jukebox/record/mall" },
+                { "model": "jukebox/record/mellohi" },
+                { "model": "jukebox/record/stall" },
+                { "model": "jukebox/record/strad" },
+                { "model": "jukebox/record/ward" },
+                { "model": "jukebox/record/11" },
+                { "model": "jukebox/record/wait" }
+            ]
+        }
+    ]
 }

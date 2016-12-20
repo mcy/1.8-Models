@@ -1,0 +1,92 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "vinyl": "blocks/jukebox/record/record",
+        "particle": "blocks/jukebox/record/record"
+    },
+
+    "elements": [
+        
+        {
+            "comment": "record",
+            "from": [3.380602337443566, 15.2, 6.086582838174551],
+            "to": [12.619397662556434, 15.5, 9.91341716182545],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": -22.5},
+            "faces": {
+                "up": {"uv": [0, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"},
+                "east": {"uv": [0, 4.68629150101524, 1, 11.31370849898476], "texture": "#vinyl", "cullface": "up"},
+                "west": {"uv": [15, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [3.380602337443566, 15.2, 6.086582838174551],
+            "to": [8, 15.495, 9.91341716182545],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+            "faces": {
+                "up": {"uv": [0, 4.68629150101524, 11, 11.31370849898476], "texture": "#vinyl", "cullface": "up"},
+                "west": {"uv": [15, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [8, 15.2, 6.086582838174551],
+            "to": [12.619397662556434, 15.495, 9.91341716182545],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+            "faces": {
+                "up": {"uv": [5, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"},
+                "east": {"uv": [0, 4.68629150101524, 1, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [6.086582838174551, 15.2, 3.380602337443566],
+            "to": [9.91341716182545, 15.5, 6.086582838174551],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": -22.5},
+            "faces": {
+                "up": {"uv": [4.68629150101524, 0, 11.31370849898476, 4.68629150101524], "texture": "#vinyl", "cullface": "up"},
+                "north": {"uv": [0, 4.68629150101524, 1, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [6.086582838174551, 15.2, 9.91341716182545],
+            "to": [9.91341716182545, 15.5, 12.619397662556434],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": -22.5},
+            "faces": {
+                "up": {"uv": [4.68629150101524, 11.31370849898476, 11.31370849898476, 16], "texture": "#vinyl", "cullface": "up"},
+                "south": {"uv": [15, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [6.086582838174551, 15.2, 3.380602337443566],
+            "to": [9.91341716182545, 15.495, 6.086582838174551],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+            "faces": {
+                "up": {"uv": [4.68629150101524, 0, 11.31370849898476, 7], "texture": "#vinyl", "cullface": "up"},
+                "north": {"uv": [0, 4.68629150101524, 1, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+        {
+            "comment": "record",
+            "from": [6.086582838174551, 15.2, 9.91341716182545],
+            "to": [9.91341716182545, 15.495, 12.619397662556434],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+            "faces": {
+                "up": {"uv": [4.68629150101524, 9, 11.31370849898476, 16], "texture": "#vinyl", "cullface": "up"},
+                "south": {"uv": [15, 4.68629150101524, 16, 11.31370849898476], "texture": "#vinyl", "cullface": "up"}
+            }
+        },
+
+        {
+            "comment": "record label",
+            "from": [7, 15.6, 7],
+            "to": [9, 15.6, 9],
+            "rotation": { "origin": [8,8,8], "axis": "y", "angle": 22.5},
+            "faces": {
+                "up": {"uv": [0.01, 0.01, 4.99, 4.99], "texture": "#label", "cullface": "up"}
+            }
+        }
+    ]
+}
