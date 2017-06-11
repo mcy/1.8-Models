@@ -1,0 +1,108 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "door": "blocks/door/birch/upper",
+        "inside": "blocks/door/birch/inside",
+        "window": "blocks/door/birch/window_upper",
+        "fittings": "blocks/door/birch/fittings",
+        "particle": "blocks/door/birch/lower"
+    },
+
+    "elements": [
+        {
+            "comment": "ouside",
+            "from": [0, 0, 0],
+            "to": [3, 16, 16],
+            "faces": {
+                "west":  { "texture": "#door", "uv": [16, 0, 0, 16], "cullface": "west" },
+                "north": { "texture": "#inside", "uv": [6, 0, 9, 16], "cullface": "north" },
+                "south": { "texture": "#inside", "uv": [6, 0, 9, 16], "cullface": "south" },
+                "east":  { "texture": "#door", "uv": [0, 0, 16, 16] },
+                "up":  { "texture": "#inside", "uv": [6, 0, 9, 16], "cullface": "up" }
+            }
+        },
+
+        {
+            "comment": "frame inside",
+            "from": [0, 0, 0],
+            "to": [3, 13.01, 2.99],
+            "faces": {
+                "down":  { "texture": "#inside", "uv": [3, 4, 6, 7] },
+                "south": { "texture": "#inside", "uv": [6, 3, 9, 16] }
+            }
+        },
+
+        {
+            "comment": "frame inside",
+            "from": [0, 0, 13.01],
+            "to": [3, 13.01, 16],
+            "faces": {
+                "down":    { "texture": "#inside", "uv": [3, 4, 6, 7] },
+                "north": { "texture": "#inside", "uv": [9, 3, 6, 16] }
+            }
+        },
+
+        {
+            "comment": "frame inside",
+            "from": [0, 13.01, 2.99],
+            "to": [3, 13.01, 13.01],
+            "faces": {
+                "down":    { "texture": "#inside", "uv": [3, 4, 6, 14] }
+            }
+        },
+
+        {
+            "comment": "window",
+            "from": [1.5, 0, 2.99],
+            "to": [1.5, 13, 13.01],
+            "faces": {
+                "east": { "texture": "#window", "uv": [3, 3, 13, 16] },
+                "west": { "texture": "#window", "uv": [13, 3, 3, 16] }
+            }
+        },
+
+        {
+            "comment": "hinge",
+            "from": [-0.5, 10, 14.5],
+            "to": [3.5, 12, 16.5],
+            "faces": {
+                "west":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "east":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "north": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "south": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "up":    { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "down":  { "texture": "#fittings", "uv": [0, 0, 4, 2] }
+            }
+        },
+
+        {
+            "comment": "knob",
+            "from": [0, -0.5, 0.99],
+            "to": [1, 2, 2.01],
+            "rotation": { "origin": [0, 2, 8], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "west":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "east":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "north": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "south": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "up":    { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "down":  { "texture": "#fittings", "uv": [0, 0, 4, 2] }
+            }
+        },
+
+        {
+            "comment": "knob",
+            "from": [2, -0.5, 0.99],
+            "to": [3, 2, 2.01],
+            "rotation": { "origin": [3, 2, 8], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "west":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "east":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "north": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "south": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "up":    { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "down":  { "texture": "#fittings", "uv": [0, 0, 4, 2] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{ "parent": "item_models/block/plates", "textures": { "plate": "blocks/terracotta/glazed/yellow", "side": "blocks/terracotta/yellow", "string": "items/bag/string/yellow" } }

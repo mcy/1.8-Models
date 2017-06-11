@@ -1,1 +1,1 @@
-{ "parent": "item_models/block/chiseled", "textures": { "top": "blocks/polished/clay_gray", "side": "blocks/polished/clay_gray", "bottom": "blocks/polished/clay_gray" } }
+{ "parent": "item_models/block/chiseled", "textures": { "top": "blocks/terracotta/gray", "side": "blocks/terracotta/gray", "bottom": "blocks/terracotta/gray" } }

@@ -1,0 +1,1 @@
+{ "parent": "item_models/block/chiseled", "textures": { "top": "blocks/concrete/silver", "side": "blocks/concrete/silver", "bottom": "blocks/concrete/silver" } }

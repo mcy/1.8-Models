@@ -1,6 +1,1 @@
-{
-	"parent": "item_models/block/wool_roll",
-	"textures": {
-		"wool": "blocks/wool/purple"
-	}
-}
+{ "parent": "item_models/block/wool_roll", "textures": { "wool": "blocks/wool/purple" } }

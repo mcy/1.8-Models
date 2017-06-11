@@ -1,0 +1,7 @@
+{
+	"parent": "item_models/mineral/gems",
+	"textures": {
+		"gem":  "items/mineral/iron_rough",
+        "silk": "items/bag/silks/rust"
+	}
+}

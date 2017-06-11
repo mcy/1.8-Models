@@ -1,0 +1,8 @@
+{
+    "parent": "item_models/block/plates",
+    "textures": {
+        "plate": "blocks/glass",
+        "side": "blocks/glass_pane_top",
+        "string": "items/bag/string/silver"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "door": "blocks/door/oak/lower",
+        "inside": "blocks/door/oak/inside",
+        "fittings": "blocks/door/oak/fittings",
+        "particle": "blocks/door/oak/lower"
+    },
+
+    "elements": [
+        {
+            "comment": "ouside",
+            "from": [0, 0, 0],
+            "to": [3, 16, 16],
+            "faces": {
+                "west":  { "texture": "#door", "uv": [16, 0, 0, 16], "cullface": "west" },
+                "north": { "texture": "#inside", "uv": [3, 0, 6, 16], "cullface": "north" },
+                "south": { "texture": "#inside", "uv": [3, 0, 6, 16], "cullface": "south" },
+                "east":  { "texture": "#door", "uv": [0, 0, 16, 16] },
+                "up":  { "texture": "#inside", "uv": [0, 0, 3, 16], "cullface": "up" },
+                "down":  { "texture": "#inside", "uv": [0, 0, 3, 16], "cullface": "down" }
+            }
+        },
+
+        {
+            "comment": "hinge",
+            "from": [-0.5, 4, 14.5],
+            "to": [3.5, 6, 16.5],
+            "faces": {
+                "west":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "east":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "north": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "south": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "up":    { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "down":  { "texture": "#fittings", "uv": [0, 0, 4, 2] }
+            }
+        },
+
+        {
+            "comment": "hinge",
+            "from": [-0.5, 15, 14.5],
+            "to": [3.5, 17, 16.5],
+            "faces": {
+                "west":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "east":  { "texture": "#fittings", "uv": [0, 0, 2, 2] },
+                "north": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "south": { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "up":    { "texture": "#fittings", "uv": [0, 0, 4, 2] },
+                "down":  { "texture": "#fittings", "uv": [0, 0, 4, 2] }
+            }
+        }
+    ]
+}

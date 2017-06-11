@@ -1,1 +1,1 @@
-{ "parent": "item_models/block/chiseled", "textures": { "top": "blocks/polished/clay_orange", "side": "blocks/polished/clay_orange", "bottom": "blocks/polished/clay_orange" } }
+{ "parent": "item_models/block/chiseled", "textures": { "top": "blocks/terracotta/orange", "side": "blocks/terracotta/orange", "bottom": "blocks/terracotta/orange" } }

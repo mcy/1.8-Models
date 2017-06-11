@@ -2,7 +2,7 @@
 	"parent": "item_models/misc/dye",
 	"textures": {
 		"material":   "items/dye/silver",
-        "string":     "items/bag/string/white",
+        "string":     "items/bag/string/silver",
         "label_icon": "items/icon/dye/silver"
 	}
 }
